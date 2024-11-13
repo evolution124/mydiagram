@@ -1,19 +1,19 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="14320MnJ35V0SEXqATan">
-    <mxGraphModel dx="1687" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-9" value=":&lt;span style=&quot;text-align: left;&quot;&gt;ncclGetUniqueId&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-9" value=":&lt;span style=&quot;text-align: left;&quot;&gt;ncclGetUniqueId&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="10" y="40" width="110" height="1240" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-10" value="&lt;span style=&quot;text-align: left;&quot;&gt;init&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-10" value="&lt;span style=&quot;text-align: left;&quot;&gt;init&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="180" y="40" width="110" height="1240" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-10">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-10" vertex="1">
           <mxGeometry x="50" y="70" width="10" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-13" value="&lt;b&gt;initOnceFunc -&amp;gt; initEnv&lt;/b&gt;&lt;br&gt;&lt;div&gt;设置环境变量配置文件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;confFilePath = getenv(&quot;&lt;b&gt;NCCL_CONF_FILE&lt;/b&gt;&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 或者= userHomeDir()/.nccl.conf&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 或者=/etc/nccl.conf&lt;/div&gt;&lt;div&gt;setEnvFile(confFilePath)&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="3jdIEwmyyq-ADLU8jooS-12" parent="3jdIEwmyyq-ADLU8jooS-10">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-13" value="&lt;b&gt;initOnceFunc -&amp;gt; initEnv&lt;/b&gt;&lt;br&gt;&lt;div&gt;设置环境变量配置文件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;confFilePath = getenv(&quot;&lt;b&gt;NCCL_CONF_FILE&lt;/b&gt;&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 或者= userHomeDir()/.nccl.conf&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 或者=/etc/nccl.conf&lt;/div&gt;&lt;div&gt;setEnvFile(confFilePath)&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="3jdIEwmyyq-ADLU8jooS-10" target="3jdIEwmyyq-ADLU8jooS-12" edge="1">
           <mxGeometry x="0.2857" y="21" relative="1" as="geometry">
             <mxPoint x="60" y="80" as="sourcePoint" />
             <Array as="points">
@@ -24,7 +24,7 @@
             <mxPoint x="5" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-11" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;b&gt;ncclInit&lt;/b&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="3jdIEwmyyq-ADLU8jooS-9" target="3jdIEwmyyq-ADLU8jooS-12">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-11" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;b&gt;ncclInit&lt;/b&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="3jdIEwmyyq-ADLU8jooS-9" target="3jdIEwmyyq-ADLU8jooS-12" edge="1">
           <mxGeometry x="-0.004" width="80" relative="1" as="geometry">
             <mxPoint x="70" y="200" as="sourcePoint" />
             <mxPoint x="150" y="200" as="targetPoint" />
@@ -34,7 +34,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-18" value="&lt;div&gt;&lt;b&gt;initOnceFunc --&amp;gt; initGdrCopy&lt;br&gt;&lt;/b&gt;初始化 RDMA library&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gdrhandle=dlopen(GDRAPI_LIBNAME, RTLD_NOW)&lt;br&gt;GDRAPI_LIBNAME&amp;nbsp;&quot;libgdrapi.so&quot;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-18" value="&lt;div&gt;&lt;b&gt;initOnceFunc --&amp;gt; initGdrCopy&lt;br&gt;&lt;/b&gt;初始化 RDMA library&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gdrhandle=dlopen(GDRAPI_LIBNAME, RTLD_NOW)&lt;br&gt;GDRAPI_LIBNAME&amp;nbsp;&quot;libgdrapi.so&quot;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.2857" y="11" relative="1" as="geometry">
             <mxPoint x="240" y="230" as="sourcePoint" />
             <Array as="points">
@@ -45,7 +45,7 @@
             <mxPoint x="5" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-21" value="&lt;b&gt;bootstrapNetInit&lt;/b&gt;&lt;br&gt;&lt;div&gt;初始化引导网络&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;if 环境变量存在 env = ncclGetEnv(&quot;&lt;b&gt;NCCL_COMM_ID&lt;/b&gt;&quot;)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 通过环境变量初始化&lt;/div&gt;&lt;div&gt;else&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;ncclFindInterfaces(&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bootstrapNetIfName, &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;amp;bootstrapNetIfAddr, MAX_IF_NAME_SIZE, 1)&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="3jdIEwmyyq-ADLU8jooS-29">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-21" value="&lt;b&gt;bootstrapNetInit&lt;/b&gt;&lt;br&gt;&lt;div&gt;初始化引导网络&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;if 环境变量存在 env = ncclGetEnv(&quot;&lt;b&gt;NCCL_COMM_ID&lt;/b&gt;&quot;)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 通过环境变量初始化&lt;/div&gt;&lt;div&gt;else&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;ncclFindInterfaces(&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;bootstrapNetIfName, &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;amp;bootstrapNetIfAddr, MAX_IF_NAME_SIZE, 1)&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" target="3jdIEwmyyq-ADLU8jooS-29" edge="1">
           <mxGeometry x="0.429" y="40" relative="1" as="geometry">
             <mxPoint x="590" y="350" as="sourcePoint" />
             <Array as="points">
@@ -56,22 +56,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;boostrap&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;boostrap&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="530" y="40" width="110" height="1240" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-22">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-22" vertex="1">
           <mxGeometry x="50" y="290" width="10" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-22">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-22" vertex="1">
           <mxGeometry x="60" y="320" width="10" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-22">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-22" vertex="1">
           <mxGeometry x="60" y="850" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-22">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-22" vertex="1">
           <mxGeometry x="50" y="830" width="10" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-26" value="&lt;b style=&quot;text-align: left;&quot;&gt;initOnceFunc -&amp;gt;&amp;nbsp;bootstrapNetInit&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="3jdIEwmyyq-ADLU8jooS-23">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-26" value="&lt;b style=&quot;text-align: left;&quot;&gt;initOnceFunc -&amp;gt;&amp;nbsp;bootstrapNetInit&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="3jdIEwmyyq-ADLU8jooS-23" edge="1">
           <mxGeometry x="-0.004" width="80" relative="1" as="geometry">
             <mxPoint x="240" y="330" as="sourcePoint" />
             <mxPoint x="405" y="330" as="targetPoint" />
@@ -81,22 +81,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-27" value="&lt;span style=&quot;text-align: left;&quot;&gt;socket&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-27" value="&lt;span style=&quot;text-align: left;&quot;&gt;socket&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="950" y="40" width="110" height="1240" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-27">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-27" vertex="1">
           <mxGeometry x="50" y="500" width="10" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-27">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-27" vertex="1">
           <mxGeometry x="60" y="540" width="10" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-27">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-27" vertex="1">
           <mxGeometry x="50" y="979" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-27">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="3jdIEwmyyq-ADLU8jooS-27" vertex="1">
           <mxGeometry x="60" y="1010" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-54" value="&lt;b&gt;bootstrapCreateRoot&lt;br&gt;&lt;/b&gt;创建root监听 socket&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ncclSocketInit(listenSock, uid.addr,&amp;nbsp;ncclSocketTypeBootstrap ...)&lt;br&gt;ncclSocketListen&lt;br&gt;ncclSocketGetAddr&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;pthread-&amp;gt; bootstrapRoot&lt;/font&gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;该函数会监听其他randk发送来的信息, 并发送root rand 的 addr 给发送者&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="3jdIEwmyyq-ADLU8jooS-53" parent="3jdIEwmyyq-ADLU8jooS-27" source="3jdIEwmyyq-ADLU8jooS-52">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-54" value="&lt;b&gt;bootstrapCreateRoot&lt;br&gt;&lt;/b&gt;创建root监听 socket&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ncclSocketInit(listenSock, uid.addr,&amp;nbsp;ncclSocketTypeBootstrap ...)&lt;br&gt;ncclSocketListen&lt;br&gt;ncclSocketGetAddr&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;pthread-&amp;gt; bootstrapRoot&lt;/font&gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;该函数会监听其他randk发送来的信息, 并发送root rand 的 addr 给发送者&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="3jdIEwmyyq-ADLU8jooS-27" source="3jdIEwmyyq-ADLU8jooS-52" target="3jdIEwmyyq-ADLU8jooS-53" edge="1">
           <mxGeometry x="0.4286" y="40" relative="1" as="geometry">
             <mxPoint x="65" y="990" as="sourcePoint" />
             <Array as="points">
@@ -106,7 +106,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-30" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;ncclFindInterfaces&lt;/b&gt;&lt;/span&gt;&lt;b&gt;(&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bootstrapNetIfName, &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;amp;bootstrapNetIfAddr, &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; MAX_IF_NAME_SIZE, &lt;font color=&quot;#ff3333&quot;&gt;1&lt;/font&gt;) &lt;font color=&quot;#ff0000&quot;&gt;注意此处只选择一个网络接口&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=left;" edge="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-30" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;ncclFindInterfaces&lt;/b&gt;&lt;/span&gt;&lt;b&gt;(&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bootstrapNetIfName, &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;amp;bootstrapNetIfAddr, &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; MAX_IF_NAME_SIZE, &lt;font color=&quot;#ff3333&quot;&gt;1&lt;/font&gt;) &lt;font color=&quot;#ff0000&quot;&gt;注意此处只选择一个网络接口&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=left;" parent="1" edge="1">
           <mxGeometry x="-0.85" y="10" width="80" relative="1" as="geometry">
             <mxPoint x="600" y="550" as="sourcePoint" />
             <mxPoint x="1000" y="550" as="targetPoint" />
@@ -116,7 +116,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-33" value="&lt;div&gt;&lt;b&gt;ncclFindInterfaces&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;寻找网络接口&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 可以通过ncclGetEnv(&quot;&lt;b&gt;NCCL_SOCKET_FAMILY&lt;/b&gt;&quot;) 配置AF_INET/6&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; 可以通过ncclGetEnv(&quot;&lt;b&gt;NCCL_SOCKET_IFNAME&lt;/b&gt;&quot;), 配置接口名称&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;2. 也可以通过&amp;nbsp;ncclGetEnv(&quot;&lt;b&gt;NCCL_COMM_ID&lt;/b&gt;&quot;) 配置 ip port&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ncclFindInterfaceMatchSubnet 查找网络节点?&lt;br&gt;3. 通过&amp;nbsp;&quot;^docker,lo&quot; &quot;docker&quot;, &quot;lo&quot;&lt;br&gt;&lt;br&gt;1 和 3 通过&amp;nbsp;findInterfaces 查找接口&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-33" value="&lt;div&gt;&lt;b&gt;ncclFindInterfaces&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;寻找网络接口&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 可以通过ncclGetEnv(&quot;&lt;b&gt;NCCL_SOCKET_FAMILY&lt;/b&gt;&quot;) 配置AF_INET/6&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; 可以通过ncclGetEnv(&quot;&lt;b&gt;NCCL_SOCKET_IFNAME&lt;/b&gt;&quot;), 配置接口名称&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;2. 也可以通过&amp;nbsp;ncclGetEnv(&quot;&lt;b&gt;NCCL_COMM_ID&lt;/b&gt;&quot;) 配置 ip port&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ncclFindInterfaceMatchSubnet 查找网络节点?&lt;br&gt;3. 通过&amp;nbsp;&quot;^docker,lo&quot; &quot;docker&quot;, &quot;lo&quot;&lt;br&gt;&lt;br&gt;1 和 3 通过&amp;nbsp;findInterfaces 查找接口&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.5711" y="50" relative="1" as="geometry">
             <mxPoint x="1010" y="570" as="sourcePoint" />
             <Array as="points">
@@ -128,7 +128,7 @@
             <mxPoint x="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-37" value="&lt;div&gt;&lt;b&gt;findInterfaces&lt;/b&gt;&lt;br&gt;寻找网络接口&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;通过&amp;nbsp;getifaddrs 寻找网络接口和IP&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-37" value="&lt;div&gt;&lt;b&gt;findInterfaces&lt;/b&gt;&lt;br&gt;寻找网络接口&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;通过&amp;nbsp;getifaddrs 寻找网络接口和IP&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.3748" y="-5" relative="1" as="geometry">
             <mxPoint x="1020" y="730" as="sourcePoint" />
             <Array as="points">
@@ -139,25 +139,25 @@
             <mxPoint x="5" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-38" value="Global" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="120" width="160" height="86" as="geometry" />
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-38" value="Global" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="120" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-39" value="bootstrapNetIfName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-38">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-39" value="bootstrapNetIfName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3jdIEwmyyq-ADLU8jooS-38" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-38">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="3jdIEwmyyq-ADLU8jooS-38" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-41" value="bootstrapNetIfAddr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3jdIEwmyyq-ADLU8jooS-38">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-41" value="bootstrapNetIfAddr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3jdIEwmyyq-ADLU8jooS-38" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-45" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.503;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3jdIEwmyyq-ADLU8jooS-41">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-45" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.503;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="3jdIEwmyyq-ADLU8jooS-41" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="940" y="530" as="sourcePoint" />
             <mxPoint x="880" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-47" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;&lt;b&gt;bootstrapGetUniqueId&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="3jdIEwmyyq-ADLU8jooS-9">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-47" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;&lt;b&gt;bootstrapGetUniqueId&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="3jdIEwmyyq-ADLU8jooS-9" edge="1">
           <mxGeometry x="-0.004" width="80" relative="1" as="geometry">
             <mxPoint x="70" y="920" as="sourcePoint" />
             <mxPoint x="580" y="920.0000000000005" as="targetPoint" />
@@ -165,7 +165,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-49" value="&lt;div&gt;&lt;b&gt;bootstrapGetUniqueId&lt;br&gt;&lt;/b&gt;设置 uid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;if 环境变量存在 env = ncclGetEnv(&quot;&lt;b&gt;NCCL_COMM_ID&lt;/b&gt;&quot;)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ncclSocketGetAddrFromString, 解析env配置到网络地址(ip port)&lt;br&gt;&amp;nbsp; &amp;nbsp; 再设置特定magic =&amp;nbsp;&lt;b&gt;NCCL_MAGIC&lt;/b&gt;&lt;/div&gt;&lt;div&gt;else&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; 直接使用&amp;nbsp;bootstrapNetIfAddr 设置 uid 的地址, 再设置随机magic&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-49" value="&lt;div&gt;&lt;b&gt;bootstrapGetUniqueId&lt;br&gt;&lt;/b&gt;设置 uid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;if 环境变量存在 env = ncclGetEnv(&quot;&lt;b&gt;NCCL_COMM_ID&lt;/b&gt;&quot;)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ncclSocketGetAddrFromString, 解析env配置到网络地址(ip port)&lt;br&gt;&amp;nbsp; &amp;nbsp; 再设置特定magic =&amp;nbsp;&lt;b&gt;NCCL_MAGIC&lt;/b&gt;&lt;/div&gt;&lt;div&gt;else&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; 直接使用&amp;nbsp;bootstrapNetIfAddr 设置 uid 的地址, 再设置随机magic&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.4286" y="30" relative="1" as="geometry">
             <mxPoint x="590" y="880" as="sourcePoint" />
             <Array as="points">
@@ -176,7 +176,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3jdIEwmyyq-ADLU8jooS-50" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;&lt;b&gt;bootstrapCreateRoot&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="3jdIEwmyyq-ADLU8jooS-52">
+        <mxCell id="3jdIEwmyyq-ADLU8jooS-50" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;&lt;b&gt;bootstrapCreateRoot&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="3jdIEwmyyq-ADLU8jooS-52" edge="1">
           <mxGeometry x="-0.004" width="80" relative="1" as="geometry">
             <mxPoint x="600" y="1030" as="sourcePoint" />
             <mxPoint x="1004.5" y="1020" as="targetPoint" />
