@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-2" value="Node2" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-2" value="Node2" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1000" y="110" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-3" value="shmRecvSetup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-2">
@@ -13,7 +13,7 @@
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-2">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-6" value="Node1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-6" value="Node1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-210" y="620" width="230" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-7" value="shmSendConnect 步骤1 设置对端buf" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-6">
@@ -25,7 +25,7 @@
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-6">
           <mxGeometry y="78" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-14" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen 创建shm&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;接收描述符&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;以及&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;DataBuf&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-14" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen 创建shm&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;接收描述符&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;以及&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;DataBuf&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="230" y="130" width="480" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-15" value="hostMem&amp;nbsp; //通过 mkstemp, open, mmap 创建,&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-14">
@@ -43,7 +43,7 @@
             <mxPoint x="190" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-19" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen( rem Mem 是包含了&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;DataBuf&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;的接收描述符)&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-19" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen( rem Mem 是包含了&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;DataBuf&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;的接收描述符)&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="230" y="640" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-20" value="remHostMem&amp;nbsp; //通过 open, mmap 引用 (remHostMem 是Node2创建)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-19">
@@ -61,7 +61,7 @@
             <mxPoint x="586" y="506" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-28" value="设置send tail/head 连接到 Node2的接收描述符" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-28" value="设置send tail/head 连接到 Node2的接收描述符" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="230" y="780" width="480" height="86" as="geometry" />
         </mxCell>
         <UserObject label="send-&gt;conn.tail = &amp;resources-&gt;devRemHostMem-&gt;tail" link="send-&gt;conn.tail = &amp;resources-&gt;devRemHostMem-&gt;tail" id="ZFk2LEt_zFQZBbhwsWkd-29">
@@ -81,7 +81,7 @@
             <mxPoint x="238" y="669" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-34" value="Node2" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-34" value="Node2" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1000" y="950" width="260" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-35" value="shmRecvConnect&amp;nbsp;&amp;nbsp;步骤1 设置对端buf" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-34">
@@ -93,7 +93,7 @@
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-34">
           <mxGeometry y="78" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-37" value="设置recv的 tail/head" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-37" value="设置recv的 tail/head" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="230" y="1140" width="480" height="86" as="geometry" />
         </mxCell>
         <UserObject label="recv-&amp;gt;conn.head = &amp;amp;resources-&amp;gt;devRemHostMem-&amp;gt;head" link="send-&gt;conn.tail = &amp;resources-&gt;devRemHostMem-&gt;tail" id="ZFk2LEt_zFQZBbhwsWkd-38">
@@ -110,7 +110,7 @@
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
           <mxGeometry x="660" y="760" width="40" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-42" value="Node1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-42" value="Node1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-210" y="350" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-43" value="shmSendSetup" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-42">
@@ -119,7 +119,7 @@
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-42">
           <mxGeometry y="52" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-46" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen 创建&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;shm发送描述符&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-46" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen 创建&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;shm发送描述符&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="230" y="370" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-47" value="hostMem&amp;nbsp; //通过 mkstemp, open, mmap 创建,&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-46">
@@ -137,7 +137,7 @@
             <mxPoint x="238" y="669" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-51" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen (rem Mem 是Send端的发送描述符)&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-51" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen (rem Mem 是Send端的发送描述符)&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="230" y="973" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-52" value="remHostMem&amp;nbsp; //通过 open, mmap 引用 (remHostMem 是Node2创建)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-51">
@@ -174,12 +174,12 @@
           <mxGeometry y="52" width="170" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-64" value="接收 SHM" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="220" width="170" height="86" as="geometry" />
+          <mxGeometry x="-40" y="70" width="170" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-65" value="接收描述符" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-64">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-67" value="Exchange Buffer" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-64">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-67" value="send/recv Buffer" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-64">
           <mxGeometry y="52" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-64">
