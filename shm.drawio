@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-72" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; Reciever Setup&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="210" y="6" width="970" height="194" as="geometry" />
+        </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-71" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; Sender Setup&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-220" y="300" width="960" height="190" as="geometry" />
         </mxCell>
@@ -11,7 +14,7 @@
           <mxGeometry x="-220" y="570" width="960" height="320" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-2" value="Node2" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="110" width="160" height="60" as="geometry" />
+          <mxGeometry x="1000" y="50" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-3" value="shmRecvSetup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-2">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -32,7 +35,7 @@
           <mxGeometry y="78" width="230" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-14" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen 创建shm&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;接收描述符&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;以及&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;DataBuf&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="230" y="130" width="480" height="110" as="geometry" />
+          <mxGeometry x="230" y="70" width="480" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-15" value="hostMem&amp;nbsp; //通过 mkstemp, open, mmap 创建,&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-14">
           <mxGeometry y="30" width="480" height="30" as="geometry" />
@@ -45,8 +48,8 @@
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-18" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;设置shm大小, 创建shm, 包含shm描述符与 data buf&lt;/font&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.002;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZFk2LEt_zFQZBbhwsWkd-3" target="ZFk2LEt_zFQZBbhwsWkd-14">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="110" y="210" as="sourcePoint" />
-            <mxPoint x="190" y="210" as="targetPoint" />
+            <mxPoint x="110" y="150" as="sourcePoint" />
+            <mxPoint x="190" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-19" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen( rem Mem 是包含了&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;DataBuf&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;的接收描述符)&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -169,10 +172,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-60" value="Host Share Mem" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="-80" width="440" height="160" as="geometry" />
+          <mxGeometry x="-280" y="-140" width="440" height="160" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-61" value="发送 SHM" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="-20" width="170" height="60" as="geometry" />
+          <mxGeometry x="-260" y="-80" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-62" value="发送描述符" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-61">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -181,7 +184,7 @@
           <mxGeometry y="52" width="170" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-64" value="接收 SHM" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="-20" width="170" height="86" as="geometry" />
+          <mxGeometry x="-40" y="-80" width="170" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-65" value="接收描述符" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-64">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -194,10 +197,10 @@
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFk2LEt_zFQZBbhwsWkd-14" target="ZFk2LEt_zFQZBbhwsWkd-64">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="110" as="sourcePoint" />
-            <mxPoint x="420" y="60" as="targetPoint" />
+            <mxPoint x="370" y="50" as="sourcePoint" />
+            <mxPoint x="420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="470" y="91" />
+              <mxPoint x="470" y="31" />
             </Array>
           </mxGeometry>
         </mxCell>
