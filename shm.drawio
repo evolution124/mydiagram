@@ -61,7 +61,7 @@
             <mxPoint x="586" y="506" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-28" value="设置send tail/head" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-28" value="设置send tail/head 连接到 Node2的接收描述符" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="780" width="480" height="86" as="geometry" />
         </mxCell>
         <UserObject label="send-&gt;conn.tail = &amp;resources-&gt;devRemHostMem-&gt;tail" link="send-&gt;conn.tail = &amp;resources-&gt;devRemHostMem-&gt;tail" id="ZFk2LEt_zFQZBbhwsWkd-29">
