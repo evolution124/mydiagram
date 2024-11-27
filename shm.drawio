@@ -82,7 +82,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-34" value="Node2" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="970" width="260" height="86" as="geometry" />
+          <mxGeometry x="1000" y="950" width="260" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-35" value="shmRecvConnect&amp;nbsp;&amp;nbsp;步骤1 设置对端buf" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-34">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -94,7 +94,7 @@
           <mxGeometry y="78" width="260" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-37" value="设置send tail/head" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1130" width="480" height="86" as="geometry" />
+          <mxGeometry x="230" y="1140" width="480" height="86" as="geometry" />
         </mxCell>
         <UserObject label="send-&gt;conn.tail = &amp;resources-&gt;devRemHostMem-&gt;tail" link="send-&gt;conn.tail = &amp;resources-&gt;devRemHostMem-&gt;tail" id="ZFk2LEt_zFQZBbhwsWkd-38">
           <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-37">
@@ -138,7 +138,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-51" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen (rem Mem 是Send端的发送描述符)&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="970" width="480" height="90" as="geometry" />
+          <mxGeometry x="230" y="973" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-52" value="remHostMem&amp;nbsp; //通过 open, mmap 引用 (remHostMem 是Node2创建)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-51">
           <mxGeometry y="30" width="480" height="20" as="geometry" />
@@ -148,6 +148,12 @@
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-54" value="devRemHostMem //cudaHostRegister cudaHostGetDevicePointer 获取device buf 地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-51">
           <mxGeometry y="58" width="480" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-56" value="引用 Node1 hostMem, devHostMem" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.998;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZFk2LEt_zFQZBbhwsWkd-35" target="ZFk2LEt_zFQZBbhwsWkd-51">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="30" y="669" as="sourcePoint" />
+            <mxPoint x="238" y="669" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
