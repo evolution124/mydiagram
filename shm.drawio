@@ -23,19 +23,19 @@
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-10" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ncclShmOpen 创建sharemem&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; hostMem //通过 mktmp, open, mmap 创建&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="260" y="350" width="270" height="80" as="geometry" />
+          <mxGeometry x="290" y="370" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-14" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen&lt;br&gt;创建 memory&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="200" width="295" height="106" as="geometry" />
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-14" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="295" height="84" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-15" value="hostMem&amp;nbsp; //通过 mktmp, open, mmap 创建,&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-14">
-          <mxGeometry y="46" width="295" height="26" as="geometry" />
+          <mxGeometry y="30" width="295" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-14">
-          <mxGeometry y="72" width="295" height="8" as="geometry" />
+          <mxGeometry y="50" width="295" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-17" value="devHostMem //cudaHostGetDevicePointer 创建" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-14">
-          <mxGeometry y="80" width="295" height="26" as="geometry" />
+          <mxGeometry y="58" width="295" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
