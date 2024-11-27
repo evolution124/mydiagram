@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.8">
   <diagram name="Page-1" id="Dgcp7kBMrUGKEQ_Mz09O">
-    <mxGraphModel dx="2253" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2028" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-2" value="Node2" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="150" width="160" height="60" as="geometry" />
+          <mxGeometry x="950" y="160" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-3" value="shmRecvSetup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-2">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -37,7 +37,7 @@
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-17" value="devRemHostMem //cudaHostRegister cudaHostGetDevicePointer 获取device buf 地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-14">
           <mxGeometry y="68" width="480" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-18" value="设置shm大小" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.002;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZFk2LEt_zFQZBbhwsWkd-3" target="ZFk2LEt_zFQZBbhwsWkd-14">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-18" value="设置shm大小, 创建shm" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.002;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZFk2LEt_zFQZBbhwsWkd-3" target="ZFk2LEt_zFQZBbhwsWkd-14">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="110" y="300" as="sourcePoint" />
             <mxPoint x="190" y="300" as="targetPoint" />
