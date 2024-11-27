@@ -25,7 +25,7 @@
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-6">
           <mxGeometry y="78" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-14" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-14" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen 创建shm描述符以及&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;DataBuf&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="130" width="480" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-15" value="hostMem&amp;nbsp; //通过 mkstemp, open, mmap 创建,&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-14">
@@ -115,6 +115,18 @@
         </mxCell>
         <mxCell id="ZFk2LEt_zFQZBbhwsWkd-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-42">
           <mxGeometry y="52" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-46" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ncclShmOpen&lt;br&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="480" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-47" value="remHostMem&amp;nbsp; //通过 open, mmap 引用 (remHostMem 是Node2创建)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-46">
+          <mxGeometry y="30" width="480" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-46">
+          <mxGeometry y="50" width="480" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFk2LEt_zFQZBbhwsWkd-49" value="devRemHostMem //cudaHostRegister cudaHostGetDevicePointer 获取device buf 地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZFk2LEt_zFQZBbhwsWkd-46">
+          <mxGeometry y="58" width="480" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
