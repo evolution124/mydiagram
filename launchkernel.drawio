@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.1">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="1569" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,11 +16,14 @@
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-2" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;launchCommand(halQueue, &amp;amp;command)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-52.5" y="230" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-2Uq6EaCfHkO4JYl11UL-3" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;executeKernel(queue, cmd)&lt;br&gt;设置cmd的queue: execInfo-&amp;gt;halQueue = queue&lt;br&gt;创建cmdBuffer:&amp;nbsp; &amp;nbsp; &amp;nbsp;createCommandBuffer(processor, 1024*1024)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=9;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="330" width="370" height="85" as="geometry" />
+        <mxCell id="-2Uq6EaCfHkO4JYl11UL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2Uq6EaCfHkO4JYl11UL-3" target="-2Uq6EaCfHkO4JYl11UL-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-2Uq6EaCfHkO4JYl11UL-7" value="&lt;div&gt;chip.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;executeKernel&lt;br&gt;设置cmd的queue: execInfo-&amp;gt;halQueue = queue&lt;br&gt;创建cmdBuffer:&amp;nbsp; &amp;nbsp; &amp;nbsp;createCommandBuffer(processor, 1024*1024)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=9;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="470" width="370" height="85" as="geometry" />
+        <mxCell id="-2Uq6EaCfHkO4JYl11UL-3" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;executeKernel(queue, cmd)&lt;br&gt;设置cmd的queue: execInfo-&amp;gt;halQueue = queue&lt;br&gt;创建cmdBuffer:&amp;nbsp; &amp;nbsp; &amp;nbsp;createCommandBuffer(processor, 1024*1024)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="330" width="365" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-2Uq6EaCfHkO4JYl11UL-9" value="&lt;div&gt;chip.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;createCommandBuffer&lt;br&gt;cmdBuffer_PTR cmd = malloc(..)&lt;br&gt;cmd-&amp;gt;cmdBase = malloc(size)&lt;br&gt;cmd-&amp;gt;cmdBuffer = cmdBase&lt;br&gt;cmd-&amp;gt;processor = processor&lt;/div&gt;&lt;div&gt;cmd-&amp;gt;helper.index = gCmdIdx++&lt;br&gt;&lt;br&gt;准备command buffer clfInitCommandQueue(cmd)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt; __clCmdLoadSingleHWState&amp;nbsp; 28A AQSystemRegAddrs&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; E13 AQModeRegAddrs&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 5580 gcregShaderMiscConfigRegAddrs&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="470" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
