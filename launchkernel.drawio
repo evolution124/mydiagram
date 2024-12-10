@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-1" value="drv_api.cpp&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取 halQueue : 来自stream&lt;/div&gt;&lt;div&gt;准备 halCommand_t command&lt;/div&gt;&lt;div&gt;准备executeKernelInfo info = command.kernelInfo&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="80" width="380" height="90" as="geometry" />
+          <mxGeometry x="20" y="80" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-2" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;launchCommand&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="150" width="180" height="70" as="geometry" />
+          <mxGeometry x="540" y="150" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
