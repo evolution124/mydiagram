@@ -10,14 +10,14 @@
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-1" value="drv_api.cpp&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;drvLaunchKernelEx_common:&lt;/div&gt;&lt;div&gt;&amp;nbsp; 获取 halQueue : 来自stream&lt;/div&gt;&lt;div&gt;&amp;nbsp; 准备 halCommand_t command&lt;/div&gt;&lt;div&gt;&amp;nbsp; 准备executeKernelInfo info = command.kernelInfo&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=6;" vertex="1" parent="1">
           <mxGeometry x="-80" y="50" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-2Uq6EaCfHkO4JYl11UL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-2Uq6EaCfHkO4JYl11UL-2" target="-2Uq6EaCfHkO4JYl11UL-3">
+        <mxCell id="-2Uq6EaCfHkO4JYl11UL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-2Uq6EaCfHkO4JYl11UL-2" target="-2Uq6EaCfHkO4JYl11UL-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-2" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;launchCommand&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="5" y="240" width="130" height="70" as="geometry" />
+          <mxGeometry x="5" y="220" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-3" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;executeKernel&lt;br&gt;设置cmd的queue: execInfo-&amp;gt;halQueue = queue&lt;br&gt;创建cmdBuffer:&amp;nbsp; &amp;nbsp; &amp;nbsp;createCommandBuffer(processor, 1024*1024)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="260" y="240" width="380" height="140" as="geometry" />
+          <mxGeometry x="-115" y="330" width="370" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
