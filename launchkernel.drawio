@@ -16,7 +16,7 @@
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-2" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;launchCommand&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="5" y="240" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-2Uq6EaCfHkO4JYl11UL-3" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;executeKernel&lt;br&gt;设置cmd的queue: execInfo-&amp;gt;halQueue = queue&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="-2Uq6EaCfHkO4JYl11UL-3" value="&lt;div&gt;hal.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;executeKernel&lt;br&gt;设置cmd的queue: execInfo-&amp;gt;halQueue = queue&lt;br&gt;创建cmdBuffer:&amp;nbsp; &amp;nbsp; &amp;nbsp;createCommandBuffer(processor, 1024*1024)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="260" y="240" width="380" height="140" as="geometry" />
         </mxCell>
       </root>
