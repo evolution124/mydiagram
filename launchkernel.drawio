@@ -79,8 +79,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qWvV4iFXAZPfeYybYjg1-12" value="&lt;div&gt;gc_hal_kernel_kernel.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckCONTEXT_Update(Context, ProcessID, StateDelta)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer = Context-&amp;gt;buffer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="6030" y="10" width="450" height="300" as="geometry" />
+        <mxCell id="qWvV4iFXAZPfeYybYjg1-12" value="&lt;div&gt;gc_hal_kernel_kernel.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckKERNEL_Notify(kernel, Notification)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; switch(Notification) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; case gcvNOTIFY_INTERRUPT:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gckHARDWARE_Notify(kernel-&amp;gt;hardware)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="6040" y="220" width="450" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvV4iFXAZPfeYybYjg1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qWvV4iFXAZPfeYybYjg1-13" target="qWvV4iFXAZPfeYybYjg1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qWvV4iFXAZPfeYybYjg1-13" value="&lt;div&gt;gc_hal_kernel_emulator.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;InterruptThread(void *)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;while(wrapper-&amp;gt;interruptSuspended)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;gckHARDWARE_Interrupt(kernel-&amp;gt;hardware)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;gckKERNEL_Notify(kernel, gcvNOTIFY_INTERRUPT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="6040" width="450" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
