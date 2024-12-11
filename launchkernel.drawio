@@ -49,7 +49,7 @@
         <mxCell id="qWvV4iFXAZPfeYybYjg1-5" value="gc_hal_kernel_hardware.c&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckCONTEXT_Update(Context, ProcessID, StateDelta)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer = Context-&amp;gt;buffer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="4350" width="450" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="qWvV4iFXAZPfeYybYjg1-6" value="gc_hal_kernel_hardware_waitlink_fe.c&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckCONTEXT_Update(Context, ProcessID, StateDelta)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer = Context-&amp;gt;buffer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="qWvV4iFXAZPfeYybYjg1-6" value="gc_hal_kernel_hardware_waitlink_fe.c&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckWLFE_Link(hardware, Logical, FetchAddress, FetchSize, Bytes, Low, High)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="4360" y="400" width="450" height="300" as="geometry" />
         </mxCell>
       </root>
