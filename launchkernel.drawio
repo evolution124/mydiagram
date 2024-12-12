@@ -88,6 +88,14 @@
         <mxCell id="qWvV4iFXAZPfeYybYjg1-13" value="&lt;div&gt;gc_hal_kernel_emulator.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;InterruptThread(void *)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;while(wrapper-&amp;gt;interruptSuspended)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;gckHARDWARE_Interrupt(kernel-&amp;gt;hardware)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;gckKERNEL_Notify(kernel, gcvNOTIFY_INTERRUPT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="6040" width="450" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QSAenKkpdjQW8zQk9t1L-1" target="QSAenKkpdjQW8zQk9t1L-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="40" />
+              <mxPoint x="-250" y="-235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;drv_api.cpp&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-780" y="-110" width="490" height="300" as="geometry" />
         </mxCell>
@@ -126,6 +134,15 @@
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QSAenKkpdjQW8zQk9t1L-3" target="QSAenKkpdjQW8zQk9t1L-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;drv_api.cpp&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-380" width="490" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-20" value="&lt;div&gt;&lt;b&gt;getCurrentStream(CUcontext ctx, CUStream stream, bool perThread):&lt;br&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; stream 用户传入的stream&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-19">
+          <mxGeometry y="26" width="490" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-21" value="&lt;div&gt;istream = (size_t)stream;&lt;/div&gt;switch(istream)&lt;br&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;case 0: return getDefaultStream(ctx, perThread)&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;--&amp;gt; 如果perThread --&amp;gt; getPerThreadStream(ctx)&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;否则 --&amp;gt;getLegacyStream(ctx) --&amp;gt; ctx-&amp;gt;legacy &lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;(如何创建???)&lt;/span&gt;&lt;br&gt;case 1: return getLegacyStream(ctx)&lt;br&gt;case 2: return getPerThreadStream(ct)&lt;br&gt;default:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;... &lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;//和delayDestroy 相关 ???&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-19">
+          <mxGeometry y="70" width="490" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
