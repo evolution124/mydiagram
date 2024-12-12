@@ -100,7 +100,7 @@
         <mxCell id="QSAenKkpdjQW8zQk9t1L-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-1">
           <mxGeometry y="116" width="490" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QSAenKkpdjQW8zQk9t1L-5" value="Color" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-5" value="Color Chart" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-490" y="-110" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-6" value="Context" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-5">
