@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="2976" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2754" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,16 +89,13 @@
           <mxGeometry x="6040" width="450" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;drv_api.cpp&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="-110" width="490" height="326" as="geometry" />
+          <mxGeometry x="-780" y="-110" width="490" height="300" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-2" value="&lt;div&gt;&lt;b&gt;drvLaunchKernelEx_common(config, f, kernelParams, extra, ptsz):&lt;br&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; kernelParams: 就是user传入的args,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; extra: ???&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; ptsz: 是否是perThread Stream&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-1">
           <mxGeometry y="26" width="490" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="QSAenKkpdjQW8zQk9t1L-3" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//获取gridDimX/Y/Z, blockDimX/Y/Z, sharedMemBytes等&lt;br&gt;&lt;/span&gt;gridDimX = config-&amp;gt;gridDimX&lt;br&gt;...&lt;br&gt;sharedMemBytes = config-&amp;gt;sharedMemBytes&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;hStream = getCurrentStream(ctx, stream, perThread)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-1">
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-3" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//获取hcontext&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;//获取gridDimX/Y/Z, blockDimX/Y/Z, sharedMemBytes等&lt;br&gt;&lt;/span&gt;gridDimX = config-&amp;gt;gridDimX&lt;br&gt;...&lt;br&gt;sharedMemBytes = config-&amp;gt;sharedMemBytes&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//获取hstream&lt;/span&gt;&lt;/div&gt;&lt;div&gt;hStream = getCurrentStream(ctx, stream, perThread)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-1">
           <mxGeometry y="100" width="490" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="QSAenKkpdjQW8zQk9t1L-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-1">
-          <mxGeometry y="300" width="490" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-5" value="Color Chart" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1010" y="-110" width="160" height="138" as="geometry" />
@@ -119,7 +116,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;stream.cpp&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-70" width="490" height="220" as="geometry" />
+          <mxGeometry x="-130" y="-140" width="490" height="220" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-10" value="&lt;div&gt;&lt;b&gt;getCurrentStream(CUcontext ctx, CUStream stream, bool perThread):&lt;br&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; stream 用户传入的stream&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-9">
           <mxGeometry y="26" width="490" height="44" as="geometry" />
