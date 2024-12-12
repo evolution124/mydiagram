@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="2113" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-1" value="drv_api.cpp&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;drvLaunchKernelEx_common:&lt;/div&gt;&lt;div&gt;&amp;nbsp; 获取 halQueue : 来自stream&lt;/div&gt;&lt;div&gt;&amp;nbsp; 准备 halCommand_t command&lt;/div&gt;&lt;div&gt;&amp;nbsp; 准备executeKernelInfo info = command.kernelInfo&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=2;" parent="1" vertex="1">
-          <mxGeometry x="-201.87" y="50" width="300" height="120" as="geometry" />
+          <mxGeometry x="190" y="50" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-2Uq6EaCfHkO4JYl11UL-2" target="-2Uq6EaCfHkO4JYl11UL-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -87,6 +87,18 @@
         </mxCell>
         <mxCell id="qWvV4iFXAZPfeYybYjg1-13" value="&lt;div&gt;gc_hal_kernel_emulator.cpp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;InterruptThread(void *)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;while(wrapper-&amp;gt;interruptSuspended)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;gckHARDWARE_Interrupt(kernel-&amp;gt;hardware)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;gckKERNEL_Notify(kernel, gcvNOTIFY_INTERRUPT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="6040" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;drv_api.cpp&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="50" width="490" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-2" value="&lt;div&gt;drvLaunchKernelEx_common(config, f, kernelParams, extra, ptsz):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-1">
+          <mxGeometry y="26" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-1">
+          <mxGeometry y="52" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-1">
+          <mxGeometry y="78" width="490" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
