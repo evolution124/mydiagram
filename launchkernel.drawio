@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="3126" dy="1982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2710" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-2Uq6EaCfHkO4JYl11UL-11" value="hal.cpp&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AddCmdToQueue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;updateHalqueueFence(queue, queue-&amp;gt;processor, cmdBuffer)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --&amp;gt; queue-&amp;gt;halFence-&amp;gt;expectedVal = cmdBuffer-&amp;gt;helper.index&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clfSendFenceWithEngine(cmdBuffer, fence-&amp;gt;expectedVal, addr, 0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt; E02 AQSemaphoreRegAddrs,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FECommand STALL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; E75 gcregFenceAddressRegAddrs,&amp;nbsp; 设置CPU的fence地址(fenceGPULogicAddr)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; E26, E1B, gcregFenceDataRegAddrs, 设置数据的值(expectedVal)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;os_queue_append(queue-&amp;gt;commandQueue, cmdBuffer)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1640" width="598.13" height="240" as="geometry" />
+          <mxGeometry x="360" y="1880" width="598.13" height="240" as="geometry" />
         </mxCell>
         <mxCell id="qWvV4iFXAZPfeYybYjg1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-2Uq6EaCfHkO4JYl11UL-13" target="qWvV4iFXAZPfeYybYjg1-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -208,7 +208,7 @@
         <mxCell id="QSAenKkpdjQW8zQk9t1L-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-57">
           <mxGeometry y="52" width="530" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="QSAenKkpdjQW8zQk9t1L-60" value="&lt;b&gt;updateHalqueueFence&lt;/b&gt;(queue, queue-&amp;gt;processor, cmdBuffer)&lt;br&gt;&amp;nbsp; &amp;nbsp; --&amp;gt; queue-&amp;gt;halFence-&amp;gt;expectedVal = cmdBuffer-&amp;gt;helper.index; &lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;// gCmdIdx++ 初始化&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; addr = getFenceGPULogical(fence, processor)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;clfSendFenceWithEngine&lt;/b&gt;(cmdBuffer, fence-&amp;gt;expectedVal, addr, 0)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-57">
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-60" value="&lt;b&gt;updateHalqueueFence&lt;/b&gt;(queue, queue-&amp;gt;processor, cmdBuffer)&lt;br&gt;&amp;nbsp; &amp;nbsp; --&amp;gt; queue-&amp;gt;halFence-&amp;gt;expectedVal = cmdBuffer-&amp;gt;helper.index; &lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;// gCmdIdx++ 初始化&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; addr = getFenceGPULogical(queue-&amp;gt;halFence, processor)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;clfSendFenceWithEngine&lt;/b&gt;(cmdBuffer, fence-&amp;gt;expectedVal, addr, 0)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-57">
           <mxGeometry y="60" width="530" height="130" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-61" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.006;exitY=0.879;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QSAenKkpdjQW8zQk9t1L-38" target="QSAenKkpdjQW8zQk9t1L-57">
@@ -218,16 +218,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-62" value="chip.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1310" width="610" height="86" as="geometry" />
+          <mxGeometry x="440" y="1330" width="690" height="468" as="geometry" />
         </mxCell>
-        <mxCell id="QSAenKkpdjQW8zQk9t1L-63" value="clfSendFenceWithEngine(cmdBuffer_PTR cmdBuffer, uint64_t data, devAddress_t dstAddress, int32_t engine)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-62">
-          <mxGeometry y="26" width="610" height="26" as="geometry" />
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-63" value="&lt;b&gt;clfSendFenceWithEngine(cmdBuffer_PTR cmdBuffer, uint64_t data, devAddress_t dstAddress, int32_t engine)&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;// data 就是expectedVal,&amp;nbsp; &lt;br&gt;// dstAddress是GPU看到的halFence_PTR地址&lt;br&gt;// engine ??&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-62">
+          <mxGeometry y="26" width="690" height="84" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-62">
-          <mxGeometry y="52" width="610" height="8" as="geometry" />
+          <mxGeometry y="110" width="690" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-65" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QSAenKkpdjQW8zQk9t1L-62">
-          <mxGeometry y="60" width="610" height="26" as="geometry" />
+          <mxGeometry y="118" width="690" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="QSAenKkpdjQW8zQk9t1L-66" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.003;entryY=0.038;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="QSAenKkpdjQW8zQk9t1L-58" target="QSAenKkpdjQW8zQk9t1L-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="730" y="860" as="sourcePoint" />
+            <mxPoint x="889" y="1295" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
