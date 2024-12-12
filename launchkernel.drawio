@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="2264" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2976" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -313,8 +313,20 @@
         <mxCell id="U14mofKTcunZ6X7Fo2zi-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="U14mofKTcunZ6X7Fo2zi-6">
           <mxGeometry y="52" width="1030" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="U14mofKTcunZ6X7Fo2zi-9" value="hardware = Command-&amp;gt;kernel-&amp;gt;hardware&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//查询 LINK 的大小(应为有LINK64或者LINK 两种link cmd)&lt;br&gt;&lt;/span&gt;gckWLFE_Link(hardware, NULL, 0, 0, &amp;amp;linkBytes, NULL, NULL)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//logical + CMD_ReservedHeadSize 就是KMD之前的用户cmds&lt;/span&gt;&lt;/div&gt;&lt;div&gt;commandBufferLogical = CommandBuffer-&amp;gt;logical + CommandBuffer-&amp;gt;startOffset;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;commandBufferAddress = CommandBuffer-&amp;gt;address + CommandBuffer-&amp;gt;startOffset;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//size就是KMD之前的用户cmds + reserved head + tail 对齐64的大小&lt;/span&gt;&lt;/div&gt;&lt;div&gt;commandBufferSize = CommandBuffer-&amp;gt;size;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U14mofKTcunZ6X7Fo2zi-6">
+        <mxCell id="U14mofKTcunZ6X7Fo2zi-9" value="hardware = Command-&amp;gt;kernel-&amp;gt;hardware&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//查询 LINK 的大小(应为有LINK64或者LINK 两种link cmd)&lt;br&gt;&lt;/span&gt;gckWLFE_Link(hardware, NULL, 0, 0, &amp;amp;linkBytes, NULL, NULL)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//logical + CMD_ReservedHeadSize 就是KMD之前的用户cmds&lt;/span&gt;&lt;/div&gt;&lt;div&gt;commandBufferLogical = CommandBuffer-&amp;gt;logical + CommandBuffer-&amp;gt;startOffset;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;commandBufferAddress = CommandBuffer-&amp;gt;address + CommandBuffer-&amp;gt;startOffset;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//size就是KMD之前的用户cmds + reserved head + tail 对齐64的大小&lt;/span&gt;&lt;/div&gt;&lt;div&gt;commandBufferSize = CommandBuffer-&amp;gt;size;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;gckCOMMAND_CheckFlushMMU(Command, hardware) //会根据情况刷MMU&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;if (Command-&amp;gt;kernel-&amp;gt;asyncCommand &amp;amp;&amp;amp; MaxAsyncTimeStamp!=0) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;&amp;nbsp; &amp;nbsp; _WaitForAsyncCommandStamp(Command, MaxAsyncTimeStamp)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U14mofKTcunZ6X7Fo2zi-6">
           <mxGeometry y="60" width="1030" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="U14mofKTcunZ6X7Fo2zi-10" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.501;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QSAenKkpdjQW8zQk9t1L-87" target="U14mofKTcunZ6X7Fo2zi-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2297" y="-265" as="sourcePoint" />
+            <mxPoint x="2299" y="-195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U14mofKTcunZ6X7Fo2zi-11" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.003;entryY=0.186;entryDx=0;entryDy=0;exitX=1.001;exitY=0.147;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="U14mofKTcunZ6X7Fo2zi-4" target="U14mofKTcunZ6X7Fo2zi-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2381" y="148" as="sourcePoint" />
+            <mxPoint x="2380" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
