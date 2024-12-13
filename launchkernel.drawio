@@ -263,7 +263,7 @@
           <mxGeometry y="60" width="920" height="290" as="geometry" />
         </mxCell>
         <mxCell id="U14mofKTcunZ6X7Fo2zi-1" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="210" width="920" height="638" as="geometry" />
+          <mxGeometry x="1910" y="850" width="920" height="638" as="geometry" />
         </mxCell>
         <mxCell id="U14mofKTcunZ6X7Fo2zi-2" value="&lt;b&gt;gckCOMMAND_Commit(gckCOMMAND Command, gcsHAL_SUBCOMMIT *SubCommit, ProcessId, Shared, CommitStamp, *contextSwitched)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;CommitStamp //在提交命令后, 得到Command的commitStamp&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="U14mofKTcunZ6X7Fo2zi-1" vertex="1">
           <mxGeometry y="26" width="920" height="44" as="geometry" />
@@ -281,7 +281,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U14mofKTcunZ6X7Fo2zi-6" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3370" y="-370" width="910" height="1930" as="geometry" />
+          <mxGeometry x="3550" y="-690" width="910" height="1930" as="geometry" />
         </mxCell>
         <mxCell id="U14mofKTcunZ6X7Fo2zi-7" value="_CommitWaitLinkOnce(gckCOMMAND Command, gckCONTEXT Context, gcsHAL_COMMAND_LOCATION *CommandBuffer, StateDelta, ProcessID, Shared, ....)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="U14mofKTcunZ6X7Fo2zi-6" vertex="1">
           <mxGeometry y="26" width="910" height="26" as="geometry" />
@@ -303,6 +303,18 @@
             <mxPoint x="2381" y="148" as="sourcePoint" />
             <mxPoint x="2380" y="220" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UbzL_sldVN1qwGkXepIT-2" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3550" y="1320" width="910" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="UbzL_sldVN1qwGkXepIT-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UbzL_sldVN1qwGkXepIT-2">
+          <mxGeometry y="26" width="910" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UbzL_sldVN1qwGkXepIT-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UbzL_sldVN1qwGkXepIT-2">
+          <mxGeometry y="52" width="910" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UbzL_sldVN1qwGkXepIT-5" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UbzL_sldVN1qwGkXepIT-2">
+          <mxGeometry y="60" width="910" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
