@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="6548" dy="5064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2854" dy="2882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -281,7 +281,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U14mofKTcunZ6X7Fo2zi-6" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4270" y="-1724" width="910" height="1930" as="geometry" />
+          <mxGeometry x="4250" y="-1710" width="910" height="1930" as="geometry" />
         </mxCell>
         <mxCell id="U14mofKTcunZ6X7Fo2zi-7" value="_CommitWaitLinkOnce(gckCOMMAND Command, gckCONTEXT Context, gcsHAL_COMMAND_LOCATION *CommandBuffer, StateDelta, ProcessID, Shared, ....)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="U14mofKTcunZ6X7Fo2zi-6" vertex="1">
           <mxGeometry y="26" width="910" height="26" as="geometry" />
@@ -321,6 +321,18 @@
             <mxPoint x="2839" y="-55" as="sourcePoint" />
             <mxPoint x="3070" y="-520" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UbzL_sldVN1qwGkXepIT-8" value="gc_hal_kernel_event.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4260" y="501" width="900" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="UbzL_sldVN1qwGkXepIT-9" value="&lt;b style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;gckEVENT_Submit(gckEVENT Event, gckEVENT_PTR EventAttr)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UbzL_sldVN1qwGkXepIT-8">
+          <mxGeometry y="26" width="900" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="UbzL_sldVN1qwGkXepIT-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UbzL_sldVN1qwGkXepIT-8">
+          <mxGeometry y="50" width="900" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UbzL_sldVN1qwGkXepIT-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UbzL_sldVN1qwGkXepIT-8">
+          <mxGeometry y="58" width="900" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
