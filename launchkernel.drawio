@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="2393" dy="2609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4869" dy="3390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;stream.cpp&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-170" y="-200" width="490" height="220" as="geometry" />
+          <mxGeometry x="-160" y="-100" width="490" height="220" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-10" value="&lt;div&gt;&lt;b&gt;getCurrentStream(CUcontext ctx, CUStream stream, bool perThread):&lt;br&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; stream 用户传入的stream&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-9" vertex="1">
           <mxGeometry y="26" width="490" height="44" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry y="70" width="490" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;drv_api.cpp&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-170" y="-390" width="490" height="140" as="geometry" />
+          <mxGeometry x="-160" y="-390" width="490" height="140" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-20" value="&lt;div&gt;&lt;b&gt;getCurrentContext():&lt;/b&gt;&amp;nbsp;获取当前的context&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-19" vertex="1">
           <mxGeometry y="26" width="490" height="24" as="geometry" />
@@ -110,7 +110,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-41" value="chip.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-170" y="320" width="460" height="300" as="geometry" />
+          <mxGeometry x="-160" y="320" width="460" height="300" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-42" value="&lt;b&gt;createCommandBuffer(processor, size)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-41" vertex="1">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
@@ -140,7 +140,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-48" value="chip.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-170" y="650" width="530" height="560" as="geometry" />
+          <mxGeometry x="-160" y="650" width="530" height="560" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-49" value="&lt;b&gt;clfInvokeVIRKernel(cmdBuffer_PTR cmdBuffer, KernelInst_PTR kernelInst,...)&lt;br&gt;通过将要运行的kernel, 配置cmd buffer&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-48" vertex="1">
           <mxGeometry y="26" width="530" height="44" as="geometry" />
@@ -158,7 +158,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-57" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-170" y="1310" width="530" height="190" as="geometry" />
+          <mxGeometry x="-160" y="1311" width="530" height="190" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-58" value="&lt;b&gt;addCmdToQueue(halQueue_PTR queue, cmdBuffer_PTR cmdBuffer)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-57" vertex="1">
           <mxGeometry y="26" width="530" height="26" as="geometry" />
@@ -176,7 +176,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-62" value="chip.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1330" width="690" height="450" as="geometry" />
+          <mxGeometry x="480" y="1330" width="690" height="450" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-63" value="&lt;b&gt;clfSendFenceWithEngine(cmdBuffer_PTR cmdBuffer, uint64_t data, devAddress_t dstAddress, int32_t engine)&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;// data 就是expectedVal,&amp;nbsp; &lt;br&gt;// dstAddress是GPU看到的halFence_PTR地址&lt;br&gt;// engine ??&lt;/span&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-62" vertex="1">
           <mxGeometry y="26" width="690" height="74" as="geometry" />
@@ -350,7 +350,7 @@
           <mxGeometry y="60" width="400" height="260" as="geometry" />
         </mxCell>
         <mxCell id="UbzL_sldVN1qwGkXepIT-17" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5100" y="1014" width="500" height="740" as="geometry" />
+          <mxGeometry x="5100" y="1070" width="500" height="740" as="geometry" />
         </mxCell>
         <mxCell id="UbzL_sldVN1qwGkXepIT-18" value="&lt;b&gt;gckCOMMAND_Execute(gckCOMMAND Command, uint32 RequestedBytes)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="UbzL_sldVN1qwGkXepIT-17">
           <mxGeometry y="26" width="500" height="26" as="geometry" />
