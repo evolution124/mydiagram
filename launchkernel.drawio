@@ -872,7 +872,7 @@
           <mxGeometry y="60" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-71" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-3710" width="740" height="570" as="geometry" />
+          <mxGeometry x="120" y="-3710" width="740" height="530" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-72" value="&lt;b&gt;_StartWaitLinkFE(gckCOMMAND Command)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-71">
           <mxGeometry y="26" width="740" height="26" as="geometry" />
@@ -880,8 +880,20 @@
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-71">
           <mxGeometry y="52" width="740" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-74" value="hardware = Command-&amp;gt;kernel-&amp;gt;hardware&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//查询 WAIT/LINK 序列的大小&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckWLFE_WaitLink&lt;/b&gt;(hw, NULL, INVALID_ADDRESS, Command-&amp;gt;offset, &amp;amp;waitLinkBytes, NULL,NULL)&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;// waitLinkBytes =32&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//此处 Command-&amp;gt;logical == NULL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;if (Command-&amp;gt;pageSize - Command-&amp;gt;offset &amp;lt; waitLinkBytes) || Command-&amp;gt;logical == NULL) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;//创建一个新的Command queue&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;_NewQueue&lt;/b&gt;(Command, true)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;logical = Command-&amp;gt;logical + Command-&amp;gt;offset&lt;/div&gt;&lt;div&gt;address = Command-&amp;gt;address + Command-&amp;gt;offset&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckWLFE_WaitLink&lt;/b&gt;(hw, logical, address, 0, &amp;amp;waitLinkBytes, &amp;amp;waitOffset, &amp;amp;Command-&amp;gt;waitPos.size)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-71">
-          <mxGeometry y="60" width="740" height="510" as="geometry" />
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-74" value="hardware = Command-&amp;gt;kernel-&amp;gt;hardware&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//查询 WAIT/LINK 序列的大小&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckWLFE_WaitLink&lt;/b&gt;(hw, NULL, INVALID_ADDRESS, Command-&amp;gt;offset, &amp;amp;waitLinkBytes, NULL,NULL)&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;// waitLinkBytes =32&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//此处 Command-&amp;gt;logical == NULL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;if (Command-&amp;gt;pageSize - Command-&amp;gt;offset &amp;lt; waitLinkBytes) || Command-&amp;gt;logical == NULL) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;//创建一个新的Command queue&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;_NewQueue&lt;/b&gt;(Command, true)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;logical = Command-&amp;gt;logical + Command-&amp;gt;offset&lt;/div&gt;&lt;div&gt;address = Command-&amp;gt;address + Command-&amp;gt;offset&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-71">
+          <mxGeometry y="60" width="740" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-92" value="&lt;div&gt;&lt;b&gt;gckWLFE_WaitLink&lt;/b&gt;(hw, logical, address, 0, &amp;amp;waitLinkBytes, &amp;amp;waitOffset, &amp;amp;Command-&amp;gt;waitPos.size)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-71">
+          <mxGeometry y="270" width="740" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-95" value="//更新 wait command 地址&lt;div&gt;Command-&amp;gt;waitPos.videoMem = Command-&amp;gt;videoMem&lt;/div&gt;&lt;div&gt;Command-&amp;gt;waitPos.offset = Command-&amp;gt;offset + waitOffset&lt;/div&gt;&lt;div&gt;Command-&amp;gt;waitPos.logical = logical + waitOffset&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVIDMEM_NODE_CleanCache&lt;/b&gt;(..., Command-&amp;gt;offset, logical, waitLinkBytes)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-71">
+          <mxGeometry y="296" width="740" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-102" value="//调整 offset&lt;div&gt;Command-&amp;gt;offset += waitLinkBytes&lt;/div&gt;&lt;div&gt;Command-&amp;gt;newQueue = false&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-71">
+          <mxGeometry y="400" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-103" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;b&gt;gckWLFE_Execute&lt;/b&gt;(hw, address, waitLinkBytes)&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;// Command queue 已经运行&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Command-&amp;gt;running = true&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-71">
+          <mxGeometry y="460" width="740" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-75" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XHSnjxVOCnQZ8cdE8w61-55" target="XHSnjxVOCnQZ8cdE8w61-67">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -896,7 +908,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-77" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-3910" width="690" height="470" as="geometry" />
+          <mxGeometry x="1000" y="-4100" width="690" height="470" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-78" value="&lt;b&gt;_NewQueue(gckCOMMAND Command, gctBOOL Stall)&lt;br&gt;Stalled, 硬件是否已经Stall&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-77">
           <mxGeometry y="26" width="690" height="54" as="geometry" />
@@ -914,19 +926,50 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-84" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="-3330" width="775" height="80" as="geometry" />
+          <mxGeometry x="1045" y="-3450" width="775" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-85" value="offset&amp;nbsp;&lt;br&gt;144" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-3330" width="180" height="80" as="geometry" />
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-85" value="offset&amp;nbsp;&lt;br&gt;0" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-3450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-86" value="Wait" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="-3330" width="90" height="80" as="geometry" />
+          <mxGeometry x="1080" y="-3450" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-87" value="Link" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="-3330" width="90" height="80" as="geometry" />
+          <mxGeometry x="1170" y="-3450" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-89" value="Start Address&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;55AD 21ED 1800&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-3390" width="120" height="60" as="geometry" />
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-96" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHSnjxVOCnQZ8cdE8w61-92" target="XHSnjxVOCnQZ8cdE8w61-85">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-70" y="-3490" as="sourcePoint" />
+            <mxPoint x="30" y="-3490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1215" y="-3450" as="sourcePoint" />
+            <mxPoint x="1080" y="-3450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1215" y="-3500" />
+              <mxPoint x="1080" y="-3500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-98" value="gc_hal_kernel_hardware_waitlink_fe.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-3200" width="700" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-99" value="gckWLFE_Execute(Hardware, gctADDRESS Address, gctUINT32 Bytes)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-98">
+          <mxGeometry y="26" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-100" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-98">
+          <mxGeometry y="52" width="700" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-101" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-98">
+          <mxGeometry y="60" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-105" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHSnjxVOCnQZ8cdE8w61-103" target="XHSnjxVOCnQZ8cdE8w61-98">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="870" y="-3417" as="sourcePoint" />
+            <mxPoint x="1010" y="-3440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
