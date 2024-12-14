@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="2797" dy="7260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3189" dy="7496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -896,7 +896,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-77" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-3570" width="690" height="470" as="geometry" />
+          <mxGeometry x="1000" y="-3910" width="690" height="470" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-78" value="&lt;b&gt;_NewQueue(gckCOMMAND Command, gctBOOL Stall)&lt;br&gt;Stalled, 硬件是否已经Stall&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-77">
           <mxGeometry y="26" width="690" height="54" as="geometry" />
@@ -912,6 +912,21 @@
             <mxPoint x="860" y="-3570" as="sourcePoint" />
             <mxPoint x="1060" y="-3740.91" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-84" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="-3330" width="775" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-85" value="offset&amp;nbsp;&lt;br&gt;144" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-3330" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-86" value="Wait" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="-3330" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-87" value="Link" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="-3330" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-89" value="Start Address&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;55AD 21ED 1800&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-3390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
