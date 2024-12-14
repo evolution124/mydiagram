@@ -737,7 +737,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-27" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="-4100" width="770" height="830" as="geometry" />
+          <mxGeometry x="-970" y="-4370" width="770" height="830" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-28" value="&lt;b&gt;gckCOMMAND_Construct(Kernel, FeType, *Command)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-27">
           <mxGeometry y="26" width="770" height="26" as="geometry" />
@@ -749,7 +749,7 @@
           <mxGeometry y="60" width="770" height="770" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-31" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1720" y="-3630" width="510" height="266" as="geometry" />
+          <mxGeometry x="-1910" y="-3710" width="510" height="262" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-32" value="&lt;b&gt;gckKERNEL_Construct(Os, Core, ChipID, Context, Device, SharedDB, *Kernel)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-31">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -769,11 +769,14 @@
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-38" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-31">
           <mxGeometry y="138" width="510" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-39" value="&lt;div&gt;//MMU 设置后再设置hw&lt;/div&gt;&lt;b&gt;gckHARDWARE_PostConstruct&lt;/b&gt;(kernel-&amp;gt;hardware)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-31">
-          <mxGeometry y="164" width="510" height="76" as="geometry" />
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-39" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//设置MMU 相关&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckHARDWARE_PostConstruct&lt;/b&gt;(kernel-&amp;gt;hardware)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-31">
+          <mxGeometry y="164" width="510" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-40" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-31">
-          <mxGeometry y="240" width="510" height="26" as="geometry" />
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-40" value="&lt;b&gt;gckHARDWARE_InitializeHardware&lt;/b&gt;(kernel-&amp;gt;hardware)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-31">
+          <mxGeometry y="210" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-55" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-31">
+          <mxGeometry y="236" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-36" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XHSnjxVOCnQZ8cdE8w61-35" target="XHSnjxVOCnQZ8cdE8w61-27">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -782,7 +785,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-41" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="-3160" width="430" height="220" as="geometry" />
+          <mxGeometry x="-970" y="-3470" width="430" height="230" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-42" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;gckHARDWARE_PostConstruct(Hardware)&lt;/span&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-41">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
@@ -790,11 +793,11 @@
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-41">
           <mxGeometry y="52" width="430" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-44" value="if (Hardware-&amp;gt;options.enableMMU) {&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;_InitPageTableArray(Hardware)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for (i =0; i&amp;lt;gcvFUNCTION_EXECUTION_NUM; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gckFUNCTION_Validate(&amp;amp;Hardware-&amp;gt;functions[i], &amp;amp;funcValid)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (funcValid) gckFUNCTION_Init(&amp;amp;Hardware-&amp;gt;functions[i])&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-41">
-          <mxGeometry y="60" width="430" height="160" as="geometry" />
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-44" value="if (Hardware-&amp;gt;options.enableMMU) {&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;_InitPageTableArray(Hardware)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//此处有两个execution 一个是MMU 一个是FLUSH&lt;/span&gt;&lt;/div&gt;&lt;div&gt;for (i =0; i&amp;lt;gcvFUNCTION_EXECUTION_NUM; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gckFUNCTION_Validate(&amp;amp;Hardware-&amp;gt;functions[i], &amp;amp;funcValid)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (funcValid) gckFUNCTION_Init(&amp;amp;Hardware-&amp;gt;functions[i])&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-41">
+          <mxGeometry y="60" width="430" height="170" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-49" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="-3160" width="420" height="210" as="geometry" />
+          <mxGeometry x="-390" y="-3470" width="420" height="210" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-50" value="&lt;b&gt;_FuncInit_MMU(gcsFUNCTION_EXECUTION_PTR Execution)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-49">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
@@ -804,6 +807,36 @@
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-52" value="f&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-49">
           <mxGeometry y="60" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-53" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XHSnjxVOCnQZ8cdE8w61-44" target="XHSnjxVOCnQZ8cdE8w61-49">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1200" y="-3521" as="sourcePoint" />
+            <mxPoint x="-940" y="-4090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-54" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XHSnjxVOCnQZ8cdE8w61-39" target="XHSnjxVOCnQZ8cdE8w61-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1260" y="-3121" as="sourcePoint" />
+            <mxPoint x="-1000" y="-3690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-56" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="-3140" width="440" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-57" value="&lt;b&gt;gckHARDWARE_InitializeHardware&lt;/b&gt;(gckHARDARE Hardware)" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-56">
+          <mxGeometry y="26" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-56">
+          <mxGeometry y="52" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-59" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-56">
+          <mxGeometry y="60" width="440" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-60" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XHSnjxVOCnQZ8cdE8w61-40" target="XHSnjxVOCnQZ8cdE8w61-56">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1390" y="-3513" as="sourcePoint" />
+            <mxPoint x="-960" y="-3460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
