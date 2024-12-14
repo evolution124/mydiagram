@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="3189" dy="7496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2692" dy="7197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -954,16 +954,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-98" value="gc_hal_kernel_hardware_waitlink_fe.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="-3200" width="700" height="86" as="geometry" />
+          <mxGeometry x="1030" y="-3200" width="700" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-99" value="gckWLFE_Execute(Hardware, gctADDRESS Address, gctUINT32 Bytes)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-98">
-          <mxGeometry y="26" width="700" height="26" as="geometry" />
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-99" value="&lt;b&gt;gckWLFE_Execute(Hardware, gctADDRESS Address, gctUINT32 Bytes)&lt;/b&gt;&lt;div&gt;用初始cmd, 让硬件的cmd processor开始运行&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-98">
+          <mxGeometry y="26" width="700" height="44" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-100" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-98">
-          <mxGeometry y="52" width="700" height="8" as="geometry" />
+          <mxGeometry y="70" width="700" height="8" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-101" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XHSnjxVOCnQZ8cdE8w61-98">
-          <mxGeometry y="60" width="700" height="26" as="geometry" />
+          <mxGeometry y="78" width="700" height="172" as="geometry" />
         </mxCell>
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-105" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHSnjxVOCnQZ8cdE8w61-103" target="XHSnjxVOCnQZ8cdE8w61-98">
           <mxGeometry width="80" relative="1" as="geometry">
