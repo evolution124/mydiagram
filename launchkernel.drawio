@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="3737" dy="7667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4552" dy="8094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,7 +517,7 @@
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-28" value="ResvTail 128-&amp;gt;152" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="6610" y="-930" width="455" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-29" value="Next" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-29" value="Command Buffer&lt;br&gt;Next" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="7085" y="-960" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-30" value="LoadState&lt;div&gt;flush, Sema&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -599,7 +599,7 @@
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-60" value="ResvTail 128-&amp;gt;152" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="6610" y="-740" width="455" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-61" value="Next" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-61" value="Command Buffer&lt;br&gt;Next" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="7085" y="-770" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-62" value="LoadState&lt;div&gt;flush, Sema&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
