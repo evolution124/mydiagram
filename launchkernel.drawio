@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="4552" dy="8094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2719" dy="7134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -980,7 +980,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-2" value="waitPos.offset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RsXz8Ytodcc2n_-1sCKY-1">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-2" value="Command.offset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RsXz8Ytodcc2n_-1sCKY-1">
           <mxGeometry x="-0.2061" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -996,9 +996,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-4" value="waitPos.logical" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RsXz8Ytodcc2n_-1sCKY-3">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-4" value="Command.waitPos.logical" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RsXz8Ytodcc2n_-1sCKY-3">
           <mxGeometry x="-0.2061" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="35" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
