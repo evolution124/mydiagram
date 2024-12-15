@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="8830" dy="10335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="11207" dy="11580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry x="11280" y="-1799" width="450" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;drv_api.cpp&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1000" y="-1435" width="630" height="606" as="geometry" />
+          <mxGeometry x="-1230" y="-1960" width="630" height="606" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-2" value="&lt;div&gt;&lt;b&gt;drvLaunchKernelEx_common(config, f, kernelParams, extra, ptsz):&lt;br&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; kernelParams: 就是user传入的args,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; extra: ???&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; ptsz: 是否是perThread Stream&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-1" vertex="1">
           <mxGeometry y="26" width="630" height="74" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry y="580" width="630" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-5" value="Color Chart" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1000" y="-1788" width="395" height="138" as="geometry" />
+          <mxGeometry x="-990" y="-2290" width="395" height="138" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QSAenKkpdjQW8zQk9t1L-5" vertex="1">
           <mxGeometry y="26" width="395" height="8" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry y="112" width="395" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;stream.cpp&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="-1135" width="490" height="220" as="geometry" />
+          <mxGeometry x="-470" y="-1660" width="490" height="220" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-10" value="&lt;div&gt;&lt;b&gt;getCurrentStream(CUcontext ctx, CUStream stream, bool perThread):&lt;br&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; stream 用户传入的stream&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-9" vertex="1">
           <mxGeometry y="26" width="490" height="44" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry y="70" width="490" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;drv_api.cpp&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="-1425" width="490" height="140" as="geometry" />
+          <mxGeometry x="-470" y="-1950" width="490" height="140" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-20" value="&lt;div&gt;&lt;b&gt;getCurrentContext():&lt;/b&gt;&amp;nbsp;获取当前的context&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-19" vertex="1">
           <mxGeometry y="26" width="490" height="24" as="geometry" />
@@ -77,7 +77,7 @@
           <mxGeometry y="50" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-25" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="-755" width="390" height="176" as="geometry" />
+          <mxGeometry x="-1110" y="-1280" width="390" height="176" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-26" value="&lt;b&gt;launchCommand(halQueue_PTR queue, halCommand_t * cmd)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-25" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -93,12 +93,12 @@
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-33" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.501;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QSAenKkpdjQW8zQk9t1L-32" target="QSAenKkpdjQW8zQk9t1L-25" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-980" y="-785" as="sourcePoint" />
-            <mxPoint x="-900" y="-785" as="targetPoint" />
+            <mxPoint x="-1210" y="-1310" as="sourcePoint" />
+            <mxPoint x="-1130" y="-1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-35" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-962" y="-475" width="550" height="320" as="geometry" />
+          <mxGeometry x="-1192" y="-1000" width="550" height="320" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-36" value="&lt;b&gt;executeKernel(halQueue_PTR queue, halCommand* halCmd)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-35" vertex="1">
           <mxGeometry y="26" width="550" height="26" as="geometry" />
@@ -111,12 +111,12 @@
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-39" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.51;entryY=0.005;entryDx=0;entryDy=0;exitX=0.508;exitY=1.035;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="QSAenKkpdjQW8zQk9t1L-34" target="QSAenKkpdjQW8zQk9t1L-35" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-674" y="-818" as="sourcePoint" />
-            <mxPoint x="-675" y="-745" as="targetPoint" />
+            <mxPoint x="-904" y="-1343" as="sourcePoint" />
+            <mxPoint x="-905" y="-1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-41" value="chip.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="-715" width="460" height="300" as="geometry" />
+          <mxGeometry x="-470" y="-1240" width="460" height="300" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-42" value="&lt;b&gt;createCommandBuffer(processor, size)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-41" vertex="1">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
@@ -129,24 +129,24 @@
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-45" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.005;entryY=0.053;entryDx=0;entryDy=0;exitX=1.006;exitY=0.166;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="QSAenKkpdjQW8zQk9t1L-38" target="QSAenKkpdjQW8zQk9t1L-41" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-672" y="-548" as="sourcePoint" />
-            <mxPoint x="-669" y="-474" as="targetPoint" />
+            <mxPoint x="-902" y="-1073" as="sourcePoint" />
+            <mxPoint x="-899" y="-999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-46" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.003;entryY=0.111;entryDx=0;entryDy=0;exitX=1.002;exitY=0.298;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="QSAenKkpdjQW8zQk9t1L-3" target="QSAenKkpdjQW8zQk9t1L-19" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-360" y="-1049" as="sourcePoint" />
-            <mxPoint x="-243" y="-1265" as="targetPoint" />
+            <mxPoint x="-590" y="-1574" as="sourcePoint" />
+            <mxPoint x="-473" y="-1790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-47" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.001;entryY=0.083;entryDx=0;entryDy=0;exitX=0.997;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="QSAenKkpdjQW8zQk9t1L-3" target="QSAenKkpdjQW8zQk9t1L-9" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-359" y="-1182" as="sourcePoint" />
-            <mxPoint x="-199" y="-1359" as="targetPoint" />
+            <mxPoint x="-589" y="-1707" as="sourcePoint" />
+            <mxPoint x="-429" y="-1884" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-48" value="chip.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="-385" width="530" height="560" as="geometry" />
+          <mxGeometry x="-470" y="-910" width="530" height="560" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-49" value="&lt;b&gt;clfInvokeVIRKernel(cmdBuffer_PTR cmdBuffer, KernelInst_PTR kernelInst,...)&lt;br&gt;通过将要运行的kernel, 配置cmd buffer&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-48" vertex="1">
           <mxGeometry y="26" width="530" height="44" as="geometry" />
@@ -159,12 +159,12 @@
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-52" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QSAenKkpdjQW8zQk9t1L-38" target="QSAenKkpdjQW8zQk9t1L-51" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-399" y="-357" as="sourcePoint" />
-            <mxPoint x="-202" y="-589" as="targetPoint" />
+            <mxPoint x="-629" y="-882" as="sourcePoint" />
+            <mxPoint x="-432" y="-1114" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-57" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="276" width="530" height="190" as="geometry" />
+          <mxGeometry x="-470" y="-249" width="530" height="190" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-58" value="&lt;b&gt;addCmdToQueue(halQueue_PTR queue, cmdBuffer_PTR cmdBuffer)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-57" vertex="1">
           <mxGeometry y="26" width="530" height="26" as="geometry" />
@@ -177,12 +177,12 @@
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-61" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.997;exitY=0.824;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QSAenKkpdjQW8zQk9t1L-38" target="QSAenKkpdjQW8zQk9t1L-57" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-505" y="95" as="sourcePoint" />
-            <mxPoint x="-343" y="318" as="targetPoint" />
+            <mxPoint x="-735" y="-430" as="sourcePoint" />
+            <mxPoint x="-573" y="-207" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-62" value="chip.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="295" width="690" height="450" as="geometry" />
+          <mxGeometry x="160" y="-223" width="690" height="450" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-63" value="&lt;b&gt;clfSendFenceWithEngine(cmdBuffer_PTR cmdBuffer, uint64_t data, devAddress_t dstAddress, int32_t engine)&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;// data 就是expectedVal,&amp;nbsp; &lt;br&gt;// dstAddress是GPU看到的halFence_PTR地址&lt;br&gt;// engine ??&lt;/span&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="QSAenKkpdjQW8zQk9t1L-62" vertex="1">
           <mxGeometry y="26" width="690" height="74" as="geometry" />
