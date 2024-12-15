@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="4204" dy="7926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3091" dy="7337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -953,7 +953,7 @@
         <mxCell id="XHSnjxVOCnQZ8cdE8w61-87" value="Link" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="1170" y="-3450" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-96" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-92" target="XHSnjxVOCnQZ8cdE8w61-85" edge="1">
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-96" value="添加Wait Link" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-92" target="XHSnjxVOCnQZ8cdE8w61-85" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-70" y="-3490" as="sourcePoint" />
             <mxPoint x="30" y="-3490" as="targetPoint" />
@@ -1323,7 +1323,7 @@
             <mxPoint x="-49" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-89" value="跳过 select pipe" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-11" target="RsXz8Ytodcc2n_-1sCKY-21" edge="1">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-89" value="跳过 select pipe的示例" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-11" target="RsXz8Ytodcc2n_-1sCKY-21" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="6440" y="-1230" as="sourcePoint" />
             <mxPoint x="9350" y="-2020" as="targetPoint" />
