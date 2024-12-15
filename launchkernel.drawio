@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-84" value="&lt;span style=&quot;text-align: left;&quot;&gt;Start Address: 55AD 21F6 3900&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5880" y="-1380" width="100" height="50" as="geometry" />
+          <mxGeometry x="5880" y="-1420" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qWvV4iFXAZPfeYybYjg1-6" value="gc_hal_kernel_hardware_waitlink_fe.c&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckWLFE_Link(hardware, Logical, FetchAddress, FetchSize, Bytes, Low, High)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; address = FetchAddress&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //CommandBuffer 算是offset的Device地址&lt;br&gt;&amp;nbsp; &amp;nbsp; High = FetchAddress&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bytes = align(FetchAddress + FetchSize, 64) - FetchAddress //CommandBuffer 有效的大小&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (Hardware-&amp;gt;graphicsLargeVA) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gckOS_WriteMemory(os, logical + 1, 0)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt;// OPCODE先清零(配置好 cmd再设置 OPCODE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gckOS_WriteMemory(os, logical + 2，address)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt;// 低32位&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gckOS_WriteMemory(os, logical + 3 , FetchAddress &amp;gt;&amp;gt; 32);&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt;// 高32位&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link = ... //设置link为 LINK64 并且PREFETCH大小为bytes&amp;gt;&amp;gt;3 &lt;font color=&quot;#ff3333&quot;&gt;// 配置link的 opcode&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gckOS_WriteMemory(os, logical, link)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt;// 设置CMD的 OPCODE, Prefetch&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Low = link&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="10350" y="-1800" width="720" height="290" as="geometry" />
@@ -455,22 +455,22 @@
           <mxGeometry x="2940" y="-1310" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-4" value="ResvHead&amp;nbsp;32" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="5995" y="-1330" width="360" height="80" as="geometry" />
+          <mxGeometry x="5995" y="-1370" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-5" value="StartOffset&lt;br&gt;256" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5880" y="-1330" width="115" height="80" as="geometry" />
+          <mxGeometry x="5880" y="-1370" width="115" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-6" value="832" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" parent="1" vertex="1">
-          <mxGeometry x="6355" y="-1330" width="410" height="80" as="geometry" />
+          <mxGeometry x="6355" y="-1370" width="410" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-7" value="User Commands&lt;br&gt;648 (162*4)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="6355" y="-1290" width="260" height="40" as="geometry" />
+          <mxGeometry x="6355" y="-1330" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-8" value="ResvTail&lt;br&gt;128-&amp;gt;152" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="6615" y="-1290" width="130" height="40" as="geometry" />
+          <mxGeometry x="6615" y="-1330" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-9" value="Command Buffer&lt;br&gt;Next" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="6765" y="-1330" width="130" height="80" as="geometry" />
+          <mxGeometry x="6765" y="-1370" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-10" value="Context Switch" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7790" y="-1838" width="740" height="538" as="geometry" />
@@ -491,16 +491,16 @@
           <mxGeometry y="290" width="740" height="8" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-20" value="LoadState&lt;div&gt;flush, Sema&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="5995" y="-1300" width="90" height="50" as="geometry" />
+          <mxGeometry x="5995" y="-1340" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-21" value="STALL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="6175" y="-1300" width="90" height="50" as="geometry" />
+          <mxGeometry x="6175" y="-1340" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-22" value="LoadState&lt;br&gt;PipeSel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="6265" y="-1300" width="90" height="50" as="geometry" />
+          <mxGeometry x="6265" y="-1340" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-23" value="LoadState&lt;div&gt;Semaphore&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="6085" y="-1300" width="90" height="50" as="geometry" />
+          <mxGeometry x="6085" y="-1340" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-24" value="ResvHead&amp;nbsp;32" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="5990" y="-960" width="360" height="120" as="geometry" />
