@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="5265" dy="8468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3737" dy="7667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -490,16 +490,16 @@
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HmzNs-rwB6UDGuZFhDU5-16" vertex="1">
           <mxGeometry y="290" width="740" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-20" value="LoadState&lt;div&gt;flush, Sema&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-20" value="LoadState&lt;div&gt;flush, Sema&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="5995" y="-1300" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-21" value="STALL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-21" value="STALL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="6175" y="-1300" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-22" value="LoadState&lt;br&gt;PipeSel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-22" value="LoadState&lt;br&gt;PipeSel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="6265" y="-1300" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-23" value="LoadState&lt;div&gt;Semaphore&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-23" value="LoadState&lt;div&gt;Semaphore&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="6085" y="-1300" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-24" value="ResvHead&amp;nbsp;32" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
@@ -556,7 +556,7 @@
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-39" value="Link" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="6110" y="-1160" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-39" target="HmzNs-rwB6UDGuZFhDU5-38" edge="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-39" target="HmzNs-rwB6UDGuZFhDU5-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="6130" y="-1180" as="sourcePoint" />
             <mxPoint x="6180" y="-1230" as="targetPoint" />
@@ -572,16 +572,16 @@
             <mxPoint x="5755" y="-829" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-52" value="LoadState&lt;br&gt;fenceHiAddr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-52" value="LoadState&lt;br&gt;fenceHiAddr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="6610" y="-900" width="75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-53" value="LoadState&lt;br&gt;fenceAddr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-53" value="LoadState&lt;br&gt;fenceAddr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="6685" y="-900" width="75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-54" value="LoadState&lt;br&gt;fenceDataH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-54" value="LoadState&lt;br&gt;fenceDataH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="6760" y="-900" width="75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-55" value="LoadState&lt;br&gt;fenceDataL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-55" value="LoadState&lt;br&gt;fenceDataL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="6835" y="-900" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-56" value="ResvHead&amp;nbsp;32" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
@@ -632,7 +632,7 @@
             <mxPoint x="5750" y="-950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-71" value="LINK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-71" value="LINK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="6910" y="-710" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-71" target="HmzNs-rwB6UDGuZFhDU5-38" edge="1">
@@ -683,7 +683,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-80" value="LINK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-80" value="LINK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="5910" y="-530" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=5;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-80" target="HmzNs-rwB6UDGuZFhDU5-62" edge="1">
