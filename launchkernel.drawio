@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="5277" dy="8494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4204" dy="7926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -553,13 +553,13 @@
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-35" value="offset&amp;nbsp;&lt;br&gt;144" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="6640" y="-1270" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-36" value="switch pipe" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.496;exitY=0.319;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-18" target="HmzNs-rwB6UDGuZFhDU5-5" edge="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-36" value="添加Select Pipe 如果需要" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.496;exitY=0.319;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-18" target="HmzNs-rwB6UDGuZFhDU5-5" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="5420" y="-2017" as="sourcePoint" />
             <mxPoint x="5482" y="-2197" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-37" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-13" target="HmzNs-rwB6UDGuZFhDU5-35" edge="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-37" value="添加 Wait Link" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-13" target="HmzNs-rwB6UDGuZFhDU5-35" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="6460" y="-1457" as="sourcePoint" />
             <mxPoint x="6570" y="-1139" as="targetPoint" />
@@ -582,7 +582,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-51" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-25" target="HmzNs-rwB6UDGuZFhDU5-25" edge="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-51" value="添加 Fence commitStamp" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-25" target="HmzNs-rwB6UDGuZFhDU5-25" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="6462.730000000001" y="-1379.7800000000002" as="sourcePoint" />
             <mxPoint x="6555" y="-876" as="targetPoint" />
@@ -642,7 +642,7 @@
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-69" value="LoadState&lt;br&gt;fenceDataL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7640" y="-820" width="75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-70" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-6" target="HmzNs-rwB6UDGuZFhDU5-57" edge="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-70" value="添加 Link 到 CommandQueue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-6" target="HmzNs-rwB6UDGuZFhDU5-57" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="6461.8200000000015" y="-1328.9600000000003" as="sourcePoint" />
             <mxPoint x="6550" y="-997" as="targetPoint" />
@@ -673,7 +673,7 @@
         <mxCell id="HmzNs-rwB6UDGuZFhDU5-76" value="Link" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="6905" y="-682" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HmzNs-rwB6UDGuZFhDU5-77" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-11" target="HmzNs-rwB6UDGuZFhDU5-74" edge="1">
+        <mxCell id="HmzNs-rwB6UDGuZFhDU5-77" value="添加Link 到 Command Buffer Start" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-11" target="HmzNs-rwB6UDGuZFhDU5-74" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="6458.18" y="-1272.2000000000003" as="sourcePoint" />
             <mxPoint x="6690" y="-807" as="targetPoint" />
@@ -746,7 +746,7 @@
             <mxPoint x="-49" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XHSnjxVOCnQZ8cdE8w61-26" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-2" target="HmzNs-rwB6UDGuZFhDU5-16" edge="1">
+        <mxCell id="XHSnjxVOCnQZ8cdE8w61-26" value="没有 Context的情况" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-2" target="HmzNs-rwB6UDGuZFhDU5-16" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="6470" y="-1080" as="sourcePoint" />
             <mxPoint x="6650" y="-1197" as="targetPoint" />
@@ -1080,10 +1080,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-34" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-2" target="HmzNs-rwB6UDGuZFhDU5-10" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-34" value="切换Context的情况" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-2" target="HmzNs-rwB6UDGuZFhDU5-10" edge="1">
+          <mxGeometry x="0.885" y="20" width="80" relative="1" as="geometry">
             <mxPoint x="6490" y="-1250" as="sourcePoint" />
             <mxPoint x="8240" y="-1600" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RsXz8Ytodcc2n_-1sCKY-35" value="Command Queue" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
@@ -1111,18 +1112,20 @@
         <mxCell id="RsXz8Ytodcc2n_-1sCKY-40" value="Start Address&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;556B E146 5800&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="9475" y="-1160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-41" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-13" target="RsXz8Ytodcc2n_-1sCKY-40" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-41" value="添加 Wait Link" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-13" target="RsXz8Ytodcc2n_-1sCKY-40" edge="1">
+          <mxGeometry x="0.6947" y="11" width="80" relative="1" as="geometry">
             <mxPoint x="6460" y="-1090" as="sourcePoint" />
             <mxPoint x="8570" y="-1200" as="targetPoint" />
             <Array as="points" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-42" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-25" target="RsXz8Ytodcc2n_-1sCKY-44" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-42" value="添加 Fence commitStamp" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-25" target="RsXz8Ytodcc2n_-1sCKY-44" edge="1">
+          <mxGeometry x="0.6294" y="11" width="80" relative="1" as="geometry">
             <mxPoint x="6430" y="-850" as="sourcePoint" />
             <mxPoint x="9560" y="-920" as="targetPoint" />
             <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RsXz8Ytodcc2n_-1sCKY-43" value="ResvHead&amp;nbsp;32" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
@@ -1222,11 +1225,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-73" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-6" target="RsXz8Ytodcc2n_-1sCKY-58" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-73" value="添加 Link 到 CommandQueue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-6" target="RsXz8Ytodcc2n_-1sCKY-58" edge="1">
+          <mxGeometry x="0.7317" y="-5" width="80" relative="1" as="geometry">
             <mxPoint x="6440" y="-902" as="sourcePoint" />
             <mxPoint x="9570" y="-910" as="targetPoint" />
             <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RsXz8Ytodcc2n_-1sCKY-74" value="Command Queue" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
@@ -1264,11 +1268,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-81" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-11" target="RsXz8Ytodcc2n_-1sCKY-79" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-81" value="添加Link 到 Command Buffer Start" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XHSnjxVOCnQZ8cdE8w61-11" target="RsXz8Ytodcc2n_-1sCKY-79" edge="1">
+          <mxGeometry x="0.7631" y="28" width="80" relative="1" as="geometry">
             <mxPoint x="6440" y="-722" as="sourcePoint" />
             <mxPoint x="9570" y="-687" as="targetPoint" />
             <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RsXz8Ytodcc2n_-1sCKY-83" value="LINK&lt;br&gt;556B E146 5870" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
@@ -1318,7 +1323,7 @@
             <mxPoint x="-49" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-89" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-11" target="RsXz8Ytodcc2n_-1sCKY-21" edge="1">
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-89" value="跳过 select pipe" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HmzNs-rwB6UDGuZFhDU5-11" target="RsXz8Ytodcc2n_-1sCKY-21" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="6440" y="-1230" as="sourcePoint" />
             <mxPoint x="9350" y="-2020" as="targetPoint" />
