@@ -1436,7 +1436,7 @@
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-7" value="LINK&lt;br&gt;556B E146 5870" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6040" y="1240" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qIvAuGTGZv5WA7IhcWgH-8" value="Event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-8" value="Event" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="6385" y="1210" width="105" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-15" value="添加 WAIT LINK" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UbzL_sldVN1qwGkXepIT-20" target="qIvAuGTGZv5WA7IhcWgH-2">
@@ -1471,7 +1471,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-20" value="Command/Context Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5880" y="990" width="120" height="50" as="geometry" />
+          <mxGeometry x="5860" y="990" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;fillColor=#60a917;strokeColor=#000000;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1483,7 +1483,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-23" value="Command/Context Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5880" y="1300" width="120" height="50" as="geometry" />
+          <mxGeometry x="5860" y="1300" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
