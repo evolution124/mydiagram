@@ -1451,7 +1451,7 @@
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-103">
           <mxGeometry y="52" width="650" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="qIvAuGTGZv5WA7IhcWgH-106" value="switch(Notification)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-103">
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-106" value="switch(Notification)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;case gcvNOTIFY_INTERRUPT:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gckHARDWARE_Notify(Kernel-&amp;gt;hardware)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-103">
           <mxGeometry y="60" width="650" height="310" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-107" value="Dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qIvAuGTGZv5WA7IhcWgH-98" target="qIvAuGTGZv5WA7IhcWgH-103">
