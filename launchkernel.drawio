@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="5312" dy="8952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3958" dy="8070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1627,6 +1627,24 @@
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-65" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;新的 Command-&amp;gt;offset&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="qIvAuGTGZv5WA7IhcWgH-64">
           <mxGeometry x="-0.0742" y="5" relative="1" as="geometry">
             <mxPoint x="-168" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-66" value="gc_hal_kernel_context.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9550" y="-2310" width="460" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-67" value="&lt;b&gt;gckCONTEXT_Update(Context, ProcessID, StateDelta)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-66">
+          <mxGeometry y="26" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-66">
+          <mxGeometry y="52" width="460" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-69" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-66">
+          <mxGeometry y="60" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-71" value="没有 Context的情况" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.002;exitY=0.09;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HmzNs-rwB6UDGuZFhDU5-11" target="qIvAuGTGZv5WA7IhcWgH-66">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="8580" y="-2600" as="sourcePoint" />
+            <mxPoint x="8840" y="-3400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
