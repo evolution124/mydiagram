@@ -1403,8 +1403,14 @@
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-82">
           <mxGeometry y="52" width="600" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="qIvAuGTGZv5WA7IhcWgH-85" value="&lt;div&gt;gckEVENT_AddListEX(Event, Interface, FromWhere, AllocateAllowed, FromKernel, 0)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-82">
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-85" value="&lt;div&gt;gckEVENT_AddListEX(Event, Interface, FromWhere, AllocateAllowed, FromKernel, 0)&lt;/div&gt;&lt;div&gt;--&amp;gt;//从Event-&amp;gt;freeEventList 取出一个gcsEVENT_PTR, 这里Allocate是true, 所以freeCount 不够了可以&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckEVENT_AllocateRecord&lt;/b&gt;(Event, AllocateAllowed, &amp;amp;record)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-82">
           <mxGeometry y="60" width="600" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-86" value="Dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.004;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qIvAuGTGZv5WA7IhcWgH-69" target="qIvAuGTGZv5WA7IhcWgH-82">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10550" y="-1932" as="sourcePoint" />
+            <mxPoint x="10800" y="-2310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
