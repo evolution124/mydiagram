@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="3958" dy="8070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4710" dy="8560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1647,7 +1647,7 @@
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-69" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qIvAuGTGZv5WA7IhcWgH-66">
           <mxGeometry y="60" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qIvAuGTGZv5WA7IhcWgH-71" value="没有 Context的情况" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HmzNs-rwB6UDGuZFhDU5-11" target="qIvAuGTGZv5WA7IhcWgH-66">
+        <mxCell id="qIvAuGTGZv5WA7IhcWgH-71" value="Dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HmzNs-rwB6UDGuZFhDU5-11" target="qIvAuGTGZv5WA7IhcWgH-66">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="8700" y="-2590" as="sourcePoint" />
             <mxPoint x="8960" y="-3390" as="targetPoint" />
