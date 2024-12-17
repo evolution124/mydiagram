@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="9GhINJhexpfvpIPdTT9F">
-    <mxGraphModel dx="23880" dy="11627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="34970" dy="15790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2H-CIvwVkbPeOZOdjZ8d-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; KMD Interrupt: signal context buffer available&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="14030" y="-3020" width="3480" height="5350" as="geometry" />
+        <mxCell id="2H-CIvwVkbPeOZOdjZ8d-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; KMD Interrupt: signal context buffer available&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="12970" y="-3020" width="3480" height="5350" as="geometry" />
         </mxCell>
-        <mxCell id="RsXz8Ytodcc2n_-1sCKY-11" value="&lt;div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; KMD launchKernel&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="2310" y="-3020" width="11580" height="5350" as="geometry" />
+        <mxCell id="RsXz8Ytodcc2n_-1sCKY-11" value="&lt;div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; KMD launchKernel&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="2310" y="-3020" width="10460" height="5350" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-89" value="&lt;div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; Context 切换流程&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="9570" y="-2800" width="3100" height="2790" as="geometry" />
@@ -23,13 +23,13 @@
           <mxGeometry x="7413.99" y="-1630" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qWvV4iFXAZPfeYybYjg1-6" value="gc_hal_kernel_hardware_waitlink_fe.c&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckWLFE_Link(hardware, Logical, FetchAddress, FetchSize, Bytes, Low, High)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; address = FetchAddress&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //CommandBuffer 算是offset的Device地址&lt;br&gt;&amp;nbsp; &amp;nbsp; High = FetchAddress&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bytes = align(FetchAddress + FetchSize, 64) - FetchAddress //CommandBuffer 有效的大小&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (Hardware-&amp;gt;graphicsLargeVA) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gckOS_WriteMemory(os, logical + 1, 0)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt;// OPCODE先清零(配置好 cmd再设置 OPCODE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gckOS_WriteMemory(os, logical + 2，address)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt;// 低32位&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gckOS_WriteMemory(os, logical + 3 , FetchAddress &amp;gt;&amp;gt; 32);&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt;// 高32位&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;link = ... //设置link为 LINK64 并且PREFETCH大小为bytes&amp;gt;&amp;gt;3 &lt;font color=&quot;#ff3333&quot;&gt;// 配置link的 opcode&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gckOS_WriteMemory(os, logical, link)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font color=&quot;#ff3333&quot;&gt;// 设置CMD的 OPCODE, Prefetch&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Low = link&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="12950" y="-2510" width="720" height="290" as="geometry" />
+          <mxGeometry x="8560" y="430" width="720" height="290" as="geometry" />
         </mxCell>
         <mxCell id="qWvV4iFXAZPfeYybYjg1-8" value="gc_hal_kernel_hardware_waitlink_fe.c&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckWLFE_WaitLink(hardware, Logical, Address, Offset, Bytes, WaitOffset, WaitSize)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; hw-&amp;gt;lastWaitLink = Address //保存 WAIT/LINK的地址&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; opLogical = Logical;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ff3333&quot;&gt;//设置WAIT命令&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; *opLogical++ = ... // WAIT64 与 hw-&amp;gt;waitCount;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; opLogical++&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ff3333&quot;&gt;//设置LINK命令, 当前LINK到 WAIT命令, 形成LOOP&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; *opLogical++ = ...// LINK64 与 PREFETCH&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; *opLogical = Address;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WaitOffset = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; WaitSize = waitSize;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Bytes = bytes;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="12950" y="-2110" width="720" height="260" as="geometry" />
+          <mxGeometry x="9390" y="445" width="720" height="260" as="geometry" />
         </mxCell>
         <mxCell id="qWvV4iFXAZPfeYybYjg1-10" value="gc_hal_kernel_hardware.c&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckHARDWARE_Fence(hardware, Engine, Logical, FenceAddress, FenceData, Bytes)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; if (Engine == gcvENGINE_RENDER)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; _FenceRender(hw, Logical, FenceAddress, FenceData, Bytes)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt; dataLow = FenceData&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; dataHigh = FenceData &amp;gt;&amp;gt; 32&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (logical) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcmkWRITE_MEMORY(logical, LOAD_STATE....)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//设置 E75 gcregFenceAddressHiRegAddrs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcmkWRITE_MEMORY(logical, FenceAddress &amp;gt;&amp;gt; 32); //设置Fence State 地址高32bit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcmkWRITE_MEMORY(logical, LOAD_STATE...) //设置 E1A gcregFenceAddressRegAddrs&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcmkWRITE_MEMORY(logical, fenceAddress)&amp;nbsp; &amp;nbsp; &amp;nbsp;//设置 fence低32位&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcmkWRITE_MEMORY(logical, LOAD_STATE...)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//设置 E26 gcregFenceDataHighRegAddrs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcmkWRITE_MEMORY(logical, dataHigh)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcmkWRITE_MEMORY(logical, LOAD_STATE...)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//设置 E1B gcregFenceDataRegAddrs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcmkWRITE_MEMORY(logical, dataLow)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Bytes = gcdRENDER_FENCE_LENGTH+8&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;align=left;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="12950" y="-1749" width="720" height="360" as="geometry" />
+          <mxGeometry x="10310" y="430" width="720" height="360" as="geometry" />
         </mxCell>
         <mxCell id="QSAenKkpdjQW8zQk9t1L-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;drv_api.cpp&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1230" y="-1960" width="630" height="606" as="geometry" />
@@ -1393,8 +1393,8 @@
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-80" value="Dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qIvAuGTGZv5WA7IhcWgH-97" target="qIvAuGTGZv5WA7IhcWgH-99" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="14590" y="-1890" as="sourcePoint" />
-            <mxPoint x="10540" y="-1910" as="targetPoint" />
+            <mxPoint x="13530" y="-1890" as="sourcePoint" />
+            <mxPoint x="9480" y="-1910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-82" value="gc_hal_kernel_event.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1416,7 +1416,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-94" value="&lt;div&gt;gc_hal_kernel_emulator.cpp&lt;/div&gt;&lt;div&gt;&lt;br style=&quot;font-weight: 400; text-align: left;&quot;&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="14210" y="-2050" width="610" height="180" as="geometry" />
+          <mxGeometry x="13150" y="-2050" width="610" height="180" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-95" value="&lt;b&gt;InterruptThread(void *)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qIvAuGTGZv5WA7IhcWgH-94" vertex="1">
           <mxGeometry y="26" width="610" height="26" as="geometry" />
@@ -1431,7 +1431,7 @@
           <mxGeometry y="140" width="610" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-99" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="15000" y="-2120" width="650" height="160" as="geometry" />
+          <mxGeometry x="13940" y="-2120" width="650" height="160" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-100" value="&lt;b&gt;gckHARDWARE_Interrupt(hw)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qIvAuGTGZv5WA7IhcWgH-99" vertex="1">
           <mxGeometry y="26" width="650" height="26" as="geometry" />
@@ -1443,7 +1443,7 @@
           <mxGeometry y="60" width="650" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-103" value="gc_hal_kernel_kernel.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="15000" y="-1840" width="650" height="120" as="geometry" />
+          <mxGeometry x="13940" y="-1840" width="650" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-104" value="&lt;b&gt;gckKERNEL_Notify(Kernel, Notification)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qIvAuGTGZv5WA7IhcWgH-103" vertex="1">
           <mxGeometry y="26" width="650" height="26" as="geometry" />
@@ -1456,12 +1456,12 @@
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-107" value="Dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qIvAuGTGZv5WA7IhcWgH-98" target="qIvAuGTGZv5WA7IhcWgH-103" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="14830" y="-1940" as="sourcePoint" />
-            <mxPoint x="15010" y="-2110" as="targetPoint" />
+            <mxPoint x="13770" y="-1940" as="sourcePoint" />
+            <mxPoint x="13950" y="-2110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-108" value="gc_hal_kernel_kernel.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="15000" y="-1642" width="650" height="150" as="geometry" />
+          <mxGeometry x="13940" y="-1642" width="650" height="150" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-109" value="&lt;b style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;gckHARDWARE_Notify(hw)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qIvAuGTGZv5WA7IhcWgH-108" vertex="1">
           <mxGeometry y="26" width="650" height="26" as="geometry" />
@@ -1474,12 +1474,12 @@
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-112" value="Dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.501;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="qIvAuGTGZv5WA7IhcWgH-106" target="qIvAuGTGZv5WA7IhcWgH-108" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="14830" y="-1880" as="sourcePoint" />
-            <mxPoint x="15010" y="-1830" as="targetPoint" />
+            <mxPoint x="13770" y="-1880" as="sourcePoint" />
+            <mxPoint x="13950" y="-1830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-113" value="gc_hal_kernel_event.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="15770" y="-1540" width="650" height="930" as="geometry" />
+          <mxGeometry x="14710" y="-1540" width="650" height="930" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-114" value="&lt;b&gt;gckEVENT_Notify&lt;/b&gt;(Event, IDs, *Fault)&lt;div&gt;处理所有已经触发的中断&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qIvAuGTGZv5WA7IhcWgH-113" vertex="1">
           <mxGeometry y="26" width="650" height="44" as="geometry" />
@@ -1492,12 +1492,12 @@
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-117" value="Dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qIvAuGTGZv5WA7IhcWgH-111" target="qIvAuGTGZv5WA7IhcWgH-113" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="15336" y="-1710" as="sourcePoint" />
-            <mxPoint x="15335" y="-1632" as="targetPoint" />
+            <mxPoint x="14276" y="-1710" as="sourcePoint" />
+            <mxPoint x="14275" y="-1632" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-118" value="gc_hal_kernel_sync.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="16550" y="-730" width="620" height="230" as="geometry" />
+          <mxGeometry x="15490" y="-730" width="620" height="230" as="geometry" />
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-119" value="&lt;b&gt;gckOS_Signal(os, Signal, State)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qIvAuGTGZv5WA7IhcWgH-118" vertex="1">
           <mxGeometry y="26" width="620" height="26" as="geometry" />
@@ -1510,8 +1510,8 @@
         </mxCell>
         <mxCell id="qIvAuGTGZv5WA7IhcWgH-122" value="Dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.005;exitY=0.861;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="qIvAuGTGZv5WA7IhcWgH-116" target="qIvAuGTGZv5WA7IhcWgH-118" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="15660" y="-1527" as="sourcePoint" />
-            <mxPoint x="15780" y="-1530" as="targetPoint" />
+            <mxPoint x="14600" y="-1527" as="sourcePoint" />
+            <mxPoint x="14720" y="-1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2H-CIvwVkbPeOZOdjZ8d-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;fillColor=#60a917;strokeColor=#000000;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RsXz8Ytodcc2n_-1sCKY-32" target="RsXz8Ytodcc2n_-1sCKY-60">
