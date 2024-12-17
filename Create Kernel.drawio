@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="yETsX5YmY6TTT-2X_jpd">
-    <mxGraphModel dx="2393" dy="7009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3431" dy="7623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry y="60" width="770" height="770" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-5" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1300" y="-4890" width="510" height="460" as="geometry" />
+          <mxGeometry x="-1300" y="-4890" width="510" height="578" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-6" value="&lt;b&gt;gckKERNEL_Construct(Os, Core, ChipID, Context, Device, SharedDB, *Kernel)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="f4m65Yiiwl_Fc4j-fUvb-5" vertex="1">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -31,29 +31,29 @@
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-10" value="&lt;b&gt;gckOS_Allocate&lt;/b&gt;(...) //分配KERNEL struct 内存" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=2;dashed=1;" vertex="1" parent="f4m65Yiiwl_Fc4j-fUvb-5">
           <mxGeometry y="60" width="510" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-18" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="f4m65Yiiwl_Fc4j-fUvb-5">
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-14" value="&lt;b&gt;gckHARDWARE_Construct&lt;/b&gt;(Os, kernel, &amp;amp;kernel-&amp;gt;hardware)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="f4m65Yiiwl_Fc4j-fUvb-5">
           <mxGeometry y="140" width="510" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-14" value="&lt;b&gt;gckHARDWARE_Construct&lt;/b&gt;(Os, kernel, &amp;amp;kernel-&amp;gt;hardware)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="f4m65Yiiwl_Fc4j-fUvb-5">
-          <mxGeometry y="166" width="510" height="26" as="geometry" />
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-18" value="if (kernel-&amp;gt;sharedPageTable) {&lt;br&gt;&amp;nbsp; &amp;nbsp; gckDEVICE_GetMMU(..., &amp;amp;kernel-&amp;gt;mmu)&lt;br&gt;&amp;nbsp; &amp;nbsp; if (!kernel-&amp;gt;mmu) {&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;gckMMU_Construct&lt;/b&gt;(kernel, &amp;amp;kernel-&amp;gt;mmu)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;gckDEVICE_SetMMU&lt;/b&gt;(Device, kernel-&amp;gt;hardware-&amp;gt;type, kernel-&amp;gt;mmu)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;&lt;b&gt;_QuerySRAM&lt;/b&gt;(kernel, kernel-&amp;gt;device)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" vertex="1" parent="f4m65Yiiwl_Fc4j-fUvb-5">
+          <mxGeometry y="166" width="510" height="144" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-9" value="&lt;b&gt;gckCOMMAND_Construct&lt;/b&gt;(kernel, feType, &amp;amp;kernel-&amp;gt;command)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="f4m65Yiiwl_Fc4j-fUvb-5" vertex="1">
-          <mxGeometry y="192" width="510" height="26" as="geometry" />
+          <mxGeometry y="310" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-10" value="&lt;b&gt;gckEVENT_Construct&lt;/b&gt;(kernel, kernel-&amp;gt;asyncCommand, &amp;amp;kernel-&amp;gt;asyncEvent)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="f4m65Yiiwl_Fc4j-fUvb-5" vertex="1">
-          <mxGeometry y="218" width="510" height="26" as="geometry" />
+          <mxGeometry y="336" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-12" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//设置MMU 相关&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckHARDWARE_PostConstruct&lt;/b&gt;(kernel-&amp;gt;hardware)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="f4m65Yiiwl_Fc4j-fUvb-5" vertex="1">
-          <mxGeometry y="244" width="510" height="46" as="geometry" />
+          <mxGeometry y="362" width="510" height="46" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-13" value="&lt;b&gt;gckHARDWARE_InitializeHardware&lt;/b&gt;(kernel-&amp;gt;hardware)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="f4m65Yiiwl_Fc4j-fUvb-5" vertex="1">
-          <mxGeometry y="290" width="510" height="26" as="geometry" />
+          <mxGeometry y="408" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-14" value="if (kernel-&amp;gt;command) &lt;b&gt;gckCOMMAND_Start&lt;/b&gt;(kernel-&amp;gt;command)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="f4m65Yiiwl_Fc4j-fUvb-5" vertex="1">
-          <mxGeometry y="316" width="510" height="26" as="geometry" />
+          <mxGeometry y="434" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-15" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//和profiler 相关的设置&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;kernel-&amp;gt;profiler.profilerEnable = false&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;....&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;gckOS_CreateTimer(..., &amp;amp;kernel-&amp;gt;monitorTimer)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;gckOS_StartTimer(... kernel-&amp;gt;monitorTimer, 100)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;if (kernel-&amp;gt;processPageTable) { ..}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="f4m65Yiiwl_Fc4j-fUvb-5" vertex="1">
-          <mxGeometry y="342" width="510" height="118" as="geometry" />
+          <mxGeometry y="460" width="510" height="118" as="geometry" />
         </mxCell>
         <mxCell id="f4m65Yiiwl_Fc4j-fUvb-16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="f4m65Yiiwl_Fc4j-fUvb-9" target="f4m65Yiiwl_Fc4j-fUvb-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
