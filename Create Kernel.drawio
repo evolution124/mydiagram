@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="yETsX5YmY6TTT-2X_jpd">
-    <mxGraphModel dx="6270" dy="7793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5260" dy="7197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -305,7 +305,7 @@
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-33" value="gc_hal_kernel_driver.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3940" y="-5460" width="400" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-34" value="&lt;b&gt;viv_dev_probe(platform_device *pdev)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-33">
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-34" value="&lt;b&gt;viv_dev_probe(platform_device *pdev)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-33">
           <mxGeometry y="26" width="400" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-33">
@@ -321,16 +321,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-38" value="gc_hal_kernel_driver.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3440" y="-5246" width="670" height="86" as="geometry" />
+          <mxGeometry x="-3440" y="-5246" width="670" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-39" value="&lt;b&gt;drv_init()&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-38">
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-39" value="&lt;b&gt;drv_init()&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-38">
           <mxGeometry y="26" width="670" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-38">
           <mxGeometry y="52" width="670" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-41" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-38">
-          <mxGeometry y="60" width="670" height="26" as="geometry" />
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-41" value="&lt;b&gt;gckGALDEVICE_Construct&lt;/b&gt;(platform, &amp;amp;platform-&amp;gt;params, &amp;amp;device)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-38">
+          <mxGeometry y="60" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-46" value="&lt;b&gt;gckGALDEVICE_Start&lt;/b&gt;(device)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-38">
+          <mxGeometry y="90" width="670" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-45" value="&lt;b&gt;galDevice &lt;/b&gt;= device&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for (dev_idx = 0; dev_idx &amp;lt; device-&amp;gt;args.devCount; dev_idx++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (type == 1)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; viv_misc_device_node_create(dev_idx)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; else&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; viv_char_device_node_create(dev_idx)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-38">
+          <mxGeometry y="116" width="670" height="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
