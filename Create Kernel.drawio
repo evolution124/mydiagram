@@ -555,9 +555,10 @@
           <mxGeometry y="60" width="630" height="280" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-159" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQCZ_1Nqt_RRfZDzMszY-148" target="GQCZ_1Nqt_RRfZDzMszY-155">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="0.0404" y="2" width="80" relative="1" as="geometry">
             <mxPoint x="-3990" y="-3708" as="sourcePoint" />
             <mxPoint x="-3700" y="-3901" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
