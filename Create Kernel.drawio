@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="yETsX5YmY6TTT-2X_jpd">
-    <mxGraphModel dx="6920" dy="8273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="9413" dy="9746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -282,7 +282,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-25" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="-4990" width="510" height="194" as="geometry" />
+          <mxGeometry x="-860" y="-4960" width="510" height="194" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-26" value="&lt;b&gt;gckDEVICE_AddCore(Device, Core, ChipID, Context, *Kernel)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-25">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -417,7 +417,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-75" value="Address Spaces" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3300" y="-6020" width="420" height="260" as="geometry" />
+          <mxGeometry x="-3090" y="-7010" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-76" value="Device" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-75">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
