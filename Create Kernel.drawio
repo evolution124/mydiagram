@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="yETsX5YmY6TTT-2X_jpd">
-    <mxGraphModel dx="14030" dy="12473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7162" dy="8416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -489,7 +489,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-122" value="gc_hal_kernel_driver.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4680" y="-3861" width="680" height="400" as="geometry" />
+          <mxGeometry x="-4680" y="-3861" width="680" height="420" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-123" value="&lt;b&gt;gckGALDEVICE_Start(device)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-122">
           <mxGeometry y="26" width="680" height="26" as="geometry" />
@@ -509,14 +509,14 @@
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-147" value="&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;&lt;b&gt;gckMMU_ConstructMmuCopy&lt;/b&gt;(kernel, &amp;amp;kernel-&amp;gt;mmuCopy)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-122">
           <mxGeometry y="280" width="680" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-148" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;b&gt;_SetupIsr&lt;/b&gt;(device, i)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-122">
-          <mxGeometry y="306" width="680" height="24" as="geometry" />
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-148" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//设置 ISR&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;b&gt;_SetupIsr&lt;/b&gt;(device, i)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-122">
+          <mxGeometry y="306" width="680" height="44" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-153" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;&lt;b&gt;gckHARDEARE_SetPowerState&lt;/b&gt;(kernel-&amp;gt;hardware, gcvPOWER_OFF_BROADCAST)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-122">
-          <mxGeometry y="330" width="680" height="26" as="geometry" />
+          <mxGeometry y="350" width="680" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-154" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-122">
-          <mxGeometry y="356" width="680" height="44" as="geometry" />
+          <mxGeometry y="376" width="680" height="44" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-126" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQCZ_1Nqt_RRfZDzMszY-46" target="GQCZ_1Nqt_RRfZDzMszY-122">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -525,16 +525,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-128" value="gc_hal_kernel_device.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3710" y="-3911" width="590" height="180" as="geometry" />
+          <mxGeometry x="-3710" y="-3911" width="630" height="180" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-129" value="&lt;b&gt;_StartThread(Device, Core)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-128">
-          <mxGeometry y="26" width="590" height="26" as="geometry" />
+          <mxGeometry y="26" width="630" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-130" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-128">
-          <mxGeometry y="52" width="590" height="8" as="geometry" />
+          <mxGeometry y="52" width="630" height="8" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-131" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;b&gt;kthread_run&lt;/b&gt;(&lt;b&gt;threadRoutine&lt;/b&gt;, device-&amp;gt;kernels[Core], &quot;galcore_deamon/%d-%d&quot;, Device-&amp;gt;id, Core)&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;device-&amp;gt;threadCtxts[Core] = task&lt;/div&gt;&lt;div&gt;device-&amp;gt;threadInitializeds[Core] = true&lt;/div&gt;&lt;div&gt;device-&amp;gt;kernels[Core]-&amp;gt;threadInitialized = true&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;set_user_nice&lt;/b&gt;(task, -20)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-128">
-          <mxGeometry y="60" width="590" height="120" as="geometry" />
+          <mxGeometry y="60" width="630" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-132" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQCZ_1Nqt_RRfZDzMszY-139" target="GQCZ_1Nqt_RRfZDzMszY-128">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -542,17 +542,23 @@
             <mxPoint x="-4670" y="-3851" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-149" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4910" y="-3690" width="160" height="86" as="geometry" />
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-155" value="gc_hal_kernel_device.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3710" y="-3658" width="630" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-150" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-149">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-156" value="&lt;b&gt;_SetupIsr(Device, Core)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-155">
+          <mxGeometry y="26" width="630" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-151" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-149">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-157" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-155">
+          <mxGeometry y="52" width="630" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-152" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-149">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-158" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//一般都是关闭polling&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckOS_QueryOption&lt;/b&gt;(os, &quot;isrPoll&quot;, &amp;amp;isrPolling)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (isrPolling) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;handler = &lt;b&gt;isrRoutine&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;request_irq&lt;/b&gt;(Device-&amp;gt;irqLines[Core], handler, gcdIRQF_FLAG, isrNames[Core], Device-&amp;gt;kernels[Core])&lt;br&gt;&lt;br&gt;Device-&amp;gt;isrInitializeds[Core] = true&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-155">
+          <mxGeometry y="60" width="630" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-159" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GQCZ_1Nqt_RRfZDzMszY-148" target="GQCZ_1Nqt_RRfZDzMszY-155">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-3990" y="-3708" as="sourcePoint" />
+            <mxPoint x="-3700" y="-3901" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
