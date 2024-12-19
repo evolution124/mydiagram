@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="c9IRMGv52xxvMqEI-bAp">
-    <mxGraphModel dx="1801" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1603" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="pcVGzkrLHwzF4EQMK3bM-4" value="&lt;div&gt;&lt;b&gt;initKMD()&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-1">
           <mxGeometry y="60" width="440" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pcVGzkrLHwzF4EQMK3bM-17" value="for (int i=0; i&amp;lt;kmdNodeCount; i++) {&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;OpenKMD&lt;/b&gt;(&amp;amp;handle, i)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; sKmdHandle[sHalKmodNodeCount] = handle&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;sHalKmodNodeCount&lt;/b&gt;&lt;/font&gt;++&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-1">
+        <mxCell id="pcVGzkrLHwzF4EQMK3bM-17" value="for (int i=0; i&amp;lt;kmdNodeCount; i++) {&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;OpenKMD&lt;/b&gt;(&amp;amp;handle, i)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;sKmdHandle[sHalKmodNodeCount] = handle&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;sHalKmodNodeCount&lt;/b&gt;&lt;/font&gt;++&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-1">
           <mxGeometry y="80" width="440" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pcVGzkrLHwzF4EQMK3bM-19" value="queryAllChipInfo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-1">
@@ -124,8 +124,14 @@
         <mxCell id="pcVGzkrLHwzF4EQMK3bM-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-48">
           <mxGeometry y="52" width="580" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="pcVGzkrLHwzF4EQMK3bM-51" value="pProcessor = os_calloc()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;pProcessor-&amp;gt;kmdNodeIndex = sChipInfoExtra[sHalProcessors[idx].devIdx].kmdIndex&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-48">
+        <mxCell id="pcVGzkrLHwzF4EQMK3bM-51" value="pProcessor = os_calloc()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;pProcessor-&amp;gt;kmdHandle = sChipInfoExtra[sHalProcessors[idx].devIdx].handle&lt;/div&gt;&lt;div&gt;pProcessor-&amp;gt;kmdNodeIndex = sChipInfoExtra[sHalProcessors[idx].devIdx].kmdIndex&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-48">
           <mxGeometry y="60" width="580" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pcVGzkrLHwzF4EQMK3bM-52" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pcVGzkrLHwzF4EQMK3bM-37" target="pcVGzkrLHwzF4EQMK3bM-48">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint y="523" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
