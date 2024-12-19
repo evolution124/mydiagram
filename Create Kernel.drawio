@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="yETsX5YmY6TTT-2X_jpd">
-    <mxGraphModel dx="9413" dy="9746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6527" dy="8041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -444,31 +444,31 @@
           <mxGeometry y="220" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-107" value="gc_hal_kernel_os.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2540" y="-6200" width="750" height="434" as="geometry" />
+          <mxGeometry x="-2540" y="-6200" width="540" height="434" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-108" value="&lt;b&gt;gckOS_Construct( Context, gckOS *Os)&lt;br&gt;Context : gal_device&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-107">
-          <mxGeometry y="26" width="750" height="44" as="geometry" />
+          <mxGeometry y="26" width="540" height="44" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-109" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-107">
-          <mxGeometry y="70" width="750" height="8" as="geometry" />
+          <mxGeometry y="70" width="540" height="8" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-112" value="&lt;div&gt;os = kmalloc(sizeof(_gckOS), GFP_KERNEL...)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;os-&amp;gt;device = Context&lt;/div&gt;&lt;div&gt;&lt;b&gt;atomic_set&lt;/b&gt;(os-&amp;gt;allocateCount, 0)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;os-&amp;gt;kernelProcessID = &lt;b&gt;_GetProcessID&lt;/b&gt;()&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//task_tgid_nr(current)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;spin_lock_init(&amp;amp;os-&amp;gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;signalLock&lt;/span&gt;)&lt;br&gt;spin_lock_init(&amp;amp;os-&amp;gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;signalDB.lock&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;idr_init(&amp;amp;os-&amp;gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;signalDB.idr&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;spin_lock_init(&amp;amp;os-&amp;gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;nodeDB.lcok&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;idr_init(&amp;amp;os-&amp;gt;nodeDB.idr)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//os timer 的work queue&lt;/span&gt;&lt;/div&gt;&lt;div&gt;os-&amp;gt;workqueue = create_singlethread_workqueue(&quot;galcore workqueue&quot;)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-107">
-          <mxGeometry y="78" width="750" height="212" as="geometry" />
+          <mxGeometry y="78" width="540" height="212" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-164" value="&lt;div&gt;os-&amp;gt;paddingPage =&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;alloc_page(GFP_KERNEL | __GFP_HIGHMEM | gcdNOWARN)&lt;/span&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;SetPageReserved&lt;/b&gt;(os-&amp;gt;paddingPage)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-107">
-          <mxGeometry y="290" width="750" height="40" as="geometry" />
+          <mxGeometry y="290" width="540" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-166" value="spin_lock_init(&amp;amp;os-&amp;gt;registerAccessLock)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-107">
-          <mxGeometry y="330" width="750" height="26" as="geometry" />
+          <mxGeometry y="330" width="540" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-167" value="&lt;b&gt;gckIOMMU_Construct&lt;/b&gt;(os, &amp;amp;os&amp;gt;iommu)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-107">
-          <mxGeometry y="356" width="750" height="26" as="geometry" />
+          <mxGeometry y="356" width="540" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-165" value="&lt;b&gt;gckOS_ImportAllocators&lt;/b&gt;(os)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-107">
-          <mxGeometry y="382" width="750" height="26" as="geometry" />
+          <mxGeometry y="382" width="540" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-168" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-107">
-          <mxGeometry y="408" width="750" height="26" as="geometry" />
+          <mxGeometry y="408" width="540" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-113" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GQCZ_1Nqt_RRfZDzMszY-51" target="GQCZ_1Nqt_RRfZDzMszY-107">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -587,6 +587,18 @@
         </mxCell>
         <mxCell id="GQCZ_1Nqt_RRfZDzMszY-163" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-160">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-169" value="gc_hal_kernel_iommu.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1850" y="-6200" width="660" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-170" value="&lt;b&gt;gckIOMMU_Construct(Os, OUT gckIOMMU *Iommu)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-169">
+          <mxGeometry y="26" width="660" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-171" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-169">
+          <mxGeometry y="52" width="660" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GQCZ_1Nqt_RRfZDzMszY-172" value="dev = &amp;amp;Os-&amp;gt;device-&amp;gt;platform-&amp;gt;device-&amp;gt;dev&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;domain = iommu_get_domain_for_dev(dev)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (domain) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; struct page * page = &lt;b&gt;alloc_page&lt;/b&gt;(gfp); //GFP_KERNEL&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; phys = &lt;b&gt;page_to_phys&lt;/b&gt;(page)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; dmaHandle = &lt;b&gt;dma_map_page&lt;/b&gt;(dev, page, 0, PAGE_SIZE, DMA_TO_DEVICE)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (dmaHandle) &lt;b&gt;dma_unmap_page&lt;/b&gt;(dev, dmaHandle, PAGE_SIZE, DMA_FROM_DEVICE)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;__free_page&lt;/b&gt;(page)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;// Iommu bypass&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;if (phys == dmaHandle) return&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GQCZ_1Nqt_RRfZDzMszY-169">
+          <mxGeometry y="60" width="660" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
