@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="c9IRMGv52xxvMqEI-bAp">
-    <mxGraphModel dx="1519" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2355" dy="2023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,6 +189,18 @@
         </mxCell>
         <mxCell id="pcVGzkrLHwzF4EQMK3bM-75" value="gcsHAL_INTERFACE iface = {&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;&lt;b&gt;gcvHAL_QUERY_CHIP_IDENTITY&lt;/b&gt;&lt;/span&gt;}&lt;div&gt;iface.coreIndex&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= processor-&amp;gt;coreIndexs[0]&lt;/div&gt;&lt;div&gt;iface.devIndex&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = processor-&amp;gt;kmdNodeIndex&lt;/div&gt;&lt;div&gt;iface.hardwareType&amp;nbsp; = processor-&amp;gt;coreTypes[0]&lt;/div&gt;&lt;div&gt;handle&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= processor-&amp;gt;coreTypes[0]&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;KmdIoCtl(handle, ...)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;iface.command&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= &lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;gcvHAL_QUERY_CHIP_OPTION&lt;/b&gt;&lt;/div&gt;&lt;div&gt;KmdIoCtl(handle, ...)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-72">
           <mxGeometry y="60" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pcVGzkrLHwzF4EQMK3bM-76" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pcVGzkrLHwzF4EQMK3bM-60" target="pcVGzkrLHwzF4EQMK3bM-68">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint y="615" as="sourcePoint" />
+            <mxPoint x="270" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcVGzkrLHwzF4EQMK3bM-77" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pcVGzkrLHwzF4EQMK3bM-57" target="pcVGzkrLHwzF4EQMK3bM-72">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="760" y="1111" as="sourcePoint" />
+            <mxPoint x="970" y="1410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
