@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="c9IRMGv52xxvMqEI-bAp">
-    <mxGraphModel dx="2239" dy="1952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1519" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,7 +155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pcVGzkrLHwzF4EQMK3bM-64" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1192" width="460" height="250" as="geometry" />
+          <mxGeometry x="1110" y="1192" width="460" height="140" as="geometry" />
         </mxCell>
         <mxCell id="pcVGzkrLHwzF4EQMK3bM-65" value="&lt;b&gt;fillProcessorInfo(processor)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-64">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
@@ -163,8 +163,8 @@
         <mxCell id="pcVGzkrLHwzF4EQMK3bM-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-64">
           <mxGeometry y="52" width="460" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="pcVGzkrLHwzF4EQMK3bM-67" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-64">
-          <mxGeometry y="60" width="460" height="190" as="geometry" />
+        <mxCell id="pcVGzkrLHwzF4EQMK3bM-67" value="devInfo-&amp;gt;pciDomainId = legacyInfo-&amp;gt;identity.pciDomain&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;gt;pciBusId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;gt;identity.pciBus&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;gt;pciDeviceId&amp;nbsp; &amp;nbsp;=&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;gt;identity.pciSlot&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;-&amp;gt;pciFunctionId =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;identity.pciFunction&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pcVGzkrLHwzF4EQMK3bM-64">
+          <mxGeometry y="60" width="460" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
