@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="klpA_2AShYlU7AM5QuSL">
-    <mxGraphModel dx="623" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,25 +29,25 @@
           <mxGeometry y="162" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-13" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="130" width="370" height="160" as="geometry" />
+          <mxGeometry x="830" y="130" width="510" height="170" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-14" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;drvCtxSynchronize()&lt;/span&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-13">
-          <mxGeometry y="26" width="370" height="26" as="geometry" />
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-13">
-          <mxGeometry y="52" width="370" height="8" as="geometry" />
+          <mxGeometry y="52" width="510" height="8" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-16" value="CURRENT_CTX(ctx)&lt;div&gt;&amp;nbsp; &amp;nbsp; ---&amp;gt; &lt;b&gt;getCurrentContext&lt;/b&gt;()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-13">
-          <mxGeometry y="60" width="370" height="50" as="geometry" />
+          <mxGeometry y="60" width="510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-17" value="&lt;div&gt;&lt;b&gt;ctxSynchronzie(ctx)&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-13">
-          <mxGeometry y="110" width="370" height="24" as="geometry" />
+          <mxGeometry y="100" width="510" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-18" value="trimMemPool(" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-13">
-          <mxGeometry y="134" width="370" height="26" as="geometry" />
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-18" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;b&gt;trimMemPool&lt;/b&gt;(gpgpuPLS.drvDevices[ctx-&amp;gt;device]-&amp;gt;memPool,&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gpgpuPLS.drvDevices[ctx-&amp;gt;device]-&amp;gt;memPool-&amp;gt;attr.attrReleaseThreashold)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-13">
+          <mxGeometry y="124" width="510" height="46" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-21" value="stream.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="83" width="410" height="254" as="geometry" />
+          <mxGeometry x="1470" y="76" width="410" height="254" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-22" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;ctxSynchronize(CUcontext ctx)&lt;/span&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-21">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
@@ -67,7 +67,7 @@
             <mxPoint x="970" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-28" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-13" target="NuDpKzAwzLJSV5Tyi5Um-21">
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-28" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-17" target="NuDpKzAwzLJSV5Tyi5Um-21">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="700" y="268" as="sourcePoint" />
             <mxPoint x="860" y="140" as="targetPoint" />
