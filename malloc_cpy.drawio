@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-1" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="160" width="550" height="222" as="geometry" />
+          <mxGeometry x="140" y="160" width="550" height="256" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-2" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;drvMemAlloc_v2(CUdeviceptr *dptr, size_t bytesize)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-1">
           <mxGeometry y="26" width="550" height="26" as="geometry" />
@@ -19,14 +19,14 @@
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-4" value="&lt;b&gt;drvCtxSynchronize()&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-1">
           <mxGeometry y="86" width="550" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-12" value="&lt;div&gt;allocMemoryInfo_t info&lt;/div&gt;&lt;div&gt;info.size = bytesize&lt;/div&gt;&lt;b&gt;allocDeviceMemory&lt;/b&gt;(gpgpuPLS.drvDevices[ctx-&amp;gt;device], info)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-1">
-          <mxGeometry y="110" width="550" height="60" as="geometry" />
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-12" value="&lt;div&gt;allocMemoryInfo_t info&lt;/div&gt;&lt;div&gt;info.size = bytesize&lt;/div&gt;&lt;b&gt;node = allocDeviceMemory&lt;/b&gt;(gpgpuPLS.drvDevices[ctx-&amp;gt;device], info)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-1">
+          <mxGeometry y="110" width="550" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-1">
-          <mxGeometry y="170" width="550" height="26" as="geometry" />
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-11" value="Node = os_calloc(...)&lt;div&gt;Node-&amp;gt;hostAlloc = false, -&amp;gt;ctx = ctx, node = node&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;utilMapAdd&lt;/b&gt;(ctx-&amp;gt;devPtrMap, Node, node-&amp;gt;gpuLogical, node-&amp;gt;size)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-1">
+          <mxGeometry y="160" width="550" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-10" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-1">
-          <mxGeometry y="196" width="550" height="26" as="geometry" />
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-10" value="*dptr = Node-&amp;gt;node-&amp;gt;gpuLogical" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-1">
+          <mxGeometry y="230" width="550" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-13" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="130" width="510" height="170" as="geometry" />
