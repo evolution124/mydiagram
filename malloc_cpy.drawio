@@ -197,7 +197,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-70" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3280" y="1290" width="670" height="380" as="geometry" />
+          <mxGeometry x="3280" y="1290" width="670" height="330" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-71" value="&lt;b&gt;gckVIDMEM_HANDLE_Allocate(Kernel, Node, *Handle)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-70">
           <mxGeometry y="26" width="670" height="26" as="geometry" />
@@ -205,8 +205,8 @@
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-70">
           <mxGeometry y="52" width="670" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-73" value="gckOS_Allocate(os, sizeof(gcsVIDMEM_HANDLE), &amp;amp;pointer)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-70">
-          <mxGeometry y="60" width="670" height="320" as="geometry" />
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-73" value="gckOS_Allocate(os, sizeof(gcsVIDMEM_HANDLE), &amp;amp;pointer)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckOS_ZeroMemory(pointer, ...)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckOK_AtomConstruct(os, &amp;amp;handleObject-&amp;gt;reference)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckOS_AtomSet(os, handleObject-&amp;gt;reference, 1)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckOS_GetProcessID&lt;/b&gt;(&amp;amp;processID)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckOS_FindHandleDatabase(Kernel, processID, &amp;amp;handleDatabase, &amp;amp;mutex)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckKERNEL_AllocateIntegerId&lt;/b&gt;(handleDatabase, handleObject, &amp;amp;handle)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;handleObject-&amp;gt;node =Node&lt;/div&gt;&lt;div&gt;handleObject-&amp;gt;handle = handle&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//此处返回的handle 只是 database 的 item ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;*Handle = handle&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-70">
+          <mxGeometry y="60" width="670" height="270" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-74" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-62" target="NuDpKzAwzLJSV5Tyi5Um-70">
           <mxGeometry width="80" relative="1" as="geometry">
