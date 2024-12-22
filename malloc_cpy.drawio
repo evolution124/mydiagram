@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="klpA_2AShYlU7AM5QuSL">
-    <mxGraphModel dx="2335" dy="3670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="2788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,7 +233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-86" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2550" y="1200" width="620" height="510" as="geometry" />
+          <mxGeometry x="2550" y="1340" width="620" height="510" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-87" value="&lt;b&gt;_LockVideoMemory(Kernel, Core, ProcessID, Interface)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
           <mxGeometry y="26" width="620" height="26" as="geometry" />
@@ -293,7 +293,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-105" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3280" y="1320" width="550" height="210" as="geometry" />
+          <mxGeometry x="3280" y="1240" width="550" height="210" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-106" value="&lt;b&gt;gckVIDMEM_NODE_Lock(Kernel, NodeObject, *Address)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-105">
           <mxGeometry y="26" width="550" height="26" as="geometry" />
@@ -307,14 +307,14 @@
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-110" value="if (memory &amp;amp;&amp;amp; memory-&amp;gt;object.type == gcvOBJ_VIDMEM &amp;amp;&amp;amp; Kernel-&amp;gt;flatMapping) {&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else if (vidMemBlock &amp;amp;&amp;amp; vidMemBlock-&amp;gt;object.type == gcvOBJ_VIDMEM_BLOCK) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else { &lt;b&gt;gckVIDMEM_LockVirtual&lt;/b&gt;(..., node, Address)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-105">
           <mxGeometry y="120" width="550" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-109" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.007;exitY=0.242;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-97" target="NuDpKzAwzLJSV5Tyi5Um-105">
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-109" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.999;exitY=0.247;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-97" target="NuDpKzAwzLJSV5Tyi5Um-105">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="3180" y="1435" as="sourcePoint" />
             <mxPoint x="3290" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-113" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3280" y="1560" width="550" height="270" as="geometry" />
+          <mxGeometry x="3280" y="1560" width="550" height="250" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-114" value="&lt;b&gt;gckVIDMEM_NODE_GetCPUPhysical(Kernel, NodeObject, Offset, *PhysicalAddress)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-113">
           <mxGeometry y="26" width="550" height="26" as="geometry" />
@@ -322,13 +322,34 @@
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-115" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-113">
           <mxGeometry y="52" width="550" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-116" value="node = NodeObject-&amp;gt;node" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-113">
-          <mxGeometry y="60" width="550" height="210" as="geometry" />
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-116" value="node = NodeObject-&amp;gt;node&lt;br&gt;memory = node-&amp;gt;VidMem.parent&lt;br&gt;vidMemBlock = node-&amp;gt;VirtualChunk.parent" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-113">
+          <mxGeometry y="60" width="550" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-117" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.003;exitY=0.655;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-97" target="NuDpKzAwzLJSV5Tyi5Um-113">
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-118" value="if (memory &amp;amp;&amp;amp; memory-&amp;gt;object.type == gcvOBJ_VIDMEM) {&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else if(vidMemBlock &amp;amp;&amp;amp; vidMemBlock-&amp;gt;object.type == gcvOBJ_VIDMEM_BLOCK) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckOS_GetPhysicalFromHandle&lt;/b&gt;(os, node-&amp;gt;VidMem.physical, Offset, &lt;b&gt;PhysicalAddress&lt;/b&gt;)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-113">
+          <mxGeometry y="120" width="550" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-117" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-97" target="NuDpKzAwzLJSV5Tyi5Um-113">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="3180" y="1565" as="sourcePoint" />
             <mxPoint x="3290" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-120" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="1880" width="550" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-121" value="&lt;b&gt;gckVIDMEM_NODE_GetGid(Kernel, NodeObject, *Gid)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-120">
+          <mxGeometry y="26" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-122" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-120">
+          <mxGeometry y="52" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-123" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-120">
+          <mxGeometry y="60" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-124" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.688;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-97" target="NuDpKzAwzLJSV5Tyi5Um-120">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="3182" y="1734" as="sourcePoint" />
+            <mxPoint x="3290" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
