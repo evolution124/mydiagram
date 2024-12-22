@@ -233,7 +233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-86" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2550" y="910" width="620" height="324" as="geometry" />
+          <mxGeometry x="2550" y="910" width="620" height="348" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-87" value="&lt;b&gt;_LockVideoMemory(Kernel, Core, ProcessID, Interface)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
           <mxGeometry y="26" width="620" height="26" as="geometry" />
@@ -241,23 +241,23 @@
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-88" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
           <mxGeometry y="52" width="620" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-89" value="handle = Interface-&amp;gt;u.LockVideoMemory.node&lt;div&gt;&lt;b&gt;//找到 VIDMEM_NODE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVIDMEM_HANDLE_Lookup&lt;/b&gt;(Kernel, ProcessID, handle, &amp;amp;&lt;b&gt;nodeObject&lt;/b&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-89" value="handle = Interface-&amp;gt;u.LockVideoMemory.node&lt;div&gt;&lt;b style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//找到 VIDMEM_NODE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVIDMEM_HANDLE_Lookup&lt;/b&gt;(Kernel, ProcessID, handle, &amp;amp;&lt;b&gt;nodeObject&lt;/b&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
           <mxGeometry y="60" width="620" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-93" value="if (Interface-&amp;gt;u.LockVideoMemory.op &amp;amp; gcvLOCK_VIDEO_MEMORY_OP_LOCK)&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckVIDMEM_NODE_Reference&lt;/b&gt;(..., &lt;b&gt;nodeObject&lt;/b&gt;)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
-          <mxGeometry y="120" width="620" height="100" as="geometry" />
+        <mxCell id="NuDpKzAwzLJSV5Tyi5Um-93" value="&lt;div&gt;&lt;b style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//增加引用计数&lt;/b&gt;&lt;/div&gt;if (Interface-&amp;gt;u.LockVideoMemory.op &amp;amp; gcvLOCK_VIDEO_MEMORY_OP_LOCK)&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckVIDMEM_NODE_Reference&lt;/b&gt;(..., &lt;b&gt;nodeObject&lt;/b&gt;)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --&amp;gt; gckOS_AtomIncrement(os, NodeObject-&amp;gt;reference, &amp;amp;oldValue)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
+          <mxGeometry y="120" width="620" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-95" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
-          <mxGeometry y="220" width="620" height="26" as="geometry" />
+          <mxGeometry y="210" width="620" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-97" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
-          <mxGeometry y="246" width="620" height="26" as="geometry" />
+          <mxGeometry y="270" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-96" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
-          <mxGeometry y="272" width="620" height="26" as="geometry" />
+          <mxGeometry y="296" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-94" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NuDpKzAwzLJSV5Tyi5Um-86">
-          <mxGeometry y="298" width="620" height="26" as="geometry" />
+          <mxGeometry y="322" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NuDpKzAwzLJSV5Tyi5Um-90" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NuDpKzAwzLJSV5Tyi5Um-46" target="NuDpKzAwzLJSV5Tyi5Um-47">
           <mxGeometry width="80" relative="1" as="geometry">
