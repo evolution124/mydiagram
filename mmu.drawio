@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="QfCrMuJkMNhtSx7M4hBv">
-    <mxGraphModel dx="970" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="693" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,10 +20,10 @@
           <mxGeometry y="100" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-8" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;/b&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//获取之后command queue需要reserved的大小 //80 bytes&lt;/span&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; gckHARDWARE_FlushMMU&lt;/b&gt;(hw, NULL, gcvINVALID_ADDRESS, 0, &amp;amp;flushBytes)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="140" width="570" height="50" as="geometry" />
+          <mxGeometry y="140" width="570" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-6" value="&amp;nbsp; &amp;nbsp; &lt;b&gt;gckCOMMAND_Reserve&lt;/b&gt;(Command, flushBytes, &amp;amp;pointer, &amp;amp;bufferSize)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="190" width="570" height="30" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-6" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; gckCOMMAND_Reserve&lt;/b&gt;(Command, flushBytes, &amp;amp;pointer, &amp;amp;bufferSize)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
+          <mxGeometry y="180" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-10" value="&amp;nbsp; &amp;nbsp; address = Command-&amp;gt;address + Command-&amp;gt;offset" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
           <mxGeometry y="220" width="570" height="30" as="geometry" />
@@ -60,6 +60,33 @@
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-19" value="*Bytes = flushSize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
           <mxGeometry y="220" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-20" value="Command Queue" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1073.9899999999998" y="310" width="775" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-21" value="offset&amp;nbsp;144" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="310" width="208.99" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-25" value="Start&amp;nbsp;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;55AD 21ED 1800&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-26" value="Pre LINK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1138.9899999999998" y="340" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-27" value="Pre Wait" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1069.5" y="340" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-28" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" width="636" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-29" value="&lt;b&gt;gckCOMMAND_Reserve(Command, RequestedBytes, *Buffer, *BufferSize)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-28">
+          <mxGeometry y="26" width="636" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-28">
+          <mxGeometry y="52" width="636" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-31" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-28">
+          <mxGeometry y="60" width="636" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
