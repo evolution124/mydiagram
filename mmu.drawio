@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="QfCrMuJkMNhtSx7M4hBv">
-    <mxGraphModel dx="1499" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="982" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,10 +67,10 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-51" value="&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;// 为PE-FE 添加Semaphore ??&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;buffer++ = LOAD_STATE AQSemaphoreRegAddrs&lt;div&gt;semaphore =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;设置 AQ_SEMAPHORE的SOURCE = FRONT_END&lt;/div&gt;&lt;div&gt;if (hw-&amp;gt;stallFEPrefetch) semaphore |= 设置 AQ_SEMAPHORE的 FRONT_END = PREFETCH&lt;/div&gt;&lt;div&gt;if (bltEngine)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; semaphore |= 设置 AQ_SEMAPHORE的 DESTINATION = BLT_ENGINE&lt;/div&gt;&lt;div&gt;buffer++ = semaphore&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;// STALL FE 直到 PE flushing完成&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;buffer++ = STALL&lt;/div&gt;&lt;div&gt;stall = 设置 STALL_STALL 的 SOURCE 为 FRONT_END&lt;/div&gt;&lt;div&gt;if (hw-&amp;gt;stallFEPrefetch)&amp;nbsp; &amp;nbsp;stall |= STALL_STALL的FRONT_END = PREFETCH&lt;br&gt;if (bltEngine)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; stall |= STALL_STALL的DESTINATION = BLT_ENGINE&lt;/div&gt;&lt;div&gt;buffer++ = stall&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
           <mxGeometry y="720" width="760" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-89" value="*Bytes = flushSize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-89" value="&lt;div&gt;&lt;b style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;//UNLOCK BLT&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;if (bltEngine) {&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer++ = LOAD_STATE gcregBltGeneralControlRegAddrs&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer++ = 设置GCREG_BLT_GENERAL_CONTROL的STREAM_CONTROL = UNLOCK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
           <mxGeometry y="930" width="760" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-90" value="*Bytes = flushSize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-90" value="if (hw-&amp;gt;graphicsLargeVA) {&lt;div&gt;&amp;nbsp; &amp;nbsp; opLogical = buffer&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;5639 4A98 7860 切换到64bit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; offset = 4&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; opLogical ++ = LINK64 PREFETCH = count = 498&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // ?? 为什么还是498?&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; opLogical ++ = Address + flushSize&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Address + 80&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
           <mxGeometry y="1030" width="760" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-47" value="}" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
@@ -465,6 +465,19 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1470" y="1110" as="sourcePoint" />
             <mxPoint x="1760" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-126" value="LINK&lt;div&gt;16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="1270" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-127" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.176;entryY=0.974;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#60a917;strokeColor=#2D7600;entryPerimeter=0;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2500" y="1352" as="sourcePoint" />
+            <mxPoint x="2535" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2485" y="1370" />
+              <mxPoint x="2535" y="1382" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
