@@ -44,7 +44,7 @@
           <mxGeometry y="350" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-14" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="-660" width="630" height="150" as="geometry" />
+          <mxGeometry x="800" y="-660" width="630" height="250" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-15" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;gckHARDWARE_FlushMMU(hw, Logical, Address, SubsequentBytes, *Bytes)&lt;/span&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
           <mxGeometry y="26" width="630" height="26" as="geometry" />
@@ -52,14 +52,14 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
           <mxGeometry y="52" width="630" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
-          <mxGeometry y="60" width="630" height="30" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-17" value="flushSize = 10* 4&lt;div&gt;if (bltEngine) { &lt;br&gt;&amp;nbsp; &amp;nbsp; flushSize += 4*4&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if(multiCluster)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; flushSize += 2*4&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;if (&lt;b&gt;hw-&amp;gt;graphicsLargeVA&lt;/b&gt;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; flushSize += 4*4&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//80&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
+          <mxGeometry y="60" width="630" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-18" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
-          <mxGeometry y="90" width="630" height="30" as="geometry" />
+          <mxGeometry y="190" width="630" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-19" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-14">
-          <mxGeometry y="120" width="630" height="30" as="geometry" />
+          <mxGeometry y="220" width="630" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
