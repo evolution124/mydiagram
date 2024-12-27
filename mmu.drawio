@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="QfCrMuJkMNhtSx7M4hBv">
-    <mxGraphModel dx="5232" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5674" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -862,7 +862,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-283" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3260" y="450" width="510" height="346" as="geometry" />
+          <mxGeometry x="-3260" y="450" width="510" height="286" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-284" value="&lt;b&gt;gckKERNEL_AttachProcessEx(Kernel, Attach, PID)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-283">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -873,22 +873,40 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-286" value="if (Attach) {" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-283">
           <mxGeometry y="60" width="510" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-287" value="gckOS_AtomIncrement(..., Kernel-&amp;gt;atomClients, &amp;amp;old)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-283">
-          <mxGeometry y="86" width="510" height="26" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-287" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal; background-color: rgb(255, 255, 204);&quot;&gt;//增加引用计数&lt;/span&gt;&lt;/div&gt;gckOS_AtomIncrement(..., Kernel-&amp;gt;atomClients, &amp;amp;old)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-283">
+          <mxGeometry y="86" width="510" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-289" value="if (old == 0) &lt;b&gt;gckOS_Broadcast&lt;/b&gt;(os, hw gcvBROADCAST_FIRST_PROCESS)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-283">
-          <mxGeometry y="112" width="510" height="26" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-289" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;if (old == 0) &lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;gckOS_Broadcast&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(os, hw gcvBROADCAST_FIRST_PROCESS)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-283">
+          <mxGeometry y="130" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-288" value="if (Kernel-&amp;gt;dbCreated) { &lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckKERNEL_CreateProcessDB&lt;/b&gt;(Kernel, PID)&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (Kernel-&amp;gt;command-&amp;gt;kernelProcessID == PID)&lt;br&gt;&amp;nbsp; &amp;nbsp; Kernel-&amp;gt;command-&amp;gt;kernelProcessAttached = true&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-283">
-          <mxGeometry y="138" width="510" height="182" as="geometry" />
+          <mxGeometry y="156" width="510" height="104" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-291" value="} // Attach" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-283">
-          <mxGeometry y="320" width="510" height="26" as="geometry" />
+          <mxGeometry y="260" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-290" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.503;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-278" target="8lRUZTI_6fAo6i5T4Kmb-283">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-3350" y="620" as="sourcePoint" />
             <mxPoint x="-3270" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-293" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2640" y="446" width="550" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-294" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-293">
+          <mxGeometry y="26" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-295" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-293">
+          <mxGeometry y="52" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-296" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-293">
+          <mxGeometry y="60" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-297" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-288" target="8lRUZTI_6fAo6i5T4Kmb-293">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-2680" y="620" as="sourcePoint" />
+            <mxPoint x="-2600" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
