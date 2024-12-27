@@ -1380,7 +1380,7 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-467" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-465">
           <mxGeometry y="52" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-468" value="gckMMU_DestroyProcessMMU" style="text;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-465">
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-468" value="&lt;b&gt;gckMMU_DestroyProcessMMU()&lt;/b&gt;" style="text;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-465">
           <mxGeometry y="60" width="370" height="26" as="geometry" />
         </mxCell>
       </root>
