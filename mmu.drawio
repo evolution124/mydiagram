@@ -1384,7 +1384,7 @@
           <mxGeometry y="60" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-471" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="598" width="760" height="288" as="geometry" />
+          <mxGeometry x="-640" y="598" width="760" height="382" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-472" value="&lt;b&gt;gckMMU_Construt(Kernel, *Mmu)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
           <mxGeometry y="26" width="760" height="26" as="geometry" />
@@ -1392,17 +1392,17 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-473" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
           <mxGeometry y="52" width="760" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-474" value="mmu-&amp;gt;enabled = false&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;initMode = gcvMMU_INIT_FROM_CMD&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;pool&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= _GetPageTablePool(os)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;flatMapping = Kernel-&amp;gt;flatMapping&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;flatMappingMode = gcdFLAT_MAPPING_MODE&amp;nbsp; //2M ... 64K .... 4K&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
-          <mxGeometry y="60" width="760" height="150" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-474" value="mmu-&amp;gt;enabled = false&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;initMode = gcvMMU_INIT_FROM_CMD&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;pool&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= _GetPageTablePool(os)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;flatMapping = Kernel-&amp;gt;flatMapping&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;flatMappingMode = gcdFLAT_MAPPING_MODE&amp;nbsp; //2M ... 64K .... 4K&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;pgdSize = gcdMMU_PGD_SIZE&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;pudSize = gcdMMU_PUD_SIZE * gcdMMU_PGD_ENTRY_NUM&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
+          <mxGeometry y="60" width="760" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-476" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
-          <mxGeometry y="210" width="760" height="26" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-476" value="if (device-&amp;gt;externalSize) { ... }&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (!device-&amp;gt;lowContiguousSize) { ... }&lt;/div&gt;&lt;div&gt;else { ...&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;if (contiguousSize) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckOS_CPUPhysicalToGPUPhysical&lt;/b&gt;(os, contiguousBase, &amp;amp;gpuContiguousBase)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
+          <mxGeometry y="170" width="760" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-478" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
-          <mxGeometry y="236" width="760" height="26" as="geometry" />
+          <mxGeometry y="330" width="760" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-477" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
-          <mxGeometry y="262" width="760" height="26" as="geometry" />
+          <mxGeometry y="356" width="760" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
