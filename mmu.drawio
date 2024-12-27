@@ -8,40 +8,40 @@
           <mxGeometry x="-400" y="-390" width="3310" height="2640" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-1" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="650" width="570" height="480" as="geometry" />
+          <mxGeometry x="-250" y="650" width="610" height="490" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-2" value="&lt;b&gt;gckCOMMAND_CheckFlushMMU(Command, hw)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="26" width="570" height="26" as="geometry" />
+          <mxGeometry y="26" width="610" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="52" width="570" height="8" as="geometry" />
+          <mxGeometry y="52" width="610" height="8" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-4" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;//获取mmu的计数, 并清除&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckOS_AtomicExchange&lt;/b&gt;(os, &lt;b&gt;hw-&amp;gt;pageTableDirty[gcvENGIN_RENDER]&lt;/b&gt;, 0, &amp;amp;&lt;b&gt;oldValue&lt;/b&gt;)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="60" width="570" height="50" as="geometry" />
+          <mxGeometry y="60" width="610" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-5" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;//如果计数不为0, 说明页表dirty&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;if (oldValue) {" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="110" width="570" height="50" as="geometry" />
+          <mxGeometry y="110" width="610" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-8" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &lt;/b&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//获取command queue需要为flush command reserved的大小 //80 bytes&lt;/span&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; gckHARDWARE_FlushMMU&lt;/b&gt;(hw, NULL, gcvINVALID_ADDRESS, 0, &amp;amp;flushBytes)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="160" width="570" height="40" as="geometry" />
+          <mxGeometry y="160" width="610" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-6" value="&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//pointer 指向command queue + command queue offset的地址&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; gckCOMMAND_Reserve&lt;/b&gt;(Command, flushBytes, &amp;amp;pointer, &amp;amp;bufferSize)&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;address = Command-&amp;gt;address + Command-&amp;gt;offset&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//1FF FFFF F020 address 也和pointer 一致&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="200" width="570" height="60" as="geometry" />
+          <mxGeometry y="200" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-11" value="&amp;nbsp; &amp;nbsp; &lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;gckHARDWARE_FlushMMU&lt;/b&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;(hw, pointer, address, (bufferSize - flushBytes), &amp;amp;flushBytes)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="260" width="570" height="30" as="geometry" />
+          <mxGeometry y="260" width="610" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-12" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//执行MMU Flush&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &amp;nbsp; if (Command-&amp;gt;feType == gcvHW_FE_WAIT_LINK)&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;gckCOMMAND_Execute&lt;/b&gt;(Command, flushBytes)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="290" width="570" height="60" as="geometry" />
+          <mxGeometry y="290" width="610" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-13" value="&amp;nbsp; &amp;nbsp; if ((oldValue &amp;amp; gcvPAGE_TABLE_DIRTY_BIT_FE) &amp;amp;&amp;amp; (!hw-&amp;gt;stallFEPrefetch))&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;pause &lt;/b&gt;= true //如果DIRTY并且不stall FE prefetch, 设置pause 之后会添加EVENT 去同步flush" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="350" width="570" height="50" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-13" value="&amp;nbsp; &amp;nbsp; if ((oldValue &amp;amp; gcvPAGE_TABLE_DIRTY_BIT_FE) &amp;amp;&amp;amp; (!hw-&amp;gt;stallFEPrefetch))&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;pause &lt;/b&gt;= true //如果dirty并且不stall FE prefetch, 设置pause为true, 之后的流程会添加EVENT 去同步flush" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
+          <mxGeometry y="350" width="610" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-7" value="} // if (oldValue)" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="400" width="570" height="30" as="geometry" />
+          <mxGeometry y="400" width="610" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-9" value="if (&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;&lt;b&gt;pause&lt;/b&gt;&lt;/span&gt;) { &lt;br&gt;&amp;nbsp; &amp;nbsp; 添加EVENT, 通过中断同步 flush&lt;br&gt;}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-1">
-          <mxGeometry y="430" width="570" height="50" as="geometry" />
+          <mxGeometry y="430" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-14" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="160" width="820" height="1210" as="geometry" />
