@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="QfCrMuJkMNhtSx7M4hBv">
-    <mxGraphModel dx="4033" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4382" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -996,7 +996,7 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-337" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;//multiCluster Enable, FPGA可能没有&lt;/span&gt;&lt;/div&gt;if (multiCluster) {&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer++ = LOAD_STATE gcregClusterControlRegAddrs&lt;br&gt;&amp;nbsp; &amp;nbsp; buffer++ = 设置 GCREG_CLUSTER_CONTROL的 CLUSTER_ALIVE_ENABLE = clusterAvailMask &amp;amp; userClusterMask&lt;br&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
           <mxGeometry y="320" width="700" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-336" value="if flushVMIDCount) {&lt;div&gt;&amp;nbsp; &amp;nbsp; for (i = 0; i &amp;lt; flushVMIDCount; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; buffer++ = LOAD_STATE ADDRESS gcregMMUPTFlushRegAddrs&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; buffer++ = 设置 GCREG_MMUPT_FLUSH 的&amp;nbsp; FLUSH_CMD = 0 和 FLUSH_VMID = flushVMID[i]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-336" value="if (flushVMIDCount) {&lt;div&gt;&amp;nbsp; &amp;nbsp; for (i = 0; i &amp;lt; flushVMIDCount; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; buffer++ = LOAD_STATE ADDRESS gcregMMUPTFlushRegAddrs&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; buffer++ = 设置 GCREG_MMUPT_FLUSH 的&amp;nbsp; FLUSH_CMD = 0 和 FLUSH_VMID = flushVMID[i]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
           <mxGeometry y="410" width="700" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-327" value="+ method(type): type" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
@@ -1009,27 +1009,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-329" value="Command Queue" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1493.9899999999998" y="430" width="896.01" height="80" as="geometry" />
+          <mxGeometry x="1383.9899999999998" y="580" width="896.01" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-330" value="offset&amp;nbsp;32" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="430" width="140" height="80" as="geometry" />
+          <mxGeometry x="1310" y="580" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-331" value="Start&amp;nbsp;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;5639 4A98 7800&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="390" width="120" height="40" as="geometry" />
+          <mxGeometry x="1310" y="540" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-332" value="LINK&lt;div&gt;16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1489.4899999999998" y="460" width="70" height="50" as="geometry" />
+          <mxGeometry x="1379.4899999999998" y="610" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-333" value="Wait&lt;div&gt;16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="460" width="70" height="50" as="geometry" />
+          <mxGeometry x="1310" y="610" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-334" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#60a917;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-332" target="8lRUZTI_6fAo6i5T4Kmb-333">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1565" y="660" as="sourcePoint" />
-            <mxPoint x="1430" y="660" as="targetPoint" />
+            <mxPoint x="1455" y="810" as="sourcePoint" />
+            <mxPoint x="1320" y="810" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1524" y="540" />
-              <mxPoint x="1455" y="540" />
+              <mxPoint x="1414" y="690" />
+              <mxPoint x="1345" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1039,8 +1039,45 @@
             <mxPoint x="640" y="622" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-338" value="ENABLE BLT CLUSTER&lt;div&gt;8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="460" width="80" height="50" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-338" value="ENABLE CLUSTER&lt;div&gt;8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="610" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-339" value="Command Queue" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1383.9899999999998" y="775" width="896.01" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-340" value="offset&amp;nbsp;32" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="775" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-341" value="Start&amp;nbsp;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;5639 4A98 7800&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="735" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-342" value="LINK&lt;div&gt;16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1379.4899999999998" y="805" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-343" value="Wait&lt;div&gt;16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="805" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-344" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#60a917;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-342" target="8lRUZTI_6fAo6i5T4Kmb-343">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1455" y="1005" as="sourcePoint" />
+            <mxPoint x="1320" y="1005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1414" y="885" />
+              <mxPoint x="1345" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-345" value="ENABLE CLUSTER&lt;div&gt;8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="805" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-346" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-336" target="8lRUZTI_6fAo6i5T4Kmb-340">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1160" y="987" as="sourcePoint" />
+            <mxPoint x="1320" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-347" value="FLUSH&lt;br&gt;VMID&lt;br&gt;8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="805" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
