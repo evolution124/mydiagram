@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="QfCrMuJkMNhtSx7M4hBv">
-    <mxGraphModel dx="10520" dy="5235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4349" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -976,7 +976,7 @@
           <mxGeometry y="310" width="640" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-320" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="252" width="700" height="960" as="geometry" />
+          <mxGeometry x="460" y="252" width="700" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-321" value="&lt;b&gt;gckHARDWARE_SwitchPageTableId(hw, Mmu, Command)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -1002,14 +1002,14 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-358" value="if (bltEngine) {&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer++= LOAD_STATE gcregBltGeneralControlRegAddrs&lt;br&gt;&amp;nbsp; &amp;nbsp; buffer++= 设置GCREG_BLT_GENERAL_CONTROL的 STREAM_CONTROL = LOCK&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;if (multiCluster) { FPGA可能没有&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; buffer++ = LOAD_STATE gcregClusterControlRegAddrs&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; buffer++ = GCREG_BLT_CLUSTER_CONTROL的 CLUSTER_ENABLE= clusterAvailMask &amp;amp; userClusterMask&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
           <mxGeometry y="560" width="700" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-359" value="+ method(type): type" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
-          <mxGeometry y="690" width="700" height="70" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-359" value="&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;// 为PE-FE 添加Semaphore ??&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;buffer++ = LOAD_STATE AQSemaphoreRegAddrs&lt;div&gt;semaphore =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;设置 AQ_SEMAPHORE的SOURCE = FRONT_END&lt;/div&gt;&lt;div&gt;if (hw-&amp;gt;stallFEPrefetch) semaphore |= 设置 AQ_SEMAPHORE的 FRONT_END = PREFETCH&lt;/div&gt;&lt;div&gt;if (bltEngine)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; semaphore |= 设置 AQ_SEMAPHORE的 DESTINATION = BLT_ENGINE&lt;/div&gt;&lt;div&gt;buffer++ = semaphore&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;// STALL FE 直到 PE flushing完成&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;buffer++ = STALL&lt;/div&gt;&lt;div&gt;stall = 设置 STALL_STALL 的 SOURCE 为 FRONT_END&lt;/div&gt;&lt;div&gt;if (hw-&amp;gt;stallFEPrefetch)&amp;nbsp; &amp;nbsp;stall |= STALL_STALL的FRONT_END = PREFETCH&lt;br&gt;if (bltEngine)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; stall |= STALL_STALL的DESTINATION = BLT_ENGINE&lt;/div&gt;&lt;div&gt;buffer++ = stall&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
+          <mxGeometry y="690" width="700" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-360" value="+ method(type): type" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
-          <mxGeometry y="760" width="700" height="110" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-360" value="&lt;div&gt;&lt;b style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;//UNLOCK BLT&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;if (bltEngine) {&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer++ = LOAD_STATE gcregBltGeneralControlRegAddrs&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; buffer++ = 设置GCREG_BLT_GENERAL_CONTROL的STREAM_CONTROL = UNLOCK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
+          <mxGeometry y="900" width="700" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-327" value="+ method(type): type" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
-          <mxGeometry y="870" width="700" height="90" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-327" value="if (Command-&amp;gt;feType == gcvHW_FE_WAIT_LINK)&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckCOMMAND_Execute&lt;/b&gt;(Command, mmuBytes)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-320">
+          <mxGeometry y="1010" width="700" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-328" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-315" target="8lRUZTI_6fAo6i5T4Kmb-320">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -1218,6 +1218,74 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1170" y="887" as="sourcePoint" />
             <mxPoint x="1330" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-386" value="SEMAPHORE&lt;br&gt;8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="636" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-387" value="STALL&lt;div&gt;8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="636" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-388" value="Command Queue" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;horizontal=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1393.9899999999998" y="830" width="896.01" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-389" value="offset&amp;nbsp;32" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="830" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-390" value="Start&amp;nbsp;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;5639 4A98 7800&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-391" value="LINK&lt;div&gt;16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1389.4899999999998" y="860" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-392" value="Wait&lt;div&gt;16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="860" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-393" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#60a917;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-391" target="8lRUZTI_6fAo6i5T4Kmb-392">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1465" y="1060" as="sourcePoint" />
+            <mxPoint x="1330" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1424" y="940" />
+              <mxPoint x="1355" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-394" value="LINK&lt;div&gt;16&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="860" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-395" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#60a917;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-394" target="8lRUZTI_6fAo6i5T4Kmb-396">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1569" y="940" as="sourcePoint" />
+            <mxPoint x="1500" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1495" y="940" />
+              <mxPoint x="1530" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-396" value="FLUSH&lt;br&gt;VMID&lt;br&gt;8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="860" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-397" value="LOCK BLT STREAM&lt;br&gt;8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="860" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-398" value="ENABLE BLT CLUSTER&lt;div&gt;8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="860" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-399" value="SEMAPHORE&lt;br&gt;8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="860" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-400" value="STALL&lt;div&gt;8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="860" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-401" value="UNLOCK&lt;br&gt;BLT&lt;br&gt;&lt;div&gt;8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="860" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-402" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-360" target="8lRUZTI_6fAo6i5T4Kmb-389">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1170" y="1057" as="sourcePoint" />
+            <mxPoint x="1330" y="616" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
