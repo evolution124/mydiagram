@@ -955,7 +955,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-312" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="612" width="640" height="290" as="geometry" />
+          <mxGeometry x="-320" y="612" width="640" height="330" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-313" value="&lt;b&gt;gckKERNEL_SwitchMMU(Kernel, Shared, Mmu)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#333333;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-312">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
@@ -966,14 +966,14 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-316" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//电源管理相关: 确保页表切换时GPU ON&lt;/span&gt;&lt;div&gt;if (powerManagement)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckHARDWARE_EnablePowerManagement&lt;/b&gt;(hw, false)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//关闭电源管理&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckHARDWARE_SetPowerState&lt;/b&gt;(hw, gcvPOWER_ON_AUTO)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//手动设置GPU POWER ON&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-312">
           <mxGeometry y="60" width="640" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-315" value="&lt;b&gt;gckHARDWARE_SwitchPageTableId&lt;/b&gt;(hw, Mmu, command)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-312">
-          <mxGeometry y="150" width="640" height="30" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-315" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//通过硬件切换页表&lt;/span&gt;&lt;/div&gt;&lt;b&gt;status = gckHARDWARE_SwitchPageTableId&lt;/b&gt;(hw, Mmu, command)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-312">
+          <mxGeometry y="150" width="640" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-317" value="if (status == NOT_SUPPORTED)&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else { ERROR }&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-312">
-          <mxGeometry y="180" width="640" height="70" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-317" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//硬件支持切换页面, 通过软件实现&lt;/span&gt;&lt;/div&gt;if (status == NOT_SUPPORTED)&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else { ERROR }&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-312">
+          <mxGeometry y="200" width="640" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-319" value="if (powerManagement)&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckHARDWARE_EnablePowerManagement&lt;/b&gt;(hw, true)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//开启电源管理&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-312">
-          <mxGeometry y="250" width="640" height="40" as="geometry" />
+          <mxGeometry y="290" width="640" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
