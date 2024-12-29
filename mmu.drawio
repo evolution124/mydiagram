@@ -1530,6 +1530,12 @@
         <mxCell id="AXE05CQmia8qfSLlVdDd-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AXE05CQmia8qfSLlVdDd-9">
           <mxGeometry y="164" width="880" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="AXE05CQmia8qfSLlVdDd-17" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AXE05CQmia8qfSLlVdDd-7" target="AXE05CQmia8qfSLlVdDd-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1280" y="1750" as="sourcePoint" />
+            <mxPoint x="1360" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
