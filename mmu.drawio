@@ -1384,7 +1384,7 @@
           <mxGeometry y="60" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-471" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="1250" width="760" height="1318" as="geometry" />
+          <mxGeometry x="-90" y="1250" width="760" height="1610" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-472" value="&lt;b&gt;gckMMU_Construt(Kernel, *Mmu)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8lRUZTI_6fAo6i5T4Kmb-471" vertex="1">
           <mxGeometry y="26" width="760" height="26" as="geometry" />
@@ -1422,11 +1422,11 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-490" value="if (Kernel-&amp;gt;device-&amp;gt;exclusiveSize） { ... }" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="8lRUZTI_6fAo6i5T4Kmb-471" vertex="1">
           <mxGeometry y="1240" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-489" value="+ method(type): type" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="8lRUZTI_6fAo6i5T4Kmb-471" vertex="1">
-          <mxGeometry y="1266" width="760" height="26" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-489" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;mmu-&amp;gt;safePageSize = 256&lt;/span&gt;&lt;div&gt;allocFlag = gcvALLOC_FLAG_CONTIGUOUS | gcvALLOC_FLAG_4K_PAGES&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckKERNEL_AllocateVideoMemory&lt;/b&gt;(kernel, 256, gcvVIDMEM_TYPE_COMMAND, allocFlag, &amp;amp;mmu_safePageSize,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;amp;pool, &amp;amp;mmu-&amp;gt;safePageVideoMem)&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVIDMEM_NODE_LockCPU&lt;/b&gt;(kernel, mmu-&amp;gt;safePageVideoMem, false, false, &amp;amp;mmu-&amp;gt;safePageLogical)&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVIDMEM_NODE_GetGPUPhysical&lt;/b&gt;(kernel, &amp;amp;mmu-&amp;gt;safePageVideoMem, 0, &amp;amp;mmu-&amp;gt;safePagePhysical)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mmu-&amp;gt;safeAddress = mmu-&amp;gt;safePagePhysical&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckOS_ZeroMemory&lt;/b&gt;(mmu-&amp;gt;safePageLogical, mmu-&amp;gt;safePageSize)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="8lRUZTI_6fAo6i5T4Kmb-471" vertex="1">
+          <mxGeometry y="1266" width="760" height="164" as="geometry" />
         </mxCell>
         <mxCell id="AXE05CQmia8qfSLlVdDd-23" value="+ method(type): type" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="8lRUZTI_6fAo6i5T4Kmb-471">
-          <mxGeometry y="1292" width="760" height="26" as="geometry" />
+          <mxGeometry y="1430" width="760" height="180" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-484" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8lRUZTI_6fAo6i5T4Kmb-305" target="8lRUZTI_6fAo6i5T4Kmb-471" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
