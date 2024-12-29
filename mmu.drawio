@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="QfCrMuJkMNhtSx7M4hBv">
-    <mxGraphModel dx="6013" dy="2046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4166" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="1330" y="3635" width="3310" height="2640" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-1" value="gc_hal_kernel_command.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="1480" y="4675" width="610" height="490" as="geometry" />
+          <mxGeometry x="1480" y="4675" width="610" height="500" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-2" value="&lt;b&gt;gckCOMMAND_CheckFlushMMU(Command, hw)&lt;/b&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="8lRUZTI_6fAo6i5T4Kmb-1" vertex="1">
           <mxGeometry y="26" width="610" height="26" as="geometry" />
@@ -34,20 +34,20 @@
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-6" value="&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//pointer 指向command queue + command queue offset的地址&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; gckCOMMAND_Reserve&lt;/b&gt;(Command, flushBytes, &amp;amp;pointer, &amp;amp;bufferSize)&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;address = Command-&amp;gt;address + Command-&amp;gt;offset&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//1FF FFFF F020 address 也和pointer 一致&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="8lRUZTI_6fAo6i5T4Kmb-1" vertex="1">
           <mxGeometry y="200" width="610" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-11" value="&amp;nbsp; &amp;nbsp; &lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;gckHARDWARE_FlushMMU&lt;/b&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;(hw, pointer, address, (bufferSize - flushBytes), &amp;amp;flushBytes)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="8lRUZTI_6fAo6i5T4Kmb-1" vertex="1">
-          <mxGeometry y="260" width="610" height="30" as="geometry" />
+        <mxCell id="8lRUZTI_6fAo6i5T4Kmb-11" value="&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//添加Flush Command 到command queue&lt;/span&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/b&gt;&lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;gckHARDWARE_FlushMMU&lt;/b&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;(hw, pointer, address, (bufferSize - flushBytes), &amp;amp;flushBytes)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="8lRUZTI_6fAo6i5T4Kmb-1" vertex="1">
+          <mxGeometry y="260" width="610" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-12" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//执行MMU Flush&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &amp;nbsp; if (Command-&amp;gt;feType == gcvHW_FE_WAIT_LINK)&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;gckCOMMAND_Execute&lt;/b&gt;(Command, flushBytes)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="8lRUZTI_6fAo6i5T4Kmb-1" vertex="1">
-          <mxGeometry y="290" width="610" height="60" as="geometry" />
+          <mxGeometry y="300" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-13" value="&amp;nbsp; &amp;nbsp; if ((oldValue &amp;amp; gcvPAGE_TABLE_DIRTY_BIT_FE) &amp;amp;&amp;amp; (!hw-&amp;gt;stallFEPrefetch))&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;pause &lt;/b&gt;= true //如果dirty并且不stall FE prefetch, 设置pause为true, 之后的流程会添加EVENT 去同步flush" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="8lRUZTI_6fAo6i5T4Kmb-1" vertex="1">
-          <mxGeometry y="350" width="610" height="50" as="geometry" />
+          <mxGeometry y="360" width="610" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-7" value="} // if (oldValue)" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="8lRUZTI_6fAo6i5T4Kmb-1" vertex="1">
-          <mxGeometry y="400" width="610" height="30" as="geometry" />
+          <mxGeometry y="410" width="610" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-9" value="if (&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;&lt;b&gt;pause&lt;/b&gt;&lt;/span&gt;) { &lt;br&gt;&amp;nbsp; &amp;nbsp; 添加EVENT, 通过中断同步 flush&lt;br&gt;}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="8lRUZTI_6fAo6i5T4Kmb-1" vertex="1">
-          <mxGeometry y="430" width="610" height="60" as="geometry" />
+          <mxGeometry y="440" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8lRUZTI_6fAo6i5T4Kmb-14" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="2400" y="4185" width="820" height="1210" as="geometry" />
