@@ -751,7 +751,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jH6bP15NOfafVThhH0SI-14" value="gc_hal_kernel_hardware.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4090" y="-3918" width="770" height="312" as="geometry" />
+          <mxGeometry x="4090" y="-3918" width="770" height="162" as="geometry" />
         </mxCell>
         <mxCell id="jH6bP15NOfafVThhH0SI-15" value="&lt;b&gt;_ProgramMMUStates(hw, Mmu, Mode, Logical, *Bytes)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="jH6bP15NOfafVThhH0SI-14">
           <mxGeometry y="26" width="770" height="26" as="geometry" />
@@ -760,13 +760,13 @@
           <mxGeometry y="52" width="770" height="8" as="geometry" />
         </mxCell>
         <mxCell id="jH6bP15NOfafVThhH0SI-17" value="&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 204);&quot;&gt;//注意如果不是 gcvMMU_INIT_FROM_CMD 此处会直接退出&lt;/font&gt;&lt;/div&gt;&lt;div&gt;if (mmu-&amp;gt;initMode == gcvMMU_INIT_FROM_REG) return gcvSTATUS_OK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="jH6bP15NOfafVThhH0SI-14">
-          <mxGeometry y="60" width="770" height="200" as="geometry" />
+          <mxGeometry y="60" width="770" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jH6bP15NOfafVThhH0SI-23" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jH6bP15NOfafVThhH0SI-14">
-          <mxGeometry y="260" width="770" height="26" as="geometry" />
+          <mxGeometry y="110" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jH6bP15NOfafVThhH0SI-22" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jH6bP15NOfafVThhH0SI-14">
-          <mxGeometry y="286" width="770" height="26" as="geometry" />
+          <mxGeometry y="136" width="770" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
