@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Page-1" id="LRaTV1GDhE0PlHm9-1SC">
-    <mxGraphModel>
+    <mxGraphModel dx="982" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-1" value="kmd_cmodel.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="400" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-2" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;OpenKMD&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-1">
+          <mxGeometry y="26" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-1">
+          <mxGeometry y="52" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-4" value="os_openLibrary(filename, &amp;amp;libHandle)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-1">
+          <mxGeometry y="60" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-10" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TkZttN6KCeq6tZd7yhBr-4" target="TkZttN6KCeq6tZd7yhBr-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="490" y="226" as="sourcePoint" />
+            <mxPoint x="570" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-11" value="gc_hal_kernel_emulator.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="250" width="470" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-12" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;gckOS_ProcessConstructor(void)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-11">
+          <mxGeometry y="26" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-11">
+          <mxGeometry y="52" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-14" value="__emulator = new CEmulator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-11">
+          <mxGeometry y="60" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-15" value="gc_hal_kernel_emulator.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="200" width="470" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-16" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;CEmulator::CEmulator(void)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
+          <mxGeometry y="26" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
+          <mxGeometry y="52" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-18" value="&lt;b&gt;gckOS_Construct&lt;/b&gt;(this, &amp;amp;m_Os)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
+          <mxGeometry y="60" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-20" value="&lt;b&gt;gckDEVICE_Construct&lt;/b&gt;(m_Os, &amp;amp;m_Device)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
+          <mxGeometry y="86" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-19" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TkZttN6KCeq6tZd7yhBr-14" target="TkZttN6KCeq6tZd7yhBr-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="450" y="323" as="sourcePoint" />
+            <mxPoint x="560" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
