@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Page-1" id="LRaTV1GDhE0PlHm9-1SC">
-    <mxGraphModel dx="1515" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2204" dy="1302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
           <mxGeometry y="60" width="470" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TkZttN6KCeq6tZd7yhBr-15" value="gc_hal_kernel_emulator.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="200" width="470" height="230" as="geometry" />
+          <mxGeometry x="1120" y="200" width="470" height="286" as="geometry" />
         </mxCell>
         <mxCell id="TkZttN6KCeq6tZd7yhBr-16" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;CEmulator::CEmulator(void)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
           <mxGeometry y="26" width="470" height="26" as="geometry" />
@@ -52,8 +52,14 @@
         <mxCell id="TkZttN6KCeq6tZd7yhBr-22" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CModelConstructor&lt;/b&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(m_Os, &amp;amp;m_Device)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=default;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
           <mxGeometry y="112" width="470" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="TkZttN6KCeq6tZd7yhBr-21" value="&lt;b&gt;fffff&lt;/b&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-21" value="&lt;b&gt;Memory Initialize&lt;/b&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
           <mxGeometry y="140" width="470" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-34" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gckOffload_Construct(m_Device)&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=default;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
+          <mxGeometry y="230" width="470" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="TkZttN6KCeq6tZd7yhBr-35" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;...&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=default;" vertex="1" parent="TkZttN6KCeq6tZd7yhBr-15">
+          <mxGeometry y="258" width="470" height="28" as="geometry" />
         </mxCell>
         <mxCell id="TkZttN6KCeq6tZd7yhBr-19" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TkZttN6KCeq6tZd7yhBr-14" target="TkZttN6KCeq6tZd7yhBr-15">
           <mxGeometry width="80" relative="1" as="geometry">
