@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
   <diagram name="Page-1" id="4e89co7Y23rOc78ES6lf">
-    <mxGraphModel dx="5909" dy="2730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5166" dy="2442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,16 +517,16 @@
         <mxCell id="dJCaf431rHjRgtDPCAUo-159" value="RB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dJCaf431rHjRgtDPCAUo-175" value="L1 Schedule thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="dJCaf431rHjRgtDPCAUo-175" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L1 Schedule thread&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-260" y="650" width="351" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dJCaf431rHjRgtDPCAUo-176" value="L1 Schedule thread DMA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="1180" width="324.5" height="60" as="geometry" />
+        <mxCell id="dJCaf431rHjRgtDPCAUo-176" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L2 Schedule thread DMA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-874.5" y="1180" width="274.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dJCaf431rHjRgtDPCAUo-177" value="L1 Schedule thread Compute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="1180" width="302" height="60" as="geometry" />
+        <mxCell id="dJCaf431rHjRgtDPCAUo-177" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L2 Schedule thread Compute&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1180" width="272" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dJCaf431rHjRgtDPCAUo-178" value="L1 Schedule thread CM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="dJCaf431rHjRgtDPCAUo-178" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;L2 Schedule thread CM&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="750" y="1180" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-193" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
@@ -593,10 +593,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-214" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Compute FE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="1340" width="280" height="60" as="geometry" />
+          <mxGeometry x="-70" y="1350" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-215" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CM FE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="1330" width="280" height="60" as="geometry" />
+          <mxGeometry x="750" y="1350" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-216" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DMA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-880" y="1350" width="280" height="60" as="geometry" />
