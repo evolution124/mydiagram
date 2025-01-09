@@ -533,22 +533,22 @@
           <mxGeometry x="-160" y="650" width="351" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-176" value="L1 Schedule thread DMA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-789.5" y="1090" width="300" height="60" as="geometry" />
+          <mxGeometry x="-1040" y="1100" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-177" value="L1 Schedule thread Compute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1090" width="280" height="60" as="geometry" />
+          <mxGeometry x="-260" y="1100" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-178" value="L1 Schedule thread CM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1090" width="300" height="60" as="geometry" />
+          <mxGeometry x="550" y="1090" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-179" value="DMA RB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-789.5" y="940" width="300" height="60" as="geometry" />
+          <mxGeometry x="-1040" y="980" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-181" value="Compute RB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="10" y="940" width="280" height="60" as="geometry" />
+          <mxGeometry x="-260" y="980" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-182" value="CM RB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="810" y="940" width="300" height="60" as="geometry" />
+          <mxGeometry x="550" y="980" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-193" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="257.5" y="137.5" width="65" height="720" as="geometry" />
