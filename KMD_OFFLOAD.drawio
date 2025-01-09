@@ -532,7 +532,7 @@
         <mxCell id="dJCaf431rHjRgtDPCAUo-193" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="257.5" y="137.5" width="65" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="dJCaf431rHjRgtDPCAUo-195" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="dJCaf431rHjRgtDPCAUo-175" target="dJCaf431rHjRgtDPCAUo-193">
+        <mxCell id="dJCaf431rHjRgtDPCAUo-195" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fillColor=#008a00;strokeColor=#005700;startArrow=classic;startFill=1;" edge="1" parent="1" source="dJCaf431rHjRgtDPCAUo-175" target="dJCaf431rHjRgtDPCAUo-193">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="640" as="sourcePoint" />
             <mxPoint x="320" y="650" as="targetPoint" />
@@ -542,9 +542,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dJCaf431rHjRgtDPCAUo-263" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Read Write Index from each RB by Process and Priority,&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Update RB.ReadIndex when task done&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dJCaf431rHjRgtDPCAUo-195">
+        <mxCell id="dJCaf431rHjRgtDPCAUo-263" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Read Write Index from each RB by Process and Priority,&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Update RB.ReadIndex when task done&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dJCaf431rHjRgtDPCAUo-195">
           <mxGeometry x="0.3357" y="2" relative="1" as="geometry">
-            <mxPoint x="94" y="-28" as="offset" />
+            <mxPoint x="-366" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dJCaf431rHjRgtDPCAUo-196" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="dJCaf431rHjRgtDPCAUo-175" target="dJCaf431rHjRgtDPCAUo-244">
