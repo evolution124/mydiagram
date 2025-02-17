@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14">
   <diagram name="Page-1" id="wO5cqh8CYZ76xLUZRR5B">
-    <mxGraphModel dx="836" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1010" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,9 +41,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-13" value="gc_hal_kernel_platform_default.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="-200" width="330" height="138" as="geometry" />
+          <mxGeometry x="450" y="-520" width="330" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="h7-dKMPolAdH-bQS6LUS-14" value="&lt;b&gt;_gcsPLATFORM_PCIE&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-13">
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-14" value="&lt;b&gt;struct _gcsPLATFORM_PCIE&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-13">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-13">
@@ -57,6 +57,60 @@
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-18" value="&amp;nbsp; &amp;nbsp; unsigned int device_number;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-13">
           <mxGeometry y="112" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-19" value="gc_hal_kernel_platform_default.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-790" width="330" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-20" value="&lt;b&gt;_gcsPLATFORM_PCIE&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-19">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-19">
+          <mxGeometry y="52" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-22" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; _gcsPLATFORM&lt;/b&gt; base;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-19">
+          <mxGeometry y="60" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-23" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; _gcsPCIEInfo &lt;/b&gt;pcie_info[&lt;b&gt;gcdPLATFORM_COUNT&lt;/b&gt;];" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-19">
+          <mxGeometry y="86" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-24" value="&amp;nbsp; &amp;nbsp; unsigned int device_number;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-19">
+          <mxGeometry y="112" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-25" value="gc_hal_kernel_paltform.h" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-440" width="330" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-26" value="&lt;b&gt;struct _gcsPLATFORM&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="52" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-28" value="&amp;nbsp; &amp;nbsp; platform_device *device" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="60" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-31" value="&amp;nbsp; &amp;nbsp; platform_driver *driver" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="86" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-33" value="&amp;nbsp; &amp;nbsp; const char *name" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="112" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-32" value="&amp;nbsp; &amp;nbsp; gckDEVICE dev" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="138" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-29" value="&amp;nbsp; &amp;nbsp; gctUINT32 flagBits;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="164" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-30" value="&amp;nbsp; &amp;nbsp; gctUINT32 coreCount;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="190" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-34" value="&amp;nbsp; &amp;nbsp; void *priv" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="216" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-35" value="&amp;nbsp; &amp;nbsp; gcsMODULE_PARAMETERS params" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="242" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-36" value="&amp;nbsp; &amp;nbsp; gctUINT32 PcieDomain[gcdPLATFORM_COUNT]&lt;div&gt;&amp;nbsp; &amp;nbsp; gctUINT32 PcieBus[gcdPLATFORM_COUNT]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gctUINT32 PcieSlot[gcdPLATFORM_COUNT]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gctUINT32 PcieFunction[gcdPLATFORM_COUNT]&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-25">
+          <mxGeometry y="268" width="330" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
