@@ -17,16 +17,22 @@
           <mxGeometry y="60" width="380" height="90" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-6" value="gc_hal_kernel_driver.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="-80" width="500" height="150" as="geometry" />
+          <mxGeometry x="600" y="-80" width="510" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="h7-dKMPolAdH-bQS6LUS-7" value="gckPLATFORM_Init(struct platform_driver *pdrv, struct _gcsPLATFORM **platform)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-6">
-          <mxGeometry y="26" width="500" height="26" as="geometry" />
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-7" value="&lt;b&gt;gckPLATFORM_Init(struct platform_driver *pdrv, struct _gcsPLATFORM **platform)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-6">
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-6">
-          <mxGeometry y="52" width="500" height="8" as="geometry" />
+          <mxGeometry y="52" width="510" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="h7-dKMPolAdH-bQS6LUS-9" value="&lt;b&gt;gckPLATFORM_Init&lt;/b&gt;(&amp;amp;viv_dev_driver, &amp;amp;platform) //gcsPLATFORM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;platform_driver_register&lt;/b&gt;(&amp;amp;viv_dev_driver)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;platform-&amp;gt;driver = &amp;amp;viv_dev_driver&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-6">
-          <mxGeometry y="60" width="500" height="90" as="geometry" />
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-9" value="&lt;b&gt;struct platform_device *default_dev = platform_device_alloc(pdrv-&amp;gt;driver.name, -1)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ret = platform_device_add(default_dev);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-6">
+          <mxGeometry y="60" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-10" value="&lt;div&gt;&lt;b&gt;#IF USE_LINUX_PCIE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;#endif&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-6">
+          <mxGeometry y="120" width="510" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-11" value="&lt;div&gt;&lt;b&gt;*platform = (gcsPLATFORM *)&amp;amp;default_platform;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-6">
+          <mxGeometry y="220" width="510" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
