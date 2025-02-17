@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14">
   <diagram name="Page-1" id="wO5cqh8CYZ76xLUZRR5B">
-    <mxGraphModel dx="1426" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,7 +269,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-87" value="gc_hal_kernel_driver.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="120" width="560" height="482" as="geometry" />
+          <mxGeometry x="1460" y="120" width="560" height="472" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-88" value="&lt;b&gt;int viv_dev_probe(struct platform_device *pdev)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
           <mxGeometry y="26" width="560" height="26" as="geometry" />
@@ -280,26 +280,29 @@
         <mxCell id="h7-dKMPolAdH-bQS6LUS-90" value="&lt;font style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 229, 153);&quot;&gt;static u64 dma_mask = DMA_BIT_MASK(40/...)&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
           <mxGeometry y="60" width="560" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="h7-dKMPolAdH-bQS6LUS-92" value="platform-&amp;gt;device = pdev&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//Power 相关&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;_InitModuleParam&lt;/b&gt;(&amp;amp;platform-&amp;gt;params);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;platform-&amp;gt;params.devices[0] = &amp;amp;pdev-&amp;gt;dev;&lt;/div&gt;&lt;div&gt;platform-&amp;gt;params.devices[0]-&amp;gt;coherent_dma_mask = dma_mask;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (platform-&amp;gt;params.devices[0]-&amp;gt;dma_mask)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; *platform-&amp;gt;params.devices[0]-&amp;gt;dma_mask = dma_mask&lt;/div&gt;&lt;div&gt;else&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; platform-&amp;gt;params.devices[0]-&amp;gt;dma_mask = &amp;amp;platform-&amp;gt;params.devices[0]-&amp;gt;coherent_dma_mask&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="86" width="560" height="224" as="geometry" />
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-100" value="&lt;b&gt;platform-&amp;gt;device = pdev&lt;/b&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
+          <mxGeometry y="86" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-92" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;//Power 相关&lt;/span&gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;_InitModuleParam&lt;/b&gt;(&amp;amp;platform-&amp;gt;params);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;platform-&amp;gt;params.devices[0] = &amp;amp;pdev-&amp;gt;dev;&lt;/div&gt;&lt;div&gt;platform-&amp;gt;params.devices[0]-&amp;gt;coherent_dma_mask = dma_mask;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (platform-&amp;gt;params.devices[0]-&amp;gt;dma_mask)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; *platform-&amp;gt;params.devices[0]-&amp;gt;dma_mask = dma_mask&lt;/div&gt;&lt;div&gt;else&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; platform-&amp;gt;params.devices[0]-&amp;gt;dma_mask = &amp;amp;platform-&amp;gt;params.devices[0]-&amp;gt;coherent_dma_mask&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
+          <mxGeometry y="112" width="560" height="188" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-94" value="&lt;b&gt;platform-&amp;gt;ops-&amp;gt;dmaInit(platform)&lt;/b&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="310" width="560" height="30" as="geometry" />
+          <mxGeometry y="300" width="560" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-93" value="&lt;b&gt;platform-&amp;gt;ops-&amp;gt;adjustParam(platform, &amp;amp;platform-&amp;gt;params)&lt;/b&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="340" width="560" height="26" as="geometry" />
+          <mxGeometry y="330" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-95" value="&lt;b&gt;_SyncModuleParam&lt;/b&gt;(&amp;amp;platform-&amp;gt;params)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="366" width="560" height="26" as="geometry" />
+          <mxGeometry y="356" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-96" value="if(debugLevel) gckOS_SetDebugLevelZone(gcvLEVEL_VERBOSE, gcdZONE_ALL)&amp;nbsp;&lt;div&gt;if(debugZone) gckOS_SetDebugLevelZone(gcvLEVEL_NONE, debugZone)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="392" width="560" height="38" as="geometry" />
+          <mxGeometry y="382" width="560" height="38" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-97" value="&lt;b&gt;drv_init();&lt;/b&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="430" width="560" height="26" as="geometry" />
+          <mxGeometry y="420" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-98" value="&lt;b&gt;platform_set_drvdata&lt;/b&gt;(pdev, galDevice)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="456" width="560" height="26" as="geometry" />
+          <mxGeometry y="446" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-91" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h7-dKMPolAdH-bQS6LUS-80" target="h7-dKMPolAdH-bQS6LUS-88">
           <mxGeometry width="80" relative="1" as="geometry">
