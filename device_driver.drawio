@@ -269,7 +269,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-87" value="gc_hal_kernel_driver.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="-60" width="460" height="216" as="geometry" />
+          <mxGeometry x="1560" y="-60" width="460" height="276" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-88" value="&lt;b&gt;int viv_dev_probe(struct platform_device *pdev)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
@@ -280,11 +280,11 @@
         <mxCell id="h7-dKMPolAdH-bQS6LUS-90" value="&lt;font style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 229, 153);&quot;&gt;static u64 dma_mask = DMA_BIT_MASK(40/...)&lt;/font&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
           <mxGeometry y="60" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="h7-dKMPolAdH-bQS6LUS-92" value="platform-&amp;gt;device = pdev" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="86" width="460" height="104" as="geometry" />
+        <mxCell id="h7-dKMPolAdH-bQS6LUS-92" value="platform-&amp;gt;device = pdev&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//Power 相关&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;_InitModuleParam(&amp;amp;platform-&amp;gt;params);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;platform-&amp;gt;params.devices[0] = &amp;amp;pdev-&amp;gt;dev;&lt;/div&gt;&lt;div&gt;platform-&amp;gt;params.devices[0]-&amp;gt;coherent_dma_mask = dma_mask;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
+          <mxGeometry y="86" width="460" height="164" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-93" value="+ method(type): type" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
-          <mxGeometry y="190" width="460" height="26" as="geometry" />
+          <mxGeometry y="250" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-91" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h7-dKMPolAdH-bQS6LUS-80" target="h7-dKMPolAdH-bQS6LUS-88">
           <mxGeometry width="80" relative="1" as="geometry">
