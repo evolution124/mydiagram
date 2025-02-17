@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14">
   <diagram name="Page-1" id="wO5cqh8CYZ76xLUZRR5B">
-    <mxGraphModel dx="836" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry y="60" width="380" height="90" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-6" value="gc_hal_kernel_platform_default.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="450" width="510" height="470" as="geometry" />
+          <mxGeometry x="500" y="450" width="510" height="470" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-7" value="&lt;b&gt;gckPLATFORM_Init(struct platform_driver *pdrv, struct _gcsPLATFORM **platform)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-6">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -182,7 +182,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-58" value="gc_hal_kernel_platform_default.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="660" width="250" height="138" as="geometry" />
+          <mxGeometry x="1130" y="660" width="250" height="138" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-59" value="pci_driver gpu_pci_subdriver&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#333333;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-58">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -201,12 +201,12 @@
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-64" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h7-dKMPolAdH-bQS6LUS-66" target="h7-dKMPolAdH-bQS6LUS-59">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1230" y="700" as="sourcePoint" />
-            <mxPoint x="1040" y="17" as="targetPoint" />
+            <mxPoint x="1140" y="700" as="sourcePoint" />
+            <mxPoint x="950" y="17" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-67" value="gc_hal_kernel_platform_default.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="720" width="460" height="330" as="geometry" />
+          <mxGeometry x="1460" y="720" width="460" height="330" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-68" value="gpu_sub_probe(struct pci_dev *pdev, const struct pci_device_id *ent)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#333333;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-67">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
@@ -225,18 +225,18 @@
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-73" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h7-dKMPolAdH-bQS6LUS-61" target="h7-dKMPolAdH-bQS6LUS-68">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1110" y="785" as="sourcePoint" />
-            <mxPoint x="1220" y="649" as="targetPoint" />
+            <mxPoint x="1020" y="785" as="sourcePoint" />
+            <mxPoint x="1130" y="649" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-76" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h7-dKMPolAdH-bQS6LUS-75" target="h7-dKMPolAdH-bQS6LUS-65">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1410" y="839" as="sourcePoint" />
-            <mxPoint x="1400" y="950" as="targetPoint" />
+            <mxPoint x="1320" y="839" as="sourcePoint" />
+            <mxPoint x="1310" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-77" value="gc_hal_kernel_driver.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="290" width="250" height="216" as="geometry" />
+          <mxGeometry x="1130" y="290" width="250" height="216" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-78" value="platform_driver viv_dev_driver" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#333333;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-77">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -264,12 +264,12 @@
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-83" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h7-dKMPolAdH-bQS6LUS-9" target="h7-dKMPolAdH-bQS6LUS-78">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1110" y="785" as="sourcePoint" />
-            <mxPoint x="1230" y="709" as="targetPoint" />
+            <mxPoint x="1020" y="785" as="sourcePoint" />
+            <mxPoint x="1140" y="709" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-87" value="gc_hal_kernel_driver.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="120" width="560" height="482" as="geometry" />
+          <mxGeometry x="1460" y="120" width="560" height="482" as="geometry" />
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-88" value="&lt;b&gt;int viv_dev_probe(struct platform_device *pdev)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h7-dKMPolAdH-bQS6LUS-87">
           <mxGeometry y="26" width="560" height="26" as="geometry" />
@@ -303,8 +303,8 @@
         </mxCell>
         <mxCell id="h7-dKMPolAdH-bQS6LUS-91" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h7-dKMPolAdH-bQS6LUS-80" target="h7-dKMPolAdH-bQS6LUS-88">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1110" y="550" as="sourcePoint" />
-            <mxPoint x="1230" y="399" as="targetPoint" />
+            <mxPoint x="1020" y="550" as="sourcePoint" />
+            <mxPoint x="1140" y="399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
