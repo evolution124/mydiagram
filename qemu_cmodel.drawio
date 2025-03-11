@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.0.16">
   <diagram name="Page-1" id="O3RF_QSyXw5MkjXzJmDC">
-    <mxGraphModel dx="1102" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3463" dy="2143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="B6jd7QzCgzBGUs_DWfSZ-12" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; Multi-Stream QEMU &amp;lt;-&amp;gt; CMODEL&lt;/font&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="2260" height="1080" as="geometry" />
+          <mxGeometry x="10" y="10" width="2380" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="B6jd7QzCgzBGUs_DWfSZ-38" value="Object" style="html=1;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="1680" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="B6jd7QzCgzBGUs_DWfSZ-2" value="edu.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="100" width="510" height="300" as="geometry" />
