@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="Page-1" id="O3RF_QSyXw5MkjXzJmDC">
-    <mxGraphModel dx="673" dy="1498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="970" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -398,25 +398,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C9A7YW3aw8jM6GKZEcJa-2" value="SHARE MEM Layout" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2550" y="1320" width="460" height="164" as="geometry" />
+          <mxGeometry x="2520" y="1280" width="290" height="164" as="geometry" />
         </mxCell>
         <mxCell id="C9A7YW3aw8jM6GKZEcJa-3" value="SHARE MEM per Device" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="C9A7YW3aw8jM6GKZEcJa-2">
-          <mxGeometry y="26" width="460" height="26" as="geometry" />
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="C9A7YW3aw8jM6GKZEcJa-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="C9A7YW3aw8jM6GKZEcJa-2">
-          <mxGeometry y="52" width="460" height="8" as="geometry" />
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="C9A7YW3aw8jM6GKZEcJa-5" value="IPC CMD H2C 0&amp;nbsp; &amp;nbsp;（256 Bytes)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="C9A7YW3aw8jM6GKZEcJa-2">
-          <mxGeometry y="60" width="460" height="26" as="geometry" />
+        <mxCell id="C9A7YW3aw8jM6GKZEcJa-5" value="IPC CMD H2C&amp;nbsp; &amp;nbsp; &amp;nbsp; （256 Bytes)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="C9A7YW3aw8jM6GKZEcJa-2">
+          <mxGeometry y="60" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="C9A7YW3aw8jM6GKZEcJa-11" value="IPC CMD C2H&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (256 Bytes)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="C9A7YW3aw8jM6GKZEcJa-2">
-          <mxGeometry y="86" width="460" height="26" as="geometry" />
+          <mxGeometry y="86" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="C9A7YW3aw8jM6GKZEcJa-14" value="Zero Align&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(1K Bytes)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="C9A7YW3aw8jM6GKZEcJa-2">
-          <mxGeometry y="112" width="460" height="26" as="geometry" />
+        <mxCell id="C9A7YW3aw8jM6GKZEcJa-14" value="Zero Align&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1K Bytes)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="C9A7YW3aw8jM6GKZEcJa-2">
+          <mxGeometry y="112" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="C9A7YW3aw8jM6GKZEcJa-15" value="MEM Copy Area&amp;nbsp; &amp;nbsp; &amp;nbsp;(2K Bytes)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="C9A7YW3aw8jM6GKZEcJa-2">
-          <mxGeometry y="138" width="460" height="26" as="geometry" />
+          <mxGeometry y="138" width="290" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
