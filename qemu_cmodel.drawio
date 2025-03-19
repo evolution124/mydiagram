@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="Page-1" id="O3RF_QSyXw5MkjXzJmDC">
-    <mxGraphModel dx="1010" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="693" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,16 +256,16 @@
         <mxCell id="B6jd7QzCgzBGUs_DWfSZ-120" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="B6jd7QzCgzBGUs_DWfSZ-118" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="B6jd7QzCgzBGUs_DWfSZ-126" value="state: idle, run, done" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="B6jd7QzCgzBGUs_DWfSZ-118" vertex="1">
+        <mxCell id="B6jd7QzCgzBGUs_DWfSZ-126" value="state:&amp;nbsp; &amp;nbsp; idle, set, run, done" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="B6jd7QzCgzBGUs_DWfSZ-118" vertex="1">
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="B6jd7QzCgzBGUs_DWfSZ-125" value="dev_id:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="B6jd7QzCgzBGUs_DWfSZ-118" vertex="1">
+        <mxCell id="B6jd7QzCgzBGUs_DWfSZ-125" value="dev_id: card_index" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="B6jd7QzCgzBGUs_DWfSZ-118" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B6jd7QzCgzBGUs_DWfSZ-128" value="cmd:" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="B6jd7QzCgzBGUs_DWfSZ-118" vertex="1">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="B6jd7QzCgzBGUs_DWfSZ-121" value="extend_sizeB???" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="B6jd7QzCgzBGUs_DWfSZ-118" vertex="1">
+        <mxCell id="C9A7YW3aw8jM6GKZEcJa-18" value="ret:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;OK, ERR Code" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B6jd7QzCgzBGUs_DWfSZ-118">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B6jd7QzCgzBGUs_DWfSZ-129" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="B6jd7QzCgzBGUs_DWfSZ-90" target="B6jd7QzCgzBGUs_DWfSZ-118" edge="1">
