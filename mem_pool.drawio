@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.13">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="901" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1480" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,10 +22,10 @@
         <mxCell id="RKsYsZY5aNLMbsADSlp9-7" value="case &lt;b&gt;gcvPOOL_LOCAL_EXTERNAL&lt;/b&gt;:&amp;nbsp; vm = device-&amp;gt;externalVidMem;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-1">
           <mxGeometry y="112" width="560" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RKsYsZY5aNLMbsADSlp9-9" value="case &lt;b&gt;gcvPOOL_SYSTEM&lt;/b&gt;:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;vm = device-&amp;gt;contiguousVidMems[&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;device-&amp;gt;memIndex&lt;/span&gt;];" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-1">
+        <mxCell id="RKsYsZY5aNLMbsADSlp9-10" value="case &lt;b&gt;gcvPOOL_LOCAL_EXCLUSIVE&lt;/b&gt;: vm = device-&amp;gt;exclusiveVidMem;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-1">
           <mxGeometry y="138" width="560" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RKsYsZY5aNLMbsADSlp9-10" value="case &lt;b&gt;gcvPOOL_LOCAL_EXCLUSIVE&lt;/b&gt;: vm = device-&amp;gt;exclusiveVidMem;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-1">
+        <mxCell id="RKsYsZY5aNLMbsADSlp9-9" value="case &lt;b&gt;gcvPOOL_SYSTEM&lt;/b&gt;:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;vm = device-&amp;gt;contiguousVidMems[&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;device-&amp;gt;memIndex&lt;/span&gt;];" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-1">
           <mxGeometry y="164" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-11" value="case &lt;b&gt;gcvPOOL_INTERNAL_SRAM&lt;/b&gt;:&amp;nbsp; &amp;nbsp; &amp;nbsp;vm = device-&amp;gt;sRAMVidMem[&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;Kernel-&amp;gt;sRAMIndex&lt;/span&gt;];" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-1">
@@ -41,7 +41,7 @@
           <mxGeometry y="268" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-14" value="gc_hal_kernel_device.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="-310" width="560" height="716" as="geometry" />
+          <mxGeometry x="910" y="-900" width="560" height="948" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-15" value="&lt;b&gt;gckGALDEVICE_Construct(*Platform, *Args, *Device)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-14">
           <mxGeometry y="26" width="560" height="26" as="geometry" />
@@ -80,10 +80,16 @@
           <mxGeometry y="620" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-66" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-14">
-          <mxGeometry y="646" width="560" height="44" as="geometry" />
+          <mxGeometry y="646" width="560" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="RKsYsZY5aNLMbsADSlp9-67" value="{" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-14">
+          <mxGeometry y="870" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RKsYsZY5aNLMbsADSlp9-68" value="}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-14">
+          <mxGeometry y="896" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-59" value="}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-14">
-          <mxGeometry y="690" width="560" height="26" as="geometry" />
+          <mxGeometry y="922" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RKsYsZY5aNLMbsADSlp9-7" target="RKsYsZY5aNLMbsADSlp9-65">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -149,7 +155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-50" value="gc_hal_kernel_allocator_reserved_mem.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2360" y="-30" width="490" height="510" as="geometry" />
+          <mxGeometry x="2410" y="30" width="490" height="510" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-51" value="&lt;b&gt;reserved_mem_attach(Allocator, Desc, Mdl)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-50">
           <mxGeometry y="26" width="490" height="26" as="geometry" />
@@ -179,6 +185,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="610" y="135" as="sourcePoint" />
             <mxPoint x="750" y="-165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RKsYsZY5aNLMbsADSlp9-69" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RKsYsZY5aNLMbsADSlp9-9" target="RKsYsZY5aNLMbsADSlp9-67">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="190" as="sourcePoint" />
+            <mxPoint x="910" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
