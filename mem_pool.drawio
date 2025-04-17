@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.13">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="628" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="531" dy="1442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-37" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="-200" width="530" height="716" as="geometry" />
+          <mxGeometry x="1680" y="-200" width="530" height="726" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-38" value="&lt;b&gt;gckOS_RequestReservedMemory&lt;/b&gt;&lt;b&gt;(Os, Start, Size, Name, Requested, MemoryHandle)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-37">
           <mxGeometry y="26" width="530" height="26" as="geometry" />
@@ -103,17 +103,17 @@
         <mxCell id="RKsYsZY5aNLMbsADSlp9-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-37">
           <mxGeometry y="52" width="530" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="RKsYsZY5aNLMbsADSlp9-40" value="Size = (Size + ~PAGE_MASK) &amp;amp; PAGE_MASK;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-37">
-          <mxGeometry y="60" width="530" height="30" as="geometry" />
+        <mxCell id="RKsYsZY5aNLMbsADSlp9-40" value="gckALLOCATOR allocator;&lt;div&gt;gcsATTACH_DESC desc;&lt;/div&gt;&lt;div&gt;&lt;br&gt;Size = (Size + ~PAGE_MASK) &amp;amp; PAGE_MASK;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-37">
+          <mxGeometry y="60" width="530" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RKsYsZY5aNLMbsADSlp9-41" value="&lt;div&gt;mdl = _CreateMdl(Os, gcvNULL);&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-37">
-          <mxGeometry y="90" width="530" height="140" as="geometry" />
+        <mxCell id="RKsYsZY5aNLMbsADSlp9-41" value="&lt;div&gt;mdl = _CreateMdl(Os, gcvNULL);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-37">
+          <mxGeometry y="130" width="530" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-42" value="&lt;div&gt;for (i = 0; i &amp;lt; gcmCOUNTOF(memory-&amp;gt;sentinel); ++i) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gckOS_Allocate(Os, sizeof(gcuVIDMEM_NODE), &amp;amp;pointer);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; node = pointer;&lt;br&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.parent = memory;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.next = .....prev = .....nextFree = .....prevFree = &amp;amp;memory-&amp;gt;sentinel[i];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.nextReserved = gcvNULL;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.offset = base;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.bytes = bytes;&lt;br&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.aligment = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.pool = gcvPOOL_DEFAULT;&lt;br&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.locked = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.processID = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.logical = gcvNULL;&lt;br&gt;&amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.kvaddr = gcvNULL;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; memory-&amp;gt;sentinel[i].VidMem.next = node;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; memory-&amp;gt;sentinel[i].VidMem.prev = node;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; memory-&amp;gt;sentinel[i].VidMem.nextFree = node;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; memory-&amp;gt;sentinel[i].VidMem.prevFree = node;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;memory&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;gt;sentinel[i].VidMem.bytes = 0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;memory&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;-&amp;gt;sentinel[i].VidMem.nextReserved = gcvNULL;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; base += bytes;&lt;br&gt;&amp;nbsp; &amp;nbsp; heapBytes -= bytes;&lt;br&gt;&amp;nbsp; &amp;nbsp; banks++;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/* Assign all the bank mappings */&lt;br&gt;memory-&amp;gt;mapping[xxxxx] = bank xxxx&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-37">
-          <mxGeometry y="230" width="530" height="460" as="geometry" />
+          <mxGeometry y="240" width="530" height="460" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-43" value="}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="RKsYsZY5aNLMbsADSlp9-37">
-          <mxGeometry y="690" width="530" height="26" as="geometry" />
+          <mxGeometry y="700" width="530" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RKsYsZY5aNLMbsADSlp9-27" target="RKsYsZY5aNLMbsADSlp9-38">
           <mxGeometry width="160" relative="1" as="geometry">
