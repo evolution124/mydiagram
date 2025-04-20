@@ -41,7 +41,7 @@
           <mxGeometry y="268" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-14" value="gc_hal_kernel_device.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="-660" width="560" height="948" as="geometry" />
+          <mxGeometry x="880" y="-660" width="560" height="978" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-15" value="&lt;b&gt;gckGALDEVICE_Construct(*Platform, *Args, *Device)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
           <mxGeometry y="26" width="560" height="26" as="geometry" />
@@ -68,28 +68,28 @@
           <mxGeometry y="310" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-60" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
-          <mxGeometry y="336" width="560" height="44" as="geometry" />
+          <mxGeometry y="336" width="560" height="74" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-61" value="if (gal_device-&amp;gt;exclusiveSize[i] &amp;gt; 0) {" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fontColor=#333333;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
-          <mxGeometry y="380" width="560" height="26" as="geometry" />
+          <mxGeometry y="410" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-62" value="&amp;nbsp; &amp;nbsp; &lt;b&gt;gckVIDMEM_Construct&lt;/b&gt;(os,&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gal_device-&amp;gt;exclusiveBase[i], gal_device-&amp;gt;exclusiveSize[i],&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;64, 0,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&amp;amp;gal_device-&amp;gt;exclusiveVidMem[i]&lt;/span&gt;);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckOS_RequestReservedMemory&lt;/b&gt;(os,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gal_device-&amp;gt;exclusiveBase[i], gal_device-&amp;gt;exclusiveSize[i],&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name, gcvTRUE,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&amp;amp;gal_device-&amp;gt;exclusivePhysical[i]&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;allocator = ((LINUX_MDL)gal_device-&amp;gt;exclusivePhysical[i])-&amp;gt;allocator;&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;gal_device-&amp;gt;exclusiveVidMem[i]-&amp;gt;physical = gal_device-&amp;gt;exclusivePhysical[i];&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;gal_device-&amp;gt;exclusiveVidMem[i]-&amp;gt;capability |= allocator-&amp;gt;capability;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
-          <mxGeometry y="406" width="560" height="214" as="geometry" />
+          <mxGeometry y="436" width="560" height="214" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-63" value="}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
-          <mxGeometry y="620" width="560" height="26" as="geometry" />
+          <mxGeometry y="650" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-66" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
-          <mxGeometry y="646" width="560" height="224" as="geometry" />
+          <mxGeometry y="676" width="560" height="224" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-67" value="{" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
-          <mxGeometry y="870" width="560" height="26" as="geometry" />
+          <mxGeometry y="900" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-68" value="}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
-          <mxGeometry y="896" width="560" height="26" as="geometry" />
+          <mxGeometry y="926" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-59" value="}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="RKsYsZY5aNLMbsADSlp9-14" vertex="1">
-          <mxGeometry y="922" width="560" height="26" as="geometry" />
+          <mxGeometry y="952" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RKsYsZY5aNLMbsADSlp9-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RKsYsZY5aNLMbsADSlp9-7" target="RKsYsZY5aNLMbsADSlp9-65" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
