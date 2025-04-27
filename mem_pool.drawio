@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.13">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2231" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="1766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -629,6 +629,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2713" y="4095" as="sourcePoint" />
             <mxPoint x="3700" y="3790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-QamLBn5pkz0fhhn8fLs-150" value="gc_hal_kernel_allocator_reserved_mem.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4400" y="4090" width="570" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-QamLBn5pkz0fhhn8fLs-151" value="&lt;b&gt;reserved_mem_map_user(Allocator, Mdl, MdlMap, Cacheable)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-QamLBn5pkz0fhhn8fLs-150">
+          <mxGeometry y="26" width="570" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-QamLBn5pkz0fhhn8fLs-152" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="-QamLBn5pkz0fhhn8fLs-150">
+          <mxGeometry y="52" width="570" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-QamLBn5pkz0fhhn8fLs-153" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="-QamLBn5pkz0fhhn8fLs-150">
+          <mxGeometry y="60" width="570" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-QamLBn5pkz0fhhn8fLs-154" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-QamLBn5pkz0fhhn8fLs-145" target="-QamLBn5pkz0fhhn8fLs-151">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3470" y="4660" as="sourcePoint" />
+            <mxPoint x="3610" y="3979" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
