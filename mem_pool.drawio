@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.13">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2270" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2521" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -671,7 +671,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qcseRaRLYhIY6nGx_bxc-1" value="gc_hal_kernel_linux.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2940" y="4440" width="570" height="240" as="geometry" />
+          <mxGeometry x="3720" y="4470" width="570" height="240" as="geometry" />
         </mxCell>
         <mxCell id="qcseRaRLYhIY6nGx_bxc-2" value="&lt;b&gt;gckOS_CreateKernelMapping(Os, Physical, Pool, Offset, Bytes, *Logical)&amp;nbsp;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-1">
           <mxGeometry y="26" width="570" height="26" as="geometry" />
@@ -682,13 +682,31 @@
         <mxCell id="qcseRaRLYhIY6nGx_bxc-4" value="&lt;div&gt;PLINUX_MDL mdl = Physical;&lt;/div&gt;&lt;div&gt;gckALLOCATOR allocator = mdl-&amp;gt;allocator;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-1">
           <mxGeometry y="60" width="570" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qcseRaRLYhIY6nGx_bxc-5" value="&lt;div&gt;if (mdl-&amp;gt;addr) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; *Logical = mdl-&amp;gt;addr + Offset;&lt;/div&gt;&lt;div&gt;} else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; allocator-&amp;gt;ops-&amp;gt;MapKernel(allocator, mdl, Offset, Bytes, Logical);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (Offset == 0 &amp;amp;&amp;amp; Bytes == mdl-&amp;gt;bytes) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /* The whole mdl has mapped */&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mdl-&amp;gt;addr = *Logical;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-1">
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-5" value="&lt;div&gt;if (mdl-&amp;gt;addr) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; *Logical = mdl-&amp;gt;addr + Offset;&lt;/div&gt;&lt;div&gt;} else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;allocator-&amp;gt;ops-&amp;gt;MapKernel&lt;/b&gt;(allocator, mdl, Offset, Bytes, Logical);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (Offset == 0 &amp;amp;&amp;amp; Bytes == mdl-&amp;gt;bytes) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /* The whole mdl has mapped */&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mdl-&amp;gt;addr = *Logical;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-1">
           <mxGeometry y="100" width="570" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qcseRaRLYhIY6nGx_bxc-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.777;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-QamLBn5pkz0fhhn8fLs-114" target="qcseRaRLYhIY6nGx_bxc-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2711" y="4173" as="sourcePoint" />
             <mxPoint x="2950" y="3859" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-8" value="gc_hal_kernel_allocator_reserved_mem.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4450" y="4410" width="650" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-9" value="&lt;b&gt;reserved_mem_map_user(Allocator, Mdl, MdlMap, Cacheable)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-8">
+          <mxGeometry y="26" width="650" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-8">
+          <mxGeometry y="52" width="650" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-11" value="struct reserved_mem *res = (struct reserved_mem *)Mdl-&amp;gt;priv;&lt;div&gt;gctPOINTER userLogical = gcvNULL;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;userLogical = vm_mmap(NULL, 0L, res-&amp;gt;size, PROT_READ| PROT_WRITE, MAP_SHARED|MAP_NORESERVE, 0);&lt;br&gt;&lt;br&gt;&lt;b style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;down_write(&amp;amp;current_mm_mmap_sem);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;do {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; struct vm_area_struct *vma = &lt;b&gt;find_vma&lt;/b&gt;(current-&amp;gt;mm, (unsigned long)userLogical);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;b&gt;reserved_mem_mmap&lt;/b&gt;(Allocator, Mdl, gcvFALSE, 0, 0, Mdl-&amp;gt;numPages, vma);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MdlMap-&amp;gt;vmaAddr = userLogical + res-&amp;gt;offset_in_page;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MdlMap-&amp;gt;cacheable = gcvFALSE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; MdlMap-&amp;gt;vma = vma;&lt;/div&gt;&lt;div&gt;} while(gcvFALSE);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;&lt;b style=&quot;&quot;&gt;up_write&lt;/b&gt;(&amp;amp;current_mm_mmap_sem);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-8">
+          <mxGeometry y="60" width="650" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qcseRaRLYhIY6nGx_bxc-5" target="qcseRaRLYhIY6nGx_bxc-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4300" y="3910" as="sourcePoint" />
+            <mxPoint x="4460" y="3909" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
