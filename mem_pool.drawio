@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.13">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="10317" dy="6393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2879" dy="2234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -317,7 +317,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-QamLBn5pkz0fhhn8fLs-14" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="1930" width="6180" height="2880" as="geometry" />
+          <mxGeometry x="-240" y="1930" width="6340" height="2880" as="geometry" />
         </mxCell>
         <mxCell id="-QamLBn5pkz0fhhn8fLs-15" value="memory.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="3080" width="490" height="160" as="geometry" />
@@ -472,7 +472,7 @@
         <mxCell id="-QamLBn5pkz0fhhn8fLs-79" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4350" y="2040" width="770" height="870" as="geometry" />
         </mxCell>
-        <mxCell id="-QamLBn5pkz0fhhn8fLs-80" value="&lt;b&gt;gckKERNEL_GetVideoMemoryPool(Kernel, Pool, VideoMemory)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-QamLBn5pkz0fhhn8fLs-79" vertex="1">
+        <mxCell id="-QamLBn5pkz0fhhn8fLs-80" value="&lt;b&gt;gckVIDMEM_AllocateLinear&lt;/b&gt;&lt;b&gt;(Kernel, Pool, VideoMemory)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-QamLBn5pkz0fhhn8fLs-79" vertex="1">
           <mxGeometry y="26" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-QamLBn5pkz0fhhn8fLs-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="-QamLBn5pkz0fhhn8fLs-79" vertex="1">
@@ -714,6 +714,42 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="4300" y="3910" as="sourcePoint" />
             <mxPoint x="4460" y="3909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-13" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5330" y="2140" width="710" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-14" value="&lt;b&gt;gckKERNEL_GetVideoMemoryPool(Kernel, Pool, VideoMemory)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-13">
+          <mxGeometry y="26" width="710" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-13">
+          <mxGeometry y="52" width="710" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-16" value="galDevice = Kernel-&amp;gt;context&lt;div&gt;device&amp;nbsp; &amp;nbsp; &amp;nbsp; = Kernel-&amp;gt;device&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;switch(Pool) {&lt;/div&gt;&lt;div&gt;case gcvPOOL_LOCAL_INTERNAL:&amp;nbsp; &amp;nbsp;galDevice-&amp;gt;internalVidMem;&lt;/div&gt;&lt;div&gt;case gcvPOOL_LOCAL_EXTERNAL:&amp;nbsp; device-&amp;gt;externalVidMem;&lt;/div&gt;&lt;div&gt;case gcvPOOL_SYSTEM:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; device-&amp;gt;contiguousVidMems[device-&amp;gt;memIndex];&lt;/div&gt;&lt;div&gt;case gcvPOOL_LOCAL_EXCLUSIVE: device-&amp;gt;exclusiveVidMem;&lt;/div&gt;&lt;div&gt;case gcvPOOL_INTERNAL_SRAM:&amp;nbsp; &amp;nbsp; &amp;nbsp;Kernel-&amp;gt;sRAMVidMem[Kernel-&amp;gt;sRAMIndex];&lt;/div&gt;&lt;div&gt;case gcvPOOL_EXTERNAL_SRAM:&amp;nbsp; &amp;nbsp; device-&amp;gt;extSRAMVidMems[device-&amp;gt;extSRAMIndex];&lt;/div&gt;&lt;div&gt;case gcvPOOL_SYSTEM_32BIT_VA:&amp;nbsp; galDevice-&amp;gt;lowContiguousVidMem;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-13">
+          <mxGeometry y="60" width="710" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-17" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5330" y="2470" width="710" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-18" value="&lt;b&gt;gckKERNEL_GetVideoMemoryPool(Kernel, Pool, VideoMemory)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-17">
+          <mxGeometry y="26" width="710" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-17">
+          <mxGeometry y="52" width="710" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-20" value="galDevice = Kernel-&amp;gt;context&lt;div&gt;device&amp;nbsp; &amp;nbsp; &amp;nbsp; = Kernel-&amp;gt;device&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;switch(Pool) {&lt;/div&gt;&lt;div&gt;case gcvPOOL_LOCAL_INTERNAL:&amp;nbsp; &amp;nbsp;galDevice-&amp;gt;internalVidMem;&lt;/div&gt;&lt;div&gt;case gcvPOOL_LOCAL_EXTERNAL:&amp;nbsp; device-&amp;gt;externalVidMem;&lt;/div&gt;&lt;div&gt;case gcvPOOL_SYSTEM:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; device-&amp;gt;contiguousVidMems[device-&amp;gt;memIndex];&lt;/div&gt;&lt;div&gt;case gcvPOOL_LOCAL_EXCLUSIVE: device-&amp;gt;exclusiveVidMem;&lt;/div&gt;&lt;div&gt;case gcvPOOL_INTERNAL_SRAM:&amp;nbsp; &amp;nbsp; &amp;nbsp;Kernel-&amp;gt;sRAMVidMem[Kernel-&amp;gt;sRAMIndex];&lt;/div&gt;&lt;div&gt;case gcvPOOL_EXTERNAL_SRAM:&amp;nbsp; &amp;nbsp; device-&amp;gt;extSRAMVidMems[device-&amp;gt;extSRAMIndex];&lt;/div&gt;&lt;div&gt;case gcvPOOL_SYSTEM_32BIT_VA:&amp;nbsp; galDevice-&amp;gt;lowContiguousVidMem;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="qcseRaRLYhIY6nGx_bxc-17">
+          <mxGeometry y="60" width="710" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.001;exitY=0.282;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-QamLBn5pkz0fhhn8fLs-82" target="qcseRaRLYhIY6nGx_bxc-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5160" y="2460" as="sourcePoint" />
+            <mxPoint x="4360" y="3039" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.779;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-QamLBn5pkz0fhhn8fLs-82" target="qcseRaRLYhIY6nGx_bxc-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5131" y="2220" as="sourcePoint" />
+            <mxPoint x="5340" y="2189" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
