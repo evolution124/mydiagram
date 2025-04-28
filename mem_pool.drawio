@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="1790" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1616" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -848,6 +848,18 @@
           <mxGeometry y="52" width="490" height="8" as="geometry" />
         </mxCell>
         <mxCell id="5UoCWkmYeCmagEpiS34q-32" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#if gcdNEW_MM&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Args-&amp;gt;devMemCPUPhys[dev_index] = Args-&amp;gt;contiguousBases[dev_index];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Args-&amp;gt;devMemSizes[dev_index][0]&amp;nbsp; &amp;nbsp; = Args-&amp;gt;contiguousSizes[dev_index];&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Args-&amp;gt;devMemGPUPhys[dev_index][0] = Args-&amp;gt;devMemCPUPhys[dev_index];&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;Args-&amp;gt;contiguousSizes[dev_index] = 0;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="5UoCWkmYeCmagEpiS34q-29">
+          <mxGeometry y="60" width="490" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5UoCWkmYeCmagEpiS34q-36" value="gc_hal_kernel_platform_default.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5160" y="-700" width="490" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5UoCWkmYeCmagEpiS34q-37" value="&lt;b&gt;gckGALDEVICE_Construct(Platform, Args, gckGALDEVICE *Device)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5UoCWkmYeCmagEpiS34q-36">
+          <mxGeometry y="26" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5UoCWkmYeCmagEpiS34q-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5UoCWkmYeCmagEpiS34q-36">
+          <mxGeometry y="52" width="490" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5UoCWkmYeCmagEpiS34q-39" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#if gcdNEW_MM&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Args-&amp;gt;devMemCPUPhys[dev_index] = Args-&amp;gt;contiguousBases[dev_index];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Args-&amp;gt;devMemSizes[dev_index][0]&amp;nbsp; &amp;nbsp; = Args-&amp;gt;contiguousSizes[dev_index];&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Args-&amp;gt;devMemGPUPhys[dev_index][0] = Args-&amp;gt;devMemCPUPhys[dev_index];&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;Args-&amp;gt;contiguousSizes[dev_index] = 0;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="5UoCWkmYeCmagEpiS34q-36">
           <mxGeometry y="60" width="490" height="120" as="geometry" />
         </mxCell>
       </root>
