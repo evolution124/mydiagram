@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="3948" dy="2433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2790" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1513,11 +1513,11 @@
         <mxCell id="3ZKCpSd9Htbg4jpo1CF4-23" value="while(&amp;nbsp;getBytes&amp;nbsp;&amp;lt; RequestedBytes) {" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="3ZKCpSd9Htbg4jpo1CF4-14">
           <mxGeometry y="100" width="620" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ZKCpSd9Htbg4jpo1CF4-24" value="&amp;nbsp; &amp;nbsp; if (node-&amp;gt;VidMem.offset&amp;nbsp; + node-&amp;gt;VidMem.bytes != node-&amp;gt;VidMem.nextFree-&amp;gt;VidMem.offset ||&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.reservedBytes)&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return gcvFALSE;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="3ZKCpSd9Htbg4jpo1CF4-14">
-          <mxGeometry y="130" width="620" height="60" as="geometry" />
+        <mxCell id="3ZKCpSd9Htbg4jpo1CF4-24" value="&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 由于是查找Contiguous, 所以当前节点的offset + bytes 需要等于下一个FreeNode的offset &lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;并且node 不能是partial reserved的节点*/&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; if (node-&amp;gt;VidMem.offset&amp;nbsp; + node-&amp;gt;VidMem.bytes != node-&amp;gt;VidMem.nextFree-&amp;gt;VidMem.offset ||&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node-&amp;gt;VidMem.reservedBytes)&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return gcvFALSE;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="3ZKCpSd9Htbg4jpo1CF4-14">
+          <mxGeometry y="130" width="620" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3ZKCpSd9Htbg4jpo1CF4-25" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="3ZKCpSd9Htbg4jpo1CF4-14">
-          <mxGeometry y="190" width="620" height="60" as="geometry" />
+        <mxCell id="3ZKCpSd9Htbg4jpo1CF4-25" value="&amp;nbsp; &amp;nbsp; node = node-&amp;gt;VidMem.nextFree;&lt;br&gt;&amp;nbsp; &amp;nbsp; getBytes += node-&amp;gt;VidMem.bytes;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="3ZKCpSd9Htbg4jpo1CF4-14">
+          <mxGeometry y="210" width="620" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3ZKCpSd9Htbg4jpo1CF4-18" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="3ZKCpSd9Htbg4jpo1CF4-14">
           <mxGeometry y="250" width="620" height="30" as="geometry" />
