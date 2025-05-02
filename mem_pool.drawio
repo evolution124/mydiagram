@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2832" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2699" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1436,7 +1436,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-151" value="gc_hal_kernel_vm.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="8520" y="5420" width="640" height="360" as="geometry" />
+          <mxGeometry x="8520" y="5420" width="640" height="570" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-152" value="&lt;b&gt;gckVM_VARangeAlloc(Kernel, Vm, Args, gckVRANGE * Range)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
@@ -1444,14 +1444,20 @@
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-153" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
           <mxGeometry y="52" width="640" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-154" value="alignedSize;&lt;div&gt;address;&lt;/div&gt;&lt;div&gt;range;&lt;/div&gt;&lt;div&gt;mmu;&lt;/div&gt;&lt;div&gt;gckVASPACE space = Vm-&amp;gt;vaSpace[Kernel-&amp;gt;devID];&amp;nbsp;&lt;/div&gt;&lt;div&gt;gctUVA start =0, end =0;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-154" value="alignedSize;&lt;div&gt;address;&lt;/div&gt;&lt;div&gt;range;&lt;/div&gt;&lt;div&gt;mmu;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;gckVASPACE space = Vm-&amp;gt;vaSpace[Kernel-&amp;gt;devID];&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;gctUVA start =0, end =0;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
           <mxGeometry y="60" width="640" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="JtXYeRphJ5WXioU-IupR-4" value="gckGATHER_MEMORY gather = Gather;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="2cfCXFZoOlLPJyDhJhEe-151">
-          <mxGeometry y="160" width="640" height="30" as="geometry" />
+        <mxCell id="JtXYeRphJ5WXioU-IupR-4" value="start&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= gcmALIGN_BASE(Args-&amp;gt;start, gcd4K_PAGE_SIZE);&lt;div&gt;end&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = gcmALIGN(Args-&amp;gt;start + Args.size,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gcd4K_PAGE_SIZE);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;alignedSize&amp;nbsp; = end - start;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gckOS_Allocate(os, sizeof(struct _gcsVRANGE), &amp;amp;pointer);&lt;br&gt;gckOS_ZeroMemory(pointer,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sizeof(struct _gcsVRANGE));&lt;br&gt;range&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= pointer;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="2cfCXFZoOlLPJyDhJhEe-151">
+          <mxGeometry y="160" width="640" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-155" value="/* 删除当前gather next 链表 */&lt;br&gt;while (gather) {&lt;div&gt;&amp;nbsp; &amp;nbsp; gckGATHER_MEMORY tmpGather = gather-&amp;gt;next;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (Gather == tmpGather) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gcmkOS_SAFE_FREE(Os, gather);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gcmkOS_SAFE_FREE(Os, gather);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gather = tmpGather;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
-          <mxGeometry y="190" width="640" height="170" as="geometry" />
+        <mxCell id="JtXYeRphJ5WXioU-IupR-5" value="range-&amp;gt;parent&amp;nbsp; &amp;nbsp; &amp;nbsp;= space;&lt;div&gt;range-&amp;gt;flag&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= Args-&amp;gt;flag;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;range-&amp;gt;migratable = gcvTRUE;&lt;/div&gt;&lt;div&gt;range-&amp;gt;start&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = start;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="2cfCXFZoOlLPJyDhJhEe-151">
+          <mxGeometry y="270" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JtXYeRphJ5WXioU-IupR-6" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="2cfCXFZoOlLPJyDhJhEe-151">
+          <mxGeometry y="370" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-155" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
+          <mxGeometry y="470" width="640" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-156" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2cfCXFZoOlLPJyDhJhEe-141" target="2cfCXFZoOlLPJyDhJhEe-152" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1464,7 +1470,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-157" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="8520" y="5770" width="640" height="260" as="geometry" />
+          <mxGeometry x="8520" y="6050" width="640" height="260" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-158" value="&lt;b&gt;_GatherMemoryDestroy(Os, gckGATHER_MEMORY Gather)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2cfCXFZoOlLPJyDhJhEe-157" vertex="1">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
@@ -1484,12 +1490,12 @@
             <mxPoint x="8530" y="5679" as="targetPoint" />
             <Array as="points">
               <mxPoint x="8270" y="5840" />
-              <mxPoint x="8410" y="5809" />
+              <mxPoint x="8410" y="5840" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-163" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="8520" y="6060" width="640" height="260" as="geometry" />
+          <mxGeometry x="8520" y="6260" width="640" height="260" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-164" value="&lt;b&gt;_GatherMemoryDestroy(Os, gckGATHER_MEMORY Gather)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2cfCXFZoOlLPJyDhJhEe-163" vertex="1">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
