@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="3032" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7693" dy="4653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1079,15 +1079,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-50" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9480" y="3710" width="620" height="900" as="geometry" />
+          <mxGeometry x="9480" y="3400" width="620" height="900" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-51" value="&lt;b&gt;gckVIDMEM_DeviceMemoryConstruct(Device, Bytes, Id, Contiguous, *Gather)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-51" value="&lt;b&gt;gckVIDMEM_DeviceMemoryConstruct(Device, Bytes, Gather, *Node)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
           <mxGeometry y="26" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
           <mxGeometry y="52" width="620" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-53" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;/* 只有最后一个node 可以是 partial reserved */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;gcuVIDMEM_NODE_PTR node = *Node, preNode = gcvNULL, headNode = gcvNULL;&lt;br&gt;bytes = Bytes;&lt;div&gt;inSamePool = gcvFALSE;&lt;/div&gt;&lt;div&gt;gckGATHER_MEMORY gather = Gather;&lt;/div&gt;&lt;div&gt;gcsPOOL_RESV *pool = gcvNULL;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-53" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;/* 只有最后一个node 可以是 partial reserved */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;gcuVIDMEM_NODE_PTR node = *Node, preNode = gcvNULL, headNode = gcvNULL;&lt;br&gt;bytes = Bytes;&lt;div&gt;inSamePool = gcvFALSE;&lt;/div&gt;&lt;div&gt;gckGATHER_MEMORY gather = Gather;&lt;/div&gt;&lt;div&gt;gcsPOOL_RESV *pool = gcvNULL;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
           <mxGeometry y="60" width="620" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-60" value="while (gather) {" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
@@ -1120,7 +1120,7 @@
             <mxPoint x="9490" y="2829" as="targetPoint" />
             <Array as="points">
               <mxPoint x="9270" y="3340" />
-              <mxPoint x="9370" y="3749" />
+              <mxPoint x="9390" y="3440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1330,7 +1330,7 @@
             <mxPoint x="10909" y="3182" as="sourcePoint" />
             <mxPoint x="12070" y="3570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="11170" y="4565" />
+              <mxPoint x="11120" y="4270" />
               <mxPoint x="12030" y="3919" />
             </Array>
           </mxGeometry>
