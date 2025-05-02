@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="4697" dy="2877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2449" dy="1544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1111,7 +1111,7 @@
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-56" value="}" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
           <mxGeometry y="870" width="620" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-57" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/*销毁gather, 以及其next对应的整个链表 */&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;b&gt;_GatherMemoryDestroy&lt;/b&gt;(os, Gather);&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;headNode-&amp;gt;VidMem.bufferBytes = Bytes;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;*Node = headNode;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-57" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/*销毁gather, 以及其next对应的整个链表 */&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;b&gt;_GatherMemoryDestroy&lt;/b&gt;(os, Gather);&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;span&gt;&lt;span style=&quot;background-color: rgb(255, 204, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;headNode-&amp;gt;VidMem.bufferBytes = Bytes;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;*Node = headNode;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-50" vertex="1">
           <mxGeometry y="900" width="620" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2cfCXFZoOlLPJyDhJhEe-33" target="2cfCXFZoOlLPJyDhJhEe-51" edge="1">
