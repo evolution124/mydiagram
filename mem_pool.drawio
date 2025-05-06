@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2478" dy="1616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5280" dy="3472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1351,7 +1351,7 @@
           <mxGeometry y="90" width="640" height="170" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-126" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="7560" y="5370" width="670" height="920" as="geometry" />
+          <mxGeometry x="7560" y="5370" width="670" height="910" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-127" value="&lt;b&gt;_LockVideoMemory(Kernel, Core, ProcessID, Interface)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
           <mxGeometry y="26" width="670" height="26" as="geometry" />
@@ -1378,37 +1378,37 @@
           <mxGeometry y="260" width="670" height="130" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-140" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 通过node的bufferBytes 获取大小 */&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckVIDMEM_NODE_GetSize&lt;/b&gt;(Kernel, nodeObject, &amp;amp;args.size));" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="390" width="670" height="50" as="geometry" />
+          <mxGeometry y="390" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-141" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 通过vm_mmap得到虚拟地址并记录到range, 最后添加range信息到VM中 */&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckVM_VARangeAlloc&lt;/b&gt;(Kernel, vm, &amp;amp;args, &amp;amp;range);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="440" width="670" height="40" as="geometry" />
+          <mxGeometry y="430" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-142" value="&lt;b&gt;gckVM_VARangeMap&lt;/b&gt;(Kernel, range, nodeObject, 0, 0,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcvMAP_FLAG_MAP_CPU | gcvMAP_FLAG_MAP_GPU | gcvMAP_FLAG_READWRITE));" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="480" width="670" height="40" as="geometry" />
+          <mxGeometry y="470" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-143" value="&lt;b&gt;gckVIDMEM_NODE_GetCPUPhysical&lt;/b&gt;(Kernel, nodeObject, 0, &amp;amp;physical);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="520" width="670" height="40" as="geometry" />
+          <mxGeometry y="510" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-132" value="&lt;div&gt;&lt;b&gt;gckVIDMEM_NODE_GetGid&lt;/b&gt;(Kernel, nodeObject, &amp;amp;gid);&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="560" width="670" height="30" as="geometry" />
+          <mxGeometry y="550" width="670" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-144" value="&lt;b&gt;Interface-&amp;gt;u.LockVideoMemory.address = range-&amp;gt;start;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.memory = range-&amp;gt;start;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.physicalAddress = physical;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.gid&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = gid;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="590" width="670" height="70" as="geometry" />
+          <mxGeometry y="580" width="670" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-133" value="&lt;b&gt;#else&lt;/b&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="660" width="670" height="30" as="geometry" />
+          <mxGeometry y="650" width="670" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-134" value="......" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="690" width="670" height="40" as="geometry" />
+          <mxGeometry y="680" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-136" value="&lt;b&gt;#end&lt;/b&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="730" width="670" height="30" as="geometry" />
+          <mxGeometry y="720" width="670" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-137" value="if (Interface-&amp;gt;u.LockVideoMemory.op &amp;amp; gcvLOCK_VIDEO_MEMORY_OP_LOCK) {&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckKERNEL_AddProcessDB&lt;/b&gt;(Kernel, ProcessID, gcvDB_VIDEO_MEMORY_LOCKED,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gcmINT2PTR(handle), logical, 0);&lt;div&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckVIDMEM_HANDLE_Reference&lt;/b&gt;(Kernel, ProcessID, handle);&lt;br&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="760" width="670" height="100" as="geometry" />
+          <mxGeometry y="750" width="670" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-138" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#if gcdINIT_VIDEO_MEMORY_MIRROR&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b&gt;_InitVideoMemoryMirror&lt;/b&gt;(Kernel, nodeObject);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="860" width="670" height="60" as="geometry" />
+          <mxGeometry y="850" width="670" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-145" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="8520" y="5090" width="510" height="260" as="geometry" />
@@ -1430,7 +1430,7 @@
             <mxPoint x="8450" y="5710" as="sourcePoint" />
             <mxPoint x="8690" y="6139" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="8260" y="5775" />
+              <mxPoint x="8260" y="5780" />
               <mxPoint x="8430" y="5130" />
             </Array>
           </mxGeometry>
@@ -1470,7 +1470,7 @@
             <mxPoint x="8240" y="5655" as="sourcePoint" />
             <mxPoint x="8530" y="5359" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="8280" y="5810" />
+              <mxPoint x="8280" y="5820" />
               <mxPoint x="8440" y="5460" />
             </Array>
           </mxGeometry>
@@ -1504,7 +1504,7 @@
             <mxPoint x="8240" y="5685" as="sourcePoint" />
             <mxPoint x="8530" y="5679" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="8270" y="5850" />
+              <mxPoint x="8270" y="5860" />
               <mxPoint x="8480" y="6359" />
             </Array>
           </mxGeometry>
@@ -1529,7 +1529,7 @@
             <mxPoint x="8240" y="5720" as="sourcePoint" />
             <mxPoint x="8530" y="5819" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="8250" y="5890" />
+              <mxPoint x="8250" y="5900" />
               <mxPoint x="8470" y="6990" />
             </Array>
           </mxGeometry>
