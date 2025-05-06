@@ -1351,7 +1351,7 @@
           <mxGeometry y="90" width="640" height="170" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-126" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="7560" y="5370" width="670" height="890" as="geometry" />
+          <mxGeometry x="7560" y="5370" width="670" height="900" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-127" value="&lt;b&gt;_LockVideoMemory(Kernel, Core, ProcessID, Interface)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
           <mxGeometry y="26" width="670" height="26" as="geometry" />
@@ -1380,35 +1380,35 @@
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-140" value="&lt;b&gt;gckVIDMEM_NODE_GetSize&lt;/b&gt;(Kernel, nodeObject, &amp;amp;args.size));" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
           <mxGeometry y="390" width="670" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-141" value="&lt;b&gt;gckVM_VARangeAlloc&lt;/b&gt;(Kernel, vm, &amp;amp;args, &amp;amp;range);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="420" width="670" height="30" as="geometry" />
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-141" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 通过vm_mmap得到虚拟地址并记录到range, 最后添加range信息到VM中 */&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckVM_VARangeAlloc&lt;/b&gt;(Kernel, vm, &amp;amp;args, &amp;amp;range);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
+          <mxGeometry y="420" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-142" value="&lt;b&gt;gckVM_VARangeMap&lt;/b&gt;(Kernel, range, nodeObject, 0, 0,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gcvMAP_FLAG_MAP_CPU | gcvMAP_FLAG_MAP_GPU | gcvMAP_FLAG_READWRITE));" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="450" width="670" height="40" as="geometry" />
+          <mxGeometry y="460" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-143" value="&lt;b&gt;gckVIDMEM_NODE_GetCPUPhysical&lt;/b&gt;(Kernel, nodeObject, 0, &amp;amp;physical);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="490" width="670" height="40" as="geometry" />
+          <mxGeometry y="500" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-132" value="&lt;div&gt;&lt;b&gt;gckVIDMEM_NODE_GetGid&lt;/b&gt;(Kernel, nodeObject, &amp;amp;gid);&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="530" width="670" height="30" as="geometry" />
+          <mxGeometry y="540" width="670" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-144" value="&lt;b&gt;Interface-&amp;gt;u.LockVideoMemory.address = range-&amp;gt;start;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.memory = range-&amp;gt;start;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.physicalAddress = physical;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.gid&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = gid;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="560" width="670" height="70" as="geometry" />
+          <mxGeometry y="570" width="670" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-133" value="&lt;b&gt;#else&lt;/b&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="630" width="670" height="30" as="geometry" />
+          <mxGeometry y="640" width="670" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-134" value="......" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="660" width="670" height="40" as="geometry" />
+          <mxGeometry y="670" width="670" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-136" value="&lt;b&gt;#end&lt;/b&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="700" width="670" height="30" as="geometry" />
+          <mxGeometry y="710" width="670" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-137" value="if (Interface-&amp;gt;u.LockVideoMemory.op &amp;amp; gcvLOCK_VIDEO_MEMORY_OP_LOCK) {&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckKERNEL_AddProcessDB&lt;/b&gt;(Kernel, ProcessID, gcvDB_VIDEO_MEMORY_LOCKED,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gcmINT2PTR(handle), logical, 0);&lt;div&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gckVIDMEM_HANDLE_Reference&lt;/b&gt;(Kernel, ProcessID, handle);&lt;br&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="730" width="670" height="100" as="geometry" />
+          <mxGeometry y="740" width="670" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-138" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#if gcdINIT_VIDEO_MEMORY_MIRROR&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b&gt;_InitVideoMemoryMirror&lt;/b&gt;(Kernel, nodeObject);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-126" vertex="1">
-          <mxGeometry y="830" width="670" height="60" as="geometry" />
+          <mxGeometry y="840" width="670" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-145" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="8520" y="5090" width="510" height="260" as="geometry" />
@@ -1436,7 +1436,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-151" value="gc_hal_kernel_vm.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9245" y="5420" width="640" height="780" as="geometry" />
+          <mxGeometry x="9245" y="5420" width="640" height="800" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-152" value="&lt;b&gt;gckVM_VARangeAlloc(Kernel, Vm, Args, gckVRANGE * Range)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
@@ -1456,21 +1456,21 @@
         <mxCell id="JtXYeRphJ5WXioU-IupR-6" value="&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#if gcdENABLE_HMM&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; range-&amp;gt;preferLocation&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= PREFER_NOT_SET;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; range-&amp;gt;cpuAccessControl |= gcvMAP_FLAG_FIRST_TOUCH;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; range-&amp;gt;readMostly&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= gcvFALSE;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // range-&amp;gt;migratable&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;amp;= Args-&amp;gt;migratable;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
           <mxGeometry y="500" width="640" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-155" value="&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#if gcdENABLE_HMM&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;_VARange_Add&lt;/b&gt;(Vm, range);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#else&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gcsLIST_Add&lt;/b&gt;(&amp;amp;range-&amp;gt;rbLink, &amp;amp;Vm-&amp;gt;rangeRoot);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
-          <mxGeometry y="600" width="640" height="90" as="geometry" />
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-155" value="&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#if gcdENABLE_HMM&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 添加range 到vm中 */&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp; &lt;b&gt;_VARange_Add&lt;/b&gt;(Vm, range);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#else&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;gcsLIST_Add&lt;/b&gt;(&amp;amp;range-&amp;gt;rbLink, &amp;amp;Vm-&amp;gt;rangeRoot);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
+          <mxGeometry y="600" width="640" height="110" as="geometry" />
         </mxCell>
         <mxCell id="JtXYeRphJ5WXioU-IupR-7" value="&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#if gcdENABLE_HMM&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 204, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;gckOS_HmmNotifierInsert&lt;/b&gt;(os, range);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(248, 206, 204);&quot;&gt;#endif&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
-          <mxGeometry y="690" width="640" height="60" as="geometry" />
+          <mxGeometry y="710" width="640" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JtXYeRphJ5WXioU-IupR-8" value="*Range = range;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
-          <mxGeometry y="750" width="640" height="30" as="geometry" />
+          <mxGeometry y="770" width="640" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-156" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2cfCXFZoOlLPJyDhJhEe-141" target="2cfCXFZoOlLPJyDhJhEe-152" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="8240" y="5655" as="sourcePoint" />
             <mxPoint x="8530" y="5359" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="8280" y="5805" />
+              <mxPoint x="8280" y="5810" />
               <mxPoint x="8440" y="5460" />
             </Array>
           </mxGeometry>
@@ -1504,7 +1504,7 @@
             <mxPoint x="8240" y="5685" as="sourcePoint" />
             <mxPoint x="8530" y="5679" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="8270" y="5840" />
+              <mxPoint x="8270" y="5850" />
               <mxPoint x="8480" y="6359" />
             </Array>
           </mxGeometry>
@@ -1529,7 +1529,7 @@
             <mxPoint x="8240" y="5720" as="sourcePoint" />
             <mxPoint x="8530" y="5819" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="8250" y="5880" />
+              <mxPoint x="8250" y="5890" />
               <mxPoint x="8470" y="6990" />
             </Array>
           </mxGeometry>
@@ -1606,7 +1606,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-1" value="gc_hal_kernel_vm.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10115" y="5870" width="510" height="340" as="geometry" />
+          <mxGeometry x="10115" y="5870" width="510" height="320" as="geometry" />
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-2" value="&lt;b&gt;_VARange_Add(Os, gckVRANGE Range, Bytes, *Logical)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="xt16O4ISyjv4oT31lnue-1" vertex="1">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -1615,10 +1615,10 @@
           <mxGeometry y="52" width="510" height="8" as="geometry" />
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-4" value="struct rb_root *root = &amp;amp;Vm-&amp;gt;rangeRoot;&lt;div&gt;struct rb_node **new = &amp;amp;(root-&amp;gt;rb_node), *parent = gcvNULL;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="xt16O4ISyjv4oT31lnue-1" vertex="1">
-          <mxGeometry y="60" width="510" height="60" as="geometry" />
+          <mxGeometry y="60" width="510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-6" value="&lt;div&gt;while(*new) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gckVARANGE temp_range = gcmCONTAINEROF(*new, struct _gcsVARANGE, rbLink);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; parent = *new;&lt;br&gt;&amp;nbsp; &amp;nbsp; if (Range-&amp;gt;start + Range-&amp;gt;size &amp;lt;= temp_range-&amp;gt;start) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; new = &amp;amp;((*new)-&amp;gt;rb_left);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else if (Range-&amp;gt;start &amp;gt;= temp_range-&amp;gt;start + temp_range-&amp;gt;size) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; new = &amp;amp;((*new)-&amp;gt;rb_right);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gcmkONERROR(gcvSTATUS_INVALID_ADDRESS);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b style=&quot;&quot;&gt;rb_link_node&lt;/b&gt;(&amp;amp;Range-&amp;gt;rbLink, parent, new);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b style=&quot;&quot;&gt;rb_insert_color&lt;/b&gt;(&amp;amp;Range-&amp;gt;rbLink, root);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="xt16O4ISyjv4oT31lnue-1" vertex="1">
-          <mxGeometry y="120" width="510" height="220" as="geometry" />
+          <mxGeometry y="100" width="510" height="220" as="geometry" />
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2cfCXFZoOlLPJyDhJhEe-155" target="xt16O4ISyjv4oT31lnue-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
