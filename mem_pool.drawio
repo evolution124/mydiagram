@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="3077" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5280" dy="3472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2169,6 +2169,10 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2800" y="5099" as="sourcePoint" />
             <mxPoint x="2950" y="5099" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2130" y="6450" />
+              <mxPoint x="2230" y="6229" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QNYcLvJolFkXC-7qqJEz-105" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -2238,7 +2242,10 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2580" y="5685" as="sourcePoint" />
             <mxPoint x="3020" y="5209" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="2120" y="7000" />
+              <mxPoint x="2230" y="6679" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPhKI4A4c1HaiVuhG3F-12" value="gc_hal_kernel_allocator_reserved_mem.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2257,6 +2264,10 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2580" y="5990" as="sourcePoint" />
             <mxPoint x="3020" y="7329" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2110" y="7270" />
+              <mxPoint x="2230" y="7889" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
