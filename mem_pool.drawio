@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2534" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3042" dy="1916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2340,7 +2340,7 @@
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-11">
           <mxGeometry y="52" width="700" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Rt-lXHL0REA0ntXYS-w8-14" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#if !gcdENABLE_HMM&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; gcsHAL_INTERFACE iface = { gcvHAL_WRAP_USER_MEMORY };&lt;br&gt;#else&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(185, 224, 165);&quot;&gt;gcsHAL_INTERFACE iface = { gcvHAL_HOST_REGISTER };&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; iface.devCtxt&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = processor-&amp;gt;devCtx;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .ignoreTLS&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= gcvTRUE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .hardwareType = processor-&amp;gt;coreTypes[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .coreIndex&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = processor-&amp;gt;coreIndex[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .devIndex&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= processor-&amp;gt;devIdx;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; iface.u.HostRegister.address = info-&amp;gt;hostMemAddr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; iface.u.HostRegister.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;size;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-11">
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-14" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;#if !gcdENABLE_HMM&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; gcsHAL_INTERFACE iface = { gcvHAL_WRAP_USER_MEMORY };&lt;br&gt;#else&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(185, 224, 165);&quot;&gt;gcsHAL_INTERFACE iface = { gcvHAL_HOST_REGISTER };&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; iface.devCtxt&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = processor-&amp;gt;devCtx;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .ignoreTLS&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= gcvTRUE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .hardwareType = processor-&amp;gt;coreTypes[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .coreIndex&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = processor-&amp;gt;coreIndex[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .devIndex&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= processor-&amp;gt;devIdx;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b&gt;iface.u.HostRegister.address = info-&amp;gt;hostMemAddr;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b&gt;iface.u.HostRegister.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;size;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-11">
           <mxGeometry y="60" width="700" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-17" value="&lt;b&gt;KmdIoCtl&lt;/b&gt;(KmdHandle(processor, iface), IOCTL_GCHAL_INTERFACE, &amp;amp;iface, sizeof(iface), &amp;amp;iface, sizeof(iface));" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-11">
@@ -2407,7 +2407,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-32" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="17020" y="3240" width="960" height="880" as="geometry" />
+          <mxGeometry x="17040" y="2960" width="960" height="880" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-33" value="&lt;b&gt;gcsVIDMEM_NODE_WrapUserMemory(Kernel, gcsUSER_MEMORY_DESC_PTR Desc, gceVIDMEM_TYPE Type, gckVIDMEM_NODE *NodeObject, gctUINT64 *Bytes)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-32">
           <mxGeometry y="26" width="960" height="26" as="geometry" />
@@ -2443,7 +2443,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-43" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="18380" y="3300" width="750" height="910" as="geometry" />
+          <mxGeometry x="18310" y="2450" width="750" height="910" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-44" value="&lt;b&gt;gckOS_WrapMemory(Os, Kernel, gcsUSER_MEMORY_DESC_PTR Desc, *Bytes, *Physical, *Contiguous, *PageCountCpu)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-43">
           <mxGeometry y="26" width="750" height="26" as="geometry" />
@@ -2476,6 +2476,51 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="17720" y="2986" as="sourcePoint" />
             <mxPoint x="17900" y="2940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-55" value="gc_hal_kernel_allocator_user_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="19300" y="2970" width="640" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-56" value="&lt;b&gt;_UserMemoryAttach(gckALLOCATOR Allocator, gcsATTACH_DESC_PTR Desc, PLINUX_MDL Mdl)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-55">
+          <mxGeometry y="26" width="640" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-55">
+          <mxGeometry y="52" width="640" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-58" value="&lt;b&gt;gckOS_Allocator&lt;/b&gt;(os, gcmSIZEOF(struct um_desc), &amp;amp;userMemory));&lt;br&gt;&lt;b&gt;gckOS_ZeroMemory&lt;/b&gt;(userMemory, gcmSIZEOF(struct um_desc));" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-55">
+          <mxGeometry y="60" width="640" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-68" value="&lt;b&gt;_Import(os,&lt;/b&gt;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Mdl, &lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Desc-&amp;gt;userMem.memory,&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Desc-&amp;gt;userMem.size,&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;userMemory);&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-55">
+          <mxGeometry y="110" width="640" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-67" value="Mdl-&amp;gt;priv&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= userMemory;&lt;div&gt;Mdl-&amp;gt;numPages = userMemory-&amp;gt;pageCount + userMemory-&amp;gt;extPage;&lt;/div&gt;&lt;div&gt;Mdl-&amp;gt;contiguous = userMemory-&amp;gt;chunk_count == 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-55">
+          <mxGeometry y="200" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rt-lXHL0REA0ntXYS-w8-50" target="Rt-lXHL0REA0ntXYS-w8-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="19180" y="2910" as="sourcePoint" />
+            <mxPoint x="19350" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-61" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="19300" y="3550" width="700" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-62" value="&lt;b&gt;gckOS_GetPhysicalFromHandle&lt;/b&gt;&lt;b&gt;(Os, gckGATHER_MEMORY *Gather, gcuVIDMEM_NODE_PTR Node, ReservedBytes)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-61">
+          <mxGeometry y="26" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-61">
+          <mxGeometry y="52" width="700" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-64" value="gckGATHER_MEMORY gather = gcvNULL;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckOS_Allocate(Os, sizeof(struct _gcsGATHER_MEMORY), &amp;amp;pointer);&lt;br&gt;gckOS_ZeroMemory(pointer, sizeof(struct _gcsGATHER_MEMORY));&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-61">
+          <mxGeometry y="60" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-65" value="&lt;span&gt;gather = pointer;&lt;br&gt;&lt;br&gt;gather-&amp;gt;node = Node;&lt;/span&gt;&lt;div&gt;&lt;span&gt;gather-&amp;gt;reserveBytes = ReservedBytes;&lt;br&gt;gather-&amp;gt;next = gather;&lt;br&gt;gather-&amp;gt;prev = gather;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;*Gather = gather;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-61">
+          <mxGeometry y="130" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rt-lXHL0REA0ntXYS-w8-41" target="Rt-lXHL0REA0ntXYS-w8-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="17410" y="4030" as="sourcePoint" />
+            <mxPoint x="19310" y="3019" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
