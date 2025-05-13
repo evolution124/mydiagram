@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2729" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2472" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2572,19 +2572,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-82" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20170" y="3620" width="700" height="240" as="geometry" />
+          <mxGeometry x="20170" y="3620" width="700" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="Rt-lXHL0REA0ntXYS-w8-83" value="&lt;b&gt;import_pfn_map&lt;/b&gt;&lt;b&gt;(Os, dev, UserMemory, memory, pageCount)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-83" value="&lt;b&gt;import_pfn_map&lt;/b&gt;&lt;b&gt;(Os, dev, struct um_desc *um, unsigned long addr, pfn_count)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
           <mxGeometry y="52" width="700" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Rt-lXHL0REA0ntXYS-w8-85" value="gckGATHER_MEMORY gather = gcvNULL;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckOS_Allocate(Os, sizeof(struct _gcsGATHER_MEMORY), &amp;amp;pointer);&lt;br&gt;gckOS_ZeroMemory(pointer, sizeof(struct _gcsGATHER_MEMORY));&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
-          <mxGeometry y="60" width="700" height="70" as="geometry" />
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-85" value="struct vm_area_struct *vma;&lt;div&gt;unsigned long *pfns;&lt;/div&gt;&lt;div&gt;struct page **pages = gcvNULL;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (!current-&amp;gt;mm)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return -ENOTTY;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;down_read(&amp;amp;current_mm_mmap_sem);&lt;br&gt;vma = find_vma(current-&amp;gt;mm, addr);&lt;/div&gt;&lt;div&gt;#if !gcdUSING_PFN_FOLLOW&lt;/div&gt;&lt;div&gt;up_read(&amp;amp;current_mm_mmap_sem);&lt;/div&gt;&lt;div&gt;#endif&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
+          <mxGeometry y="60" width="700" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Rt-lXHL0REA0ntXYS-w8-86" value="&lt;span&gt;gather = pointer;&lt;br&gt;&lt;br&gt;gather-&amp;gt;node = Node;&lt;/span&gt;&lt;div&gt;&lt;span&gt;gather-&amp;gt;reserveBytes = ReservedBytes;&lt;br&gt;gather-&amp;gt;next = gather;&lt;br&gt;gather-&amp;gt;prev = gather;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;*Gather = gather;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
-          <mxGeometry y="130" width="700" height="110" as="geometry" />
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-86" value="pfns = &lt;b&gt;alloc_memory&lt;/b&gt;(pfn_count * sizeof(unsigned long));&lt;div&gt;refs&amp;nbsp; = &lt;b&gt;alloc_memory&lt;/b&gt;(pfn_count * sizeof(void*));&lt;/div&gt;&lt;div&gt;pages = &lt;b&gt;alloc_memory&lt;/b&gt;(pfn_count * sizeof(void *));&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
+          <mxGeometry y="240" width="700" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-88" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
+          <mxGeometry y="360" width="700" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-87" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
+          <mxGeometry y="480" width="700" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
