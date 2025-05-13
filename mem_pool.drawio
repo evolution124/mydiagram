@@ -2572,7 +2572,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-82" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20170" y="3620" width="700" height="600" as="geometry" />
+          <mxGeometry x="20170" y="3620" width="700" height="630" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-83" value="&lt;b&gt;import_pfn_map&lt;/b&gt;&lt;b&gt;(Os, dev, struct um_desc *um, unsigned long addr, pfn_count)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -2584,13 +2584,13 @@
           <mxGeometry y="60" width="700" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-86" value="pfns = &lt;b&gt;alloc_memory&lt;/b&gt;(pfn_count * sizeof(unsigned long));&lt;div&gt;refs&amp;nbsp; = &lt;b&gt;alloc_memory&lt;/b&gt;(pfn_count * sizeof(void*));&lt;/div&gt;&lt;div&gt;pages = &lt;b&gt;alloc_memory&lt;/b&gt;(pfn_count * sizeof(void *));&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
-          <mxGeometry y="240" width="700" height="120" as="geometry" />
+          <mxGeometry y="240" width="700" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rt-lXHL0REA0ntXYS-w8-88" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
-          <mxGeometry y="360" width="700" height="120" as="geometry" />
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-88" value="for (i = 0; i &amp;lt; pfn_count; i++) {&lt;div&gt;#if gcdUSING_PFN_FOLLOW&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#else&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#endif&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
+          <mxGeometry y="300" width="700" height="210" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-87" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="Rt-lXHL0REA0ntXYS-w8-82">
-          <mxGeometry y="480" width="700" height="120" as="geometry" />
+          <mxGeometry y="510" width="700" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
