@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="13687" dy="8247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3424" dy="1764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -838,7 +838,7 @@
             <mxPoint x="2150" y="4609" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5UoCWkmYeCmagEpiS34q-28" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dev Mem Pool&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=64;" parent="1" vertex="1">
+        <mxCell id="5UoCWkmYeCmagEpiS34q-28" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dev Mem Pool&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=64;" parent="1" vertex="1">
           <mxGeometry x="7470" y="-990" width="3210" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="5UoCWkmYeCmagEpiS34q-29" value="gc_hal_kernel_platform_default.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -965,7 +965,7 @@
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-6" value="&lt;div&gt;...&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="2cfCXFZoOlLPJyDhJhEe-3" vertex="1">
           <mxGeometry y="60" width="760" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-7" value="&lt;div&gt;&lt;b&gt;AllocateMemory:&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; if (Kernel-&amp;gt;vGPUType == gcvVGPU_MDEV)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; *Pool = gcvPOOL_LOCAL_EXTERNAL;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (*Pool == gcvPOOL_SYSTEM_32BIT_VA &amp;amp;&amp;amp; Kernel-&amp;gt;device-&amp;gt;lockLargeVA == gcvTRUE)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; *Pool = gcvPOOL_SYSTEM;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="2cfCXFZoOlLPJyDhJhEe-3" vertex="1">
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-7" value="&lt;div&gt;&lt;b&gt;AllocateMemory:&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; if (Kernel-&amp;gt;vGPUType == gcvVGPU_MDEV)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; *Pool = gcvPOOL_LOCAL_EXTERNAL;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (*Pool == gcvPOOL_SYSTEM_32BIT_VA &amp;amp;&amp;amp; Kernel-&amp;gt;device-&amp;gt;lockLargeVA == gcvTRUE)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; *Pool = gcvPOOL_SYSTEM;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="2cfCXFZoOlLPJyDhJhEe-3" vertex="1">
           <mxGeometry y="90" width="760" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-8" value="&lt;div&gt;&lt;b&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;span&gt;#if gcdNEW_MM&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; if (*Pool != gcvPOOL_VIRTUAL)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;*Pool = Kernel-&amp;gt;device-&amp;gt;devMemPoolType;&lt;/span&gt;&lt;br&gt;#else&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;#endif&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="2cfCXFZoOlLPJyDhJhEe-3" vertex="1">
@@ -2675,6 +2675,9 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-126" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Allocate user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="23080" y="1910" width="7450" height="11000" as="geometry" />
+        </mxCell>
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-127" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dev GFP Pool&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=64;" vertex="1" parent="1">
+          <mxGeometry x="14820" y="-1000" width="3210" height="1800" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
