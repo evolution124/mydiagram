@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2904" dy="1859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2530" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1493,10 +1493,10 @@
         <mxCell id="JtXYeRphJ5WXioU-IupR-20" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 用nodeObject的物理地址填充 GPU pageTable */&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;if(MapFlag &amp;amp; gcvMAP_FLAG_MAP_GPU) {&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gcsMMU_ENTRY_FLAG entryFlag = {0};&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; entryFlag.exception&amp;nbsp; = gcvTRUE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; entryFlag.lowVA&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= NodeObject-&amp;gt;node-&amp;gt;VidMem.lowVA;&lt;br&gt;&amp;nbsp; &amp;nbsp; entryFlag.pageFault = MapFlag &amp;amp; gcvMAP_FLAG_ACESS_NONE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; entryFlag.writable&amp;nbsp; &amp;nbsp; &amp;nbsp;= MapFlag &amp;amp; gcvMAP_FLAG_READWRITE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; entryFlag.pageType&amp;nbsp; = gcvPAGE_TYPE_4K;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b style=&quot;&quot;&gt;gckMMU_WritePageTableEntry&lt;/b&gt;(mmu, NodeObject, 0, size, Range-&amp;gt;start + Offset, &amp;amp;entryFlag);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-157" vertex="1">
           <mxGeometry y="250" width="640" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="JtXYeRphJ5WXioU-IupR-21" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 将range 记录到 nodeObject 中 */&lt;/span&gt;&lt;/div&gt;Range-&amp;gt;devAccessControl[Kernel-&amp;gt;devID] = MapFlag;&lt;br&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b&gt;gcsLIST_Add&lt;/b&gt;(&amp;amp;NodeObject-&amp;gt;nodeList, &amp;amp;Range-&amp;gt;nodeListHead);&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-157" vertex="1">
+        <mxCell id="JtXYeRphJ5WXioU-IupR-21" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 将node 记录到 range 的nodeList 中 */&lt;/span&gt;&lt;/div&gt;Range-&amp;gt;devAccessControl[Kernel-&amp;gt;devID] = MapFlag;&lt;br&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b&gt;gcsLIST_Add&lt;/b&gt;(&amp;amp;NodeObject-&amp;gt;nodeList, &amp;amp;Range-&amp;gt;nodeListHead);&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-157" vertex="1">
           <mxGeometry y="420" width="640" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-161" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 将mapInfo 记录到 NodeObject 中 */&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckOS_Allocate&lt;/b&gt;(os, sizeof(struct _gcsMAPINFO), &amp;amp;pointer);&lt;div&gt;mapInfo = pointer;&lt;/div&gt;&lt;div&gt;mapInfo.address&amp;nbsp; = Range-&amp;gt;start + Offset;&lt;/div&gt;&lt;div&gt;mapInfo.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = size;&lt;/div&gt;&lt;div&gt;mapInfo.vaRange = Range;&lt;/div&gt;&lt;div&gt;mapInfo.devID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= Kernel-&amp;gt;devID;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b&gt;gcsLIST_Add&lt;/b&gt;(&amp;amp;mapInfo-&amp;gt;mapList, &amp;amp;NodeObject-&amp;gt;mapInfoHead);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-157" vertex="1">
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-161" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 将mapInfo 记录到 NodeObject 的mapInfo list 中 */&lt;/span&gt;&lt;/div&gt;&lt;b&gt;gckOS_Allocate&lt;/b&gt;(os, sizeof(struct _gcsMAPINFO), &amp;amp;pointer);&lt;div&gt;mapInfo = pointer;&lt;/div&gt;&lt;div&gt;mapInfo.address&amp;nbsp; = Range-&amp;gt;start + Offset;&lt;/div&gt;&lt;div&gt;mapInfo.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = size;&lt;/div&gt;&lt;div&gt;mapInfo.vaRange = Range;&lt;/div&gt;&lt;div&gt;mapInfo.devID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= Kernel-&amp;gt;devID;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b&gt;gcsLIST_Add&lt;/b&gt;(&amp;amp;mapInfo-&amp;gt;mapList, &amp;amp;NodeObject-&amp;gt;mapInfoHead);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-157" vertex="1">
           <mxGeometry y="490" width="640" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-162" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2cfCXFZoOlLPJyDhJhEe-142" target="2cfCXFZoOlLPJyDhJhEe-158" edge="1">
@@ -1529,7 +1529,7 @@
             <mxPoint x="8240" y="5720" as="sourcePoint" />
             <mxPoint x="8530" y="5819" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="8250" y="6000" />
+              <mxPoint x="8250" y="5985" />
               <mxPoint x="8470" y="6990" />
             </Array>
           </mxGeometry>
@@ -1634,7 +1634,7 @@
           <mxGeometry x="14860" y="1930" width="7450" height="11000" as="geometry" />
         </mxCell>
         <mxCell id="VqAhi49Ukww8_snOarwK-2" value="gc_hal_kernel_os.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10770" y="6330" width="580" height="610" as="geometry" />
+          <mxGeometry x="10770" y="6150" width="580" height="610" as="geometry" />
         </mxCell>
         <mxCell id="VqAhi49Ukww8_snOarwK-3" value="&lt;b&gt;gckOS_VARangeMmap(Os, gckVRANGE Range, NodeObject, Offset)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="VqAhi49Ukww8_snOarwK-2" vertex="1">
           <mxGeometry y="26" width="580" height="26" as="geometry" />
@@ -1656,7 +1656,7 @@
             <mxPoint x="9885" y="6576" as="sourcePoint" />
             <mxPoint x="10115" y="6460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="10020" y="6370" />
+              <mxPoint x="10080" y="6525" />
             </Array>
           </mxGeometry>
         </mxCell>
