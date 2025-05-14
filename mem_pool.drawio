@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2530" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2477" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1154,7 +1154,7 @@
         <mxCell id="3ZKCpSd9Htbg4jpo1CF4-3" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;b&gt;_GatherMemoryInit&lt;/b&gt;(Os, &amp;amp;gather, tmpNode, needBytes);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="2cfCXFZoOlLPJyDhJhEe-63" vertex="1">
           <mxGeometry y="480" width="700" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2cfCXFZoOlLPJyDhJhEe-73" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } else {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /* 其他 allocate 请求将增加该节点的reservedBytes, 如果avaliableBytes 足够大 */&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tmpNode-&amp;gt;VidMem.reservedBytes += needBytes;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (gather) &lt;b&gt;_GatherMemoryAddTail&lt;/b&gt;(Os, gather, tmpNode, needBytes);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;_GatherMemoryInit&lt;/b&gt;(Os, &amp;amp;gather, tmpNode, needBytes);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; needBytes = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; enough = gcvTRUE;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-63" vertex="1">
+        <mxCell id="2cfCXFZoOlLPJyDhJhEe-73" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } else {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 其他 allocate 请求将增加该节点的reservedBytes, 如果avaliableBytes 足够大 */&lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tmpNode-&amp;gt;VidMem.reservedBytes += needBytes;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (gather) &lt;b&gt;_GatherMemoryAddTail&lt;/b&gt;(Os, gather, tmpNode, needBytes);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;_GatherMemoryInit&lt;/b&gt;(Os, &amp;amp;gather, tmpNode, needBytes);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; needBytes = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; enough = gcvTRUE;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="2cfCXFZoOlLPJyDhJhEe-63" vertex="1">
           <mxGeometry y="510" width="700" height="150" as="geometry" />
         </mxCell>
         <mxCell id="3ZKCpSd9Htbg4jpo1CF4-4" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 当前节点容量小于neededBytes */&lt;/span&gt;&amp;nbsp;&lt;div&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; else {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (Contiguous) {&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="2cfCXFZoOlLPJyDhJhEe-63" vertex="1">
@@ -1232,7 +1232,7 @@
             <mxPoint x="10970" y="3170" as="sourcePoint" />
             <mxPoint x="11100" y="2884" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="10920" y="3068" />
+              <mxPoint x="10920" y="3060" />
               <mxPoint x="11130" y="2059" />
             </Array>
           </mxGeometry>
@@ -1266,7 +1266,7 @@
             <mxPoint x="10909" y="3064" as="sourcePoint" />
             <mxPoint x="11250" y="2209" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="10940" y="3485" />
+              <mxPoint x="10940" y="3505" />
               <mxPoint x="11160" y="3630" />
             </Array>
           </mxGeometry>
@@ -1291,7 +1291,7 @@
             <mxPoint x="10910" y="3078" as="sourcePoint" />
             <mxPoint x="11210" y="2069" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="10920" y="3185" />
+              <mxPoint x="10920" y="3205" />
               <mxPoint x="11070" y="2910" />
               <mxPoint x="11840" y="2910" />
               <mxPoint x="11950" y="2289" />
@@ -1318,7 +1318,7 @@
             <mxPoint x="10912" y="3113" as="sourcePoint" />
             <mxPoint x="12080" y="2299" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="10930" y="3300" />
+              <mxPoint x="10930" y="3321" />
               <mxPoint x="11080" y="2960" />
               <mxPoint x="11910" y="2960" />
               <mxPoint x="11980" y="2599" />
@@ -1566,7 +1566,7 @@
             <mxPoint x="10911" y="3472" as="sourcePoint" />
             <mxPoint x="11210" y="3639" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="10950" y="3436" />
+              <mxPoint x="10940" y="3468" />
               <mxPoint x="11160" y="3069" />
             </Array>
           </mxGeometry>
