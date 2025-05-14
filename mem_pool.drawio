@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="5713" dy="3630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2703" dy="1733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1803,7 +1803,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-38" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="9870" y="9330" width="620" height="1280" as="geometry" />
+          <mxGeometry x="9870" y="9330" width="620" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-39" value="&lt;b&gt;_ConstructSpecificAddressArea(Mmu, PageCount, gceAREA_TYPE Type, Address, *Area, *Index)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
           <mxGeometry y="26" width="620" height="26" as="geometry" />
@@ -1832,17 +1832,17 @@
         <mxCell id="QNYcLvJolFkXC-7qqJEz-34" value="&lt;b&gt;gckOS_Allocate&lt;/b&gt;(os, area-&amp;gt;mapSize, &amp;amp;area-&amp;gt;mapLogical);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
           <mxGeometry y="1030" width="620" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNYcLvJolFkXC-7qqJEz-35" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b style=&quot;&quot;&gt;_ConstructDynamicPmdPte&lt;/b&gt;(Mmu, area);&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
-          <mxGeometry y="1060" width="620" height="50" as="geometry" />
+        <mxCell id="QNYcLvJolFkXC-7qqJEz-35" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;/* 分配&amp;amp;&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;初始化&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pmd, pte 页表项, 填充pud, pmd 页表项 */&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b style=&quot;&quot;&gt;_ConstructDynamicPmdPte&lt;/b&gt;(Mmu, area);&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
+          <mxGeometry y="1060" width="620" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QNYcLvJolFkXC-7qqJEz-36" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;/* 初始化 页表map(使用信息) */&lt;/span&gt;&lt;div&gt;map&amp;nbsp; &amp;nbsp; &amp;nbsp;= area-&amp;gt;mapLogical;&lt;/div&gt;&lt;div&gt;map[0] = (area-&amp;gt;pteEntries &amp;lt;&amp;lt; 8) | gcvMMU_FREE;&lt;/div&gt;&lt;div&gt;map[1] = ~0ULL;&lt;/div&gt;&lt;div&gt;area-&amp;gt;heapList = 0;&lt;/div&gt;&lt;div&gt;area-&amp;gt;freeNodes = gcvFALSE;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
-          <mxGeometry y="1110" width="620" height="100" as="geometry" />
+          <mxGeometry y="1100" width="620" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QNYcLvJolFkXC-7qqJEz-59" value="&lt;b&gt;_SearchAvailableMapArea&lt;/b&gt;(area, PageCount, Index);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
-          <mxGeometry y="1210" width="620" height="30" as="geometry" />
+          <mxGeometry y="1200" width="620" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-43" value="if (Area)&lt;div&gt;&amp;nbsp; &amp;nbsp; *Area = area;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
-          <mxGeometry y="1240" width="620" height="40" as="geometry" />
+          <mxGeometry y="1230" width="620" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Et7W-5WGeGeLLH6OweF-26" target="0Et7W-5WGeGeLLH6OweF-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
