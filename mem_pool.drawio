@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="27.0.5">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="4290" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4660" dy="2837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -734,7 +734,7 @@
         <mxCell id="qcseRaRLYhIY6nGx_bxc-13" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5320" y="2080" width="710" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="qcseRaRLYhIY6nGx_bxc-14" value="&lt;b&gt;_FindNode(Kernel, gckVIDMEM Memory, Bank, Bytes, Type, gctUINT32_PTR Alignment)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qcseRaRLYhIY6nGx_bxc-13" vertex="1">
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-14" value="&lt;b&gt;_FindNode(Kernel, gckVIDMEM Memory, Bank, Bytes, Type, gctUINT32_PTR Alignment)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="qcseRaRLYhIY6nGx_bxc-13" vertex="1">
           <mxGeometry y="26" width="710" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qcseRaRLYhIY6nGx_bxc-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="qcseRaRLYhIY6nGx_bxc-13" vertex="1">
