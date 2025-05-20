@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="27.0.5">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2995" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2687" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -619,7 +619,7 @@
         <mxCell id="-QamLBn5pkz0fhhn8fLs-141" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;//如果mappingInOne, 就把整个physical 区域一次性map&lt;/span&gt;&lt;/div&gt;&lt;div&gt;if (mappingInOne) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; galDevice = Kernel-&amp;gt;context;&lt;br&gt;&amp;nbsp; &amp;nbsp; device&amp;nbsp; &amp;nbsp; &amp;nbsp; = Kernel-&amp;gt;device;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; switch(Pool) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;&amp;nbsp; &amp;nbsp; case &lt;b&gt;gcvPOOL_LOCAL_EXTERNAL&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; physHandle = (PLINUX_MDL)device-&amp;gt;externalPhysical;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;bytes&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = device-&amp;gt;externalSize;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;br&gt;&amp;nbsp; &amp;nbsp; case &lt;b&gt;gcvPOOL_SYSTEM&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; physHandle = (PLINUX_MDL)device-&amp;gt;contiguousPhysicals[device-&amp;gt;memIndex];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;bytes = device-&amp;gt;contiguousSizes[device-&amp;gt;memIndex];&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; physHandle = （PLINUX_MDL)Physical;&lt;br&gt;&amp;nbsp; &amp;nbsp; bytes = Bytes;&lt;br&gt;&amp;nbsp; &amp;nbsp; Offset = 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="-QamLBn5pkz0fhhn8fLs-128" vertex="1">
           <mxGeometry y="180" width="570" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="-QamLBn5pkz0fhhn8fLs-140" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b style=&quot;&quot;&gt;gckOS_LockPages&lt;/b&gt;(os, physHandle, bytes, gcvFALSE, &amp;amp;logical);&lt;/span&gt;&lt;br&gt;&lt;br&gt;*Logical = (gctUINT8_PTR)logical + Offset;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="-QamLBn5pkz0fhhn8fLs-128" vertex="1">
+        <mxCell id="-QamLBn5pkz0fhhn8fLs-140" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b style=&quot;&quot;&gt;gckOS_LockPages&lt;/b&gt;(os, physHandle, bytes, gcvFALSE, &amp;amp;logical);&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;*Logical = (gctUINT8_PTR)logical + Offset;&lt;/b&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="-QamLBn5pkz0fhhn8fLs-128" vertex="1">
           <mxGeometry y="530" width="570" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-QamLBn5pkz0fhhn8fLs-138" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.001;exitY=0.756;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5UoCWkmYeCmagEpiS34q-27" target="-QamLBn5pkz0fhhn8fLs-129" edge="1">
@@ -654,7 +654,7 @@
             <mxPoint x="2713" y="4095" as="sourcePoint" />
             <mxPoint x="3700" y="3790" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3610" y="4770" />
+              <mxPoint x="3620" y="4800" />
             </Array>
           </mxGeometry>
         </mxCell>
