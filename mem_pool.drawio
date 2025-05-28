@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2523" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2861" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1443,7 +1443,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-151" value="gc_hal_kernel_vm.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="12850" y="5320" width="640" height="820" as="geometry" />
+          <mxGeometry x="12485" y="5250" width="640" height="820" as="geometry" />
         </mxCell>
         <mxCell id="2cfCXFZoOlLPJyDhJhEe-152" value="&lt;b&gt;gckVM_VARangeAlloc(Kernel, Vm, Args, gckVRANGE * Range)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="2cfCXFZoOlLPJyDhJhEe-151" vertex="1">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
@@ -1478,7 +1478,7 @@
             <mxPoint x="12500" y="5519" as="targetPoint" />
             <Array as="points">
               <mxPoint x="12250" y="6040" />
-              <mxPoint x="12710" y="5359" />
+              <mxPoint x="12410" y="5300" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1578,7 +1578,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JtXYeRphJ5WXioU-IupR-9" value="gc_hal_kernel_os.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="14310" y="5220" width="560" height="450" as="geometry" />
+          <mxGeometry x="13945" y="5150" width="560" height="450" as="geometry" />
         </mxCell>
         <mxCell id="JtXYeRphJ5WXioU-IupR-10" value="&lt;b&gt;gckOS_VARangeAlloc(Os, gckVRANGE Range, Bytes, *Logical)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="JtXYeRphJ5WXioU-IupR-9" vertex="1">
           <mxGeometry y="26" width="560" height="26" as="geometry" />
@@ -1603,16 +1603,16 @@
         </mxCell>
         <mxCell id="JtXYeRphJ5WXioU-IupR-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JtXYeRphJ5WXioU-IupR-5" target="JtXYeRphJ5WXioU-IupR-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="12865" y="5986" as="sourcePoint" />
-            <mxPoint x="13155" y="5640" as="targetPoint" />
+            <mxPoint x="12500" y="5916" as="sourcePoint" />
+            <mxPoint x="12790" y="5570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13580" y="5725" />
-              <mxPoint x="13760" y="5259" />
+              <mxPoint x="13215" y="5655" />
+              <mxPoint x="13395" y="5189" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-1" value="gc_hal_kernel_vm.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="13720" y="5710" width="510" height="320" as="geometry" />
+          <mxGeometry x="13355" y="5640" width="510" height="320" as="geometry" />
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-2" value="&lt;b&gt;_VARange_Add(Os, gckVRANGE Range, Bytes, *Logical)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="xt16O4ISyjv4oT31lnue-1" vertex="1">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -1628,11 +1628,11 @@
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2cfCXFZoOlLPJyDhJhEe-155" target="xt16O4ISyjv4oT31lnue-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="13500" y="5695" as="sourcePoint" />
-            <mxPoint x="13730" y="5369" as="targetPoint" />
+            <mxPoint x="13135" y="5625" as="sourcePoint" />
+            <mxPoint x="13365" y="5299" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13560" y="5995" />
-              <mxPoint x="13655" y="5749" />
+              <mxPoint x="13195" y="5925" />
+              <mxPoint x="13290" y="5679" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3057,7 +3057,7 @@
           <mxGeometry y="164" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4rVDWVPeJjbyZSQrpClF-49" value="gc_hal_kernel_os.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="14310" y="6160" width="510" height="280" as="geometry" />
+          <mxGeometry x="13945" y="6090" width="510" height="280" as="geometry" />
         </mxCell>
         <mxCell id="4rVDWVPeJjbyZSQrpClF-50" value="&lt;b&gt;gckOS_HmmNotifierInsert(Os, gckVRANGE Range)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4rVDWVPeJjbyZSQrpClF-49">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -3073,11 +3073,11 @@
         </mxCell>
         <mxCell id="4rVDWVPeJjbyZSQrpClF-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JtXYeRphJ5WXioU-IupR-7" target="4rVDWVPeJjbyZSQrpClF-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="13670" y="6106" as="sourcePoint" />
-            <mxPoint x="13900" y="5920" as="targetPoint" />
+            <mxPoint x="13305" y="6036" as="sourcePoint" />
+            <mxPoint x="13535" y="5850" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13560" y="6080" />
-              <mxPoint x="13870" y="6190" />
+              <mxPoint x="13195" y="6010" />
+              <mxPoint x="13505" y="6120" />
             </Array>
           </mxGeometry>
         </mxCell>
