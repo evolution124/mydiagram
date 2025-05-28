@@ -317,7 +317,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-QamLBn5pkz0fhhn8fLs-14" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Allocate Device Mem&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-1430" y="1930" width="8040" height="9100" as="geometry" />
+          <mxGeometry x="-1430" y="1930" width="8040" height="8270" as="geometry" />
         </mxCell>
         <mxCell id="-QamLBn5pkz0fhhn8fLs-15" value="memory.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-130" y="3080" width="490" height="160" as="geometry" />
@@ -1661,7 +1661,10 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="13125" y="7036" as="sourcePoint" />
             <mxPoint x="13355" y="6920" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="13270" y="6985" />
+              <mxPoint x="13500" y="6649" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-1" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1743,7 +1746,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-22" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="13495" y="8890" width="690" height="340" as="geometry" />
+          <mxGeometry x="14930" y="7980" width="690" height="340" as="geometry" />
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-23" value="&lt;b&gt;gckMMU_GetVirtualAddressInfo(Mmu, Address, PageCount, PageType, *Area, *PageTable)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="0Et7W-5WGeGeLLH6OweF-22" vertex="1">
           <mxGeometry y="26" width="690" height="26" as="geometry" />
@@ -1757,17 +1760,18 @@
         <mxCell id="0Et7W-5WGeGeLLH6OweF-26" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 如果没有通过VA找到Entry, 并且PageCount也是有效的, 那么构造一个包含 VA的Area 并返回对应的entry&lt;br&gt;&amp;nbsp; &amp;nbsp; 像UVM 地址, 很可能找不到对应的area */&lt;/span&gt;&lt;/div&gt;if (status == gdvSTATUS_NOT_FOUND &amp;amp;&amp;amp; PageCount != 0) {&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;_ConstructSpecificAddressArea&lt;/b&gt;(Mmu, PageCount, gcvAREA_TYPE_4K, Address, &amp;amp;newArea, gcvNULL);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 创建dynamicArea后, 重新配置dynamicAreaList */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (Mmu-&amp;gt;dynamicAreaList == gcvNULL) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Mmu-&amp;gt;dynamicAreaList = newArea;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; newArea-&amp;gt;next = Mmu-&amp;gt;dynamicAreaList;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Mmu-&amp;gt;dynamicAreaList = newArea;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;/* 重新查找一次 entry */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;_GetVirtualAddressInfo&lt;/b&gt;(Mmu, Address, PageType, Area, PageTable);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-22" vertex="1">
           <mxGeometry y="100" width="690" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="0Et7W-5WGeGeLLH6OweF-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Et7W-5WGeGeLLH6OweF-29" target="0Et7W-5WGeGeLLH6OweF-22" edge="1">
+        <mxCell id="0Et7W-5WGeGeLLH6OweF-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Et7W-5WGeGeLLH6OweF-29" target="0Et7W-5WGeGeLLH6OweF-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="15220" y="8420" as="sourcePoint" />
             <mxPoint x="14350" y="8199" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13840" y="8440" />
+              <mxPoint x="14740" y="8390" />
+              <mxPoint x="14820" y="8019" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-30" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="12220" y="9020" width="690" height="980" as="geometry" />
+          <mxGeometry x="16080" y="7620" width="690" height="980" as="geometry" />
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-31" value="&lt;b&gt;_GetVirtualAddressInfo(Mmu, Address, PageType, *Area, *PageTable)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="0Et7W-5WGeGeLLH6OweF-30" vertex="1">
           <mxGeometry y="26" width="690" height="26" as="geometry" />
@@ -1799,17 +1803,18 @@
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-133" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gcmkONERROR(gcvSTATUS_INVALID_ARGUMENT);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; break;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; default:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gcmkONERROR(gcvSTATUS_INVALID_ARGUMENT);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; if (Area) *Area = dynamicArea;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; if (PageTable) *PageTable = pageTable;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;} else {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; status = gcvSTATUS_NOT_FOUND;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-30" vertex="1">
           <mxGeometry y="790" width="690" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="0Et7W-5WGeGeLLH6OweF-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Et7W-5WGeGeLLH6OweF-25" target="0Et7W-5WGeGeLLH6OweF-31" edge="1">
+        <mxCell id="0Et7W-5WGeGeLLH6OweF-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Et7W-5WGeGeLLH6OweF-25" target="0Et7W-5WGeGeLLH6OweF-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="14900" y="8800" as="sourcePoint" />
             <mxPoint x="13505" y="8939" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13090" y="8970" />
+              <mxPoint x="15710" y="8060" />
+              <mxPoint x="15990" y="7659" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-38" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="13150" y="9290" width="620" height="1280" as="geometry" />
+          <mxGeometry x="16090" y="8940" width="620" height="1280" as="geometry" />
         </mxCell>
         <mxCell id="0Et7W-5WGeGeLLH6OweF-39" value="&lt;b&gt;_ConstructSpecificAddressArea(Mmu, PageCount, gceAREA_TYPE Type, Address, *Area, *Index)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
           <mxGeometry y="26" width="620" height="26" as="geometry" />
@@ -1850,17 +1855,18 @@
         <mxCell id="0Et7W-5WGeGeLLH6OweF-43" value="if (Area)&lt;div&gt;&amp;nbsp; &amp;nbsp; *Area = area;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="0Et7W-5WGeGeLLH6OweF-38" vertex="1">
           <mxGeometry y="1240" width="620" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0Et7W-5WGeGeLLH6OweF-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Et7W-5WGeGeLLH6OweF-26" target="0Et7W-5WGeGeLLH6OweF-38" edge="1">
+        <mxCell id="0Et7W-5WGeGeLLH6OweF-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Et7W-5WGeGeLLH6OweF-26" target="0Et7W-5WGeGeLLH6OweF-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="14195" y="8975" as="sourcePoint" />
             <mxPoint x="14210" y="9329" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13460" y="9110" />
+              <mxPoint x="15710" y="8200" />
+              <mxPoint x="15970" y="8979" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yIgph9W-r4GcEzQpdnRG-1" value="gc_hal_kernel_mmu_v2.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="15530" y="8630" width="690" height="1040" as="geometry" />
+          <mxGeometry x="14930" y="8580" width="690" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="yIgph9W-r4GcEzQpdnRG-2" value="&lt;b style=&quot;color: rgb(0, 0, 0);&quot;&gt;gckMMU_SetPage&lt;/b&gt;&lt;b&gt;(Mmu, PageAddress,&amp;nbsp; PageEntry,&amp;nbsp; EntryFlag)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="yIgph9W-r4GcEzQpdnRG-1" vertex="1">
           <mxGeometry y="26" width="690" height="26" as="geometry" />
@@ -1900,16 +1906,7 @@
             <mxPoint x="15660" y="8870" as="sourcePoint" />
             <mxPoint x="14930" y="8349" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="15140" y="8485" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QNYcLvJolFkXC-7qqJEz-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QNYcLvJolFkXC-7qqJEz-59" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="12930" y="11511" as="sourcePoint" />
-            <mxPoint x="13010.000000000002" y="10139.000000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="13060" y="10139" />
+              <mxPoint x="15140" y="8495" />
             </Array>
           </mxGeometry>
         </mxCell>
