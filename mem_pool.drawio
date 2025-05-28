@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2739" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4990" dy="3333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1612,7 +1612,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-1" value="gc_hal_kernel_vm.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="13720" y="5770" width="510" height="320" as="geometry" />
+          <mxGeometry x="13720" y="5710" width="510" height="320" as="geometry" />
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-2" value="&lt;b&gt;_VARange_Add(Os, gckVRANGE Range, Bytes, *Logical)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="xt16O4ISyjv4oT31lnue-1" vertex="1">
           <mxGeometry y="26" width="510" height="26" as="geometry" />
@@ -1631,8 +1631,8 @@
             <mxPoint x="13500" y="5695" as="sourcePoint" />
             <mxPoint x="13730" y="5369" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13605" y="5810" />
-              <mxPoint x="13655" y="5810" />
+              <mxPoint x="13560" y="5995" />
+              <mxPoint x="13655" y="5749" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3055,6 +3055,31 @@
         </mxCell>
         <mxCell id="4rVDWVPeJjbyZSQrpClF-46" value="struct rb_node&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rbLink" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4rVDWVPeJjbyZSQrpClF-38">
           <mxGeometry y="164" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4rVDWVPeJjbyZSQrpClF-49" value="gc_hal_kernel_vm.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14310" y="6160" width="510" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="4rVDWVPeJjbyZSQrpClF-50" value="&lt;b&gt;_VARange_Add(Os, gckVRANGE Range, Bytes, *Logical)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4rVDWVPeJjbyZSQrpClF-49">
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4rVDWVPeJjbyZSQrpClF-51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4rVDWVPeJjbyZSQrpClF-49">
+          <mxGeometry y="52" width="510" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4rVDWVPeJjbyZSQrpClF-52" value="struct rb_root *root = &amp;amp;Vm-&amp;gt;rangeRoot;&lt;div&gt;struct rb_node **new = &amp;amp;(root-&amp;gt;rb_node), *parent = gcvNULL;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="4rVDWVPeJjbyZSQrpClF-49">
+          <mxGeometry y="60" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rVDWVPeJjbyZSQrpClF-53" value="&lt;div&gt;while(*new) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; gckVARANGE temp_range = gcmCONTAINEROF(*new, struct _gcsVARANGE, rbLink);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; parent = *new;&lt;br&gt;&amp;nbsp; &amp;nbsp; if (Range-&amp;gt;start + Range-&amp;gt;size &amp;lt;= temp_range-&amp;gt;start) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; new = &amp;amp;((*new)-&amp;gt;rb_left);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else if (Range-&amp;gt;start &amp;gt;= temp_range-&amp;gt;start + temp_range-&amp;gt;size) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; new = &amp;amp;((*new)-&amp;gt;rb_right);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gcmkONERROR(gcvSTATUS_INVALID_ADDRESS);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b style=&quot;&quot;&gt;rb_link_node&lt;/b&gt;(&amp;amp;Range-&amp;gt;rbLink, parent, new);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;b style=&quot;&quot;&gt;rb_insert_color&lt;/b&gt;(&amp;amp;Range-&amp;gt;rbLink, root);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="4rVDWVPeJjbyZSQrpClF-49">
+          <mxGeometry y="100" width="510" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4rVDWVPeJjbyZSQrpClF-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JtXYeRphJ5WXioU-IupR-7" target="4rVDWVPeJjbyZSQrpClF-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="13670" y="6106" as="sourcePoint" />
+            <mxPoint x="13900" y="5920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="13560" y="6080" />
+              <mxPoint x="13870" y="6190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
