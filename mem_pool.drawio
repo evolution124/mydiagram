@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2993" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2599" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3032,17 +3032,20 @@
         <mxCell id="SENdde3JR2DamFZC1mmI-5" value="DRV_FUNC(&lt;b&gt;MemHostAlloc&lt;/b&gt;)(ptr, size, flags)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-2">
           <mxGeometry y="60" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SENdde3JR2DamFZC1mmI-7" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="17490" y="2230" width="390" height="220" as="geometry" />
+        <mxCell id="SENdde3JR2DamFZC1mmI-7" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17420" y="2230" width="560" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="SENdde3JR2DamFZC1mmI-8" value="&lt;b&gt;drvMemHostAlloc()&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
-          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        <mxCell id="SENdde3JR2DamFZC1mmI-8" value="&lt;b&gt;drvMemHostAlloc(void **pp, bytesize, Flag)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
+          <mxGeometry y="26" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
-          <mxGeometry y="52" width="390" height="8" as="geometry" />
+          <mxGeometry y="52" width="560" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="SENdde3JR2DamFZC1mmI-10" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
-          <mxGeometry y="60" width="390" height="160" as="geometry" />
+        <mxCell id="SENdde3JR2DamFZC1mmI-10" value="Node-&amp;gt;hostAlloc = true;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;allocHostMemory&lt;/b&gt;(CURRENT_HAL_DEVICE(txt), &amp;amp;info, &amp;amp;Node-&amp;gt;node);&lt;br&gt;&lt;br&gt;if ((Flags &amp;amp; CU_MEMHOSTALLOC_PORTABLE) || DEVICE_ATTR(ctx-device, isUnifiedAddressing))&lt;br&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for (i = 0; i &amp;lt; gpgpuPLS.deviceCount; i++)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (i == ctx-&amp;gt;device) continue;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;setHalMemAccess&lt;/b&gt;(DEVICE(i)-&amp;gt;processor, Node-&amp;gt;node, HAL_MAP_ATTR_READWRITE);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
+          <mxGeometry y="60" width="560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-12" value="&lt;div&gt;if (DEVICE_ATTR(ctx-&amp;gt;device, isUnifiedAddressing))&lt;/div&gt;&lt;div&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;utilMapAdd&lt;/b&gt;(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;cpuLogical, Node-&amp;gt;node-&amp;gt;size);&lt;br&gt;}&lt;br&gt;else&lt;/div&gt;&lt;div&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; utilMapAdd(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;cpuLogical, Node-&amp;gt;node-&amp;gt;size);&lt;br&gt;&amp;nbsp; &amp;nbsp; utilMapAdd(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;gpuLogical, Node-&amp;gt;node-&amp;gt;size);&lt;br&gt;}&lt;br&gt;&lt;br&gt;*pp = (void *)Node-&amp;gt;node-&amp;gt;cpuLogical;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
+          <mxGeometry y="260" width="560" height="180" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SENdde3JR2DamFZC1mmI-5" target="SENdde3JR2DamFZC1mmI-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3051,7 +3054,6 @@
             <Array as="points">
               <mxPoint x="17310" y="2285" />
               <mxPoint x="17380" y="2269" />
-              <mxPoint x="17490" y="2269" />
             </Array>
           </mxGeometry>
         </mxCell>
