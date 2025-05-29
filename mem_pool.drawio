@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="6870" dy="4450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2993" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1638,8 +1638,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xt16O4ISyjv4oT31lnue-12" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Allocate user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="17150" y="1900" width="7450" height="4430" as="geometry" />
+        <mxCell id="xt16O4ISyjv4oT31lnue-12" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Allocate user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="27900" y="1990" width="7450" height="4430" as="geometry" />
         </mxCell>
         <mxCell id="VqAhi49Ukww8_snOarwK-2" value="gc_hal_kernel_os.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11300" y="6640" width="580" height="660" as="geometry" />
@@ -2141,7 +2141,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-1" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="17280" y="2520" width="390" height="220" as="geometry" />
+          <mxGeometry x="28030" y="2610" width="390" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-2" value="&lt;b&gt;allocHostMemory(gpgpuDevice *device, queryMemoryInfo info)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-1" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -2153,7 +2153,7 @@
           <mxGeometry y="60" width="390" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-6" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="17280" y="2840" width="700" height="260" as="geometry" />
+          <mxGeometry x="28030" y="2930" width="700" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-7" value="&lt;b&gt;allocHostPinnedMemory(gpgpuDevice *device, queryMemoryInfo info)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-6" vertex="1">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -2166,18 +2166,18 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-4" target="Rt-lXHL0REA0ntXYS-w8-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="17860" y="2960" as="sourcePoint" />
-            <mxPoint x="17910" y="2910" as="targetPoint" />
+            <mxPoint x="28610" y="3050" as="sourcePoint" />
+            <mxPoint x="28660" y="3000" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="17710" y="2660" />
-              <mxPoint x="17710" y="2800" />
-              <mxPoint x="17230" y="2800" />
-              <mxPoint x="17230" y="2880" />
+              <mxPoint x="28460" y="2750" />
+              <mxPoint x="28460" y="2890" />
+              <mxPoint x="27980" y="2890" />
+              <mxPoint x="27980" y="2970" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-11" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="17280" y="3200" width="700" height="480" as="geometry" />
+          <mxGeometry x="28030" y="3290" width="700" height="480" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-12" value="&lt;b&gt;registerMemory(processor, memoryNode_PTR* node, registerHostMemoryInfo_PTR info)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-11" vertex="1">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -2196,18 +2196,18 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-9" target="Rt-lXHL0REA0ntXYS-w8-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="17680" y="2670" as="sourcePoint" />
-            <mxPoint x="17290" y="2889" as="targetPoint" />
+            <mxPoint x="28430" y="2760" as="sourcePoint" />
+            <mxPoint x="28040" y="2979" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="18030" y="3000" />
-              <mxPoint x="18030" y="3150" />
-              <mxPoint x="17240" y="3150" />
-              <mxPoint x="17240" y="3240" />
+              <mxPoint x="28780" y="3090" />
+              <mxPoint x="28780" y="3240" />
+              <mxPoint x="27990" y="3240" />
+              <mxPoint x="27990" y="3330" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-18" value="gc_hal_kernel.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="18190" y="3830" width="770" height="1180" as="geometry" />
+          <mxGeometry x="28940" y="3920" width="770" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-19" value="&lt;b&gt;_HostRegister(Kernel, ProcessID, *Interface)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-18" vertex="1">
           <mxGeometry y="26" width="770" height="26" as="geometry" />
@@ -2247,12 +2247,12 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-17" target="Rt-lXHL0REA0ntXYS-w8-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="18520" y="2710" as="sourcePoint" />
-            <mxPoint x="18570" y="2660" as="targetPoint" />
+            <mxPoint x="29270" y="2800" as="sourcePoint" />
+            <mxPoint x="29320" y="2750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-32" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="19270" y="3030" width="960" height="880" as="geometry" />
+          <mxGeometry x="30020" y="3120" width="960" height="880" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-33" value="&lt;b&gt;gcsVIDMEM_NODE_WrapUserMemory(Kernel, gcsUSER_MEMORY_DESC_PTR Desc, gceVIDMEM_TYPE Type, gckVIDMEM_NODE *NodeObject, gctUINT64 *Bytes)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-32" vertex="1">
           <mxGeometry y="26" width="960" height="26" as="geometry" />
@@ -2283,12 +2283,12 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-22" target="Rt-lXHL0REA0ntXYS-w8-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="17980" y="4005" as="sourcePoint" />
-            <mxPoint x="18370" y="3549" as="targetPoint" />
+            <mxPoint x="28730" y="4095" as="sourcePoint" />
+            <mxPoint x="29120" y="3639" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-43" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20540" y="2520" width="750" height="910" as="geometry" />
+          <mxGeometry x="31290" y="2610" width="750" height="910" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-44" value="&lt;b&gt;gckOS_WrapMemory(Os, Kernel, gcsUSER_MEMORY_DESC_PTR Desc, *Bytes, *Physical, *Contiguous, *PageCountCpu)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-43" vertex="1">
           <mxGeometry y="26" width="750" height="26" as="geometry" />
@@ -2319,12 +2319,12 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.524;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-37" target="Rt-lXHL0REA0ntXYS-w8-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="19950" y="3056" as="sourcePoint" />
-            <mxPoint x="20130" y="3010" as="targetPoint" />
+            <mxPoint x="30700" y="3146" as="sourcePoint" />
+            <mxPoint x="30880" y="3100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-55" value="gc_hal_kernel_allocator_user_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="21530" y="2140" width="640" height="260" as="geometry" />
+          <mxGeometry x="32280" y="2230" width="640" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-56" value="&lt;b&gt;_UserMemoryAttach(gckALLOCATOR Allocator, gcsATTACH_DESC_PTR Desc, PLINUX_MDL Mdl)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-55" vertex="1">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
@@ -2343,12 +2343,12 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-50" target="Rt-lXHL0REA0ntXYS-w8-56" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="21410" y="2980" as="sourcePoint" />
-            <mxPoint x="21580" y="2790" as="targetPoint" />
+            <mxPoint x="32160" y="3070" as="sourcePoint" />
+            <mxPoint x="32330" y="2880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-61" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="21530" y="4140" width="700" height="130" as="geometry" />
+          <mxGeometry x="32280" y="4230" width="700" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-62" value="&lt;b&gt;gckOS_GetPhysicalFromHandle&lt;/b&gt;&lt;b&gt;(Os, gctPHYS_ADDR Physical, Offset, gctPHYS_ADDR_T *PhysicalAddress)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-61" vertex="1">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -2361,12 +2361,12 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-41" target="Rt-lXHL0REA0ntXYS-w8-62" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="19640" y="4100" as="sourcePoint" />
-            <mxPoint x="21540" y="3089" as="targetPoint" />
+            <mxPoint x="30390" y="4190" as="sourcePoint" />
+            <mxPoint x="32290" y="3179" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-69" value="gc_hal_kernel_allocator_user_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="21530" y="2505" width="640" height="1530" as="geometry" />
+          <mxGeometry x="32280" y="2595" width="640" height="1530" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-70" value="&lt;b&gt;_Import(Os, Mdl, gctPOINTER Memory, gctPHYS_ADDR_T Physical, Size, struct um_desc *UserMemory)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-69" vertex="1">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
@@ -2397,24 +2397,24 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-75" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-56" target="Rt-lXHL0REA0ntXYS-w8-70" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="21300" y="2705" as="sourcePoint" />
-            <mxPoint x="21540" y="2189" as="targetPoint" />
+            <mxPoint x="32050" y="2795" as="sourcePoint" />
+            <mxPoint x="32290" y="2279" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="22220" y="2180" />
-              <mxPoint x="22220" y="2450" />
-              <mxPoint x="21480" y="2450" />
-              <mxPoint x="21480" y="2544" />
+              <mxPoint x="32970" y="2270" />
+              <mxPoint x="32970" y="2540" />
+              <mxPoint x="32230" y="2540" />
+              <mxPoint x="32230" y="2634" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-77" target="Rt-lXHL0REA0ntXYS-w8-83" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="21300" y="2705" as="sourcePoint" />
-            <mxPoint x="21420" y="2610" as="targetPoint" />
+            <mxPoint x="32050" y="2795" as="sourcePoint" />
+            <mxPoint x="32170" y="2700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-82" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="22530" y="2805" width="700" height="1230" as="geometry" />
+          <mxGeometry x="33280" y="2895" width="700" height="1230" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-83" value="&lt;b&gt;import_pfn_map&lt;/b&gt;&lt;b&gt;(Os, dev, struct um_desc *um, unsigned long addr, pfn_count)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-82" vertex="1">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -2444,7 +2444,7 @@
           <mxGeometry y="1130" width="700" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-92" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="22530" y="4100" width="700" height="580" as="geometry" />
+          <mxGeometry x="33280" y="4190" width="700" height="580" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-93" value="&lt;b&gt;_UserMemoryPhysical(gckALLOCATOR Allocator, PLINUX_MDL Mdl, Offset, gctPHYS_ADDR_T *Physical)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-92" vertex="1">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -2466,12 +2466,12 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-64" target="Rt-lXHL0REA0ntXYS-w8-93" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20240" y="3275" as="sourcePoint" />
-            <mxPoint x="21540" y="4469" as="targetPoint" />
+            <mxPoint x="30990" y="3365" as="sourcePoint" />
+            <mxPoint x="32290" y="4559" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-100" value="gc_hal_kernel.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="19200" y="4390" width="490" height="90" as="geometry" />
+          <mxGeometry x="29950" y="4480" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-101" value="&lt;b&gt;_RangeNonOverlap&lt;/b&gt;&lt;b&gt;(Range, Address, Size)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-100" vertex="1">
           <mxGeometry y="26" width="490" height="26" as="geometry" />
@@ -2484,12 +2484,12 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-110" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-27" target="Rt-lXHL0REA0ntXYS-w8-101" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="18970" y="4025" as="sourcePoint" />
-            <mxPoint x="19280" y="3079" as="targetPoint" />
+            <mxPoint x="29720" y="4115" as="sourcePoint" />
+            <mxPoint x="30030" y="3169" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-117" value="gc_hal_kernel_os.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="19200" y="4840" width="520" height="430" as="geometry" />
+          <mxGeometry x="29950" y="4930" width="520" height="430" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-118" value="&lt;b&gt;gckVM_VARangeResize&lt;/b&gt;&lt;b&gt;(Kernel, Range, gctADDRESS NewStart, gctSIZE_T NewSize)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rt-lXHL0REA0ntXYS-w8-117" vertex="1">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
@@ -2514,12 +2514,12 @@
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Rt-lXHL0REA0ntXYS-w8-29" target="Rt-lXHL0REA0ntXYS-w8-118" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="18970" y="4440" as="sourcePoint" />
-            <mxPoint x="19210" y="4439" as="targetPoint" />
+            <mxPoint x="29720" y="4530" as="sourcePoint" />
+            <mxPoint x="29960" y="4529" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rt-lXHL0REA0ntXYS-w8-127" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dev GFP Pool&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=64;" parent="1" vertex="1">
-          <mxGeometry x="17090" y="-1000" width="3210" height="1800" as="geometry" />
+        <mxCell id="Rt-lXHL0REA0ntXYS-w8-127" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dev GFP Pool&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=64;" parent="1" vertex="1">
+          <mxGeometry x="27840" y="-910" width="3210" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="EAXsDxyp4Mi5biQF-tPH-4" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5320" y="3320" width="710" height="160" as="geometry" />
@@ -3014,6 +3014,44 @@
             <mxPoint x="12620" y="-110" as="targetPoint" />
             <Array as="points">
               <mxPoint x="12430" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-1" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; HMM VMM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="16770" y="1930" width="6860" height="8430" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-2" value="api_cuda.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="16870" y="2210" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-3" value="&lt;b&gt;cudaHostAlloc(**ptr, size, flags)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-2">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SENdde3JR2DamFZC1mmI-2">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-5" value="DRV_FUNC(&lt;b&gt;MemHostAlloc&lt;/b&gt;)(ptr, size, flags)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-2">
+          <mxGeometry y="60" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-7" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17490" y="2230" width="390" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-8" value="&lt;b&gt;drvMemHostAlloc()&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-10" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
+          <mxGeometry y="60" width="390" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SENdde3JR2DamFZC1mmI-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SENdde3JR2DamFZC1mmI-5" target="SENdde3JR2DamFZC1mmI-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="17290" y="2911" as="sourcePoint" />
+            <mxPoint x="18461" y="2179" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="17310" y="2285" />
+              <mxPoint x="17380" y="2269" />
+              <mxPoint x="17490" y="2269" />
             </Array>
           </mxGeometry>
         </mxCell>
