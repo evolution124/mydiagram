@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2413" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2734" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3332,7 +3332,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-69" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="19400" y="3250" width="530" height="310" as="geometry" />
+          <mxGeometry x="19400" y="3250" width="530" height="260" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-70" value="&lt;b&gt;allocPhysicalMemory( processor, handle, auxMemoryInfo_PTR info )&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-69">
           <mxGeometry y="26" width="530" height="26" as="geometry" />
@@ -3340,11 +3340,11 @@
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-71" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-69">
           <mxGeometry y="52" width="530" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-72" value="&lt;span&gt;&lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;iface = { gcvHAL_RESERVE_VIRTUAL_ADDRESS }&lt;/b&gt;&lt;br&gt;...&lt;br&gt;iface.devIndex = processor-&amp;gt;devIdx;&lt;/span&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;u.reserveVAInfo.byteCount;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;u.reserveVAInfo.startAddress;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.memoryPool&amp;nbsp; = info-&amp;gt;u.reserveVAInfo.poolIndex;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;KmdIoCtl(..., .. ,.. , .. );&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-69">
-          <mxGeometry y="60" width="530" height="130" as="geometry" />
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-72" value="&lt;span&gt;&lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;iface = { gcvHAL_ALLOCATE_LINEAR_VIDEO_MEMROY }&lt;/b&gt;&lt;br&gt;...&lt;br&gt;iface.devIndex = processor-&amp;gt;devIdx;&lt;/span&gt;&lt;div&gt;&lt;span&gt;iface.u.AllocateLinearVideoMemory.alignment = PAGE_SIZE_4K;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;iface.u.AllocateLinearVideoMemory.bytes&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = info-&amp;gt;u.reservePAInfo.byteCount;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;iface.u.AllocateLinearVideoMemory.pool&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = info-&amp;gt;u.reserveVAInfo.poolType;&lt;br&gt;iface.u.AllocateLinearVideoMemory.type&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = gcvSURF_INDEX;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;KmdIoCtl(..., .. ,.. , .. );&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-69">
+          <mxGeometry y="60" width="530" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-73" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;memoryNode_PTR pNode = os_calloc(sizeof(memoryNode_t);&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;processor&amp;nbsp; &amp;nbsp;= processor;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;pNode-&amp;gt;gpuLogical = iface.u.ReserveVirtualAddress.address;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = iface.u.ReserveVirtualAddress.size;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*node = pNode;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-69">
-          <mxGeometry y="190" width="530" height="120" as="geometry" />
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-73" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*handle = iface.u.AllocateLinearVideoMemory.node;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-69">
+          <mxGeometry y="210" width="530" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-74" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XW3Wt1ZElh4_MkwBtj_F-28" target="XW3Wt1ZElh4_MkwBtj_F-70">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
