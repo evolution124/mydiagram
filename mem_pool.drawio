@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2413" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2734" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3118,10 +3118,10 @@
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-5" value="&lt;b&gt;drvMemAddressReserve&lt;/b&gt;(&lt;b&gt;CUdeviceptr&lt;/b&gt;* ptr, size_t size, size_t alignment, CUdeviceptr addr, unsigned long long flags);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
           <mxGeometry y="130" width="720" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-6" value="&lt;b&gt;cuMemCreate&lt;/b&gt;(&lt;b&gt;CUdeviceptr&lt;/b&gt;* ptr, size_t size, size_t offset, &lt;b&gt;CUmemGenericAllocationHandle &lt;/b&gt;handle, unsigned long long flags);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-6" value="&lt;b&gt;cuMemCreate&lt;/b&gt;(CUmemGenericAllocationHandle *handle, size, CUmemAllocationProp *prop, unsigned long long flags);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
           <mxGeometry y="170" width="720" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-7" value="&lt;b&gt;cuMemMap&lt;/b&gt;(ptr, sz, 0ULL, hdl, 0ULL);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-7" value="&lt;b&gt;cuMemMap&lt;/b&gt;(ptr, sz, 0ULL, &lt;b&gt;hdl&lt;/b&gt;, 0ULL);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
           <mxGeometry y="210" width="720" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-8" value="&lt;b&gt;cuMemSetAccess&lt;/b&gt;(ptr, sz, &amp;amp;accessDesc, 1ULL);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
