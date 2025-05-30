@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="12040" dy="7800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2685" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3394,7 +3394,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-91" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20170" y="3615" width="600" height="590" as="geometry" />
+          <mxGeometry x="20170" y="3615" width="600" height="630" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-92" value="&lt;b&gt;_RelockVideoMemory(Kernel , ProcessID, Interface)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-91">
           <mxGeometry y="26" width="600" height="26" as="geometry" />
@@ -3405,17 +3405,17 @@
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-94" value="#if gcdVA_NEW_MM" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-91">
           <mxGeometry y="60" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-95" value="gckVIDMEM_NODE nodeObject = gcvNULL;&lt;div&gt;gckVM vm;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gctADDRESS address&amp;nbsp; = Interface-&amp;gt;u.RelockVideoMemory.address;&lt;/div&gt;&lt;div&gt;gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; mapFlag = Interface-&amp;gt;u.RelockVideoMemory.mapFlag;&lt;/div&gt;&lt;div&gt;gckVARANGE range;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vm = dataBase-&amp;gt;vm;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVIDMEM_HANDLE_Lookup&lt;/b&gt;(Kernel, ProcessID, Interface-&amp;gt;u.RelockVideoMemory.node,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&amp;amp;nodeObject);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-91">
-          <mxGeometry y="90" width="600" height="230" as="geometry" />
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-95" value="gckVIDMEM_NODE nodeObject = gcvNULL;&lt;div&gt;gckVM vm;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gctADDRESS address&amp;nbsp; = Interface-&amp;gt;u.RelockVideoMemory.address;&lt;/div&gt;&lt;div&gt;gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; mapFlag = Interface-&amp;gt;u.RelockVideoMemory.mapFlag;&lt;/div&gt;&lt;div&gt;gckVARANGE range;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vm = dataBase-&amp;gt;vm;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVIDMEM_HANDLE_Lookup&lt;/b&gt;(Kernel, ProcessID, Interface-&amp;gt;u.RelockVideoMemory.node,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&amp;amp;nodeObject);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVM_VARangeFind&lt;/b&gt;(Kernel, vm, address, &amp;amp;range);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVM_VARangeMap&lt;/b&gt;(Kernel, range, nodeObject,&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;address - range-&amp;gt;start + Interface-&amp;gt;u.RelockVideoMemory.offset,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Interface-&amp;gt;u.RelockVideoMemory.mapFlag);&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-91">
+          <mxGeometry y="90" width="600" height="270" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-96" value="#else" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-91">
-          <mxGeometry y="320" width="600" height="30" as="geometry" />
+          <mxGeometry y="360" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-97" value="&lt;b&gt;gckKERNEL_GetCurrentMMU&lt;/b&gt;(Kernel, gcvTRUE, ProcessID, &amp;amp;mmu);&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;gckVIDMEM_HANDLE_Lookup&lt;/b&gt;(Kernel, ProcessID, Interface-&amp;gt;u.RelockVideoMemory.node, &amp;amp;nodeObject);&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (Interface-&amp;gt;u.RelockVideoMemory.mapFlag &amp;amp; gcvMAP_FLAG_MAP_GPU) {|&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;if (Interface-&amp;gt;u.RelockVideoMemory.mapFlag &amp;amp; gcvMAP_FLAG_MAP_CPU) {|&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-91">
-          <mxGeometry y="350" width="600" height="210" as="geometry" />
+          <mxGeometry y="390" width="600" height="210" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-98" value="#endif" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-91">
-          <mxGeometry y="560" width="600" height="30" as="geometry" />
+          <mxGeometry y="600" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-99" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XW3Wt1ZElh4_MkwBtj_F-88" target="XW3Wt1ZElh4_MkwBtj_F-92">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3424,6 +3424,31 @@
             <Array as="points">
               <mxPoint x="19990" y="3905" />
               <mxPoint x="20140" y="3654" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-100" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20970" y="3470" width="530" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-101" value="&lt;b&gt;gckVM_VARangeFind( Kernel, Vm, gctADDRESS Address, gckVARANGE *Range )&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-100">
+          <mxGeometry y="26" width="530" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-102" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-100">
+          <mxGeometry y="52" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-103" value="&lt;span&gt;&lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;iface = { gcvHAL_RESERVE_VIRTUAL_ADDRESS }&lt;/b&gt;&lt;br&gt;...&lt;br&gt;iface.devIndex = processor-&amp;gt;devIdx;&lt;/span&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;u.reserveVAInfo.byteCount;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;u.reserveVAInfo.startAddress;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.memoryPool&amp;nbsp; = info-&amp;gt;u.reserveVAInfo.poolIndex;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;KmdIoCtl(..., .. ,.. , .. );&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-100">
+          <mxGeometry y="60" width="530" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-104" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;memoryNode_PTR pNode = os_calloc(sizeof(memoryNode_t);&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;processor&amp;nbsp; &amp;nbsp;= processor;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;pNode-&amp;gt;gpuLogical = iface.u.ReserveVirtualAddress.address;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = iface.u.ReserveVirtualAddress.size;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*node = pNode;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-100">
+          <mxGeometry y="190" width="530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-105" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XW3Wt1ZElh4_MkwBtj_F-95" target="XW3Wt1ZElh4_MkwBtj_F-101">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20840" y="3860" as="sourcePoint" />
+            <mxPoint x="21060" y="3609" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20810" y="3840" />
+              <mxPoint x="20920" y="3509" />
             </Array>
           </mxGeometry>
         </mxCell>
