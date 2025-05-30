@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2439" dy="1579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2599" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3284,7 +3284,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-50" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20170" y="2450" width="710" height="310" as="geometry" />
+          <mxGeometry x="20170" y="2450" width="710" height="400" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-51" value="&lt;b&gt;_ReserveGPUVirtualAddress(Kernel , ProcessID, Interface)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
           <mxGeometry y="26" width="710" height="26" as="geometry" />
@@ -3292,11 +3292,20 @@
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
           <mxGeometry y="52" width="710" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-53" value="&lt;span&gt;&lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;iface = { gcvHAL_RESERVE_VIRTUAL_ADDRESS }&lt;/b&gt;&lt;br&gt;...&lt;br&gt;iface.devIndex = processor-&amp;gt;devIdx;&lt;/span&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;u.reserveVAInfo.byteCount;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;u.reserveVAInfo.startAddress;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;iface.u.ReserveVirtualAddress.memoryPool&amp;nbsp; = info-&amp;gt;u.reserveVAInfo.poolIndex;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;KmdIoCtl(..., .. ,.. , .. );&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
-          <mxGeometry y="60" width="710" height="130" as="geometry" />
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-53" value="#if gcdVA_NEW_MM" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
+          <mxGeometry y="60" width="710" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-54" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;memoryNode_PTR pNode = os_calloc(sizeof(memoryNode_t);&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;processor&amp;nbsp; &amp;nbsp;= processor;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;pNode-&amp;gt;gpuLogical = iface.u.ReserveVirtualAddress.address;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = iface.u.ReserveVirtualAddress.size;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*node = pNode;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
-          <mxGeometry y="190" width="710" height="120" as="geometry" />
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-56" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
+          <mxGeometry y="90" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-54" value="#else" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
+          <mxGeometry y="210" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-57" value="gckKERNEL_GetCurrentMMU(Kernel, gcvTRUE, ProcessID, &amp;amp;mmu);&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;aligned_size = gcmALIGN(Interface-&amp;gt;u.ReserveVirtualAddress.size, gcd4K_PAGE_SIZE);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;gckMMU_ReserveGPUVirtualAddress(Kernel, mmu, &amp;amp;aligned_size, &amp;amp;address);&lt;br&gt;&lt;br&gt;Interface-&amp;gt;u.ReserveVirtualAddress.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = aligned_size;&lt;/div&gt;&lt;div&gt;Interface-&amp;gt;u.ReserveVirtualAddress.address = address;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
+          <mxGeometry y="240" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-58" value="#endif" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-50">
+          <mxGeometry y="370" width="710" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XW3Wt1ZElh4_MkwBtj_F-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XW3Wt1ZElh4_MkwBtj_F-47" target="XW3Wt1ZElh4_MkwBtj_F-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
