@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2389" dy="1547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2788" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3021,7 +3021,7 @@
           <mxGeometry x="16770" y="1930" width="6860" height="8430" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-2" value="api_cuda.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="16870" y="2210" width="390" height="90" as="geometry" />
+          <mxGeometry x="16890" y="2200" width="390" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-3" value="&lt;b&gt;cudaHostAlloc(**ptr, size, flags)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SENdde3JR2DamFZC1mmI-2" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -3033,7 +3033,7 @@
           <mxGeometry y="60" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-7" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="17420" y="2230" width="560" height="440" as="geometry" />
+          <mxGeometry x="17440" y="2220" width="560" height="440" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-8" value="&lt;b&gt;drvMemHostAlloc(void **pp, bytesize, Flag)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SENdde3JR2DamFZC1mmI-7" vertex="1">
           <mxGeometry y="26" width="560" height="26" as="geometry" />
@@ -3049,16 +3049,16 @@
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="SENdde3JR2DamFZC1mmI-5" target="SENdde3JR2DamFZC1mmI-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="17290" y="2911" as="sourcePoint" />
-            <mxPoint x="18461" y="2179" as="targetPoint" />
+            <mxPoint x="17310" y="2901" as="sourcePoint" />
+            <mxPoint x="18481" y="2169" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="17310" y="2285" />
-              <mxPoint x="17380" y="2269" />
+              <mxPoint x="17330" y="2275" />
+              <mxPoint x="17400" y="2259" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-13" value="memory.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="18160" y="2270" width="390" height="100" as="geometry" />
+          <mxGeometry x="18180" y="2260" width="390" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-14" value="&lt;b&gt;allocHostMemory( *device, *info, **node)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SENdde3JR2DamFZC1mmI-13" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -3071,15 +3071,15 @@
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.457;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SENdde3JR2DamFZC1mmI-10" target="SENdde3JR2DamFZC1mmI-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="17330" y="2336" as="sourcePoint" />
-            <mxPoint x="17490" y="2320" as="targetPoint" />
+            <mxPoint x="17350" y="2326" as="sourcePoint" />
+            <mxPoint x="17510" y="2310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="18040" y="2381" />
-              <mxPoint x="18110" y="2310" />
+              <mxPoint x="18060" y="2371" />
+              <mxPoint x="18130" y="2300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SENdde3JR2DamFZC1mmI-18" value="api_cuda.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="SENdde3JR2DamFZC1mmI-18" value="cu_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="16870" y="2940" width="670" height="270" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-19" value="&lt;b&gt;vmm sample&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SENdde3JR2DamFZC1mmI-18" vertex="1">
@@ -3102,6 +3102,86 @@
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-22" value="&lt;b&gt;cuMemSetAccess&lt;/b&gt;(ptr, sz, &amp;amp;accessDesc, 1ULL);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="SENdde3JR2DamFZC1mmI-18" vertex="1">
           <mxGeometry y="230" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-1" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17710" y="3040" width="720" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-2" value="&lt;b&gt;vmm sample&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+          <mxGeometry y="26" width="720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+          <mxGeometry y="52" width="720" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-4" value="&lt;b&gt;drvMemGetAllocationGranularity&lt;/b&gt;(size_t *granularity, CUmemAllocationProp *prop, CUmemAllocationGranularity_flags option)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --&amp;gt; *granularity = processor-&amp;gt;devInfo.virtualMemAllocGranularity&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+          <mxGeometry y="60" width="720" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-5" value="&lt;b&gt;drvMemAddressReserve&lt;/b&gt;(CUdeviceptr* ptr, size_t size, size_t alignment, CUdeviceptr addr, unsigned long long flags);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+          <mxGeometry y="130" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-6" value="&lt;b&gt;cuMemCreate&lt;/b&gt;(&amp;amp;hdl, sz, &amp;amp;prop, 0);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+          <mxGeometry y="170" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-7" value="&lt;b&gt;cuMemMap&lt;/b&gt;(ptr, sz, 0ULL, hdl, 0ULL);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+          <mxGeometry y="210" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-8" value="&lt;b&gt;cuMemSetAccess&lt;/b&gt;(ptr, sz, &amp;amp;accessDesc, 1ULL);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-1">
+          <mxGeometry y="250" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SENdde3JR2DamFZC1mmI-19" target="XW3Wt1ZElh4_MkwBtj_F-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="17320" y="2466" as="sourcePoint" />
+            <mxPoint x="17480" y="2450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="17630" y="3079" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-14" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="18640" y="2920" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-15" value="&lt;b&gt;int fillProcessorInfo2( processor )&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-14">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-14">
+          <mxGeometry y="52" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-17" value="devInfo-&amp;gt;virtualMemAllocGranularity = PAGE_SIZE_4K" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-14">
+          <mxGeometry y="60" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XW3Wt1ZElh4_MkwBtj_F-4" target="XW3Wt1ZElh4_MkwBtj_F-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="18380" y="2682" as="sourcePoint" />
+            <mxPoint x="18561" y="2610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18490" y="3135" />
+              <mxPoint x="18560" y="2959" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-19" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="18640" y="3060" width="570" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-20" value="&lt;b&gt;drvMemAddressReserve()&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-19">
+          <mxGeometry y="26" width="570" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-19">
+          <mxGeometry y="52" width="570" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-22" value="auxMemoryInfo info = {0}&lt;br&gt;&lt;br&gt;info.u.reserveVAInfo.byteCount&amp;nbsp; &amp;nbsp; &amp;nbsp;= size;&lt;div&gt;info.u.reserveVAInfo.startAddress = addr;&lt;/div&gt;&lt;div&gt;info.u.reserveVAInfo.poolIndex&amp;nbsp; &amp;nbsp; &amp;nbsp; = VIRTUAL_ADDRESS_POOL_1;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;reserveVirtualMemory&lt;/b&gt;(..., &amp;amp;memNode, &amp;amp;info)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-19">
+          <mxGeometry y="60" width="570" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;node = os_calloc(sizeof(Node_t));&lt;br&gt;node-&amp;gt;requestSize = size;&lt;/div&gt;&lt;div&gt;node-&amp;gt;node&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = memNode;&lt;/div&gt;&lt;div&gt;node-&amp;gt;vmmAlloc&amp;nbsp; &amp;nbsp; = true;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;utilMapAdd&lt;/b&gt;(gpgpuPLS.globalPtrMap, node, memNode-&amp;gt;gpuLogical, size);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for (size_t i = 0; i &amp;lt; gpgpuPLS.deviceCount; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; DEVICE(i)-&amp;gt;&lt;b&gt;accessAttrMap&lt;/b&gt;-&amp;gt;insert(std::&lt;b&gt;make_pair&lt;/b&gt;(memNode, HAL_MAP_ATTR_NONE);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*ptr = memNode-&amp;gt;gpuLogical;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="XW3Wt1ZElh4_MkwBtj_F-19">
+          <mxGeometry y="190" width="570" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XW3Wt1ZElh4_MkwBtj_F-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XW3Wt1ZElh4_MkwBtj_F-5" target="XW3Wt1ZElh4_MkwBtj_F-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="18560" y="3256" as="sourcePoint" />
+            <mxPoint x="18770" y="3080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18530" y="3190" />
+              <mxPoint x="18590" y="3100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
