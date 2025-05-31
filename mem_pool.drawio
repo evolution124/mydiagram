@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.0">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2599" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3610" dy="2030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3518,6 +3518,28 @@
             <Array as="points">
               <mxPoint x="20450" y="5240" />
               <mxPoint x="20450" y="4559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1Do4pkObUfWVgMpyz4o-1" value="gc_hal_kernel.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20560" y="4730" width="550" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="R1Do4pkObUfWVgMpyz4o-2" value="&lt;b&gt;unmapVirtualMemory(processor, node, auxMemoryInfo_PTR info)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="R1Do4pkObUfWVgMpyz4o-1">
+          <mxGeometry y="26" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="R1Do4pkObUfWVgMpyz4o-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="R1Do4pkObUfWVgMpyz4o-1">
+          <mxGeometry y="52" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="R1Do4pkObUfWVgMpyz4o-4" value="&lt;div&gt;iface&amp;nbsp; = { gcvHAL_INVALID_VIRTUAL_ADDRESS }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;iface.u.InvalidVirtualAddress.address&amp;nbsp; &amp;nbsp; &amp;nbsp; = info-&amp;gt;u.unmapInfo.address;&lt;/div&gt;&lt;div&gt;iface.u.InvalidVirtualAddress.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;u.unmapInfo.byteCount;&lt;br&gt;iface.u.InvalidVirtualAddress.unmapFlag = info-&amp;gt;u.unmapInfo.unmapTarget;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#if !gcdENABLE_HMM&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (info-&amp;gt;u.unmapInfo.unmapTarget &amp;amp; HAL_MAP_CPU_FLAG)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; iface.u.InvalidVirtualAddress.userLogical = node-&amp;gt;cpuLogical;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;#endif&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; KmdIoCtl();&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="R1Do4pkObUfWVgMpyz4o-1">
+          <mxGeometry y="60" width="550" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="R1Do4pkObUfWVgMpyz4o-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XW3Wt1ZElh4_MkwBtj_F-125" target="R1Do4pkObUfWVgMpyz4o-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="19800" y="4990" as="sourcePoint" />
+            <mxPoint x="20120" y="5229" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20390" y="4769" />
+              <mxPoint x="20490" y="4770" />
             </Array>
           </mxGeometry>
         </mxCell>
