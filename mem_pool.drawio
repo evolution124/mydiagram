@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="3117" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2655" dy="1565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3606,35 +3606,62 @@
           <mxGeometry x="16790" y="6240" width="6380" height="4150" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-1" value="api_cuda.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="16920" y="6610" width="390" height="90" as="geometry" />
+          <mxGeometry x="16920" y="6610" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-2" value="&lt;b&gt;cuMemHostRegister(void *p, bytesize, Flags)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-1">
-          <mxGeometry y="26" width="390" height="26" as="geometry" />
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-1">
-          <mxGeometry y="52" width="390" height="8" as="geometry" />
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-4" value="cuMemHostRegister(p, size,Flags);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-1">
-          <mxGeometry y="60" width="390" height="30" as="geometry" />
+          <mxGeometry y="60" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-5" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="17470" y="6630" width="560" height="240" as="geometry" />
+          <mxGeometry x="17360" y="6630" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-6" value="&lt;b&gt;drvMemHostRegister(void **pp, bytesize, Flag)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-5">
-          <mxGeometry y="26" width="560" height="26" as="geometry" />
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-5">
-          <mxGeometry y="52" width="560" height="8" as="geometry" />
+          <mxGeometry y="52" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="I5CKcODsCKaDKsJBGJ2v-9" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-5">
-          <mxGeometry y="60" width="560" height="180" as="geometry" />
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-9" value="drvMemHostRegister_v2( pp, bytesize, Flag);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-5">
+          <mxGeometry y="60" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5CKcODsCKaDKsJBGJ2v-4" target="I5CKcODsCKaDKsJBGJ2v-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="17320" y="6650" as="sourcePoint" />
             <mxPoint x="17490" y="6750" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="17410" y="6685" />
+              <mxPoint x="17310" y="6685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-11" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17810" y="6720" width="720" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-12" value="&lt;b&gt;drvMemHostRegister(void **pp, bytesize, Flag)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-11">
+          <mxGeometry y="26" width="720" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-11">
+          <mxGeometry y="52" width="720" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-14" value="Node_t* node = nullptr;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;node = &lt;b&gt;findGlobalNodeRangeAddress&lt;/b&gt;((uint64_t)p);&lt;br&gt;&lt;br&gt;info.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= &lt;b&gt;drvAlign&lt;/b&gt;(bytesize, PAGE_SIZE_4K);&lt;/div&gt;&lt;div&gt;info.hostMemAddr = (uint64_t)(uintptr_t)p;&lt;/div&gt;&lt;div&gt;info.message&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; =&quot;register host memory&quot;;&lt;/div&gt;&lt;div&gt;&lt;br&gt;globalPtrMap&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= gpgpuPLS.globalPtrMap;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-11">
+          <mxGeometry y="60" width="720" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Node = os_calloc(sizeof(Node_t));&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Node-&amp;gt;node&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = nullptr;&lt;/div&gt;&lt;div&gt;Node-&amp;gt;cacheable = true;&lt;/div&gt;&lt;div&gt;Node-&amp;gt;hostAlloc&amp;nbsp; &amp;nbsp;= true;&lt;/div&gt;&lt;div&gt;Node-&amp;gt;registered = true;&lt;/div&gt;&lt;div&gt;Node-&amp;gt;ctx&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= ctx;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;registerHostMemory&lt;/b&gt;(CURRENT_HAL_DEVICE(ctx), &amp;amp;info, &amp;amp;Node-&amp;gt;node);&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-11">
+          <mxGeometry y="210" width="720" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-17" value="&lt;div&gt;if ((Flags &amp;amp; CU_MEMHOSTREGISTER_PORTABLE) || DEVICE_ATTR(ctx-&amp;gt;device, isUnifiedAddressing)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for (i = 0; i &amp;lt; gpgpuPLS.deviceCount; i++) {&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;setHALMemAccess&lt;/b&gt;(DEVICE(i)-&amp;gt;processor, Node-&amp;gt;node, HAL_MAP_ATTR_READWRITE));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if (DEVICE_ATTR(ctx-&amp;gt;device, isUnifiedAddressing)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;utilMapAdd&lt;/b&gt;(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;cpuLogical, bytesize);&lt;/div&gt;&lt;div&gt;} else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;utilMapAdd&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;cpuLogical, bytesize);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;utilMapAdd&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;gpuLogical, bytesize);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Node-&amp;gt;node-&amp;gt;flags = Flags;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="I5CKcODsCKaDKsJBGJ2v-11">
+          <mxGeometry y="370" width="720" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5CKcODsCKaDKsJBGJ2v-9" target="I5CKcODsCKaDKsJBGJ2v-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="17380" y="6786" as="sourcePoint" />
+            <mxPoint x="17530" y="6770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="17750" y="6705" />
             </Array>
           </mxGeometry>
         </mxCell>
