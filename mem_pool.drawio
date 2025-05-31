@@ -1639,7 +1639,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-12" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Allocate user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="24470" y="1960" width="6450" height="4430" as="geometry" />
+          <mxGeometry x="24470" y="1960" width="6450" height="3820" as="geometry" />
         </mxCell>
         <mxCell id="VqAhi49Ukww8_snOarwK-2" value="gc_hal_kernel_os.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11300" y="6640" width="580" height="660" as="geometry" />
