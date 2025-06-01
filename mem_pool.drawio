@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2601" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2529" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3666,16 +3666,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-18" value="memory.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="18740" y="6610" width="520" height="100" as="geometry" />
+          <mxGeometry x="18700" y="6610" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-19" value="&lt;b&gt;registerHostMemory(gpgpuDevice * device, registerHostMemory_t *info, memoryNode_t **node)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="I5CKcODsCKaDKsJBGJ2v-18" vertex="1">
-          <mxGeometry y="26" width="520" height="26" as="geometry" />
+          <mxGeometry y="26" width="560" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="I5CKcODsCKaDKsJBGJ2v-18" vertex="1">
-          <mxGeometry y="52" width="520" height="8" as="geometry" />
+          <mxGeometry y="52" width="560" height="8" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-21" value="&lt;b&gt;registerMemory&lt;/b&gt;(device-&amp;gt;processor, node, info);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="I5CKcODsCKaDKsJBGJ2v-18" vertex="1">
-          <mxGeometry y="60" width="520" height="40" as="geometry" />
+          <mxGeometry y="60" width="560" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="I5CKcODsCKaDKsJBGJ2v-16" target="I5CKcODsCKaDKsJBGJ2v-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3683,7 +3683,7 @@
             <mxPoint x="18230" y="6794" as="targetPoint" />
             <Array as="points">
               <mxPoint x="18590" y="7010" />
-              <mxPoint x="18710" y="6649" />
+              <mxPoint x="18660" y="6649" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3712,6 +3712,28 @@
             <Array as="points">
               <mxPoint x="19260" y="6685" />
               <mxPoint x="19310" y="6649" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W0h2GZI03d_rjjb4VNMI-1" value="gc_hal_kernel.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20150" y="6605" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W0h2GZI03d_rjjb4VNMI-2" value="&lt;b&gt;_wrapUserMemory(Kernel, ProcessID, Interface)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="W0h2GZI03d_rjjb4VNMI-1">
+          <mxGeometry y="26" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="W0h2GZI03d_rjjb4VNMI-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="W0h2GZI03d_rjjb4VNMI-1">
+          <mxGeometry y="52" width="620" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="W0h2GZI03d_rjjb4VNMI-4" value="&lt;b&gt;registerMemory&lt;/b&gt;(device-&amp;gt;processor, node, info);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="W0h2GZI03d_rjjb4VNMI-1">
+          <mxGeometry y="60" width="620" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W0h2GZI03d_rjjb4VNMI-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5CKcODsCKaDKsJBGJ2v-30" target="W0h2GZI03d_rjjb4VNMI-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="19995" y="6746" as="sourcePoint" />
+            <mxPoint x="20075" y="6710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20030" y="6765" />
+              <mxPoint x="20100" y="6644" />
             </Array>
           </mxGeometry>
         </mxCell>
