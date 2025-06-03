@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2851" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2687" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1638,8 +1638,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xt16O4ISyjv4oT31lnue-12" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Allocate user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="24470" y="1960" width="6450" height="3820" as="geometry" />
+        <mxCell id="xt16O4ISyjv4oT31lnue-12" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Allocate user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="24470" y="1960" width="7140" height="3820" as="geometry" />
         </mxCell>
         <mxCell id="VqAhi49Ukww8_snOarwK-2" value="gc_hal_kernel_os.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11300" y="6640" width="580" height="660" as="geometry" />
@@ -2414,7 +2414,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-82" value="gc_hal_kernel_allocator_user_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="30010" y="3510" width="700" height="1260" as="geometry" />
+          <mxGeometry x="29830" y="3510" width="700" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="Rt-lXHL0REA0ntXYS-w8-83" value="&lt;b&gt;import_pfn_map&lt;/b&gt;&lt;b&gt;(Os, dev, struct um_desc *um, unsigned long addr, pfn_count)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Rt-lXHL0REA0ntXYS-w8-82" vertex="1">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -3946,7 +3946,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="l5iE1aD0JyvzdltRnwth-3" value="gc_hal_kernel_allocator_user_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="30010" y="2160" width="700" height="1190" as="geometry" />
+          <mxGeometry x="29830" y="2160" width="700" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="l5iE1aD0JyvzdltRnwth-4" value="&lt;b&gt;import_page_map&lt;/b&gt;&lt;b&gt;(Os, dev, struct um_desc *um, unsigned long addr, page_count, size, unsigned long flags)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#333333;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-3">
           <mxGeometry y="26" width="700" height="26" as="geometry" />
@@ -3966,7 +3966,7 @@
         <mxCell id="l5iE1aD0JyvzdltRnwth-9" value="um-&amp;gt;chunk_count = 1;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(153, 255, 255);&quot;&gt;// 计算非连续叶框数量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;for ( i = 1; i &amp;lt; page_count; i++) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (&lt;b&gt;page_to_pfn&lt;/b&gt;(pages[i]) != &lt;b&gt;page_to_pfn&lt;/b&gt;(pages[i-1]) + 1)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ++um-&amp;gt;chunk_count;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-3">
           <mxGeometry y="680" width="700" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="l5iE1aD0JyvzdltRnwth-10" value="if (gcmIS_SUCCESS(&lt;b&gt;phy_is_from_reserved&lt;/b&gt;(Os, &lt;b&gt;page_to_pfn&lt;/b&gt;(pages[0]) &amp;lt;&amp;lt; PAGE_SHIFT)))&lt;br&gt;&amp;nbsp; &amp;nbsp; um-&amp;gt;alloc_from_res = 1;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-3">
+        <mxCell id="l5iE1aD0JyvzdltRnwth-10" value="if (gcmIS_SUCCESS(&lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;phy_is_from_reserved&lt;/b&gt;(Os, &lt;b&gt;page_to_pfn&lt;/b&gt;(pages[0]) &amp;lt;&amp;lt; PAGE_SHIFT)))&lt;br&gt;&amp;nbsp; &amp;nbsp; um-&amp;gt;alloc_from_res = 1;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-3">
           <mxGeometry y="790" width="700" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l5iE1aD0JyvzdltRnwth-11" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;// dma map&lt;/span&gt;&lt;/div&gt;if (!um-&amp;gt;alloc_from_res) {&lt;div&gt;#if gcdUSE_LINIUX_SG_TABLE_API&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; result = &lt;b&gt;sg_alloc_table_from_pages&lt;/b&gt;(&amp;amp;um-&amp;gt;sgt,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;pages, page_count,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; addr &amp;amp; ~PAGE_MASK, size,&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;GFP_KERNEL | gcdNOWARN);&lt;/div&gt;&lt;div&gt;#else&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; result = &lt;b&gt;alloc_sg_list_from_pages&lt;/b&gt;(&amp;amp;um-&amp;gt;sgt.sgl, pages, page_count,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;addr &amp;amp; ~PAGE_MASK, size, &amp;amp;um-&amp;gt;sgt.nets);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;#endif&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; result = &lt;b&gt;dma_map_sg&lt;/b&gt;(dev, um-&amp;gt;sgt.sgl, um-&amp;gt;sgt.nets, DMA_TO_DEVICE);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (result != um-&amp;gt;sgt.nets) { goto error;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (Os-&amp;gt;iommu)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; um-&amp;gt;dmaHandle = &lt;b&gt;sg_dma_address&lt;/b&gt;(um-&amp;gt;sgt.sgl);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;dma_sync_sg_for_cpu(dev, um-&amp;gt;sgt.sgl, um-&amp;gt;sgt.nets, DMA_FROM_DEVICE);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-3">
@@ -3974,6 +3974,36 @@
         </mxCell>
         <mxCell id="l5iE1aD0JyvzdltRnwth-12" value="um-&amp;gt;type&amp;nbsp; &amp;nbsp; = UM_PAGE_MAP;&lt;div&gt;um-&amp;gt;pages = pages;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-3">
           <mxGeometry y="1140" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-13" value="gc_hal_kernel_allocator_user_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="30870" y="2165" width="700" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-14" value="&lt;b style=&quot;color: rgb(0, 0, 0);&quot;&gt;phy_is_from_reserved&lt;/b&gt;&lt;b&gt;(Os, gctPHYS_ADDR_T Physical)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#333333;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-13">
+          <mxGeometry y="26" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=1;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-13">
+          <mxGeometry y="52" width="700" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-16" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-13">
+          <mxGeometry y="60" width="700" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-19" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-13">
+          <mxGeometry y="160" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-25" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-13">
+          <mxGeometry y="270" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-24" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-13">
+          <mxGeometry y="380" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-20" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="l5iE1aD0JyvzdltRnwth-13">
+          <mxGeometry y="490" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l5iE1aD0JyvzdltRnwth-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="l5iE1aD0JyvzdltRnwth-10" target="l5iE1aD0JyvzdltRnwth-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30450" y="3071" as="sourcePoint" />
+            <mxPoint x="30790" y="2960" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
