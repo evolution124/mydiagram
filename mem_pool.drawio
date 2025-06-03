@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.1">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2527" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3291" dy="2131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3688,7 +3688,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-25" value="hal.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="19380" y="7000" width="640" height="930" as="geometry" />
+          <mxGeometry x="19380" y="7000" width="640" height="950" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-26" value="&lt;b&gt;registerMemory(processor_PTR processor, memoryNode_t **node, registerHostMemoryInfo_PTR info)&lt;/b&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="I5CKcODsCKaDKsJBGJ2v-25" vertex="1">
           <mxGeometry y="26" width="640" height="26" as="geometry" />
@@ -3708,11 +3708,11 @@
         <mxCell id="W0h2GZI03d_rjjb4VNMI-20" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#else&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="I5CKcODsCKaDKsJBGJ2v-25" vertex="1">
           <mxGeometry y="590" width="640" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I5CKcODsCKaDKsJBGJ2v-28" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;iface = { &lt;b&gt;gcvHAL_HOST_REGISTER &lt;/b&gt;};&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;iface.u.HostRegister.address = info-&amp;gt;hostMemAddr;&lt;/div&gt;&lt;div&gt;iface.u.HostRegister.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;size;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;KmdIoCtl&lt;/b&gt;(...);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;memoryNode_PTR pNode = os_calloc(sizeof(memoryNode_t);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;pNode-&amp;gt;processor = processor;&lt;div&gt;pNode-&amp;gt;handle&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= iface.u.HostRegister.node;&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;size;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;pNode-&amp;gt;type&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= gcvVIDMEM_TYPE_GENERIC;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;// cpu/gpuLogical 现在memory 地址是一样的&lt;/span&gt;&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;cpuLogical = info-&amp;gt;hostMemAddr;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;gpuLogical = info-&amp;gt;hostMemAddr;&lt;/div&gt;&lt;div&gt;*node = pNode;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="I5CKcODsCKaDKsJBGJ2v-25" vertex="1">
-          <mxGeometry y="630" width="640" height="260" as="geometry" />
+        <mxCell id="I5CKcODsCKaDKsJBGJ2v-28" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;iface = { &lt;b&gt;gcvHAL_HOST_REGISTER &lt;/b&gt;};&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;iface.u.HostRegister.address = info-&amp;gt;hostMemAddr;&lt;/div&gt;&lt;div&gt;iface.u.HostRegister.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;size;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;KmdIoCtl&lt;/b&gt;(...);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;memoryNode_PTR pNode = os_calloc(sizeof(memoryNode_t);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;pNode-&amp;gt;processor = processor;&lt;div&gt;pNode-&amp;gt;handle&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= iface.u.HostRegister.node;&lt;/div&gt;&lt;div&gt;pNode-&amp;gt;size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= info-&amp;gt;size;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;pNode-&amp;gt;type&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= gcvVIDMEM_TYPE_GENERIC;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(153, 255, 255);&quot;&gt;// cpu/gpuLogical 现在memory 地址是一样的&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;pNode-&amp;gt;cpuLogical = info-&amp;gt;hostMemAddr;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;pNode-&amp;gt;gpuLogical = info-&amp;gt;hostMemAddr;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;*node = pNode;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="I5CKcODsCKaDKsJBGJ2v-25" vertex="1">
+          <mxGeometry y="630" width="640" height="280" as="geometry" />
         </mxCell>
         <mxCell id="W0h2GZI03d_rjjb4VNMI-34" value="&lt;b&gt;#endif&lt;/b&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="I5CKcODsCKaDKsJBGJ2v-25" vertex="1">
-          <mxGeometry y="890" width="640" height="40" as="geometry" />
+          <mxGeometry y="910" width="640" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I5CKcODsCKaDKsJBGJ2v-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="I5CKcODsCKaDKsJBGJ2v-18" target="I5CKcODsCKaDKsJBGJ2v-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3864,7 +3864,7 @@
             <mxPoint x="20180" y="7901" as="sourcePoint" />
             <mxPoint x="20310" y="7390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="20080" y="7755" />
+              <mxPoint x="20060" y="7770" />
               <mxPoint x="20130" y="7564" />
             </Array>
           </mxGeometry>
