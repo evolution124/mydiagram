@@ -1639,7 +1639,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xt16O4ISyjv4oT31lnue-12" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Allocate user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSize=64;fontStyle=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="24390" y="1960" width="7310" height="3820" as="geometry" />
+          <mxGeometry x="24390" y="1930" width="7310" height="3850" as="geometry" />
         </mxCell>
         <mxCell id="VqAhi49Ukww8_snOarwK-2" value="gc_hal_kernel_os.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="11300" y="6640" width="580" height="660" as="geometry" />
@@ -2517,9 +2517,6 @@
             <mxPoint x="26290" y="4630" as="sourcePoint" />
             <mxPoint x="26530" y="4629" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Rt-lXHL0REA0ntXYS-w8-127" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dev GFP Pool&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=64;" parent="1" vertex="1">
-          <mxGeometry x="24380" y="-750" width="3210" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="EAXsDxyp4Mi5biQF-tPH-4" value="gc_hal_kernel_video_memory.c" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5320" y="3320" width="710" height="160" as="geometry" />
