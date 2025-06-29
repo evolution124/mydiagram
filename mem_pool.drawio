@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.1.6">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="3176" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3982" dy="2213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3021,7 +3021,7 @@
           <mxGeometry x="16630" y="6470" width="15130" height="3830" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-2" value="api_cuda.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="16720" y="7300" width="390" height="90" as="geometry" />
+          <mxGeometry x="16870" y="4960" width="390" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-3" value="&lt;b&gt;cudaHostAlloc(**ptr, size, flags)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SENdde3JR2DamFZC1mmI-2" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -3033,7 +3033,7 @@
           <mxGeometry y="60" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-7" value="drv_api.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="17270" y="7320" width="560" height="440" as="geometry" />
+          <mxGeometry x="17420" y="4980" width="560" height="440" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-8" value="&lt;b&gt;drvMemHostAlloc(void **pp, bytesize, Flag)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SENdde3JR2DamFZC1mmI-7" vertex="1">
           <mxGeometry y="26" width="560" height="26" as="geometry" />
@@ -3049,16 +3049,16 @@
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="SENdde3JR2DamFZC1mmI-5" target="SENdde3JR2DamFZC1mmI-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="17140" y="8001" as="sourcePoint" />
-            <mxPoint x="18311" y="7269" as="targetPoint" />
+            <mxPoint x="17290" y="5661" as="sourcePoint" />
+            <mxPoint x="18461" y="4929" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="17160" y="7375" />
-              <mxPoint x="17230" y="7359" />
+              <mxPoint x="17310" y="5035" />
+              <mxPoint x="17380" y="5019" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-13" value="memory.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="18010" y="7270" width="390" height="100" as="geometry" />
+          <mxGeometry x="18160" y="4930" width="390" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-14" value="&lt;b&gt;allocHostMemory( *device, *info, **node)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SENdde3JR2DamFZC1mmI-13" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -3071,11 +3071,11 @@
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.457;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SENdde3JR2DamFZC1mmI-10" target="SENdde3JR2DamFZC1mmI-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="17180" y="7426" as="sourcePoint" />
-            <mxPoint x="17340" y="7410" as="targetPoint" />
+            <mxPoint x="17330" y="5086" as="sourcePoint" />
+            <mxPoint x="17490" y="5070" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="17890" y="7471" />
-              <mxPoint x="17970" y="7310" />
+              <mxPoint x="18040" y="5131" />
+              <mxPoint x="18120" y="4970" />
             </Array>
           </mxGeometry>
         </mxCell>
