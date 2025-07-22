@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.1.6">
   <diagram name="Page-1" id="1dB5lCZi5Taqo5wlKjE4">
-    <mxGraphModel dx="2919" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3081" dy="1916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -775,13 +775,13 @@
         <mxCell id="5UoCWkmYeCmagEpiS34q-24" value="/* 修改Node的大小 */&lt;br&gt;&lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;Node-&amp;gt;VidMem.bytes = Bytes;&lt;/b&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="qcseRaRLYhIY6nGx_bxc-17" vertex="1">
           <mxGeometry y="500" width="710" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qcseRaRLYhIY6nGx_bxc-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.001;exitY=0.282;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="qcseRaRLYhIY6nGx_bxc-14" edge="1">
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="qcseRaRLYhIY6nGx_bxc-14" edge="1" source="EAXsDxyp4Mi5biQF-tPH-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5120.7699999999995" y="2612.7999999999993" as="sourcePoint" />
             <mxPoint x="4360" y="3039" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qcseRaRLYhIY6nGx_bxc-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.779;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="qcseRaRLYhIY6nGx_bxc-18" edge="1">
+        <mxCell id="qcseRaRLYhIY6nGx_bxc-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="qcseRaRLYhIY6nGx_bxc-18" edge="1" source="EAXsDxyp4Mi5biQF-tPH-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5123.080000000001" y="2811.6000000000004" as="sourcePoint" />
             <mxPoint x="5340" y="2189" as="targetPoint" />
@@ -3044,7 +3044,7 @@
         <mxCell id="SENdde3JR2DamFZC1mmI-10" value="Node-&amp;gt;hostAlloc = true;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;allocHostMemory&lt;/b&gt;(CURRENT_HAL_DEVICE(ctx), &amp;amp;info, &amp;amp;Node-&amp;gt;node);&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="SENdde3JR2DamFZC1mmI-7" vertex="1">
           <mxGeometry y="60" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="piIr1eEig3HVvb0NoXZZ-1" value="&lt;div&gt;if ((Flags &amp;amp; CU_MEMHOSTALLOC_PORTABLE) || DEVICE_ATTR(ctx-device, isUnifiedAddressing))&lt;br&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for (i = 0; i &amp;lt; gpgpuPLS.deviceCount; i++)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (i == ctx-&amp;gt;device) continue;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;setHalMemAccess&lt;/b&gt;(DEVICE(i)-&amp;gt;processor, Node-&amp;gt;node, HAL_MAP_ATTR_READWRITE);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="SENdde3JR2DamFZC1mmI-7">
+        <mxCell id="piIr1eEig3HVvb0NoXZZ-1" value="&lt;div&gt;if ((Flags &amp;amp; CU_MEMHOSTALLOC_PORTABLE) || DEVICE_ATTR(ctx-device, isUnifiedAddressing))&lt;br&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; for (i = 0; i &amp;lt; gpgpuPLS.deviceCount; i++)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (i == ctx-&amp;gt;device) continue;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;setHalMemAccess&lt;/b&gt;(DEVICE(i)-&amp;gt;processor, Node-&amp;gt;node, HAL_MAP_ATTR_READWRITE);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="SENdde3JR2DamFZC1mmI-7" vertex="1">
           <mxGeometry y="120" width="560" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SENdde3JR2DamFZC1mmI-12" value="&lt;div&gt;if (DEVICE_ATTR(ctx-&amp;gt;device, isUnifiedAddressing))&lt;/div&gt;&lt;div&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;utilMapAdd&lt;/b&gt;(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;cpuLogical, Node-&amp;gt;node-&amp;gt;size);&lt;br&gt;}&lt;br&gt;else&lt;/div&gt;&lt;div&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; utilMapAdd(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;cpuLogical, Node-&amp;gt;node-&amp;gt;size);&lt;br&gt;&amp;nbsp; &amp;nbsp; utilMapAdd(globalPtrMap, Node, Node-&amp;gt;node-&amp;gt;gpuLogical, Node-&amp;gt;node-&amp;gt;size);&lt;br&gt;}&lt;br&gt;&lt;br&gt;*pp = (void *)Node-&amp;gt;node-&amp;gt;cpuLogical;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" parent="SENdde3JR2DamFZC1mmI-7" vertex="1">
