@@ -1,23 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
   <diagram name="Page-1" id="S8SDPSZNp_Jbd6gV6quM">
-    <mxGraphModel dx="1273" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7Ae8x80zPaV3IFa-g7QR-1" value="gckVIDMEM_AllocateLinear" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="70" width="665" height="190" as="geometry" />
+          <mxGeometry x="75" y="100" width="835" height="300" as="geometry" />
         </mxCell>
         <mxCell id="7Ae8x80zPaV3IFa-g7QR-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="7Ae8x80zPaV3IFa-g7QR-1">
-          <mxGeometry y="26" width="665" height="8" as="geometry" />
+          <mxGeometry y="26" width="835" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="7Ae8x80zPaV3IFa-g7QR-5" value="bank = Memory-&amp;gt;mapping[Type]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Ae8x80zPaV3IFa-g7QR-1">
-          <mxGeometry y="34" width="665" height="52" as="geometry" />
+        <mxCell id="7Ae8x80zPaV3IFa-g7QR-5" value="bank = Memory-&amp;gt;mapping[Type]&lt;br&gt;&lt;br&gt;node = _FindNode(Kernel, Memory, bank, Bytes, Type, &amp;amp;alignment);" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Ae8x80zPaV3IFa-g7QR-1">
+          <mxGeometry y="34" width="835" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="7Ae8x80zPaV3IFa-g7QR-6" value="node = _FindNode(Kernel, Memory, bank, Bytes, Type, &amp;amp;alignment);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Ae8x80zPaV3IFa-g7QR-1">
-          <mxGeometry y="86" width="665" height="52" as="geometry" />
+        <mxCell id="7Ae8x80zPaV3IFa-g7QR-6" value="" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Ae8x80zPaV3IFa-g7QR-1">
+          <mxGeometry y="86" width="835" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="7Ae8x80zPaV3IFa-g7QR-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Ae8x80zPaV3IFa-g7QR-1">
-          <mxGeometry y="138" width="665" height="52" as="geometry" />
+        <mxCell id="7Ae8x80zPaV3IFa-g7QR-4" value="&lt;b&gt;_FindNode&lt;/b&gt;()&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;_Split&lt;/b&gt;(Memory-&amp;gt;os, node, alignment);&lt;br&gt;&lt;br&gt;&lt;b&gt;gckOS_NodeIdAssign&lt;/b&gt;(Kernel-&amp;gt;os, node);&lt;br&gt;&lt;br&gt;mappingInOne&lt;br&gt;&lt;br&gt;&lt;b&gt;gckOS_RequestReservedMemoryArea&lt;/b&gt;(Memory-&amp;gt;os, Memory-&amp;gt;physical, node-&amp;gt;VidMem.offset, node-&amp;gt;VidMem.bytes, &amp;amp;node-&amp;gt;VidMem.physical)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Ae8x80zPaV3IFa-g7QR-1">
+          <mxGeometry y="138" width="835" height="162" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
