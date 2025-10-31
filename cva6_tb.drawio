@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="1680" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3526" dy="2787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,7 +115,7 @@
               <mxPoint x="800" y="290" />
               <mxPoint x="800" y="740" />
               <mxPoint x="-140" y="740" />
-              <mxPoint x="-140" y="525" />
+              <mxPoint x="-140" y="475" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -175,7 +175,7 @@
               <mxPoint x="3580" y="420" />
               <mxPoint x="3580" y="600" />
               <mxPoint x="2480" y="600" />
-              <mxPoint x="2480" y="1055" />
+              <mxPoint x="2480" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -252,7 +252,7 @@
             <mxPoint x="4430" y="1185" as="targetPoint" />
             <Array as="points">
               <mxPoint x="3630" y="885" />
-              <mxPoint x="3810" y="1385" />
+              <mxPoint x="3810" y="1345" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -265,11 +265,21 @@
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-73" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;function automatic void rvfi_spike_step(ref st_rvfi s_core, ref st_rvfi s_reference_model);&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; union_rvfi u_core;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; union_rvfi u_reference_model;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bit [ST_NUM_WORDS-1:0][63:0] a_core;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bit [ST_NUM_WORDS-1:0][63:0] a_reference_model;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; u_core.rvfi = s_core;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; a_core = u_core.array;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AIi3PwNUS5Vkqz0hZRpa-71">
           <mxGeometry y="60" width="1260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="AIi3PwNUS5Vkqz0hZRpa-74" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;spike_step_svLogic(a_core, a_reference_model);&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; u_reference_model.array = a_reference_model;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; s_reference_model = u_reference_model.rvfi;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AIi3PwNUS5Vkqz0hZRpa-71">
+        <mxCell id="AIi3PwNUS5Vkqz0hZRpa-74" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span&gt;&lt;b style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;spike_step_svLogic&lt;/b&gt;(a_core, a_reference_model);&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; u_reference_model.array = a_reference_model;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; s_reference_model = u_reference_model.rvfi;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AIi3PwNUS5Vkqz0hZRpa-71">
           <mxGeometry y="190" width="1260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-79" value="endfunction : rvfi_spike_step" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AIi3PwNUS5Vkqz0hZRpa-71">
           <mxGeometry y="280" width="1260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AIi3PwNUS5Vkqz0hZRpa-80" value="Call model step" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#fff2cc;strokeColor=#d6b656;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AIi3PwNUS5Vkqz0hZRpa-46" target="AIi3PwNUS5Vkqz0hZRpa-71">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="3580" y="1310" as="sourcePoint" />
+            <mxPoint x="4130" y="1770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3600" y="1215" />
+              <mxPoint x="3730" y="2550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
