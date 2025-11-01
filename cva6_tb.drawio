@@ -285,43 +285,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-81" value="CVA6.py (vcs-uvm,spike, no TANDEM)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="-320" width="580" height="968" as="geometry" />
+          <mxGeometry x="760" y="-320" width="800" height="968" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-83" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="26" width="580" height="8" as="geometry" />
+          <mxGeometry y="26" width="800" height="8" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-84" value="exec: cmd=/home/ICer/proj/riscv_cva6_tools/bin/riscv-none-elf-gcc --version" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="34" width="580" height="26" as="geometry" />
+          <mxGeometry y="34" width="800" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-86" value="exec: cmd=verilator --version" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="60" width="580" height="26" as="geometry" />
+          <mxGeometry y="60" width="800" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-87" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;exec: cmd=mkdir -p /home/ICer/proj/cva6/verif/sim/out_2025-10-31/directed_tests&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="86" width="580" height="26" as="geometry" />
+          <mxGeometry y="86" width="800" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-88" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;exec: cmd=/home/ICer/proj/riscv_cva6_tools/bin/riscv-none-elf-gcc ../tests/custom/hello_world/hello_world.c&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-I/home/ICer/proj/cva6/verif/sim/dv/user_extension&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-T../../config/gen_from_riscv_config/linker/link.ld &lt;br&gt;-static -mcmodel=medany &lt;br&gt;-fvisibility=hidden &lt;br&gt;-nostdlib &lt;br&gt;-nostartfiles &lt;br&gt;-g ../tests/custom/common/syscalls.c ../tests/custom/common/crt.S -lgcc &lt;br&gt;-I../tests/custom/env &lt;br&gt;-I../tests/custom/common &lt;br&gt;-o /home/ICer/proj/cva6/verif/sim/out_2025-10-31/directed_tests/hello_world.o&amp;nbsp; &lt;br&gt;-march=rv64gc_zba_zbb_zbs_zbc_zbkb_zbkx_zkne_zknd_zknh &lt;br&gt;-mabi=lp64d&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="112" width="580" height="238" as="geometry" />
+          <mxGeometry y="112" width="800" height="238" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-85" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;exec: cmd=mkdir -p /home/ICer/proj/cva6/verif/sim/out_2025-10-31/spike_sim&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="350" width="580" height="26" as="geometry" />
+          <mxGeometry y="350" width="800" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-90" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;exec: cmd=make spike steps=2000000 &lt;br&gt;target=cv64a6_imafdc_sv39 &lt;br&gt;variant=rv64gc_zba_zbb_zbs_zbc_zbkb_zbkx_zkne_zknd_zknh &lt;br&gt;priv=msu &lt;br&gt;elf=/home/ICer/proj/cva6/verif/sim/out_2025-10-31/directed_tests/hello_world.o tool_path=/home/ICer/proj/cva6/tools/spike/bin &lt;br&gt;log=/home/ICer/proj/cva6/verif/sim/out_2025-10-31/spike_sim/hello_world.cv64a6_imafdc_sv39.log&lt;br&gt;spike_params=&#39;&#39; &lt;br&gt;&amp;amp;&amp;gt; /home/ICer/proj/cva6/verif/sim/out_2025-10-31/spike_sim/hello_world.cv64a6_imafdc_sv39.log.iss&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="376" width="580" height="144" as="geometry" />
+          <mxGeometry y="376" width="800" height="144" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-91" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;exec: cmd=make &lt;br&gt;vcs-uvm &lt;br&gt;target=cv64a6_imafdc_sv39 &lt;br&gt;cov=${cov} &lt;br&gt;variant=rv64gc_zba_zbb_zbs_zbc_zbkb_zbkx_zkne_zknd_zknh elf=/home/ICer/proj/cva6/verif/sim/out_2025-10-31/directed_tests/hello_world.o&lt;br&gt;tool_path=/home/ICer/proj/cva6/tools/spike/bin &lt;br&gt;isscomp_opts=&quot;&quot; &lt;br&gt;issrun_opts=&quot; +ntb_random_seed=615222664&quot; &lt;br&gt;isspostrun_opts=&quot;0x0000000080000000&quot; &lt;br&gt;log=/home/ICer/proj/cva6/verif/sim/out_2025-10-31/vcs-uvm_sim/hello_world.cv64a6_imafdc_sv39.log &lt;br&gt;&amp;amp;&amp;gt; /home/ICer/proj/cva6/verif/sim/out_2025-10-31/vcs-uvm_sim/hello_world.cv64a6_imafdc_sv39.log.iss&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="520" width="580" height="190" as="geometry" />
+          <mxGeometry y="520" width="800" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="SD2ZrkHbs7bPrr3oHXAE-3" value="def compare_iss_log(iss_list, log_list, report, stop_on_first_error=0, exp=False):" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AIi3PwNUS5Vkqz0hZRpa-81">
-          <mxGeometry y="710" width="580" height="180" as="geometry" />
+        <mxCell id="SD2ZrkHbs7bPrr3oHXAE-3" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; iss_list =&amp;nbsp;[&#39;spike&#39;, &#39;vcs-uvm&#39;]&lt;br&gt;&amp;nbsp; &amp;nbsp; log_list =&amp;nbsp;[&#39;&#39;/home/ICer/proj/cva6/verif/sim/out_2025-11-01/spike_sim/hello_world.cv64a6_imafdc_sv39.log&#39;&#39;, &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;&#39;/home/ICer/proj/cva6/verif/sim/out_2025-11-01/vcs-uvm_sim/hello_world.cv64a6_imafdc_sv39.log&#39;&#39;]&lt;/div&gt;def compare_iss_log(iss_list, log_list, report, stop_on_first_error=0, exp=False):&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="AIi3PwNUS5Vkqz0hZRpa-81">
+          <mxGeometry y="710" width="800" height="180" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-89" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;exec: cmd=grep &#39;\[PASSED\]&#39; /home/ICer/proj/cva6/verif/sim/out_2025-10-31/iss_regr.log | wc -l&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="890" width="580" height="26" as="geometry" />
+          <mxGeometry y="890" width="800" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-92" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;exec: cmd=grep &#39;\[FAILED\]&#39; /home/ICer/proj/cva6/verif/sim/out_2025-10-31/iss_regr.log | wc -l&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="916" width="580" height="26" as="geometry" />
+          <mxGeometry y="916" width="800" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-93" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;exec: cmd=echo 1 PASSED, 0 FAILED &amp;gt;&amp;gt; /home/ICer/proj/cva6/verif/sim/out_2025-10-31/iss_regr.log&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-81" vertex="1">
-          <mxGeometry y="942" width="580" height="26" as="geometry" />
+          <mxGeometry y="942" width="800" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KYVJpWbL8Ke9KduQslkp-1" value="riscv_core_setting.sv" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-687.5" y="-840" width="560" height="128" as="geometry" />
