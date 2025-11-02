@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="6360" dy="3929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6853" dy="4217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,7 +363,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-3" value="uvmt_cva6_tb" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2805" y="6410" width="680" height="708" as="geometry" />
+          <mxGeometry x="-2840" y="7050" width="680" height="708" as="geometry" />
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-4" value="/home/ICer/proj/cva6/verif/tb/uvmt/uvmt_cva6_tb.sv" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-3">
           <mxGeometry y="26" width="680" height="26" as="geometry" />
@@ -440,7 +440,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-31" value="RVFI&amp;nbsp;PROBES" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-1770" y="6350" width="470" height="160" as="geometry" />
+          <mxGeometry x="-1805" y="6990" width="470" height="160" as="geometry" />
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-31">
           <mxGeometry y="26" width="470" height="8" as="geometry" />
@@ -456,11 +456,11 @@
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-37" value="define" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6SIow3o6jKN5cq_tIl7-10" target="B6SIow3o6jKN5cq_tIl7-31">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-1730" y="6009" as="sourcePoint" />
-            <mxPoint x="-1160" y="6010" as="targetPoint" />
+            <mxPoint x="-1765" y="6649" as="sourcePoint" />
+            <mxPoint x="-1195" y="6650" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1800" y="6290" />
-              <mxPoint x="-1535" y="6290" />
+              <mxPoint x="-1835" y="6930" />
+              <mxPoint x="-1570" y="6930" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -548,7 +548,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-67" value="`define RVFI_PROBES_INSTR_T(Cfg)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="6130" width="510" height="600" as="geometry" />
+          <mxGeometry x="-940" y="6220" width="510" height="600" as="geometry" />
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-67">
           <mxGeometry y="26" width="510" height="8" as="geometry" />
@@ -558,10 +558,28 @@
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-70" value="define" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6SIow3o6jKN5cq_tIl7-33" target="B6SIow3o6jKN5cq_tIl7-69">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="-1070" y="6018" as="sourcePoint" />
-            <mxPoint x="-720" y="6010" as="targetPoint" />
+            <mxPoint x="-1105" y="6658" as="sourcePoint" />
+            <mxPoint x="-755" y="6650" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1100" y="6397" />
+              <mxPoint x="-1135" y="7037" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-71" value="`define RVFI_PROBES_CSR_T(Cfg)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="6220" width="510" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-71">
+          <mxGeometry y="26" width="510" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-73" value="&lt;div&gt;`define RVFI_PROBES_CSR_T(Cfg) struct packed { \&lt;/div&gt;&lt;div&gt;&amp;nbsp; riscv::fcsr_t fcsr_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; riscv::dcsr_t dcsr_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] jvt_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] dpc_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] dscratch0_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] dscratch1_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mie_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mip_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] stvec_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] scounteren_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] sscratch_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] sepc_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] scause_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] stval_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] satp_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mstatus_extended; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] medeleg_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mideleg_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mtvec_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mcounteren_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mscratch_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mepc_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mcause_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] mtval_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic fiom_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [ariane_pkg::MHPMCounterNum+3-1:0] mcountinhibit_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [63:0] cycle_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [63:0] instret_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] dcache_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] icache_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [Cfg.XLEN-1:0] acc_cons_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; riscv::pmpcfg_t [63:0] pmpcfg_q; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [63:0][Cfg.PLEN-3:0] pmpaddr_q; \&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-71">
+          <mxGeometry y="34" width="510" height="516" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-74" value="define" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6SIow3o6jKN5cq_tIl7-34" target="B6SIow3o6jKN5cq_tIl7-73">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1085" y="7170" as="sourcePoint" />
+            <mxPoint x="-745" y="7370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-390" y="7063" />
             </Array>
           </mxGeometry>
         </mxCell>
