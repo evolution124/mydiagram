@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="6853" dy="4217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4880" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -612,7 +612,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-87" value="RVFI&amp;nbsp;PROBES" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-1190" y="7480" width="540" height="304" as="geometry" />
+          <mxGeometry x="-1020" y="7480" width="540" height="304" as="geometry" />
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-88" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-87">
           <mxGeometry y="26" width="540" height="8" as="geometry" />
@@ -668,6 +668,21 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-2070" y="7440" as="sourcePoint" />
             <mxPoint x="-1990" y="7440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-102" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;`define RVFI_CSR_ASSIGN(csr_name)&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1805" y="7700" width="615" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-103" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-102">
+          <mxGeometry y="26" width="615" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-104" value="&lt;div&gt;`define RVFI_CSR_ASSIGN(csr_name) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; uvma_rvfi_csr_if#(uvme_cva6_pkg::XLEN)&amp;nbsp; rvfi_csr_``csr_name``_if [RVFI_NRET-1:0](); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;for (genvar i = 0; i &amp;lt; RVFI_NRET; i++) begin \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; assign&amp;nbsp; rvfi_csr_``csr_name``_if[i].clk&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = clknrst_if.clk; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; assign&amp;nbsp; rvfi_csr_``csr_name``_if[i].reset_n&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = clknrst_if.reset_n; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; assign&amp;nbsp; rvfi_csr_``csr_name``_if[i].rvfi_csr_rmask&amp;nbsp; &amp;nbsp;= rvfi_if.rvfi_csr_o.``csr_name``.rmask; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; assign&amp;nbsp; rvfi_csr_``csr_name``_if[i].rvfi_csr_wmask&amp;nbsp; &amp;nbsp;= rvfi_if.rvfi_csr_o.``csr_name``.wmask; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; assign&amp;nbsp; rvfi_csr_``csr_name``_if[i].rvfi_csr_rdata&amp;nbsp; &amp;nbsp;= rvfi_if.rvfi_csr_o.``csr_name``.rdata; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; assign&amp;nbsp; rvfi_csr_``csr_name``_if[i].rvfi_csr_wdata&amp;nbsp; &amp;nbsp;= rvfi_if.rvfi_csr_o.``csr_name``.wdata; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;end \&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-102">
+          <mxGeometry y="34" width="615" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-107" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6SIow3o6jKN5cq_tIl7-9" target="B6SIow3o6jKN5cq_tIl7-104">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1920" y="7550" as="sourcePoint" />
+            <mxPoint x="-1565" y="7639" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
