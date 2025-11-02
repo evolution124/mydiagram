@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="5990" dy="2613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6360" dy="2829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,9 +46,9 @@
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-94" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/verif/sim/vcs_results/default/vcs.d/simv \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-LDFLAGS -Wl,--no-as-needed&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+define+UNSUPPORTED_WITH+&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;++/home/ICer/proj/cva6/verif/sim/out_2025-10-31/directed_tests/hello_world.o &lt;br&gt;+elf_file=/home/ICer/proj/cva6/verif/sim/out_2025-10-31/directed_tests/hello_world.o&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+core_name=cv64a6_imafdc_sv39&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+tohost_addr=0000000080001000&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+signature=/home/ICer/proj/cva6/verif/sim/out_2025-10-31/directed_tests/hello_world.o.signature_output&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+UVM_TESTNAME=uvmt_cva6_firmware_test_c&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+report_file=/home/ICer/proj/cva6/verif/sim/out_2025-10-31/vcs-uvm_sim/hello_world.cv64a6_imafdc_sv39.log.yaml&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+core_name=cv64a6_imafdc_sv39&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ntb_random_seed=615222664&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-sv_lib /home/ICer/proj/cva6/tools/spike/lib/libcustomext&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-sv_lib /home/ICer/proj/cva6/tools/spike/lib/libyaml-cpp&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-sv_lib /home/ICer/proj/cva6/tools/spike/lib/libriscv&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-sv_lib /home/ICer/proj/cva6/tools/spike/lib/libfesvr&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-sv_lib /home/ICer/proj/cva6/tools/spike/lib/libdisasm&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+vcs+lic+wait&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ntb_random_seed=615222664&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-ucli&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-do /home/ICer/proj/cva6/verif/sim/init_run_uvm_fsdb.do&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+tandem_enabled=0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ntb_random_seed=615222664&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-1" vertex="1">
           <mxGeometry y="1022" width="1160" height="378" as="geometry" />
         </mxCell>
-        <mxCell id="AIi3PwNUS5Vkqz0hZRpa-7" value="include" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mzS4798Yjswd0JI5HEyz-2" target="mzS4798Yjswd0JI5HEyz-7" edge="1">
+        <mxCell id="AIi3PwNUS5Vkqz0hZRpa-7" value="include" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" parent="1" source="mzS4798Yjswd0JI5HEyz-7" target="mzS4798Yjswd0JI5HEyz-2" edge="1">
           <mxGeometry x="0.0039" width="80" relative="1" as="geometry">
-            <mxPoint x="-2182.5" y="1274" as="sourcePoint" />
+            <mxPoint x="-2340" y="990" as="sourcePoint" />
             <mxPoint x="-2242.5" y="1094" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
@@ -349,7 +349,7 @@
             <mxPoint x="-1072" y="266" as="sourcePoint" />
             <mxPoint x="-1850" y="361" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1680" y="836" />
+              <mxPoint x="-1807" y="836" />
             </Array>
           </mxGeometry>
         </mxCell>
