@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="5844" dy="3520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5990" dy="2613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mzS4798Yjswd0JI5HEyz-2" value="cva_config" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1552.5" y="-510" width="485" height="86" as="geometry" />
+          <mxGeometry x="-2560" y="1120" width="485" height="86" as="geometry" />
         </mxCell>
         <mxCell id="mzS4798Yjswd0JI5HEyz-3" value="cva6_config_pkg::cva6_cfg" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mzS4798Yjswd0JI5HEyz-2" vertex="1">
           <mxGeometry y="26" width="485" height="26" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="60" width="485" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mzS4798Yjswd0JI5HEyz-6" value="filelist" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-872.5" y="-660" width="485" height="112" as="geometry" />
+          <mxGeometry x="-2050" y="970" width="485" height="112" as="geometry" />
         </mxCell>
         <mxCell id="mzS4798Yjswd0JI5HEyz-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="mzS4798Yjswd0JI5HEyz-6" vertex="1">
           <mxGeometry y="26" width="485" height="8" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry y="86" width="485" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-1" value="MAKE &amp;amp; RUN" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1660" y="360" width="1160" height="1400" as="geometry" />
+          <mxGeometry x="-1500" y="370" width="1160" height="1400" as="geometry" />
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-2" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;make&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;vcs-uvm&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;target=cv64a6_imafdc_sv39&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;cov=${cov}&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;variant=rv64gc_zba_zbb_zbs_zbc_zbkb_zbkx_zkne_zknd_zknh&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;elf=/home/ICer/proj/cva6/verif/sim/out_2025-10-28/directed_tests/hello_world.o&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;tool_path=/home/ICer/proj/cva6/tools/spike/bin&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;isscomp_opts=&quot;&quot;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;issrun_opts=&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ntb_random_seed=1247870493&quot;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;isspostrun_opts=&quot;0x0000000080000000&quot;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;log=/home/ICer/proj/cva6/verif/sim/out_2025-10-28/vcs-uvm_sim/hello_world.cv64a6_imafdc_sv39.log &amp;amp;&amp;gt; /home/ICer/proj/cva6/verif/sim/out_2025-10-28/vcs-uvm_sim/hello_world.cv64a6_imafdc_sv39.log.iss&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIi3PwNUS5Vkqz0hZRpa-1" vertex="1">
           <mxGeometry y="26" width="1160" height="204" as="geometry" />
@@ -48,9 +48,12 @@
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-7" value="include" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mzS4798Yjswd0JI5HEyz-2" target="mzS4798Yjswd0JI5HEyz-7" edge="1">
           <mxGeometry x="0.0039" width="80" relative="1" as="geometry">
-            <mxPoint x="-862.5" y="-350" as="sourcePoint" />
-            <mxPoint x="-922.5" y="-530" as="targetPoint" />
+            <mxPoint x="-2182.5" y="1274" as="sourcePoint" />
+            <mxPoint x="-2242.5" y="1094" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-2317" y="1043" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AIi3PwNUS5Vkqz0hZRpa-8" value="tandem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -324,7 +327,7 @@
           <mxGeometry y="892" width="800" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KYVJpWbL8Ke9KduQslkp-1" value="riscv_core_setting.sv" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1590" y="-840" width="560" height="128" as="geometry" />
+          <mxGeometry x="-2560" y="486" width="560" height="128" as="geometry" />
         </mxCell>
         <mxCell id="KYVJpWbL8Ke9KduQslkp-2" value="cva6.py&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;main()&lt;/div&gt;&lt;div&gt;args.core_setting_dir = &lt;b&gt;cwd &lt;/b&gt;+ &quot;/&lt;b&gt;dv&lt;/b&gt;&quot; + &quot;/&lt;b&gt;target&lt;/b&gt;/&quot;+ &lt;b&gt;args.isa&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;=&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;/home/ICer/proj/cva6/verif/sim/dv/target/rv64gc_zba_zbb_zbs_zbc_zbkb_zbkx_zkne_zknd_zknh&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KYVJpWbL8Ke9KduQslkp-1" vertex="1">
           <mxGeometry y="26" width="560" height="94" as="geometry" />
@@ -337,7 +340,16 @@
             <mxPoint x="-260" y="90" as="sourcePoint" />
             <mxPoint x="-210" y="40" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1080" y="280" />
+              <mxPoint x="-920" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="AIi3PwNUS5Vkqz0hZRpa-5" target="mzS4798Yjswd0JI5HEyz-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1072" y="266" as="sourcePoint" />
+            <mxPoint x="-1850" y="361" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1680" y="836" />
             </Array>
           </mxGeometry>
         </mxCell>
