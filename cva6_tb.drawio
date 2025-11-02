@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="5990" dy="3713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4880" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -602,6 +602,33 @@
             <Array as="points">
               <mxPoint x="-1920" y="7190" />
               <mxPoint x="-1572" y="7190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-87" value="RVFI&amp;nbsp;PROBES" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="7230" width="540" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-88" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-87">
+          <mxGeometry y="26" width="540" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-91" value="&lt;div&gt;interface uvmt_rvfi_if #(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parameter config_pkg::cva6_cfg_t CVA6Cfg = config_pkg::cva6_cfg_empty,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parameter type rvfi_instr_t = logic,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; parameter type rvfi_csr_t = logic&lt;/div&gt;&lt;div&gt;) (&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-87">
+          <mxGeometry y="34" width="540" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-93" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; output rvfi_instr_t [CVA6Cfg.NrCommitPorts-1:0] rvfi_o,&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-87">
+          <mxGeometry y="120" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-94" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; output rvfi_csr_t rvfi_csr_o&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-87">
+          <mxGeometry y="150" width="540" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-95" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; import uvm_pkg::*;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; // TODO: X/Z checks&lt;/div&gt;&lt;div&gt;&amp;nbsp; initial begin&lt;/div&gt;&lt;div&gt;&amp;nbsp; end&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;endinterface : uvmt_rvfi_if&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B6SIow3o6jKN5cq_tIl7-87">
+          <mxGeometry y="184" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="B6SIow3o6jKN5cq_tIl7-92" value="define" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6SIow3o6jKN5cq_tIl7-85" target="B6SIow3o6jKN5cq_tIl7-91">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1330" y="7191" as="sourcePoint" />
+            <mxPoint x="-742" y="7220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1290" y="7347" />
             </Array>
           </mxGeometry>
         </mxCell>
