@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="4387" dy="2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5990" dy="3713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -731,7 +731,7 @@
           <mxGeometry y="630" width="550" height="238" as="geometry" />
         </mxCell>
         <mxCell id="nl4FUXeekhZr-uRPhKJp-1" value="module cva6_rvfi" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-970" y="8800" width="660" height="1870" as="geometry" />
+          <mxGeometry x="-970" y="8800" width="660" height="1672" as="geometry" />
         </mxCell>
         <mxCell id="nl4FUXeekhZr-uRPhKJp-2" value="/home/ICer/proj/cva6/core/cva6_rvfi.sv" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nl4FUXeekhZr-uRPhKJp-1" vertex="1">
           <mxGeometry y="26" width="660" height="26" as="geometry" />
@@ -745,25 +745,46 @@
         <mxCell id="nl4FUXeekhZr-uRPhKJp-5" value="&lt;div&gt;&amp;nbsp; assign commit_instr_pc = instr.commit_instr_pc;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign commit_instr_op = instr.commit_instr_op;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign commit_instr_rs1 = instr.commit_instr_rs1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign commit_instr_rs2 = instr.commit_instr_rs2;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign commit_instr_rd = instr.commit_instr_rd;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign commit_instr_result = instr.commit_instr_result;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign commit_instr_valid = instr.commit_instr_valid;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign commit_drop = instr.commit_drop;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign ex_commit_cause = instr.ex_commit_cause;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign ex_commit_valid = instr.ex_commit_valid;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign valid_iti = instr.commit_ack;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign pc_iti = instr.commit_instr_pc;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign op_iti = instr.commit_instr_op;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign branch_valid_iti = instr.branch_valid;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign is_taken_iti = instr.is_taken;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign tval_iti = instr.tval;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign time_iti = rvfi_probes_i.csr.cycle_q;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign priv_lvl = instr.priv_lvl;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign wbdata = instr.wbdata;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign commit_ack = instr.commit_ack;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign mem_paddr = instr.mem_paddr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign debug_mode = instr.debug_mode;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign wdata = instr.wdata;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign lsu_addr = instr.lsu_ctrl_vaddr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign lsu_rmask = instr.lsu_ctrl_fu == LOAD ? instr.lsu_ctrl_be : &#39;0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign lsu_wmask = instr.lsu_ctrl_fu == STORE ? instr.lsu_ctrl_be : &#39;0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign lsu_addr_trans_id = instr.lsu_ctrl_trans_id;&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign branch_trans_id = instr.branch_trans_id;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nl4FUXeekhZr-uRPhKJp-1" vertex="1">
           <mxGeometry y="180" width="660" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="LIBvrfZMLo1_UICiSKhi-1" value="//ID STAGE&lt;br&gt;//判断是否是 压缩指令, 是的话补零&lt;br&gt;&lt;div&gt;&lt;div&gt;for (genvar i = 0; i &amp;lt; CVA6Cfg.NrIssuePorts; i++) begin&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign truncated[i] = (is_compressed[i]) ? {16&#39;b0, instruction[i][15:0]} : instruction[i];&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nl4FUXeekhZr-uRPhKJp-1">
-          <mxGeometry y="680" width="660" height="238" as="geometry" />
+        <mxCell id="LIBvrfZMLo1_UICiSKhi-1" value="//ID STAGE" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nl4FUXeekhZr-uRPhKJp-1">
+          <mxGeometry y="680" width="660" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nl4FUXeekhZr-uRPhKJp-6" value="//ID STAGE&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;for (genvar i = 0; i &amp;lt; CVA6Cfg.NrIssuePorts; i++) begin&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign truncated[i] = (is_compressed[i]) ? {16&#39;b0, instruction[i][15:0]} : instruction[i];&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nl4FUXeekhZr-uRPhKJp-1" vertex="1">
-          <mxGeometry y="918" width="660" height="238" as="geometry" />
+          <mxGeometry y="720" width="660" height="238" as="geometry" />
         </mxCell>
         <mxCell id="nl4FUXeekhZr-uRPhKJp-7" value="//ISSUE STAGE" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nl4FUXeekhZr-uRPhKJp-1" vertex="1">
-          <mxGeometry y="1156" width="660" height="238" as="geometry" />
+          <mxGeometry y="958" width="660" height="238" as="geometry" />
         </mxCell>
         <mxCell id="nl4FUXeekhZr-uRPhKJp-8" value="// PACK" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nl4FUXeekhZr-uRPhKJp-1" vertex="1">
-          <mxGeometry y="1394" width="660" height="238" as="geometry" />
+          <mxGeometry y="1196" width="660" height="238" as="geometry" />
         </mxCell>
         <mxCell id="nl4FUXeekhZr-uRPhKJp-9" value="// CSR" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nl4FUXeekhZr-uRPhKJp-1" vertex="1">
-          <mxGeometry y="1632" width="660" height="238" as="geometry" />
+          <mxGeometry y="1434" width="660" height="238" as="geometry" />
         </mxCell>
         <mxCell id="nl4FUXeekhZr-uRPhKJp-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="B6SIow3o6jKN5cq_tIl7-129" target="nl4FUXeekhZr-uRPhKJp-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1880" y="9360" as="sourcePoint" />
             <mxPoint x="-1830" y="9310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIBvrfZMLo1_UICiSKhi-2" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;ID STAGE&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="9040" width="615" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="LIBvrfZMLo1_UICiSKhi-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LIBvrfZMLo1_UICiSKhi-2">
+          <mxGeometry y="26" width="615" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LIBvrfZMLo1_UICiSKhi-4" value="//判断是否是 压缩指令, 是的话补零&lt;br&gt;&lt;div&gt;&lt;div&gt;for (genvar i = 0; i &amp;lt; CVA6Cfg.NrIssuePorts; i++) begin&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign truncated[i] = (is_compressed[i]) ? {16&#39;b0, instruction[i][15:0]} : instruction[i];&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LIBvrfZMLo1_UICiSKhi-2">
+          <mxGeometry y="34" width="615" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="LIBvrfZMLo1_UICiSKhi-6" value="//判断是否是 压缩指令, 是的话补零&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;typedef struct packed {&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; valid;&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [31:0] instr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_compressed;&lt;/div&gt;&lt;div&gt;} issue_struct_t;&lt;/div&gt;&lt;div&gt;issue_struct_t [CVA6Cfg.NrIssuePorts-1:0] issue_n, issue_q;&lt;/div&gt;&lt;div&gt;logic took0;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LIBvrfZMLo1_UICiSKhi-2">
+          <mxGeometry y="110" width="615" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LIBvrfZMLo1_UICiSKhi-7" value="//判断是否是 压缩指令, 是的话补零&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;typedef struct packed {&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; valid;&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic [31:0] instr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; logic&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_compressed;&lt;/div&gt;&lt;div&gt;} issue_struct_t;&lt;/div&gt;&lt;div&gt;issue_struct_t [CVA6Cfg.NrIssuePorts-1:0] issue_n, issue_q;&lt;/div&gt;&lt;div&gt;logic took0;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LIBvrfZMLo1_UICiSKhi-2">
+          <mxGeometry y="400" width="615" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LIBvrfZMLo1_UICiSKhi-5" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LIBvrfZMLo1_UICiSKhi-1" target="LIBvrfZMLo1_UICiSKhi-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-250" y="9430" as="sourcePoint" />
+            <mxPoint x="-170" y="9430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
