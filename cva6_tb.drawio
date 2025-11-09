@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="6360" dy="3929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4342" dy="2750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1197,7 +1197,7 @@
           <mxGeometry y="104" width="615" height="66" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-104" value="&lt;span style=&quot;text-align: left;&quot;&gt;DECODER&lt;br&gt;/home/ICer/proj/cva6/core/decoder.sv&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="9010" y="2940" width="615" height="184" as="geometry" />
+          <mxGeometry x="9020" y="3060" width="615" height="184" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-104">
           <mxGeometry y="40" width="615" height="8" as="geometry" />
@@ -1214,17 +1214,32 @@
             <mxPoint x="8540" y="2760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-109" value="&lt;span style=&quot;text-align: left;&quot;&gt;DECODER&lt;br&gt;/home/ICer/proj/cva6/core/decoder.sv&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="9010" y="2230" width="615" height="184" as="geometry" />
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-109" value="&lt;span style=&quot;text-align: left;&quot;&gt;compressed_decoder&lt;br&gt;/home/ICer/proj/cva6/core/compressed_decoder.sv&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="9020" y="2230" width="615" height="300" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-110" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
           <mxGeometry y="40" width="615" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-111" value="DECODER" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
-          <mxGeometry y="48" width="615" height="66" as="geometry" />
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-111" value="介绍:&lt;div&gt;1)&amp;nbsp;The compressed_decoder module decompresses all the compressed instructions taking a 16-bit compressed instruction and expanding it to its 32-bit equivalent.&amp;nbsp;&lt;br&gt;2)&amp;nbsp;All compressed instructions have a 32-bit equivalent.&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
+          <mxGeometry y="48" width="615" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-112" value="COMPRESS DECODER" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
-          <mxGeometry y="114" width="615" height="70" as="geometry" />
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-114" value="&lt;div&gt;input logic [31:0] instr_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输入 : Input instruction coming from fetch stage&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
+          <mxGeometry y="120" width="615" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-115" value="&lt;div&gt;output logic [31:0] instr_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// decoder 模块输出 : Output instruction in uncompressed format&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
+          <mxGeometry y="150" width="615" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-117" value="&lt;div&gt;output logic&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; illegal_instr_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// decoder 模块输出 : Input instruction is illegal&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
+          <mxGeometry y="180" width="615" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-116" value="&lt;div&gt;output logic&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_macro_instr_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // decoder 模块输出 : Output instruction is macro&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
+          <mxGeometry y="210" width="615" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-118" value="&lt;div&gt;output logic&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_compressed_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// decoder 模块输出 : Output instruction is compressed&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
+          <mxGeometry y="240" width="615" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-119" value="&lt;div&gt;output logic&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_zcmt_instr_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // decoder 模块输出 : Output instruction is macro&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-109">
+          <mxGeometry y="270" width="615" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-113" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TTDfWaFMamJh5cXxLzEc-98" target="TTDfWaFMamJh5cXxLzEc-109">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
