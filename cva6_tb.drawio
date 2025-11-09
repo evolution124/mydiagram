@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="6360" dy="3929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5127" dy="3208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -959,38 +959,38 @@
         <mxCell id="TTDfWaFMamJh5cXxLzEc-8" value="9)&amp;nbsp;CVA6Cfg.DmBaseAddress[CVA6Cfg.VLEN-1:0] + CVA6Cfg.HaltAddress[CVA6Cfg.VLEN-1:0]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//进入DEBUG 后的默认DBG base 地址" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XsPn23_X_OqN6itZgHki-10">
           <mxGeometry y="660" width="850" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XsPn23_X_OqN6itZgHki-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;instr_realign&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="4950" y="2670" width="870" height="430" as="geometry" />
+        <mxCell id="XsPn23_X_OqN6itZgHki-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;instr_realign&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;/home/ICer/proj/cva6/core/instr_realign.sv&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="4950" y="2670" width="870" height="444" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="XsPn23_X_OqN6itZgHki-16" vertex="1">
-          <mxGeometry y="26" width="870" height="8" as="geometry" />
+          <mxGeometry y="40" width="870" height="8" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-18" value="介绍:&lt;br&gt;1)&amp;nbsp;The 64-bit aligned block coming from the CACHE module enters the instr_realign submodule.&lt;br&gt;2) This submodule extracts the instructions from the 64-bit blocks.&lt;br&gt;3)&amp;nbsp;Based on the fetch address and the fetched data, the instr_realign module extracts the valid instructions to be sent to the queue.&lt;br&gt;4)&amp;nbsp;It is possible to fetch up to 4 instructions per cycle when C extension is used&lt;br&gt;5)&amp;nbsp;A not-compressed instruction can be misaligned on the block size, interleaved with two cache blocks. In that case, two cache accesses are needed to get the whole instruction.&amp;nbsp;&lt;br&gt;6)&amp;nbsp;Incomplete instruction is stored in instr_realign submodule until its second half is fetched.&lt;br&gt;7)&amp;nbsp;The instr_realign submodule provides up to 4 instructions per cycle when compressed extension is enabled, else one instruction per cycle." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="XsPn23_X_OqN6itZgHki-16" vertex="1">
-          <mxGeometry y="34" width="870" height="156" as="geometry" />
+          <mxGeometry y="48" width="870" height="156" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-19" value="input logic flush_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // CONTROLLER 模块输入: Flush Fetch" style="text;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="XsPn23_X_OqN6itZgHki-16" vertex="1">
-          <mxGeometry y="190" width="870" height="30" as="geometry" />
+          <mxGeometry y="204" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-20" value="&lt;div&gt;input logic valid_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // CACHE 模块输入: 32bit 数据块 可取&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="XsPn23_X_OqN6itZgHki-16" vertex="1">
-          <mxGeometry y="220" width="870" height="30" as="geometry" />
+          <mxGeometry y="234" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-21" value="&lt;div&gt;input logic [CVA6Cfg.VLEN-1:0] address_i&amp;nbsp; &amp;nbsp; // CACHE 模块输入: 32bit 数据块地址&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="XsPn23_X_OqN6itZgHki-16" vertex="1">
-          <mxGeometry y="250" width="870" height="30" as="geometry" />
+          <mxGeometry y="264" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-11" value="&lt;div&gt;input logic [CVA6Cfg.VLEN-1:0] address_i&amp;nbsp; &amp;nbsp; // CACHE 模块输入: 32bit 数据&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XsPn23_X_OqN6itZgHki-16">
-          <mxGeometry y="280" width="870" height="30" as="geometry" />
+          <mxGeometry y="294" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-10" value="&lt;div&gt;output logic [CVA6Cfg.INSTR_PER_FETCH-1:0] valid_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输出: 指令是非对其的&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XsPn23_X_OqN6itZgHki-16">
-          <mxGeometry y="310" width="870" height="30" as="geometry" />
+          <mxGeometry y="324" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-12" value="&lt;div&gt;output logic serving_unaligned_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // FRONTEND 模块输出: 指令有效&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XsPn23_X_OqN6itZgHki-16">
-          <mxGeometry y="340" width="870" height="30" as="geometry" />
+          <mxGeometry y="354" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-14" value="&lt;div&gt;output logic [CVA6Cfg.INSTR_PER_FETCH-1:0][CVA6Cfg.VLEN-1:0] addr_o&amp;nbsp; &amp;nbsp; // FRONTEND 模块输出: 指令地址&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XsPn23_X_OqN6itZgHki-16">
-          <mxGeometry y="370" width="870" height="30" as="geometry" />
+          <mxGeometry y="384" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-13" value="&lt;div&gt;output logic [CVA6Cfg.INSTR_PER_FETCH-1:0][31:0]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // instr_scan&amp;amp;instr_queue 模块输出: 指令&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="XsPn23_X_OqN6itZgHki-16">
-          <mxGeometry y="400" width="870" height="30" as="geometry" />
+          <mxGeometry y="414" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XsPn23_X_OqN6itZgHki-4" target="XsPn23_X_OqN6itZgHki-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
