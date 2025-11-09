@@ -1122,7 +1122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-67" value="&lt;div style=&quot;text-align: left;&quot;&gt;BHT (Branch History Table)&lt;br&gt;/home/ICer/proj/cva6/core/frontend/bht.sv&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="5060" y="4650" width="870" height="714" as="geometry" />
+          <mxGeometry x="5060" y="4650" width="870" height="444" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
           <mxGeometry y="40" width="870" height="8" as="geometry" />
@@ -1144,33 +1144,6 @@
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-74" value="&lt;div&gt;output logic rvi_jalr_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // FRONTEND 模块输出: JALR instruction&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
           <mxGeometry y="414" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-75" value="&lt;div&gt;output logic rvi_jump_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输出: Unconditional jump instruction&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="444" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-76" value="&lt;div&gt;output logic [CVA6Cfg.VLEN-1:0] rvi_imm_o&amp;nbsp; &amp;nbsp; // FRONTEND 模块输出: Instruction immediate&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="474" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-77" value="&lt;div&gt;output logic rvc_return_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输出: Return compressed instruction&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="504" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-78" value="&lt;div&gt;output logic rvc_call_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输出: JAL compressed instruction&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="534" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-79" value="&lt;div&gt;output logic rvc_branch_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输出: Branch compressed instruction&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="564" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-80" value="&lt;div&gt;output logic rvc_jalr_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输出: JALR compressed instruction&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="594" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-81" value="&lt;div&gt;output logic rvc_jr_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输出: &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;JR compressed instruction&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="624" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-82" value="&lt;div&gt;output logic rvc_jump_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // FRONTEND 模块输出: Unconditional jump compressed instruction&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="654" width="870" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-83" value="&lt;div&gt;output logic [CVA6Cfg.VLEN-1:0] rvc_imm_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // FRONTEND 模块输出: Instruction compressed immediate&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-67">
-          <mxGeometry y="684" width="870" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XsPn23_X_OqN6itZgHki-22" target="TTDfWaFMamJh5cXxLzEc-67">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
