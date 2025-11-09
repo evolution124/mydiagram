@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="5127" dy="3208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4994" dy="3131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -897,7 +897,7 @@
           <mxGeometry x="3570" y="1730" width="6350" height="3810" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-2" value="&lt;span style=&quot;text-align: left;&quot;&gt;Front End&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="3950" y="2360" width="615" height="380" as="geometry" />
+          <mxGeometry x="3900" y="2810" width="615" height="380" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="XsPn23_X_OqN6itZgHki-2" vertex="1">
           <mxGeometry y="26" width="615" height="8" as="geometry" />
@@ -918,7 +918,7 @@
           <mxGeometry y="310" width="615" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-10" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Next PC&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="4820" y="1960" width="850" height="690" as="geometry" />
+          <mxGeometry x="4880" y="1910" width="850" height="690" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="XsPn23_X_OqN6itZgHki-10" vertex="1">
           <mxGeometry y="26" width="850" height="8" as="geometry" />
@@ -954,7 +954,7 @@
           <mxGeometry y="660" width="850" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;instr_realign&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="4820" y="2730" width="870" height="430" as="geometry" />
+          <mxGeometry x="4880" y="2700" width="870" height="430" as="geometry" />
         </mxCell>
         <mxCell id="XsPn23_X_OqN6itZgHki-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="XsPn23_X_OqN6itZgHki-16" vertex="1">
           <mxGeometry y="26" width="870" height="8" as="geometry" />
@@ -988,14 +988,53 @@
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XsPn23_X_OqN6itZgHki-4" target="XsPn23_X_OqN6itZgHki-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4490" y="2310" as="sourcePoint" />
-            <mxPoint x="4540" y="2260" as="targetPoint" />
+            <mxPoint x="4440" y="2760" as="sourcePoint" />
+            <mxPoint x="4490" y="2710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XsPn23_X_OqN6itZgHki-5" target="XsPn23_X_OqN6itZgHki-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4640" y="2640" as="sourcePoint" />
-            <mxPoint x="4690" y="2590" as="targetPoint" />
+            <mxPoint x="4590" y="3090" as="sourcePoint" />
+            <mxPoint x="4640" y="3040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;instr_queue&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4880" y="3200" width="870" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="26" width="870" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-18" value="介绍:&lt;br&gt;1)&amp;nbsp;The instr_queue receives mutliple instructions from &lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;instr_realign &lt;/span&gt;submodule to create a valid stream to be executed.&lt;br&gt;2)&amp;nbsp;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;Frontend &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;pushes instructions and all related information into the FIFO for storage, including details needed in case of a misprediction&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;or exception: the instructions themselves, instruction control flow type, exception, exception address, and predicted address.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;3)&amp;nbsp;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;DECODE &lt;/span&gt;pops them when decode stage is ready and indicates to the FRONTEND the instruction has been consummed.&lt;br&gt;4)&amp;nbsp;The&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt; instruction queue&lt;/span&gt; contains two FIFOs: one for instructions and one for addresses, which stores addresses in case of a prediction.&amp;nbsp;The instruction FIFO can hold up to 4×4 instructions, while the address FIFO can hold up to 2 addresses.&lt;div&gt;&amp;nbsp; &amp;nbsp; 4.1&amp;nbsp;If the instruction FIFO is full, &lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;a replay request is sent to inform the fetch mechanism to replay the fetch&lt;/span&gt;.&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; 4.2 &lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;If the address FIFO is full and there is a prediction, a replay request is sent to inform the fetch mechanism to replay the fetch, even if the instruction FIFO is not full.&lt;/span&gt;&lt;br&gt;5)&amp;nbsp;The instruction queue can be flushed by the flush signal coming from the &lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;CONTROLLER&lt;/span&gt;.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="34" width="870" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-19" value="input logic flush_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // CONTROLLER 模块输入: Flush Fetch" style="text;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="210" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-20" value="&lt;div&gt;input logic valid_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // CACHE 模块输入: 32bit 数据块 可取&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="240" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-21" value="&lt;div&gt;input logic [CVA6Cfg.VLEN-1:0] address_i&amp;nbsp; &amp;nbsp; // CACHE 模块输入: 32bit 数据块地址&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="270" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-22" value="&lt;div&gt;input logic [CVA6Cfg.VLEN-1:0] address_i&amp;nbsp; &amp;nbsp; // CACHE 模块输入: 32bit 数据&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="300" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-23" value="&lt;div&gt;output logic [CVA6Cfg.INSTR_PER_FETCH-1:0] valid_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// FRONTEND 模块输出: 指令是非对其的&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="330" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-24" value="&lt;div&gt;output logic serving_unaligned_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // FRONTEND 模块输出: 指令有效&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="360" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-25" value="&lt;div&gt;output logic [CVA6Cfg.INSTR_PER_FETCH-1:0][CVA6Cfg.VLEN-1:0] addr_o&amp;nbsp; &amp;nbsp; // FRONTEND 模块输出: 指令地址&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="390" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-26" value="&lt;div&gt;output logic [CVA6Cfg.INSTR_PER_FETCH-1:0][31:0]&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // instr_scan&amp;amp;instr_queue 模块输出: 指令&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry y="420" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XsPn23_X_OqN6itZgHki-7" target="TTDfWaFMamJh5cXxLzEc-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4830" y="3065" as="sourcePoint" />
+            <mxPoint x="5195" y="2820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
