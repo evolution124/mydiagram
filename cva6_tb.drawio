@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="4547" dy="2923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6840" dy="4369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1626,7 +1626,7 @@
           <mxGeometry y="452" width="615" height="66" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-104" value="&lt;span style=&quot;text-align: left;&quot;&gt;ALU_WRAPPER&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/core/alu_wrapper.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="15220" y="1590" width="730" height="230" as="geometry" />
+          <mxGeometry x="15220" y="1430" width="730" height="230" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2xaXiLED0ifaTXq0JXbD-104">
           <mxGeometry y="40" width="730" height="8" as="geometry" />
@@ -1659,7 +1659,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-191" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;branch_unit&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/core/branch_unit.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="15220" y="1940" width="730" height="540" as="geometry" />
+          <mxGeometry x="15220" y="1780" width="730" height="540" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-192" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2xaXiLED0ifaTXq0JXbD-191">
           <mxGeometry y="40" width="730" height="8" as="geometry" />
@@ -1716,7 +1716,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-221" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;CSR_buffer&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/core/csr_buffer.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="15220" y="2574" width="730" height="330" as="geometry" />
+          <mxGeometry x="15220" y="2414" width="730" height="330" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-222" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2xaXiLED0ifaTXq0JXbD-221">
           <mxGeometry y="40" width="730" height="8" as="geometry" />
@@ -1746,7 +1746,7 @@
           <mxGeometry y="300" width="730" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-240" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;mult&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/core/mult.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="15220" y="2980" width="730" height="310" as="geometry" />
+          <mxGeometry x="15220" y="2820" width="730" height="310" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-241" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2xaXiLED0ifaTXq0JXbD-240">
           <mxGeometry y="40" width="730" height="8" as="geometry" />
