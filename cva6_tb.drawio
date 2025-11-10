@@ -2235,7 +2235,7 @@
           <mxGeometry y="980" width="760" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gq3UZIwaObIO1bA8jXIf-19" value="&lt;span style=&quot;text-align: left;&quot;&gt;CSR_REGFILE&lt;br&gt;/home/ICer/proj/cva6/core/csr_regfile.sv&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="11240" y="-975" width="870" height="2000" as="geometry" />
+          <mxGeometry x="11280" y="-1060" width="870" height="2060" as="geometry" />
         </mxCell>
         <mxCell id="gq3UZIwaObIO1bA8jXIf-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gq3UZIwaObIO1bA8jXIf-19">
           <mxGeometry y="40" width="870" height="8" as="geometry" />
@@ -2431,6 +2431,12 @@
         </mxCell>
         <mxCell id="gq3UZIwaObIO1bA8jXIf-91" value="&lt;div&gt;output logic single_step_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;//&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;COMMIT STAGE模块输&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;入&lt;/span&gt;&amp;nbsp;:&amp;nbsp;we are in single-step mode&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gq3UZIwaObIO1bA8jXIf-19">
           <mxGeometry y="1970" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gq3UZIwaObIO1bA8jXIf-94" value="&lt;div&gt;&lt;font&gt;output rvfi_probes_csr_t rvfi_csr_o &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;//&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;RVFI&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="gq3UZIwaObIO1bA8jXIf-19">
+          <mxGeometry y="2000" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gq3UZIwaObIO1bA8jXIf-95" value="&lt;div&gt;&lt;font&gt;output &lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;jvt_t&lt;/span&gt; jvt_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;//&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;jvt output&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="gq3UZIwaObIO1bA8jXIf-19">
+          <mxGeometry y="2030" width="870" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
