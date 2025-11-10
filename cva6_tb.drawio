@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="4387" dy="2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5702" dy="3544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1196,7 +1196,7 @@
         <mxCell id="TTDfWaFMamJh5cXxLzEc-97" value="DECODER" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TTDfWaFMamJh5cXxLzEc-95" vertex="1">
           <mxGeometry y="118" width="710" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="gq3UZIwaObIO1bA8jXIf-98" value="&lt;div&gt;output logic [CVA6Cfg.NrIssuePorts-1:0] rvfi_is_compressed_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // RVFI :&amp;nbsp;Information dedicated to RVFI&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#eeeeee;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-95">
+        <mxCell id="gq3UZIwaObIO1bA8jXIf-98" value="&lt;div&gt;output logic [CVA6Cfg.NrIssuePorts-1:0] rvfi_is_compressed_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // RVFI :&amp;nbsp;Information dedicated to RVFI&lt;/div&gt;" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;fontStyle=1" vertex="1" parent="TTDfWaFMamJh5cXxLzEc-95">
           <mxGeometry y="184" width="710" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TTDfWaFMamJh5cXxLzEc-104" value="&lt;span style=&quot;text-align: left;&quot;&gt;DECODER&lt;br&gt;/home/ICer/proj/cva6/core/decoder.sv&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
