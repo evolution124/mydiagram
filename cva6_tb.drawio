@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="2663" dy="2807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4108" dy="3718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2450,15 +2450,14 @@
         <mxCell id="gq3UZIwaObIO1bA8jXIf-94" value="&lt;div&gt;&lt;font&gt;output rvfi_probes_csr_t rvfi_csr_o &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;//&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;RVFI&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;fontStyle=1" parent="gq3UZIwaObIO1bA8jXIf-19" vertex="1">
           <mxGeometry y="2000" width="870" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gq3UZIwaObIO1bA8jXIf-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;fillColor=#008a00;strokeColor=#005700;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gq3UZIwaObIO1bA8jXIf-94" target="r1BLmU1Ez0E84aFFxHmu-26" edge="1">
+        <mxCell id="gq3UZIwaObIO1bA8jXIf-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gq3UZIwaObIO1bA8jXIf-94" target="r1BLmU1Ez0E84aFFxHmu-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="12120" y="860" as="sourcePoint" />
             <mxPoint x="12010" y="6530" as="targetPoint" />
             <Array as="points">
               <mxPoint x="13440" y="955" />
               <mxPoint x="13460" y="6420" />
-              <mxPoint x="12130" y="6940" />
-              <mxPoint x="12290" y="9190" />
+              <mxPoint x="12890" y="8660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2481,7 +2480,7 @@
               <mxPoint x="13130" y="3970" />
               <mxPoint x="13120" y="6270" />
               <mxPoint x="11880" y="6750" />
-              <mxPoint x="12130" y="8800" />
+              <mxPoint x="12210" y="8990" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2493,7 +2492,7 @@
               <mxPoint x="13350" y="2060" />
               <mxPoint x="13370" y="6400" />
               <mxPoint x="11650" y="7060" />
-              <mxPoint x="11920" y="8675" />
+              <mxPoint x="12370" y="9090" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2505,7 +2504,7 @@
               <mxPoint x="13270" y="2710" />
               <mxPoint x="13270" y="5960" />
               <mxPoint x="11700" y="6520" />
-              <mxPoint x="12000" y="8710" />
+              <mxPoint x="12320" y="9060" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2517,7 +2516,7 @@
               <mxPoint x="18140" y="3960" />
               <mxPoint x="18130" y="6250" />
               <mxPoint x="12050" y="7130" />
-              <mxPoint x="12270" y="9050" />
+              <mxPoint x="12610" y="9213" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2554,10 +2553,10 @@
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-19" value="&lt;div&gt;...&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;cva6_rvfi_probes #(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .CVA6Cfg&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (CVA6Cfg),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .exception_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (exception_t),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .scoreboard_entry_t (scoreboard_entry_t),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .lsu_ctrl_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(lsu_ctrl_t),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .bp_resolve_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(bp_resolve_t),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .rvfi_probes_instr_t(rvfi_probes_instr_t),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .rvfi_probes_csr_t&amp;nbsp; (rvfi_probes_csr_t),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .rvfi_probes_t&amp;nbsp; &amp;nbsp; &amp;nbsp; (rvfi_probes_t)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;) i_cva6_rvfi_probes (&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .flush_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (flush_ctrl_if),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .issue_instr_ack_i&amp;nbsp; (issue_instr_issue_id),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .fetch_entry_valid_i(fetch_valid_if_id),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; .instruction_i&amp;nbsp; &amp;nbsp; &amp;nbsp; (rvfi_fetch_instr),&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="48" width="540" height="272" as="geometry" />
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-26" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(0, 204, 0);&quot;&gt;.csr_i(rvfi_csr),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-63" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .debug_mode_i(debug_mode),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="320" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-63" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .debug_mode_i(debug_mode),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-26" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(0, 204, 0);&quot;&gt;.csr_i(rvfi_csr),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="350" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-104" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .priv_lvl_i&amp;nbsp; &amp;nbsp; (priv_lvl),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
@@ -2648,7 +2647,7 @@
             <Array as="points">
               <mxPoint x="8370" y="5770" />
               <mxPoint x="11210" y="5760" />
-              <mxPoint x="11860" y="8645" />
+              <mxPoint x="11950" y="8880" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2766,7 +2765,7 @@
               <mxPoint x="17940" y="5600" />
               <mxPoint x="17940" y="6180" />
               <mxPoint x="12210" y="7020" />
-              <mxPoint x="12210" y="8905" />
+              <mxPoint x="12560" y="9180" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2792,7 +2791,7 @@
             <Array as="points">
               <mxPoint x="10250" y="640" />
               <mxPoint x="10230" y="4910" />
-              <mxPoint x="11650" y="8630" />
+              <mxPoint x="11640" y="8720" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2802,8 +2801,7 @@
             <mxPoint x="12550" y="2630" as="targetPoint" />
             <Array as="points">
               <mxPoint x="12220" y="2205" />
-              <mxPoint x="12290" y="8675" />
-              <mxPoint x="12600" y="8700" />
+              <mxPoint x="12440" y="9123" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2814,7 +2812,7 @@
             <Array as="points">
               <mxPoint x="6450" y="3880" />
               <mxPoint x="11190" y="6850" />
-              <mxPoint x="11770" y="8690" />
+              <mxPoint x="11830" y="8790" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2898,7 +2896,7 @@
             <mxPoint x="11880" y="9190" as="targetPoint" />
             <Array as="points">
               <mxPoint x="11660" y="10901" />
-              <mxPoint x="11850" y="8730" />
+              <mxPoint x="11870" y="8830" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2909,7 +2907,7 @@
             <Array as="points">
               <mxPoint x="10200" y="690" />
               <mxPoint x="10200" y="4985" />
-              <mxPoint x="11630" y="8680" />
+              <mxPoint x="11710" y="8760" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2920,7 +2918,7 @@
             <Array as="points">
               <mxPoint x="8910" y="2830" />
               <mxPoint x="8920" y="5010" />
-              <mxPoint x="11310" y="8885" />
+              <mxPoint x="12030" y="8920" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2930,7 +2928,7 @@
             <mxPoint x="12220.000000000002" y="8880" as="targetPoint" />
             <Array as="points">
               <mxPoint x="12220" y="2205" />
-              <mxPoint x="12160" y="8915" />
+              <mxPoint x="12260" y="9030" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2940,7 +2938,7 @@
             <mxPoint x="12390" y="9060" as="targetPoint" />
             <Array as="points">
               <mxPoint x="12200" y="2480" />
-              <mxPoint x="12050" y="8980" />
+              <mxPoint x="12150" y="8950" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2950,7 +2948,7 @@
             <mxPoint x="13060" y="9040" as="targetPoint" />
             <Array as="points">
               <mxPoint x="12300" y="2570" />
-              <mxPoint x="12200" y="9025" />
+              <mxPoint x="12490" y="9153" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2977,7 +2975,7 @@
             <Array as="points">
               <mxPoint x="20610" y="6740" />
               <mxPoint x="12590" y="7820" />
-              <mxPoint x="12780" y="9055" />
+              <mxPoint x="12830" y="9333" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2988,8 +2986,7 @@
             <Array as="points">
               <mxPoint x="13680" y="410" />
               <mxPoint x="13660" y="6140" />
-              <mxPoint x="12420" y="7460" />
-              <mxPoint x="12680" y="9085" />
+              <mxPoint x="13010" y="8723" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2999,7 +2996,7 @@
             <mxPoint x="13160" y="9485" as="targetPoint" />
             <Array as="points">
               <mxPoint x="11800" y="11061" />
-              <mxPoint x="12140" y="9320" />
+              <mxPoint x="12730" y="9303" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3011,7 +3008,7 @@
               <mxPoint x="20040" y="2935" />
               <mxPoint x="19920" y="6950" />
               <mxPoint x="12690" y="7910" />
-              <mxPoint x="12830" y="9170" />
+              <mxPoint x="12880" y="9360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3023,7 +3020,7 @@
               <mxPoint x="20410" y="3870" />
               <mxPoint x="20290" y="7885" />
               <mxPoint x="12790" y="7980" />
-              <mxPoint x="12820" y="9250" />
+              <mxPoint x="12920" y="9393" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3035,7 +3032,7 @@
               <mxPoint x="18300" y="2960" />
               <mxPoint x="18300" y="7940" />
               <mxPoint x="12380" y="8090" />
-              <mxPoint x="12400" y="9350" />
+              <mxPoint x="12660" y="9243" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3061,7 +3058,7 @@
             <Array as="points">
               <mxPoint x="14440" y="6290" />
               <mxPoint x="12700" y="7470" />
-              <mxPoint x="12770" y="9310" />
+              <mxPoint x="12710" y="9273" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3090,8 +3087,7 @@
             <Array as="points">
               <mxPoint x="13740" y="1240" />
               <mxPoint x="13740" y="6360" />
-              <mxPoint x="11910" y="9240" />
-              <mxPoint x="12360" y="9250" />
+              <mxPoint x="12990" y="8630" />
             </Array>
           </mxGeometry>
         </mxCell>
