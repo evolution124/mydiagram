@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="9076" dy="5073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7232" dy="4355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1628,10 +1628,10 @@
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-47" value="CVXIF if" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="2xaXiLED0ifaTXq0JXbD-100">
           <mxGeometry y="452" width="615" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="2xaXiLED0ifaTXq0JXbD-187" value="output lsu_ctrl_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rvfi_lsu_ctrl_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//&amp;nbsp;RVFI" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;fontStyle=1" parent="2xaXiLED0ifaTXq0JXbD-100" vertex="1">
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-48" value="output logic&amp;nbsp; &amp;nbsp; &amp;nbsp; [CVA6Cfg.PLEN-1:0] rvfi_mem_paddr_o&amp;nbsp; &amp;nbsp;//&amp;nbsp;RVFI" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="2xaXiLED0ifaTXq0JXbD-100">
           <mxGeometry y="518" width="615" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-48" value="output logic&amp;nbsp; &amp;nbsp; &amp;nbsp; [CVA6Cfg.PLEN-1:0] rvfi_mem_paddr_o&amp;nbsp; &amp;nbsp;//&amp;nbsp;RVFI" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="2xaXiLED0ifaTXq0JXbD-100">
+        <mxCell id="2xaXiLED0ifaTXq0JXbD-187" value="output lsu_ctrl_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rvfi_lsu_ctrl_o&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//&amp;nbsp;RVFI" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;fontStyle=1" parent="2xaXiLED0ifaTXq0JXbD-100" vertex="1">
           <mxGeometry y="550" width="615" height="32" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-104" value="&lt;span style=&quot;text-align: left;&quot;&gt;ALU_WRAPPER&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/core/alu_wrapper.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
@@ -1791,7 +1791,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-253" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;load_store_unit&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/core/load_store_unit.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="15820" y="3360" width="550" height="250" as="geometry" />
+          <mxGeometry x="15830" y="3270" width="550" height="250" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-254" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2xaXiLED0ifaTXq0JXbD-253" vertex="1">
           <mxGeometry y="40" width="550" height="8" as="geometry" />
@@ -2452,8 +2452,8 @@
             <mxPoint x="12120" y="860" as="sourcePoint" />
             <mxPoint x="12010" y="6530" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13670" y="955" />
-              <mxPoint x="13670" y="6370" />
+              <mxPoint x="13440" y="955" />
+              <mxPoint x="13460" y="6420" />
               <mxPoint x="12130" y="6940" />
               <mxPoint x="12230" y="9005" />
             </Array>
@@ -2668,8 +2668,24 @@
             <mxPoint x="17230" y="4240" as="sourcePoint" />
             <mxPoint x="17470" y="3930" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="15000" y="3150" />
-              <mxPoint x="15370" y="4020" />
+              <mxPoint x="14810" y="2878" />
+              <mxPoint x="16450" y="4030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-50" value="RVFI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#008a00;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="14780" y="3400" width="610" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-51" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;//RVFI&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;logic [CVA6Cfg.NrCommitPorts-1:0][CVA6Cfg.TRANS_ID_BITS-1:0] commit_pointer_n, commit_pointer_q;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(0, 204, 0);&quot;&gt;assign rvfi_commit_pointer_o = commit_pointer_q;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// sequential process&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;always_ff @(posedge clk_i or negedge rst_ni) begin : regs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; if (!rst_ni) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; commit_pointer_q &amp;lt;= &#39;0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end else begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;commit_pointer_q &amp;lt;= commit_pointer_n;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign &lt;b&gt;commit_pointer_n[0]&lt;/b&gt; = (flush_i) ? &#39;0 :&lt;b&gt; commit_pointer_q[0]&lt;/b&gt; + &lt;b&gt;num_commit&lt;/b&gt;;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;div&gt;// precompute offsets for commit slots&lt;/div&gt;&lt;div&gt;for (genvar k = 1; k &amp;lt; CVA6Cfg.NrCommitPorts; k++) begin : gen_cnt_incr&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign &lt;b&gt;commit_pointer_n[k]&lt;/b&gt; = (flush_i) ? &#39;0 : &lt;b&gt;commit_pointer_n[0]&lt;/b&gt; + &lt;b&gt;unsigned&#39;(k)&lt;/b&gt;;&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;// FIFO counter updates&lt;/div&gt;&lt;div&gt;if (CVA6Cfg.NrCommitPorts == 2) begin : gen_commit_ports&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span&gt;&amp;nbsp;&lt;span&gt;assign&amp;nbsp;&lt;b style=&quot;&quot;&gt;num_commit&lt;/b&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 204, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;commit_ack_i[1]&lt;/b&gt;&amp;nbsp;+&amp;nbsp;&lt;b style=&quot;&quot;&gt;commit_ack_i[0]&lt;/b&gt;&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;end else begin : gen_one_commit_port&lt;/div&gt;&lt;div&gt;&amp;nbsp; assign&amp;nbsp;&lt;b&gt;num_commit&amp;nbsp;&lt;/b&gt;=&amp;nbsp;&lt;b&gt;commit_ack_i[0]&lt;/b&gt;;&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-50">
+          <mxGeometry y="26" width="610" height="424" as="geometry" />
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-52" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=7;fillColor=#008a00;strokeColor=#005700;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2xaXiLED0ifaTXq0JXbD-187" target="r1BLmU1Ez0E84aFFxHmu-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15550" y="3550" as="sourcePoint" />
+            <mxPoint x="17450" y="4697" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="14660" y="2920" />
+              <mxPoint x="14710" y="3400" />
             </Array>
           </mxGeometry>
         </mxCell>
