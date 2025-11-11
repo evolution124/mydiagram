@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="2530" dy="2723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3116" dy="3093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2033,8 +2033,8 @@
             <mxPoint x="16800" y="3605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2xaXiLED0ifaTXq0JXbD-339" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Design / COMMIT STAGE&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="18700" y="1240" width="1570" height="2410" as="geometry" />
+        <mxCell id="2xaXiLED0ifaTXq0JXbD-339" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Design / COMMIT STAGE&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="18700" y="1240" width="2510" height="3050" as="geometry" />
         </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-340" value="&lt;span style=&quot;text-align: left;&quot;&gt;COMMIT STAGE&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/core/commit_stage.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="19100" y="2120" width="820" height="1130" as="geometry" />
@@ -2938,6 +2938,45 @@
             <Array as="points">
               <mxPoint x="12300" y="2570" />
               <mxPoint x="12200" y="9025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-107" value="RVFI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#008a00;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="20240" y="3050" width="740" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-108" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// -----------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// Exception &amp;amp; Interrupt Logic&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// -----------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// here we know for sure that we are taking the exception&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;always_comb begin : exception_handling&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // Multiple simultaneous interrupts and traps at the same privilege level are handled in the following decreasing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // priority order: external interrupts, software interrupts, timer interrupts, then finally any synchronous traps. (1.10 p.30)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // interrupts are correctly prioritized in the CSR reg file, exceptions are prioritized here&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; exception_o.valid = 1&#39;b0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; exception_o.cause = &#39;0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; exception_o.tval&amp;nbsp; = &#39;0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; exception_o.tval2 = &#39;0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; exception_o.tinst = &#39;0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; exception_o.gva&amp;nbsp; &amp;nbsp;= 1&#39;b0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // we need a valid instruction in the commit stage&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; if (commit_instr_i[0].valid &amp;amp;&amp;amp; !commit_drop_i[0]) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // ------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // check for CSR exception&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // ------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; if (csr_exception_i.valid) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; exception_o&amp;nbsp; &amp;nbsp; &amp;nbsp; = csr_exception_i;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // if no earlier exception happened the commit instruction will still contain&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // the instruction bits from the ID stage. If a earlier exception happened we don&#39;t care&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // as we will overwrite it anyway in the next IF bl&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; exception_o.tval = commit_instr_i[0].ex.tval;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; if (CVA6Cfg.RVH) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; exception_o.tinst = commit_instr_i[0].ex.tinst;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; exception_o.tval2 = commit_instr_i[0].ex.tval2;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; exception_o.gva&amp;nbsp; &amp;nbsp;= commit_instr_i[0].ex.gva;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // ------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // Earlier Exceptions&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // ------------------------&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // but we give precedence to exceptions which happened earlier e.g.: instruction page&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // faults for example&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; if (commit_instr_i[0].ex.valid) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; exception_o = commit_instr_i[0].ex;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // Don&#39;t take any exceptions iff:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // - If we halted the processor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; if (halt_i) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; exception_o.valid = 1&#39;b0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-107">
+          <mxGeometry y="26" width="740" height="724" as="geometry" />
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-109" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=7;fillColor=#008a00;strokeColor=#005700;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2xaXiLED0ifaTXq0JXbD-375" target="r1BLmU1Ez0E84aFFxHmu-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20060" y="3325" as="sourcePoint" />
+            <mxPoint x="20250" y="3010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20040" y="3085" />
+              <mxPoint x="20150" y="3050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-110" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=7;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0.526;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1BLmU1Ez0E84aFFxHmu-108" target="r1BLmU1Ez0E84aFFxHmu-101">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20040" y="3215" as="sourcePoint" />
+            <mxPoint x="12610" y="8420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20610" y="6740" />
+              <mxPoint x="12760" y="7830" />
+              <mxPoint x="12780" y="9055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-111" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gq3UZIwaObIO1bA8jXIf-47" target="r1BLmU1Ez0E84aFFxHmu-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="13310" y="460" as="sourcePoint" />
+            <mxPoint x="14070" y="8800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="13680" y="410" />
+              <mxPoint x="13660" y="6140" />
+              <mxPoint x="12660" y="7450" />
+              <mxPoint x="12680" y="9085" />
             </Array>
           </mxGeometry>
         </mxCell>
