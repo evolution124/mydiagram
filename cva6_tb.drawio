@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="7232" dy="4355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5849" dy="3816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2475,7 +2475,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=7;fillColor=#008a00;strokeColor=#005700;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2xaXiLED0ifaTXq0JXbD-24">
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=7;fillColor=#008a00;strokeColor=#005700;exitX=0.459;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r1BLmU1Ez0E84aFFxHmu-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="11960" y="2970" as="sourcePoint" />
             <mxPoint x="13360" y="6280" as="targetPoint" />
@@ -2597,6 +2597,12 @@
               <mxPoint x="12340" y="4445" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-36" value="RVFI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#008a00;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="12410" y="2370" width="610" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-37" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;//RVFI&lt;/div&gt;&lt;div&gt;assign rvfi_issue_pointer_o&amp;nbsp; &amp;nbsp; = issue_pointer[CVA6Cfg.NrIssuePorts-1:0];&lt;/div&gt;&lt;div&gt;assign rvfi_commit_pointer_o = commit_pointer_q;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-36">
+          <mxGeometry y="26" width="610" height="84" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
