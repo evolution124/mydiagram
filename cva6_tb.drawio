@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="12763" dy="6510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3989" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TTDfWaFMamJh5cXxLzEc-151" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Design / ISSUE STAGE&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="10480" y="1240" width="2730" height="3440" as="geometry" />
-        </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-42" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; TB TOP / Verify Data Structs&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="7190" y="7210" width="6370" height="4610" as="geometry" />
+        </mxCell>
+        <mxCell id="TTDfWaFMamJh5cXxLzEc-151" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Design / ISSUE STAGE&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="10480" y="1240" width="2730" height="3440" as="geometry" />
         </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-41" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; UVM/VERIF&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="-1420" y="10070" width="4800" height="4330" as="geometry" />
@@ -2447,7 +2447,7 @@
             <mxPoint x="12010" y="6530" as="targetPoint" />
             <Array as="points">
               <mxPoint x="13670" y="955" />
-              <mxPoint x="13630" y="6370" />
+              <mxPoint x="13670" y="6370" />
               <mxPoint x="12130" y="6940" />
               <mxPoint x="12230" y="9005" />
             </Array>
@@ -2481,7 +2481,7 @@
             <mxPoint x="12690" y="2477" as="sourcePoint" />
             <mxPoint x="13360" y="6280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="13350" y="1880" />
+              <mxPoint x="13350" y="1980" />
               <mxPoint x="13370" y="6400" />
               <mxPoint x="11650" y="7060" />
               <mxPoint x="11920" y="8675" />
@@ -2573,6 +2573,7 @@
             <mxPoint x="11320" y="11339" as="targetPoint" />
             <Array as="points">
               <mxPoint x="11240" y="10849" />
+              <mxPoint x="11690" y="8320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2612,10 +2613,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-36" value="RVFI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#008a00;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="12420" y="1810" width="610" height="110" as="geometry" />
+          <mxGeometry x="12420" y="1810" width="610" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-37" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;//RVFI&lt;/div&gt;&lt;div&gt;assign rvfi_issue_pointer_o&amp;nbsp; &amp;nbsp; = issue_pointer[CVA6Cfg.NrIssuePorts-1:0];&lt;/div&gt;&lt;div&gt;assign rvfi_commit_pointer_o = commit_pointer_q;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-36">
-          <mxGeometry y="26" width="610" height="84" as="geometry" />
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-37" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;//RVFI&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;logic [CVA6Cfg.NrIssuePorts:0][CVA6Cfg.TRANS_ID_BITS-1:0] issue_pointer;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(0, 204, 0);&quot;&gt;assign rvfi_issue_pointer_o&amp;nbsp; = issue_pointer[CVA6Cfg.NrIssuePorts-1:0];&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign issue_pointer[0] = &lt;b&gt;issue_pointer_q&lt;/b&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;for (genvar i = 0; i &amp;lt; CVA6Cfg.NrIssuePorts; i++) begin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; assign &lt;b&gt;issue_pointer&lt;/b&gt;[i+1] = &lt;b&gt;issue_pointer&lt;/b&gt;[i] + &#39;d1;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-36">
+          <mxGeometry y="26" width="610" height="264" as="geometry" />
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-38" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=7;fillColor=#008a00;strokeColor=#005700;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2xaXiLED0ifaTXq0JXbD-24" target="r1BLmU1Ez0E84aFFxHmu-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
