@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="3116" dy="3093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5713" dy="4730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2848,7 +2848,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-82" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;cva6&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;/home/ICer/proj/cva6/core/cva6.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="11000" y="10636" width="540" height="350" as="geometry" />
+          <mxGeometry x="11000" y="10636" width="540" height="500" as="geometry" />
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-83" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-82">
           <mxGeometry y="40" width="540" height="8" as="geometry" />
@@ -2858,6 +2858,9 @@
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-87" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// --------------&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// IF &amp;lt;-&amp;gt; ID&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// --------------&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(0, 204, 0);&quot;&gt;fetch_entry_t [CVA6Cfg.NrIssuePorts-1:0] fetch_entry_if_id;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;//RVFI INSTR&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(0, 204, 0);&quot;&gt;logic [CVA6Cfg.NrIssuePorts-1:0][31:0] rvfi_fetch_instr;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;for (genvar i = 0; i &amp;lt; CVA6Cfg.NrIssuePorts; i++) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;assign rvfi_fetch_instr[i] = fetch_entry_if_id[i].instruction;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-82">
           <mxGeometry y="180" width="540" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-112" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;logic [CVA6Cfg.NrWbPorts-1:0][CVA6Cfg.XLEN-1:0] &lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;wbdata_ex_id&lt;/span&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign wbdata_ex_id[FLU_WB]&amp;nbsp; &amp;nbsp;= flu_result_ex_id;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign wbdata_ex_id[STORE_WB]&amp;nbsp; &amp;nbsp;= store_result_ex_id;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign wbdata_ex_id[LOAD_WB]&amp;nbsp; &amp;nbsp;= load_result_ex_id;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign wbdata_ex_id[FPU_WB]&amp;nbsp; &amp;nbsp;= fpu_result_ex_id;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-82">
+          <mxGeometry y="350" width="540" height="150" as="geometry" />
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-86" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1BLmU1Ez0E84aFFxHmu-79" target="r1BLmU1Ez0E84aFFxHmu-82">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -2977,6 +2980,16 @@
               <mxPoint x="13660" y="6140" />
               <mxPoint x="12660" y="7450" />
               <mxPoint x="12680" y="9085" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-113" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1BLmU1Ez0E84aFFxHmu-112" target="r1BLmU1Ez0E84aFFxHmu-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="11790" y="11641" as="sourcePoint" />
+            <mxPoint x="13160" y="9485" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="11800" y="11061" />
+              <mxPoint x="12080" y="9265" />
             </Array>
           </mxGeometry>
         </mxCell>
