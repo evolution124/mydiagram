@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="3116" dy="3093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2847" dy="2923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2xaXiLED0ifaTXq0JXbD-99" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Design / EX STAGE&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="13930" y="1240" width="4500" height="4860" as="geometry" />
+        </mxCell>
         <mxCell id="B6SIow3o6jKN5cq_tIl7-42" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; TB TOP / Verify Data Structs&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="6330" y="7210" width="10160" height="4610" as="geometry" />
         </mxCell>
@@ -1601,9 +1604,6 @@
             <mxPoint x="11875" y="2400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2xaXiLED0ifaTXq0JXbD-99" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Design / EX STAGE&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="13930" y="1240" width="4500" height="4860" as="geometry" />
-        </mxCell>
         <mxCell id="2xaXiLED0ifaTXq0JXbD-100" value="&lt;span style=&quot;text-align: left;&quot;&gt;ISSUE STAGE&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/core/ex_stage.sv&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="14025" y="2344" width="615" height="518" as="geometry" />
         </mxCell>
@@ -3025,6 +3025,33 @@
               <mxPoint x="12820" y="9250" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-119" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=7;fillColor=#fff2cc;strokeColor=#d6b656;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2xaXiLED0ifaTXq0JXbD-218" target="r1BLmU1Ez0E84aFFxHmu-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="16170" y="2460" as="sourcePoint" />
+            <mxPoint x="12390" y="8250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="18300" y="2960" />
+              <mxPoint x="18300" y="7940" />
+              <mxPoint x="12380" y="8090" />
+              <mxPoint x="12400" y="9350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-121" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=7;fillColor=#008a00;strokeColor=#005700;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.519;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r1BLmU1Ez0E84aFFxHmu-47" target="r1BLmU1Ez0E84aFFxHmu-123">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="16160" y="3641" as="sourcePoint" />
+            <mxPoint x="14440.869999999999" y="3296.8199999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="14370" y="3120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-123" value="RVFI" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#008a00;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="14180" y="3330" width="550" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-124" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;fu_data_t one_cycle_data;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// result MUX&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;always_comb begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // Branch result as default case&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; flu_result_o&amp;nbsp; &amp;nbsp;= {{CVA6Cfg.XLEN - CVA6Cfg.VLEN{1&#39;b0}}, branch_result};&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;flu_trans_id_o = one_cycle_data.trans_id;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // ALU result&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; if (|alu_valid_i) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; flu_result_o = alu_result[0];&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; // CSR result&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end else if (|csr_valid_i) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; flu_result_o = csr_result;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end else if (mult_valid) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; flu_result_o&amp;nbsp; &amp;nbsp;= mult_result;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; flu_trans_id_o = mult_trans_id;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end else if (|aes_valid_i) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; flu_result_o = aes_result;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;always_comb begin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; // data silence operation&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &lt;b&gt;one_cycle_data = one_cycle_select[0] ? fu_data_i[0] : &#39;0;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; if (CVA6Cfg.SuperscalarEn) begin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; if (one_cycle_select[1]) begin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;one_cycle_data = fu_data_i[1];&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; end&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r1BLmU1Ez0E84aFFxHmu-123">
+          <mxGeometry y="26" width="550" height="464" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
