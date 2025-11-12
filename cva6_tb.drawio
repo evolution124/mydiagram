@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-1331" dy="2912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="410" dy="3929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3363,7 +3363,57 @@
             <mxPoint x="34710" y="2000" as="targetPoint" />
             <Array as="points">
               <mxPoint x="35120" y="2385" />
-              <mxPoint x="35280" y="2339" />
+              <mxPoint x="35260" y="2100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-55" value="&lt;span style=&quot;text-align: left;&quot;&gt;execute&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/execute.cc&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="36530" y="1845" width="690" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-55">
+          <mxGeometry y="40" width="690" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-57" value="void processor_t::step(size_t n) {" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-55">
+          <mxGeometry y="48" width="690" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-65" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; state.minstret-&amp;gt;bump(instret);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // Model a hart whose CPI is 1.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; state.mcycle-&amp;gt;bump(instret);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; n -= instret;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-55">
+          <mxGeometry y="80" width="690" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-66" value="&amp;nbsp; &amp;nbsp; }&lt;div&gt;}&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-55">
+          <mxGeometry y="180" width="690" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-67" value="&lt;span style=&quot;text-align: left;&quot;&gt;execute&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/execute.cc&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="36540" y="2790" width="690" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-67">
+          <mxGeometry y="40" width="690" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-69" value="void processor_t::step(size_t n) {" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-67">
+          <mxGeometry y="48" width="690" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-70" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; state.minstret-&amp;gt;bump(instret);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // Model a hart whose CPI is 1.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; state.mcycle-&amp;gt;bump(instret);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; n -= instret;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-67">
+          <mxGeometry y="80" width="690" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-71" value="&amp;nbsp; &amp;nbsp; }&lt;div&gt;}&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-67">
+          <mxGeometry y="180" width="690" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mx3dAhUHG1ibbvvEL7I7-46" target="mx3dAhUHG1ibbvvEL7I7-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="36250" y="2575" as="sourcePoint" />
+            <mxPoint x="36730" y="2290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="36170" y="3015" />
+              <mxPoint x="36430" y="1845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mx3dAhUHG1ibbvvEL7I7-36" target="mx3dAhUHG1ibbvvEL7I7-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="36490" y="3410" as="sourcePoint" />
+            <mxPoint x="36920" y="2240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="36270" y="3215" />
+              <mxPoint x="36370" y="2790" />
             </Array>
           </mxGeometry>
         </mxCell>
