@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-478" dy="3410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-1563" dy="2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3231,13 +3231,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-15" value="&lt;span style=&quot;text-align: left;&quot;&gt;Simulation&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/Simulation.cc&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="32570" y="3730" width="690" height="270" as="geometry" />
+          <mxGeometry x="32570" y="3730" width="690" height="430" as="geometry" />
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-15">
           <mxGeometry y="40" width="690" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="mx3dAhUHG1ibbvvEL7I7-17" value="&lt;div&gt;int Simulation::run() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; try {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; while (!sim_t::done()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; st_rvfi reference;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; std::vector&amp;lt;st_rvfi&amp;gt; vreference, vspike;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; vreference.push_back(reference);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; vspike = this-&amp;gt;step(1, vreference);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; } catch (std::ios_base::failure e) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; std::cout &amp;lt;&amp;lt; &quot;[SPIKE] Max steps exceeded!&quot; &amp;lt;&amp;lt; std::endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; return sim_t::exit_code();&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-15">
-          <mxGeometry y="48" width="690" height="222" as="geometry" />
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-17" value="&lt;div&gt;std::vector&amp;lt;st_rvfi&amp;gt; Simulation::step(size_t n,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; std::vector&amp;lt;st_rvfi&amp;gt; &amp;amp;vreference) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; // The state PC is the *next* insn fetch address.&lt;/div&gt;&lt;div&gt;&amp;nbsp; // Catch it before exec which yields a new value.&lt;/div&gt;&lt;div&gt;&amp;nbsp; std::vector&amp;lt;st_rvfi&amp;gt; vspike(n);&lt;/div&gt;&lt;div&gt;&amp;nbsp; for (size_t i = 0; i &amp;lt; n; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (i &amp;gt;= procs.size())&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; continue;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; vspike[i] = ((Processor *)procs[i])-&amp;gt;step(1, vreference[i]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; vspike[i].halt = (sim_t::done() ? ((sim_t::exit_code() &amp;lt;&amp;lt; 1) | 1) : 0);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; host = context_t::current();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (!sim_t::done()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; if (this-&amp;gt;max_steps_enabled &amp;amp;&amp;amp; (this-&amp;gt;max_steps &amp;lt; this-&amp;gt;total_steps)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw std::ios_base::failure(&quot;Max steps exceeded&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ++total_steps;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; target.switch_to();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; return vspike;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-15">
+          <mxGeometry y="48" width="690" height="382" as="geometry" />
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;entryX=0.01;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1OCa_0Yf6lSy2uOMtGcT-7" target="mx3dAhUHG1ibbvvEL7I7-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3245,7 +3245,7 @@
             <mxPoint x="31770" y="3850" as="targetPoint" />
             <Array as="points">
               <mxPoint x="32280" y="4150" />
-              <mxPoint x="32370" y="3868" />
+              <mxPoint x="32380" y="3933" />
             </Array>
           </mxGeometry>
         </mxCell>
