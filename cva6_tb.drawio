@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-945" dy="3212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-1283" dy="2999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,7 +224,7 @@
             <mxPoint x="25635" y="4020" as="sourcePoint" />
             <mxPoint x="26175" y="4025" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="24475" y="4042" />
+              <mxPoint x="24480" y="4030" />
               <mxPoint x="24625" y="3160" />
             </Array>
           </mxGeometry>
@@ -234,7 +234,7 @@
             <mxPoint x="24635" y="5409" as="sourcePoint" />
             <mxPoint x="24935" y="4270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="24475" y="4161" />
+              <mxPoint x="24470" y="4170" />
               <mxPoint x="24735" y="4940" />
             </Array>
           </mxGeometry>
@@ -3212,11 +3212,11 @@
         <mxCell id="Mww2m18zBAm4xH4QnBZS-80" value="&lt;div&gt;input logic no_st_pending_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;//&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EX_STAGE模块输出&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;:&amp;nbsp;No store is pending&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Mww2m18zBAm4xH4QnBZS-46" vertex="1">
           <mxGeometry y="1100" width="820" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mww2m18zBAm4xH4QnBZS-86" value="Agent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="24260" y="3580" width="500" height="888" as="geometry" />
+        <mxCell id="Mww2m18zBAm4xH4QnBZS-86" value="&lt;b&gt;uvma_rvfi_agent.sv&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/verif/core-v-verif/lib/uvm_agents/uvma_rvfi/uvma_rvfi_agent.sv&lt;/span&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="24260" y="3580" width="500" height="524" as="geometry" />
         </mxCell>
         <mxCell id="Mww2m18zBAm4xH4QnBZS-89" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Mww2m18zBAm4xH4QnBZS-86" vertex="1">
-          <mxGeometry y="26" width="500" height="862" as="geometry" />
+          <mxGeometry y="40" width="500" height="484" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
