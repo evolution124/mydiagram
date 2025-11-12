@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-1563" dy="2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-478" dy="3410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3220,14 +3220,32 @@
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-5" value="&lt;div&gt;int Simulation::run() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; try {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; while (!sim_t::done()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; st_rvfi reference;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; std::vector&amp;lt;st_rvfi&amp;gt; vreference, vspike;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; vreference.push_back(reference);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; vspike = this-&amp;gt;step(1, vreference);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; } catch (std::ios_base::failure e) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; std::cout &amp;lt;&amp;lt; &quot;[SPIKE] Max steps exceeded!&quot; &amp;lt;&amp;lt; std::endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; return sim_t::exit_code();&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-1">
           <mxGeometry y="48" width="690" height="222" as="geometry" />
         </mxCell>
-        <mxCell id="mx3dAhUHG1ibbvvEL7I7-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1OCa_0Yf6lSy2uOMtGcT-7" target="mx3dAhUHG1ibbvvEL7I7-5">
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e5AwxQ6ysax4nM-VOwX0-4" target="mx3dAhUHG1ibbvvEL7I7-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="32120" y="3754" as="sourcePoint" />
             <mxPoint x="32440" y="3600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="32120" y="4150" />
-              <mxPoint x="32270" y="3600" />
+              <mxPoint x="32260" y="3280" />
               <mxPoint x="32370" y="3119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-15" value="&lt;span style=&quot;text-align: left;&quot;&gt;Simulation&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/Simulation.cc&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="32570" y="3730" width="690" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-15">
+          <mxGeometry y="40" width="690" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-17" value="&lt;div&gt;int Simulation::run() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; try {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; while (!sim_t::done()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; st_rvfi reference;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; std::vector&amp;lt;st_rvfi&amp;gt; vreference, vspike;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; vreference.push_back(reference);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; vspike = this-&amp;gt;step(1, vreference);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; } catch (std::ios_base::failure e) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; std::cout &amp;lt;&amp;lt; &quot;[SPIKE] Max steps exceeded!&quot; &amp;lt;&amp;lt; std::endl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; return sim_t::exit_code();&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mx3dAhUHG1ibbvvEL7I7-15">
+          <mxGeometry y="48" width="690" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3dAhUHG1ibbvvEL7I7-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;entryX=0.01;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1OCa_0Yf6lSy2uOMtGcT-7" target="mx3dAhUHG1ibbvvEL7I7-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="31450" y="4004" as="sourcePoint" />
+            <mxPoint x="31770" y="3850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="32280" y="4150" />
+              <mxPoint x="32370" y="3868" />
             </Array>
           </mxGeometry>
         </mxCell>
