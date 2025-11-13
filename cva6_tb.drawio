@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="8640" dy="9450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-992" dy="3650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2548,10 +2548,10 @@
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-26" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(0, 204, 0);&quot;&gt;.csr_i(rvfi_csr),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="380" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-43" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .flush_unissued_instr_i(flush_unissued_instr_ctrl_id),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-66" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .flush_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (flush_ctrl_if),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="410" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-66" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .flush_i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (flush_ctrl_if),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-43" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .flush_unissued_instr_i(flush_unissued_instr_ctrl_id),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="440" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-70" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .fetch_entry_valid_i(fetch_valid_if_id),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
@@ -2563,10 +2563,10 @@
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-114" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .irq_i(irq_i),&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="530" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-21" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(0, 204, 0);&quot;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(0, 204, 0);&quot;&gt;s_compressed_i&amp;nbsp; &amp;nbsp; (rvfi_is_compressed)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// DECODE_STAGE&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-91" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .decoded_instr_valid_i (issue_entry_valid_id_issue),&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// DECODE_STAGE&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="560" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1BLmU1Ez0E84aFFxHmu-91" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .decoded_instr_valid_i (issue_entry_valid_id_issue),&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// DECODE_STAGE&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
+        <mxCell id="r1BLmU1Ez0E84aFFxHmu-21" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(0, 204, 0);&quot;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(0, 204, 0);&quot;&gt;s_compressed_i&amp;nbsp; &amp;nbsp; (rvfi_is_compressed)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// DECODE_STAGE&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
           <mxGeometry y="590" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r1BLmU1Ez0E84aFFxHmu-58" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; .commit_instr_i(commit_instr_id_commit),&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// ISSUE_STAGE&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="r1BLmU1Ez0E84aFFxHmu-17" vertex="1">
@@ -2633,7 +2633,7 @@
             <Array as="points">
               <mxPoint x="8370" y="5770" />
               <mxPoint x="11020" y="5790" />
-              <mxPoint x="16850" y="8803" />
+              <mxPoint x="16790" y="8830" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2777,7 +2777,7 @@
             <Array as="points">
               <mxPoint x="10250" y="640" />
               <mxPoint x="10230" y="4910" />
-              <mxPoint x="17000" y="8683" />
+              <mxPoint x="17040" y="8653" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2893,7 +2893,7 @@
             <Array as="points">
               <mxPoint x="10200" y="690" />
               <mxPoint x="10200" y="4985" />
-              <mxPoint x="17080" y="8653" />
+              <mxPoint x="16970" y="8683" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2905,7 +2905,7 @@
               <mxPoint x="8910" y="2830" />
               <mxPoint x="8920" y="5010" />
               <mxPoint x="11030" y="5650" />
-              <mxPoint x="16770" y="8833" />
+              <mxPoint x="16800" y="8800" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2961,8 +2961,8 @@
             <mxPoint x="12610" y="8420" as="targetPoint" />
             <Array as="points">
               <mxPoint x="20610" y="7870" />
-              <mxPoint x="17100" y="7870" />
-              <mxPoint x="17110" y="9233" />
+              <mxPoint x="17050" y="7870" />
+              <mxPoint x="17090" y="9233" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2995,7 +2995,7 @@
             <Array as="points">
               <mxPoint x="20030" y="2935" />
               <mxPoint x="20030" y="7950" />
-              <mxPoint x="17000" y="7950" />
+              <mxPoint x="16980" y="7950" />
               <mxPoint x="17000" y="9260" />
             </Array>
           </mxGeometry>
@@ -3007,7 +3007,7 @@
             <Array as="points">
               <mxPoint x="19980" y="2965" />
               <mxPoint x="19960" y="7980" />
-              <mxPoint x="16920" y="7980" />
+              <mxPoint x="16910" y="7980" />
               <mxPoint x="16930" y="9293" />
             </Array>
           </mxGeometry>
