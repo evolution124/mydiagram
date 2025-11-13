@@ -2501,7 +2501,7 @@
             <Array as="points">
               <mxPoint x="18140" y="3960" />
               <mxPoint x="18130" y="6250" />
-              <mxPoint x="17300" y="7070" />
+              <mxPoint x="17280" y="7070" />
               <mxPoint x="17260" y="9110" />
             </Array>
           </mxGeometry>
@@ -2750,7 +2750,7 @@
             <Array as="points">
               <mxPoint x="17940" y="5600" />
               <mxPoint x="17940" y="6180" />
-              <mxPoint x="17260" y="7040" />
+              <mxPoint x="17240" y="7040" />
               <mxPoint x="17220" y="9143" />
             </Array>
           </mxGeometry>
@@ -2961,8 +2961,8 @@
             <mxPoint x="12610" y="8420" as="targetPoint" />
             <Array as="points">
               <mxPoint x="20610" y="7870" />
-              <mxPoint x="15910" y="7870" />
-              <mxPoint x="16020" y="9220" />
+              <mxPoint x="17100" y="7870" />
+              <mxPoint x="17110" y="9233" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2995,8 +2995,8 @@
             <Array as="points">
               <mxPoint x="20030" y="2935" />
               <mxPoint x="20030" y="7950" />
-              <mxPoint x="15830" y="7980" />
-              <mxPoint x="15990" y="9250" />
+              <mxPoint x="17000" y="7950" />
+              <mxPoint x="17000" y="9260" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3007,8 +3007,8 @@
             <Array as="points">
               <mxPoint x="19980" y="2965" />
               <mxPoint x="19960" y="7980" />
-              <mxPoint x="15890" y="8000" />
-              <mxPoint x="15970" y="9293" />
+              <mxPoint x="16920" y="7980" />
+              <mxPoint x="16930" y="9293" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3019,7 +3019,7 @@
             <Array as="points">
               <mxPoint x="18300" y="2960" />
               <mxPoint x="18260" y="6320" />
-              <mxPoint x="17340" y="7090" />
+              <mxPoint x="17320" y="7100" />
               <mxPoint x="17300" y="9083" />
             </Array>
           </mxGeometry>
