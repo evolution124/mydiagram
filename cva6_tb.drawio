@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="126" dy="3811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-1045" dy="3106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3398,19 +3398,19 @@
           <mxGeometry y="340" width="550" height="520" as="geometry" />
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-67" value="&lt;span style=&quot;text-align: left;&quot;&gt;execute&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/execute.cc&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="36330" y="2790" width="690" height="220" as="geometry" />
+          <mxGeometry x="36330" y="2790" width="550" height="220" as="geometry" />
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="mx3dAhUHG1ibbvvEL7I7-67" vertex="1">
-          <mxGeometry y="40" width="690" height="8" as="geometry" />
+          <mxGeometry y="40" width="550" height="8" as="geometry" />
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-69" value="void processor_t::step(size_t n) {" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="mx3dAhUHG1ibbvvEL7I7-67" vertex="1">
-          <mxGeometry y="48" width="690" height="32" as="geometry" />
+          <mxGeometry y="48" width="550" height="32" as="geometry" />
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-70" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; state.minstret-&amp;gt;bump(instret);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // Model a hart whose CPI is 1.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; state.mcycle-&amp;gt;bump(instret);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; n -= instret;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="mx3dAhUHG1ibbvvEL7I7-67" vertex="1">
-          <mxGeometry y="80" width="690" height="100" as="geometry" />
+          <mxGeometry y="80" width="550" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-71" value="&amp;nbsp; &amp;nbsp; }&lt;div&gt;}&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="mx3dAhUHG1ibbvvEL7I7-67" vertex="1">
-          <mxGeometry y="180" width="690" height="40" as="geometry" />
+          <mxGeometry y="180" width="550" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mx3dAhUHG1ibbvvEL7I7-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yOJwv9qUf5fCPnGcbsYc-8" target="mx3dAhUHG1ibbvvEL7I7-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
