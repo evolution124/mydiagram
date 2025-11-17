@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="11539" dy="2418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10397" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -480,6 +480,18 @@
         </mxCell>
         <mxCell id="WjL_fl-T6VKGcTkqsZ7i-118" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;WRITE_RD(sext_xlen(RS1 + insn.i_imm()));&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="WjL_fl-T6VKGcTkqsZ7i-116">
           <mxGeometry y="52" width="670" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="WjL_fl-T6VKGcTkqsZ7i-120" value="ADDI (I)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1130" width="670" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WjL_fl-T6VKGcTkqsZ7i-121" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/addiw.h" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WjL_fl-T6VKGcTkqsZ7i-120">
+          <mxGeometry y="26" width="670" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WjL_fl-T6VKGcTkqsZ7i-122" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;require_rv64;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;WRITE_RD(sext32(insn.i_imm() + RS1));&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="WjL_fl-T6VKGcTkqsZ7i-120">
+          <mxGeometry y="52" width="670" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="WjL_fl-T6VKGcTkqsZ7i-123" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;#define &lt;b&gt;require_rv64&lt;/b&gt; require(xlen == 64)&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WjL_fl-T6VKGcTkqsZ7i-120">
+          <mxGeometry y="100" width="670" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
