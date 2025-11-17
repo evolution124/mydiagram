@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.2">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="11077" dy="2108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="12310" dy="2829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -608,7 +608,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-29" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5970" y="4670" width="440" height="164" as="geometry" />
+          <mxGeometry x="-5660" y="4740" width="440" height="164" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-32" value="#define &lt;b&gt;MASK_XLEN&lt;/b&gt;(x) ((x) &amp;amp; ((1 &amp;lt;&amp;lt; (__riscv_xlen - 1) &amp;lt;&amp;lt; 1) - 1))" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="S3GisznnV3Pd4G23I4Tm-29">
           <mxGeometry y="26" width="440" height="34" as="geometry" />
@@ -617,7 +617,7 @@
           <mxGeometry y="60" width="440" height="104" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-33" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6690" y="4850" width="440" height="330" as="geometry" />
+          <mxGeometry x="-6670" y="4860" width="440" height="330" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-34" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#define TEST_RR_SRC1_EQ_DEST( testnum, inst, result, val1, val2 ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x1, result, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x1, x1, x2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="S3GisznnV3Pd4G23I4Tm-33">
           <mxGeometry y="26" width="440" height="104" as="geometry" />
@@ -635,7 +635,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-38" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6150" y="5030" width="550" height="980" as="geometry" />
+          <mxGeometry x="-6120" y="5060" width="550" height="980" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-39" value="&lt;div&gt;#define TEST_RR_DEST_BYPASS( testnum, nop_cycles, inst, result, val1, val2 ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x6, result, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/div&gt;&lt;div&gt;1:&amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x14, x1, x2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; TEST_INSERT_NOPS_ ## nop_cycles \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; addi&amp;nbsp; x6, x14, 0; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; bne x4, x5, 1b \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="S3GisznnV3Pd4G23I4Tm-38">
           <mxGeometry y="26" width="550" height="194" as="geometry" />
@@ -683,6 +683,24 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-7300" y="5970" as="sourcePoint" />
             <mxPoint x="-7600" y="5940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3GisznnV3Pd4G23I4Tm-54" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-22" target="S3GisznnV3Pd4G23I4Tm-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-6760" y="5167" as="sourcePoint" />
+            <mxPoint x="-6590" y="4900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3GisznnV3Pd4G23I4Tm-55" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-33" target="S3GisznnV3Pd4G23I4Tm-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-6100" y="4978" as="sourcePoint" />
+            <mxPoint x="-5980" y="4680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S3GisznnV3Pd4G23I4Tm-56" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-38" target="S3GisznnV3Pd4G23I4Tm-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-5880" y="5128" as="sourcePoint" />
+            <mxPoint x="-5120" y="4990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
