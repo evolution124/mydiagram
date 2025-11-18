@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10414" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10636" dy="1853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1029,7 +1029,7 @@
           <mxGeometry y="1180" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-116" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1280" y="5350" width="500" height="210" as="geometry" />
+          <mxGeometry x="-1240" y="5350" width="500" height="210" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-117" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#define &lt;b&gt;TEST_BR2_SRC12_BYPASS&lt;/b&gt;( testnum, src1_nops, src2_nops, inst, val1, val2 ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;test_ ## testnum: \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; &lt;b&gt;TESTNUM&lt;/b&gt;, testnum; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1:&amp;nbsp; li&amp;nbsp; x1, val1; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_INSERT_NOPS_ &lt;/b&gt;## src1_nops \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, val2; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_INSERT_NOPS_ &lt;/b&gt;## src2_nops \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; inst x1, x2, fail; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; bne x4, x5, 1b \&lt;/span&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="rdgtThakUh-qqqa6WXWg-116">
           <mxGeometry y="26" width="500" height="184" as="geometry" />
@@ -1039,8 +1039,8 @@
             <mxPoint x="-620" y="5730" as="sourcePoint" />
             <mxPoint x="-900" y="5673" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-680" y="5732" />
-              <mxPoint x="-730" y="5350" />
+              <mxPoint x="-650" y="5732" />
+              <mxPoint x="-710" y="5350" />
             </Array>
           </mxGeometry>
         </mxCell>
