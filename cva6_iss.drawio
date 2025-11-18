@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10692" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10452" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -945,7 +945,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-83" value="fence_i.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="5070" width="550" height="790" as="geometry" />
+          <mxGeometry x="-330" y="5070" width="550" height="920" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-84" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rdgtThakUh-qqqa6WXWg-83">
           <mxGeometry y="26" width="550" height="22" as="geometry" />
@@ -977,11 +977,11 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-94" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;RVTEST_DATA_BEGIN&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rdgtThakUh-qqqa6WXWg-83">
           <mxGeometry y="680" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-95" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; TEST_DATA&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="rdgtThakUh-qqqa6WXWg-83">
-          <mxGeometry y="710" width="550" height="50" as="geometry" />
+        <mxCell id="rdgtThakUh-qqqa6WXWg-95" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; TEST_DATA&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;insn:&lt;/div&gt;&lt;div&gt;&amp;nbsp; addi a3, a3, 333&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2: addi a3, a3, 222&lt;/div&gt;&lt;div&gt;jalr a5, a6, 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3: addi a3, a3, 555&lt;/div&gt;&lt;div&gt;jalr a5, a6, 0&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="rdgtThakUh-qqqa6WXWg-83">
+          <mxGeometry y="710" width="550" height="180" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-96" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rdgtThakUh-qqqa6WXWg-83">
-          <mxGeometry y="760" width="550" height="30" as="geometry" />
+          <mxGeometry y="890" width="550" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
