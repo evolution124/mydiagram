@@ -635,7 +635,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-38" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-6960" y="5580" width="540" height="970" as="geometry" />
+          <mxGeometry x="-6960" y="5580" width="540" height="960" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-39" value="&lt;div&gt;#define TEST_RR_DEST_BYPASS( testnum, nop_cycles, inst, result, val1, val2 ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x6, result, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/div&gt;&lt;div&gt;1:&amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x14, x1, x2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; TEST_INSERT_NOPS_ ## nop_cycles \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; addi&amp;nbsp; x6, x14, 0; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; bne x4, x5, 1b \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=none;fontColor=#333333;" parent="S3GisznnV3Pd4G23I4Tm-38" vertex="1">
           <mxGeometry y="26" width="540" height="194" as="geometry" />
@@ -656,7 +656,7 @@
           <mxGeometry y="780" width="540" height="80" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-46" value="&lt;div&gt;#define TEST_RR_ZERODEST( testnum, inst, val1, val2 ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; TEST_CASE( testnum, x0, 0, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li x2, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x0, x1, x2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" parent="S3GisznnV3Pd4G23I4Tm-38" vertex="1">
-          <mxGeometry y="860" width="540" height="110" as="geometry" />
+          <mxGeometry y="860" width="540" height="100" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-42" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WjL_fl-T6VKGcTkqsZ7i-134" target="S3GisznnV3Pd4G23I4Tm-39" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
