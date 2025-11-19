@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10584" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="11922" dy="2607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1540,7 +1540,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-2" value="fclass.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="7230" width="440" height="580" as="geometry" />
+          <mxGeometry x="1590" y="7230" width="440" height="580" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-3" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fclass.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-2">
           <mxGeometry y="26" width="440" height="22" as="geometry" />
@@ -1574,6 +1574,18 @@
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-13" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-2">
           <mxGeometry y="550" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-14" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="7410" width="490" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-15" value="&lt;div&gt;#define &lt;b&gt;TEST_FCLASS_D32&lt;/b&gt;(testnum, correct, input) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;(testnum, a0, correct, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; la a0, test_ ## testnum ## _data ;\&amp;nbsp; &lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;//32位系统无法用单个寄存器存放64位立即数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fld fa0, 0(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fclass.d a0, fa0) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .pushsection .data; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .align 3; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; test_ ## testnum ## _data: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .dword input; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .popsection&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-14">
+          <mxGeometry y="26" width="490" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-7" target="WJ8V3OJagTPllp11VjbI-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="7586" as="sourcePoint" />
+            <mxPoint x="630" y="7520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
