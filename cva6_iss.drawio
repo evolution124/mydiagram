@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10753" dy="1922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10820" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1657,10 +1657,68 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-3880" y="10503" as="sourcePoint" />
             <mxPoint x="-3950" y="10440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2980" y="10860" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-41" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="-8840" y="12270" width="10530" height="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-44" value="fdiv.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="10070" width="530" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-45" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fdiv.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="26" width="530" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-46" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#include &quot;riscv_test.h&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#include &quot;test_macros.h&quot;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="48" width="530" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-47" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;RVTEST_RV64U&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="96" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-48" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;RVTEST_CODE_BEGIN&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="126" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-49" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;#-------------------------------------------------------------&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;# Arithmetic tests&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;#-------------------------------------------------------------&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;TEST_FP_OP2_D( 2,&amp;nbsp; fdiv.d, 1, 1.1557273520668288, 3.14159265, 2.71828182 );&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;TEST_FP_OP2_D( 3,&amp;nbsp; fdiv.d, 1,-0.9991093838555584,&amp;nbsp; &amp;nbsp; &amp;nbsp; -1234,&amp;nbsp; &amp;nbsp; &amp;nbsp;1235.1 );&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;TEST_FP_OP2_D( 4,&amp;nbsp; fdiv.d, 0,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;3.14159265, 3.14159265,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.0 );&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;TEST_FP_OP1_D( 5,&amp;nbsp; fsqrt.d, 1, 1.7724538498928541, 3.14159265 );&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;TEST_FP_OP1_D( 6,&amp;nbsp; fsqrt.d, 0,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 100,&amp;nbsp; &amp;nbsp; &amp;nbsp; 10000 );&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;TEST_FP_OP1_D_DWORD_RESULT(16,&amp;nbsp; fsqrt.d, 0x10,&amp;nbsp; &amp;nbsp; &amp;nbsp; 0x7FF8000000000000,&amp;nbsp; &amp;nbsp; &amp;nbsp; -1.0 );&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;TEST_FP_OP1_D( 7,&amp;nbsp; fsqrt.d, 1, 13.076696830622021, 171.0);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;TEST_FP_OP1_D( 8,&amp;nbsp; fsqrt.d, 1,0.00040099251863345283320230749702, 1.60795e-7);&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="156" width="530" height="244" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-50" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; TEST_PASSFAIL&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="400" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-51" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;RVTEST_CODE_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="430" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-52" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;&amp;nbsp; .data&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="460" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-53" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;RVTEST_DATA_BEGIN&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="490" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-54" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; TEST_DATA&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="520" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-55" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
+          <mxGeometry y="580" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-56" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1990" y="10303" width="460" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-57" value="&lt;div&gt;#define &lt;b&gt;TEST_FP_INT_OP_D&lt;/b&gt;( testnum, inst, flags, result, val1, rm ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; TEST_FP_OP_D_INTERNAL( testnum, flags, dword result, val1, 0.0, 0.0, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inst a0, f0, rm)&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-56">
+          <mxGeometry y="26" width="460" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-61" value="&lt;div&gt;#define &lt;b&gt;TEST_FP_INT_OP_D&lt;/b&gt;( testnum, inst, flags, result, val1, rm ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; TEST_FP_OP_D_INTERNAL( testnum, flags, dword result, val1, 0.0, 0.0, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inst a0, f0, rm)&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-56">
+          <mxGeometry y="90" width="460" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-62" value="&lt;div&gt;#define &lt;b&gt;TEST_FP_INT_OP_D&lt;/b&gt;( testnum, inst, flags, result, val1, rm ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; TEST_FP_OP_D_INTERNAL( testnum, flags, dword result, val1, 0.0, 0.0, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inst a0, f0, rm)&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-56">
+          <mxGeometry y="154" width="460" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ8V3OJagTPllp11VjbI-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-49" target="WJ8V3OJagTPllp11VjbI-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1980" y="10785" as="sourcePoint" />
+            <mxPoint x="-2120" y="10740" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
