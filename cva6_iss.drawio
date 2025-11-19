@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="12155" dy="2744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="13208" dy="3360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -718,7 +718,7 @@
             <mxPoint x="-5590" y="4950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-1" value="addiw.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-1" value="addiw.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-4930" y="5074" width="550" height="1206" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-2" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/addiw.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-1" vertex="1">
@@ -823,7 +823,7 @@
             <mxPoint x="-5880" y="4990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-33" value="auipc.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-33" value="auipc.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-4140" y="5074" width="550" height="590" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-34" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/auipc.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-33" vertex="1">
@@ -859,7 +859,7 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-46" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-33" vertex="1">
           <mxGeometry y="560" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-59" value="beq.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-59" value="beq.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-2790" y="5084" width="550" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-60" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-59" vertex="1">
@@ -956,7 +956,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-83" value="fence_i.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-83" value="fence_i.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-1940" y="5084" width="550" height="920" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-84" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-83" vertex="1">
@@ -995,7 +995,7 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-96" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-83" vertex="1">
           <mxGeometry y="890" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-97" value="jalr.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-97" value="jalr.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-620" y="5070" width="550" height="1210" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-98" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-97" vertex="1">
@@ -1056,7 +1056,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-119" value="jalr.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-119" value="jalr.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="220" y="5070" width="550" height="840" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-120" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-119" vertex="1">
@@ -1095,7 +1095,7 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-133" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-119" vertex="1">
           <mxGeometry y="810" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-135" value="ld.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-135" value="ld.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-8630" y="7610" width="550" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-136" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/ld.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-135" vertex="1">
@@ -1161,7 +1161,7 @@
             <mxPoint x="-7590" y="8020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-158" value="lui.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-158" value="lui.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-7220" y="7600" width="550" height="510" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-159" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/lui.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-158" vertex="1">
@@ -1197,7 +1197,7 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-171" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-158" vertex="1">
           <mxGeometry y="480" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-172" value="sd.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-172" value="sd.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-5910" y="7600" width="550" height="1280" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-173" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/sd.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-172" vertex="1">
@@ -1323,7 +1323,7 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-212" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/decode_macros.h&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#define &lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;BRANCH_TARGET &lt;/span&gt;(pc + insn.sb_imm())&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;#define set_pc(x) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; do { p-&amp;gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;check_pc_alignment&lt;/span&gt;(x); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;npc = sext_xlen(x); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;} while (0)&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-209" vertex="1">
           <mxGeometry y="100" width="670" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-214" value="mul.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-214" value="mul.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-3990" y="7620" width="550" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-215" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64um/mul.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-214" vertex="1">
@@ -1365,7 +1365,7 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-226" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-214" vertex="1">
           <mxGeometry y="1240" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rdgtThakUh-qqqa6WXWg-229" value="div.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="rdgtThakUh-qqqa6WXWg-229" value="div.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-3010" y="7620" width="550" height="600" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-230" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64um/div.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rdgtThakUh-qqqa6WXWg-229" vertex="1">
@@ -1419,7 +1419,7 @@
         <mxCell id="XummjmifrPc2iu1EeuCr-18" value="&lt;div&gt;#define &lt;b&gt;TEST_FP_OP_S_INTERNAL&lt;/b&gt;( testnum, flags, result, val1, val2, val3, code... ) \&lt;/div&gt;&lt;div&gt;test_ ## testnum: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; li&amp;nbsp; &lt;b&gt;TESTNUM&lt;/b&gt;, testnum; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; la&amp;nbsp; a0, test_ ## testnum ## _data ;\&lt;/div&gt;&lt;div&gt;&amp;nbsp; flw f0, 0(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; flw f1, 4(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; flw f2, 8(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; lw&amp;nbsp; a3, 12(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; code; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; fsflags a1, x0; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; li a2, flags; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; bne a0, a3, fail; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; bne a1, a2, fail; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .pushsection .data; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .align 2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; test_ ## testnum ## _data: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .float val1; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .float val2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .float val3; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .result; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .popsection&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" parent="XummjmifrPc2iu1EeuCr-16" vertex="1">
           <mxGeometry y="124" width="440" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="XummjmifrPc2iu1EeuCr-20" value="fclass.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="XummjmifrPc2iu1EeuCr-20" value="fclass.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-6900" y="9820" width="550" height="580" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-21" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fclass.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="XummjmifrPc2iu1EeuCr-20" vertex="1">
@@ -1467,7 +1467,7 @@
             <mxPoint x="-6980" y="10092" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XummjmifrPc2iu1EeuCr-38" value="fclass.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="XummjmifrPc2iu1EeuCr-38" value="fclass.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-5540" y="9830" width="440" height="560" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-39" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fclass.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="XummjmifrPc2iu1EeuCr-38" vertex="1">
@@ -1518,7 +1518,7 @@
             <mxPoint x="-5750" y="10260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-2" value="fcmp.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-2" value="fcmp.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-4450" y="9820" width="440" height="750" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-3" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fcmp.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-2">
@@ -1575,7 +1575,7 @@
             <mxPoint x="-5410" y="10110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-20" value="fcmp.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-20" value="fcmp.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-3130" y="9820" width="660" height="1610" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-21" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fcmp.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-20">
@@ -1630,7 +1630,7 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-41" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="-8840" y="12270" width="10530" height="2630" as="geometry" />
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-44" value="fdiv.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-44" value="fdiv.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-1660" y="9820" width="530" height="610" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-45" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fdiv.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-44">
@@ -1692,7 +1692,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-65" value="fdiv.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-65" value="fdiv.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-300" y="9820" width="510" height="640" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-66" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fdiv.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-65">
@@ -1741,7 +1741,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-82" value="fmin.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-82" value="fmin.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="700" y="9820" width="600" height="870" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-83" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fmin.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-82">
@@ -1783,7 +1783,7 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-93" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-82">
           <mxGeometry y="840" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-96" value="ldst.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-96" value="ldst.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-8110" y="10910" width="520" height="600" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-97" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/ldst.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-96">
@@ -1819,7 +1819,7 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-109" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-96">
           <mxGeometry y="570" width="520" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-110" value="move.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-110" value="move.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-6890" y="10750" width="520" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-111" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/move.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-110">
@@ -1891,7 +1891,7 @@
             <mxPoint x="-6900" y="11300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-131" value="recoding.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-131" value="recoding.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-6280" y="10750" width="480" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-132" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/recoding.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-131">
@@ -1936,7 +1936,7 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-142" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-131">
           <mxGeometry y="990" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-146" value="structural.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-146" value="structural.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-5710" y="10750" width="570" height="830" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-147" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/structural.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-146">
@@ -2011,7 +2011,7 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-172" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-161">
           <mxGeometry y="980" width="485" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-174" value="fadd.S (P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-174" value="fadd.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-8080" y="9890" width="485" height="690" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-175" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64uf/fadd.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WJ8V3OJagTPllp11VjbI-174">
