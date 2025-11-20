@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10645" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10179" dy="1584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2600,7 +2600,7 @@
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-91" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/fmul_d.h" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4GMLDa_lN6YWyF1NG3d0-90" vertex="1">
           <mxGeometry y="26" width="670" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="4GMLDa_lN6YWyF1NG3d0-92" value="&lt;div&gt;&lt;b&gt;require_either_extension(&#39;D&#39;, EXT_ZDINX);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;require_fp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;softfloat_roundingMode = RM;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;WRITE_FRD_D(f64_mul(FRS1_D, FRS2_D));&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;set_fp_exceptions;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="4GMLDa_lN6YWyF1NG3d0-90" vertex="1">
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-92" value="&lt;div&gt;&lt;b&gt;require_either_extension(&#39;D&#39;, EXT_ZDINX);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;require_fp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;softfloat_roundingMode = RM;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;WRITE_FRD_D(&lt;/b&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;f64_mul&lt;/span&gt;&lt;b&gt;(FRS1_D, FRS2_D));&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;set_fp_exceptions;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="4GMLDa_lN6YWyF1NG3d0-90" vertex="1">
           <mxGeometry y="52" width="670" height="88" as="geometry" />
         </mxCell>
         <mxCell id="vOwDqE3elvg7EwdIswF5-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="WjL_fl-T6VKGcTkqsZ7i-64" target="4GMLDa_lN6YWyF1NG3d0-89">
@@ -2609,7 +2609,7 @@
             <mxPoint x="-1610" y="3070" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-580" y="3200" />
-              <mxPoint x="-290" y="2105" />
+              <mxPoint x="-290" y="2135" />
             </Array>
           </mxGeometry>
         </mxCell>
