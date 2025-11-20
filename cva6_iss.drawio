@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10731" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10292" dy="1650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2562,7 +2562,7 @@
           <mxGeometry y="52" width="670" height="148" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-85" value="fadd_d" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="1830" width="670" height="320" as="geometry" />
+          <mxGeometry x="-70" y="1830" width="670" height="520" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-86" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/fadd_d.h" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4GMLDa_lN6YWyF1NG3d0-85" vertex="1">
           <mxGeometry y="26" width="670" height="26" as="geometry" />
@@ -2576,8 +2576,11 @@
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-89" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;//如果是动态舍入模式, 读取fscr的rm模式, &amp;gt; 4时保留, 抛出异常&lt;/span&gt;&lt;br&gt;#define &lt;b&gt;RM&lt;/b&gt; ({ int rm = insn.rm(); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (rm == 7) rm = STATE.frm-&amp;gt;read(); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (rm &amp;gt; 4) throw &lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b style=&quot;&quot;&gt;trap_illegal_instruction&lt;/b&gt;&lt;/span&gt;(insn.bits()); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rm; })&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4GMLDa_lN6YWyF1NG3d0-85" vertex="1">
           <mxGeometry y="230" width="670" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="vOwDqE3elvg7EwdIswF5-8" value="&lt;div&gt;#define &lt;b&gt;WRITE_FRD_D&lt;/b&gt;(value) \&lt;/div&gt;&lt;div&gt;do { \&lt;/div&gt;&lt;div&gt;&amp;nbsp; if (p-&amp;gt;&lt;b&gt;extension_enabled&lt;/b&gt;(&lt;b&gt;EXT_ZFINX&lt;/b&gt;)) { \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (xlen == 32) { \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; uint64_t val = (value).v; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WRITE_RD_PAIR&lt;/b&gt;(val); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else { \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WRITE_REG&lt;/b&gt;(insn.rd(), (value).v); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } \&lt;/div&gt;&lt;div&gt;&amp;nbsp; } else { \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;WRITE_FRD&lt;/b&gt;(value); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; } \&lt;/div&gt;&lt;div&gt;} while (0)&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-85">
+          <mxGeometry y="320" width="670" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-90" value="fadd_d" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="2220" width="670" height="140" as="geometry" />
+          <mxGeometry x="-70" y="2465" width="670" height="140" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-91" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/fadd_d.h" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4GMLDa_lN6YWyF1NG3d0-90" vertex="1">
           <mxGeometry y="26" width="670" height="26" as="geometry" />
