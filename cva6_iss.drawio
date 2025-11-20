@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="9967" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10232" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2378,7 +2378,7 @@
           <mxGeometry x="-150" y="-310" width="4180" height="2630" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-1" value="wfi.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-1537.5" y="12440" width="485" height="470" as="geometry" />
+          <mxGeometry x="-1580" y="12440" width="485" height="470" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-2" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64si/wfi.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-1">
           <mxGeometry y="26" width="485" height="22" as="geometry" />
@@ -2415,6 +2415,63 @@
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-14" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-1">
           <mxGeometry y="440" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-16" value="dirty.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="12440" width="485" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-17" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64si/dirty.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="26" width="485" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-18" value="&lt;div&gt;&lt;font&gt;#include &quot;riscv_test.h&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;#include &quot;test_macros.h&quot;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;div&gt;#if (DRAM_BASE &amp;gt;&amp;gt; 30 &amp;lt;&amp;lt; 30) != DRAM_BASE&lt;/div&gt;&lt;div&gt;# error This test requires DRAM_BASE be SV39 superpage-aligned&lt;/div&gt;&lt;div&gt;#endif&amp;nbsp;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="48" width="485" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-19" value="RVTEST_RV64M" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="170" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-20" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;RVTEST_CODE_BEGIN&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="200" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-21" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; # Turn on VM&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; li a0, (SATP_MODE &amp;amp; ~(SATP_MODE&amp;lt;&amp;lt;1)) * SATP_MODE_SV39&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; la a1, page_table_1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; srl a1, a1, RISCV_PGSHIFT&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; or a1, a1, a0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; csrw satp, a1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; sfence.vma&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="230" width="485" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-22" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; # Set up MPRV with MPP=S, so loads and stores use S-mode&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; li a1, ((MSTATUS_MPP &amp;amp; ~(MSTATUS_MPP&amp;lt;&amp;lt;1)) * PRV_S) | MSTATUS_MPRV&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; csrs mstatus, a1&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="350" width="485" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-29" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; # Try a faulting store to make sure dirty bit is not set&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; li TESTNUM, 2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; li t2, 1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; sw t2, dummy - DRAM_BASE, a0&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="410" width="485" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-30" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; # Set SUM=1 so user memory access is permitted&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; li TESTNUM, 3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; li a1, ((MSTATUS_MPP &amp;amp; ~(MSTATUS_MPP&amp;lt;&amp;lt;1)) * PRV_S) | MSTATUS_SUM&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; csrs mstatus, a1&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="480" width="485" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-31" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; # Make sure SUM=1 works&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; lw t0, dummy - DRAM_BASE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; bnez t0, die&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="550" width="485" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-33" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; # Try a non-faulting store to make sure dirty bit is set&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; sw t2, dummy - DRAM_BASE, a0&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="610" width="485" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-32" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; # Make sure it succeeded&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; lw t0, dummy - DRAM_BASE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; bne t0, t2, die&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="660" width="485" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-34" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; # Leave MPRV&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; li t0, MSTATUS_MPRV&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; csrc mstatus, t0&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="720" width="485" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-23" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; TEST_PASSFAIL&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="780" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-24" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;RVTEST_CODE_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="810" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-25" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;&amp;nbsp; .data&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="840" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-26" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;RVTEST_DATA_BEGIN&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="870" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-27" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; TEST_DATA&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="900" width="485" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-28" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
+          <mxGeometry y="950" width="485" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
