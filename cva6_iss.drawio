@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10379" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10207" dy="1602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2517,6 +2517,63 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-260" y="12250" as="sourcePoint" />
             <mxPoint x="-210" y="12200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-48" value="/home/ICer/proj/cva6/verif/tests/custom/env/encoding.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="12740" width="410" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-49" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_MODE 0x80000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_ASID 0x7FC00000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_PPN&amp;nbsp; 0x003FFFFF&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_MODE 0xF000000000000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_ASID 0x0FFFF00000000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_PPN&amp;nbsp; 0x00000FFFFFFFFFFF&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-48">
+          <mxGeometry y="40" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-50" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_OFF&amp;nbsp; 0&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV32 1&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV39 8&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV48 9&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV57 10&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV64 11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-48">
+          <mxGeometry y="150" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-51" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;#define DRAM_BASE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0x80000000&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-48">
+          <mxGeometry y="260" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-52" value="dirty.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="12460" width="485" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-53" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64si/dirty.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="26" width="485" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-54" value="&lt;div&gt;&lt;font&gt;#include &quot;riscv_test.h&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;#include &quot;test_macros.h&quot;&lt;/font&gt;&lt;span&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="48" width="485" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-55" value="RVTEST_RV64U" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="90" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-56" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;RVTEST_CODE_BEGIN&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="120" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-57" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; TEST_CASE(2, a4, 0xffffffff80000000, \&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; li a0, 0xffffffff80000000; \&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; li a1, 0xfffffffffffff800; \&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; la a3, amo_operand; \&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; sd a0, 0(a3); \&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; amoadd.d&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;a4, a1, 0(a3); \&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; )&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; TEST_CASE(3, a5, 0xffffffff7ffff800, ld a5, 0(a3))&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; # try again after a cache miss&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; TEST_CASE(4, a4, 0xffffffff7ffff800, \&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; amoadd.d a4, a1, 0(a3); \&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; )&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; TEST_CASE(5, a5, 0xffffffff7ffff000, ld a5, 0(a3))&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="150" width="485" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-68" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; TEST_PASSFAIL&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="400" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-70" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;RVTEST_CODE_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="430" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-71" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;&amp;nbsp; .data&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="460" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-72" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;RVTEST_DATA_BEGIN&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="490" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-73" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; TEST_DATA&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="520" width="485" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-75" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="570" width="485" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-78" value="&lt;div&gt;&lt;div&gt;&amp;nbsp; .bss&lt;/div&gt;&lt;div&gt;&amp;nbsp; .align 3&lt;/div&gt;&lt;div&gt;amo_operand:&lt;/div&gt;&lt;div&gt;&amp;nbsp; .dword 0&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-52">
+          <mxGeometry y="600" width="485" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4GMLDa_lN6YWyF1NG3d0-57" target="4GMLDa_lN6YWyF1NG3d0-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="12770" as="sourcePoint" />
+            <mxPoint x="1010" y="12720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
