@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="13208" dy="3360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10379" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2378,7 +2378,7 @@
           <mxGeometry x="-150" y="-310" width="4180" height="2630" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-1" value="wfi.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-1580" y="12440" width="485" height="470" as="geometry" />
+          <mxGeometry x="-1660" y="12440" width="485" height="470" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-2" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64si/wfi.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-1">
           <mxGeometry y="26" width="485" height="22" as="geometry" />
@@ -2417,7 +2417,7 @@
           <mxGeometry y="440" width="485" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-16" value="dirty.S" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="12440" width="485" height="1940" as="geometry" />
+          <mxGeometry x="-430" y="12440" width="485" height="1940" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-17" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64si/dirty.S" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-16">
           <mxGeometry y="26" width="485" height="22" as="geometry" />
@@ -2490,6 +2490,24 @@
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-41" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="12270" width="3005" height="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-42" value="/home/ICer/proj/cva6/verif/tests/custom/env/encoding.h" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="12520" width="410" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-43" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_MODE 0x80000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_ASID 0x7FC00000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_PPN&amp;nbsp; 0x003FFFFF&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_MODE 0xF000000000000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_ASID 0x0FFFF00000000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_PPN&amp;nbsp; 0x00000FFFFFFFFFFF&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-42">
+          <mxGeometry y="40" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-46" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_OFF&amp;nbsp; 0&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV32 1&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV39 8&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV48 9&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV57 10&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP_MODE_SV64 11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-42">
+          <mxGeometry y="150" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-44" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;#define DRAM_BASE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0x80000000&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GMLDa_lN6YWyF1NG3d0-42">
+          <mxGeometry y="260" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4GMLDa_lN6YWyF1NG3d0-16" target="4GMLDa_lN6YWyF1NG3d0-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-260" y="12250" as="sourcePoint" />
+            <mxPoint x="-210" y="12200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
