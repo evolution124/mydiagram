@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="11652" dy="4644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10064" dy="3717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2973,7 +2973,7 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-97" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-76" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="bxHCCU7nSVhIsAb9yHwO-94" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1120" y="2659" />
+              <mxPoint x="-1120" y="2684" />
               <mxPoint x="-1100" y="2605" />
             </Array>
             <mxPoint x="-950" y="1945" as="sourcePoint" />
@@ -3011,7 +3011,7 @@
         <mxCell id="29GDxsFs2B6MYpE6-3dW-7" parent="bxHCCU7nSVhIsAb9yHwO-102" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;reg_t paddr = translate(addr, len, STORE, xlate_flags);&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="680" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="29GDxsFs2B6MYpE6-3dW-8" parent="bxHCCU7nSVhIsAb9yHwO-102" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&amp;nbsp; if (actually_store) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (auto host_addr = sim-&amp;gt;addr_to_mem(paddr)) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="29GDxsFs2B6MYpE6-3dW-8" parent="bxHCCU7nSVhIsAb9yHwO-102" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&amp;nbsp; if (actually_store) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (&lt;span style=&quot;background-color: light-dark(rgb(185, 224, 165), rgb(185, 224, 165));&quot;&gt;auto host_addr = sim-&amp;gt;addr_to_mem(paddr)&lt;/span&gt;) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="680" y="240" as="geometry" />
         </mxCell>
         <mxCell id="29GDxsFs2B6MYpE6-3dW-10" parent="bxHCCU7nSVhIsAb9yHwO-102" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; memcpy(host_addr, bytes, len);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; if (tracer.interested_in_range(paddr, paddr + PGSIZE, STORE))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tracer.trace(paddr, len, STORE);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;else if (xlate_flags == 0)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;&lt;b&gt;refill_tlb(addr, paddr, host_addr, STORE);&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
