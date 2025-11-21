@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10207" dy="3802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10232" dy="3817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2727,6 +2727,20 @@
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-21" parent="bxHCCU7nSVhIsAb9yHwO-19" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;require_extension(EXT_SMRNMI);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;require_privilege(PRV_M);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;set_pc_and_serialize(p-&amp;gt;get_state()-&amp;gt;mnepc-&amp;gt;read());&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;reg_t s = STATE.mnstatus-&amp;gt;read();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;reg_t prev_prv = get_field(s, MNSTATUS_MNPP);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;reg_t prev_virt = get_field(s, MNSTATUS_MNPV);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;if (prev_prv != PRV_M) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; reg_t mstatus = STATE.mstatus-&amp;gt;read();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; mstatus = set_field(mstatus, MSTATUS_MPRV, 0);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; STATE.mstatus-&amp;gt;write(mstatus);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;s = set_field(s, MNSTATUS_NMIE, 1);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;STATE.mnstatus-&amp;gt;write(s);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;p-&amp;gt;set_privilege(prev_prv);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;p-&amp;gt;set_virt(prev_virt);&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="238" width="670" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-24" edge="1" parent="1" source="WjL_fl-T6VKGcTkqsZ7i-55" style="endArrow=none;html=1;rounded=0;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="bxHCCU7nSVhIsAb9yHwO-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3350" y="-410" />
+              <mxPoint x="-3240" y="-1250" />
+              <mxPoint x="-50" y="-1250" />
+              <mxPoint x="770" y="-970" />
+              <mxPoint x="1700" y="-970" />
+              <mxPoint x="1700" y="-1119" />
+            </Array>
+            <mxPoint x="-740" y="690" as="sourcePoint" />
+            <mxPoint x="5515" y="30" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
