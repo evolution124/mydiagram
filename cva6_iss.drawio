@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="12436" dy="5108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="19637" dy="9327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2762,7 +2762,7 @@
           <mxGeometry height="48" width="550" y="52" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-29" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.h&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.h&lt;/span&gt;" vertex="1">
-          <mxGeometry height="240" width="580" x="-2240" y="1500" as="geometry" />
+          <mxGeometry height="240" width="580" x="-2320" y="1520" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-30" parent="bxHCCU7nSVhIsAb9yHwO-29" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="580" y="40" as="geometry" />
@@ -2797,7 +2797,7 @@
           <mxGeometry height="58" width="550" y="52" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-45" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.h&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.h&lt;/span&gt;" vertex="1">
-          <mxGeometry height="288" width="580" x="-2240" y="1820" as="geometry" />
+          <mxGeometry height="288" width="580" x="-2320" y="1840" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-46" parent="bxHCCU7nSVhIsAb9yHwO-45" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="580" y="40" as="geometry" />
@@ -2808,17 +2808,17 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-52" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-29" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="bxHCCU7nSVhIsAb9yHwO-45" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1620" y="1680" />
-              <mxPoint x="-1620" y="1770" />
-              <mxPoint x="-2300" y="1770" />
-              <mxPoint x="-2300" y="1820" />
+              <mxPoint x="-1700" y="1700" />
+              <mxPoint x="-1700" y="1790" />
+              <mxPoint x="-2380" y="1790" />
+              <mxPoint x="-2380" y="1840" />
             </Array>
-            <mxPoint x="-2550" y="1390" as="sourcePoint" />
-            <mxPoint x="-2180" y="1220" as="targetPoint" />
+            <mxPoint x="-2630" y="1410" as="sourcePoint" />
+            <mxPoint x="-2260" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-53" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.h&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.h&lt;/span&gt;" vertex="1">
-          <mxGeometry height="170" width="580" x="-2240" y="2170" as="geometry" />
+          <mxGeometry height="170" width="580" x="-2320" y="2190" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-54" parent="bxHCCU7nSVhIsAb9yHwO-53" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="580" y="40" as="geometry" />
@@ -2838,18 +2838,18 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-57" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-50" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="bxHCCU7nSVhIsAb9yHwO-53" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1620" y="2010" />
-              <mxPoint x="-1620" y="2110" />
-              <mxPoint x="-1660" y="2140" />
-              <mxPoint x="-2290" y="2140" />
-              <mxPoint x="-2290" y="2170" />
+              <mxPoint x="-1700" y="2030" />
+              <mxPoint x="-1700" y="2130" />
+              <mxPoint x="-1740" y="2160" />
+              <mxPoint x="-2370" y="2160" />
+              <mxPoint x="-2370" y="2190" />
             </Array>
-            <mxPoint x="-1650" y="2080" as="sourcePoint" />
-            <mxPoint x="-2230" y="2220" as="targetPoint" />
+            <mxPoint x="-1730" y="2100" as="sourcePoint" />
+            <mxPoint x="-2310" y="2240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-58" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.h&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.h&lt;/span&gt;" vertex="1">
-          <mxGeometry height="370" width="830" x="-1370" y="1280" as="geometry" />
+          <mxGeometry height="370" width="830" x="-1450" y="1300" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-59" parent="bxHCCU7nSVhIsAb9yHwO-58" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="830" y="40" as="geometry" />
@@ -2860,15 +2860,15 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-61" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-55" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="bxHCCU7nSVhIsAb9yHwO-58" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1570" y="2170" />
-              <mxPoint x="-1570" y="1380" />
+              <mxPoint x="-1650" y="2190" />
+              <mxPoint x="-1650" y="1400" />
             </Array>
-            <mxPoint x="-320" y="2150" as="sourcePoint" />
-            <mxPoint x="-900" y="2332" as="targetPoint" />
+            <mxPoint x="-400" y="2170" as="sourcePoint" />
+            <mxPoint x="-980" y="2352" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-65" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.cc&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.cc&lt;/span&gt;" vertex="1">
-          <mxGeometry height="430" width="720" x="-350" y="1270" as="geometry" />
+          <mxGeometry height="430" width="720" x="-430" y="1290" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-66" parent="bxHCCU7nSVhIsAb9yHwO-65" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="720" y="40" as="geometry" />
@@ -2879,15 +2879,15 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-68" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-60" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="bxHCCU7nSVhIsAb9yHwO-65" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-480" y="1490" />
-              <mxPoint x="-400" y="1270" />
+              <mxPoint x="-560" y="1510" />
+              <mxPoint x="-480" y="1290" />
             </Array>
-            <mxPoint x="480" y="1320" as="sourcePoint" />
-            <mxPoint x="-100" y="1502" as="targetPoint" />
+            <mxPoint x="400" y="1340" as="sourcePoint" />
+            <mxPoint x="-180" y="1522" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-70" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.cc&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.cc&lt;/span&gt;" vertex="1">
-          <mxGeometry height="330" width="510" x="-1370" y="1730" as="geometry" />
+          <mxGeometry height="330" width="510" x="-1450" y="1750" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-71" parent="bxHCCU7nSVhIsAb9yHwO-70" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="510" y="40" as="geometry" />
@@ -2898,15 +2898,15 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-73" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-62" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="bxHCCU7nSVhIsAb9yHwO-70" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1520" y="2170" />
-              <mxPoint x="-1520" y="1810" />
+              <mxPoint x="-1600" y="2190" />
+              <mxPoint x="-1600" y="1830" />
             </Array>
-            <mxPoint x="-950" y="2250" as="sourcePoint" />
-            <mxPoint x="-1570" y="2480" as="targetPoint" />
+            <mxPoint x="-1030" y="2270" as="sourcePoint" />
+            <mxPoint x="-1650" y="2500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-74" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.cc&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.cc&lt;/span&gt;" vertex="1">
-          <mxGeometry height="330" width="540" x="-1370" y="2260" as="geometry" />
+          <mxGeometry height="330" width="540" x="-1450" y="2280" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-75" parent="bxHCCU7nSVhIsAb9yHwO-74" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="540" y="40" as="geometry" />
@@ -2917,14 +2917,14 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-77" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-53" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="bxHCCU7nSVhIsAb9yHwO-74" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1600" y="2260" />
+              <mxPoint x="-1680" y="2280" />
             </Array>
-            <mxPoint x="-1480" y="2445" as="sourcePoint" />
-            <mxPoint x="-1570" y="2120.000000000001" as="targetPoint" />
+            <mxPoint x="-1560" y="2465" as="sourcePoint" />
+            <mxPoint x="-1650" y="2140.000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-78" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.cc&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.cc&lt;/span&gt;" vertex="1">
-          <mxGeometry height="300" width="540" x="-1370" y="2670" as="geometry" />
+          <mxGeometry height="300" width="540" x="-1450" y="2690" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-79" parent="bxHCCU7nSVhIsAb9yHwO-78" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="540" y="40" as="geometry" />
@@ -2935,15 +2935,15 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-81" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-64" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="bxHCCU7nSVhIsAb9yHwO-78" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-1600" y="2350" />
-              <mxPoint x="-1500" y="2670" />
+              <mxPoint x="-1680" y="2370" />
+              <mxPoint x="-1580" y="2690" />
             </Array>
-            <mxPoint x="-1330" y="2298" as="sourcePoint" />
-            <mxPoint x="-1040" y="2260" as="targetPoint" />
+            <mxPoint x="-1410" y="2318" as="sourcePoint" />
+            <mxPoint x="-1120" y="2280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-82" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="lr_w" vertex="1">
-          <mxGeometry height="100" width="670" x="1790" y="60" as="geometry" />
+          <mxGeometry height="100" width="670" x="1790" y="160" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-83" parent="bxHCCU7nSVhIsAb9yHwO-82" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/lr_w.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
@@ -2952,7 +2952,7 @@
           <mxGeometry height="48" width="670" y="52" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-85" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="sc_w" vertex="1">
-          <mxGeometry height="150" width="670" x="1790" y="310" as="geometry" />
+          <mxGeometry height="150" width="670" x="1790" y="380" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-86" parent="bxHCCU7nSVhIsAb9yHwO-85" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/sc_w.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
