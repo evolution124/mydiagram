@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10584" dy="4023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10207" dy="3802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1249,7 +1249,7 @@
           <mxGeometry height="28" width="670" y="52" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-189" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="BEQ (I)" vertex="1">
-          <mxGeometry height="240" width="670" x="1780" y="-1990" as="geometry" />
+          <mxGeometry height="240" width="670" x="1780" y="-2030" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-190" parent="rdgtThakUh-qqqa6WXWg-189" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/beq.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
@@ -1261,7 +1261,7 @@
           <mxGeometry height="140" width="670" y="100" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-193" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="fence_i (I)" vertex="1">
-          <mxGeometry height="110" width="670" x="1780" y="-1670" as="geometry" />
+          <mxGeometry height="110" width="670" x="1780" y="-1740" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-194" parent="rdgtThakUh-qqqa6WXWg-193" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/fence_i.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
@@ -1297,7 +1297,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-203" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ld.h (I)" vertex="1">
-          <mxGeometry height="100" width="670" x="1780" y="-1500" as="geometry" />
+          <mxGeometry height="100" width="670" x="1780" y="-1580" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-204" parent="rdgtThakUh-qqqa6WXWg-203" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/ld.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
@@ -1306,7 +1306,7 @@
           <mxGeometry height="48" width="670" y="52" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-206" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="sd.h (I)" vertex="1">
-          <mxGeometry height="100" width="670" x="1780" y="-1340" as="geometry" />
+          <mxGeometry height="100" width="670" x="1780" y="-1434" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-207" parent="rdgtThakUh-qqqa6WXWg-206" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/sd.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
@@ -2650,7 +2650,7 @@
           <mxGeometry height="88" width="670" y="52" as="geometry" />
         </mxCell>
         <mxCell id="vOwDqE3elvg7EwdIswF5-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="mulhu" vertex="1">
-          <mxGeometry height="140" width="670" x="930" y="-770" as="geometry" />
+          <mxGeometry height="140" width="670" x="930" y="-760" as="geometry" />
         </mxCell>
         <mxCell id="vOwDqE3elvg7EwdIswF5-32" parent="vOwDqE3elvg7EwdIswF5-31" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/mulhu.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
@@ -2659,7 +2659,7 @@
           <mxGeometry height="88" width="670" y="52" as="geometry" />
         </mxCell>
         <mxCell id="vOwDqE3elvg7EwdIswF5-34" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="mulhsu" vertex="1">
-          <mxGeometry height="140" width="670" x="930" y="-600" as="geometry" />
+          <mxGeometry height="140" width="670" x="930" y="-580" as="geometry" />
         </mxCell>
         <mxCell id="vOwDqE3elvg7EwdIswF5-35" parent="vOwDqE3elvg7EwdIswF5-34" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/mulsu.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
@@ -2705,7 +2705,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="mret" vertex="1">
-          <mxGeometry height="490" width="670" x="1780" y="-1160" as="geometry" />
+          <mxGeometry height="400" width="670" x="1780" y="-1280" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-12" parent="bxHCCU7nSVhIsAb9yHwO-11" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/mret.h" vertex="1">
           <mxGeometry height="26" width="670" y="26" as="geometry" />
@@ -2719,8 +2719,14 @@
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-16" parent="bxHCCU7nSVhIsAb9yHwO-11" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;#define set_pc_and_serialize(x) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; do { reg_t __npc = (x) &amp;amp; p-&amp;gt;pc_alignment_mask(); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;npc = &lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;PC_SERIALIZE_AFTER&lt;/b&gt;; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;STATE.pc = __npc; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;} while (0)&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="670" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="bxHCCU7nSVhIsAb9yHwO-18" parent="bxHCCU7nSVhIsAb9yHwO-11" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;#define set_pc_and_serialize(x) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; do { reg_t __npc = (x) &amp;amp; p-&amp;gt;pc_alignment_mask(); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;npc = PC_SERIALIZE_AFTER; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;STATE.pc = __npc; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;} while (0)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="670" y="400" as="geometry" />
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-19" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="mnret.h" vertex="1">
+          <mxGeometry height="290" width="670" x="1780" y="-840" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-20" parent="bxHCCU7nSVhIsAb9yHwO-19" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/insns/mnret.h" vertex="1">
+          <mxGeometry height="26" width="670" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-21" parent="bxHCCU7nSVhIsAb9yHwO-19" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;require_extension(EXT_SMRNMI);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;require_privilege(PRV_M);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;set_pc_and_serialize(p-&amp;gt;get_state()-&amp;gt;mnepc-&amp;gt;read());&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;reg_t s = STATE.mnstatus-&amp;gt;read();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;reg_t prev_prv = get_field(s, MNSTATUS_MNPP);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;reg_t prev_virt = get_field(s, MNSTATUS_MNPV);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;if (prev_prv != PRV_M) {&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; reg_t mstatus = STATE.mstatus-&amp;gt;read();&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; mstatus = set_field(mstatus, MSTATUS_MPRV, 0);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; STATE.mstatus-&amp;gt;write(mstatus);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;s = set_field(s, MNSTATUS_NMIE, 1);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;STATE.mnstatus-&amp;gt;write(s);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;p-&amp;gt;set_privilege(prev_prv);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;p-&amp;gt;set_virt(prev_virt);&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="238" width="670" y="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
