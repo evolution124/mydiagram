@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="10893" dy="4204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="11724" dy="4691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2818,13 +2818,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-53" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.h&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.h&lt;/span&gt;" vertex="1">
-          <mxGeometry height="130" width="580" x="-1570" y="2160" as="geometry" />
+          <mxGeometry height="170" width="580" x="-1570" y="2160" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-54" parent="bxHCCU7nSVhIsAb9yHwO-53" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="580" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="bxHCCU7nSVhIsAb9yHwO-55" parent="bxHCCU7nSVhIsAb9yHwO-53" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;b&gt;store_slow_path&lt;/b&gt;(addr, sizeof(T), nullptr, 0, false, true);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; auto lhs = load&amp;lt;T&amp;gt;(addr);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; store&amp;lt;T&amp;gt;(addr, f(lhs));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; return lhs;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="82" width="580" y="48" as="geometry" />
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-55" parent="bxHCCU7nSVhIsAb9yHwO-53" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;b&gt;store_slow_path&lt;/b&gt;(addr, sizeof(T), nullptr, 0, false, true);&lt;/div&gt;" vertex="1">
+          <mxGeometry height="32" width="580" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-62" parent="bxHCCU7nSVhIsAb9yHwO-53" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; auto lhs = load&amp;lt;T&amp;gt;(addr);&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="580" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-63" parent="bxHCCU7nSVhIsAb9yHwO-53" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; store&amp;lt;T&amp;gt;(addr, f(lhs));&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="580" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-64" parent="bxHCCU7nSVhIsAb9yHwO-53" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; return lhs;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="580" y="140" as="geometry" />
         </mxCell>
         <mxCell id="bxHCCU7nSVhIsAb9yHwO-57" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-50" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="bxHCCU7nSVhIsAb9yHwO-53" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -2836,6 +2845,45 @@
             </Array>
             <mxPoint x="-980" y="2070" as="sourcePoint" />
             <mxPoint x="-1560" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-58" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.h&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.h&lt;/span&gt;" vertex="1">
+          <mxGeometry height="370" width="830" x="-860" y="2160" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-59" parent="bxHCCU7nSVhIsAb9yHwO-58" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="830" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-60" parent="bxHCCU7nSVhIsAb9yHwO-58" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;void mmu_t::store_slow_path(reg_t addr, reg_t len, const uint8_t* bytes, uint32_t xlate_flags, bool actually_store, bool UNUSED require_alignment)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; if (actually_store)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; check_triggers(triggers::OPERATION_STORE, addr, reg_from_bytes(len, bytes));&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; if (addr &amp;amp; (len - 1)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bool gva = ((proc) ? proc-&amp;gt;state.v : false) || (RISCV_XLATE_VIRT &amp;amp; xlate_flags);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (!is_misaligned_enabled())&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; throw trap_store_address_misaligned(gva, addr, 0, 0);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (require_alignment)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; throw trap_store_access_fault(gva, addr, 0, 0);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; reg_t len_page0 = std::min(len, PGSIZE - addr % PGSIZE);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; store_slow_path_intrapage(addr, len_page0, bytes, xlate_flags, actually_store);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (len_page0 != len)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; store_slow_path_intrapage(addr + len_page0, len - len_page0, bytes + len_page0, xlate_flags, actually_store);&lt;/div&gt;&lt;div&gt;&amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt; store_slow_path_intrapage(addr, len, bytes, xlate_flags, actually_store);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="322" width="830" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-61" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-55" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="bxHCCU7nSVhIsAb9yHwO-58" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-910" y="2160" />
+            </Array>
+            <mxPoint x="-320" y="2150" as="sourcePoint" />
+            <mxPoint x="-900" y="2332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-65" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;mmu.cc&lt;br&gt;/home/ICer/proj/cva6/verif/core-v-verif/vendor/riscv/riscv-isa-sim/riscv/mmu.cc&lt;/span&gt;" vertex="1">
+          <mxGeometry height="430" width="830" x="-660" y="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-66" parent="bxHCCU7nSVhIsAb9yHwO-65" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="830" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-67" parent="bxHCCU7nSVhIsAb9yHwO-65" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div&gt;void mmu_t::store_slow_path_intrapage(reg_t addr, reg_t len, const uint8_t* bytes, uint32_t xlate_flags, bool actually_store)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; reg_t vpn = addr &amp;gt;&amp;gt; PGSHIFT;&lt;/div&gt;&lt;div&gt;&amp;nbsp; if (xlate_flags == 0 &amp;amp;&amp;amp; vpn == (tlb_store_tag[vpn % TLB_ENTRIES] &amp;amp; ~TLB_CHECK_TRIGGERS)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (actually_store) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; auto host_addr = tlb_data[vpn % TLB_ENTRIES].host_offset + addr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; memcpy(host_addr, bytes, len);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; reg_t paddr = translate(addr, len, STORE, xlate_flags);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; if (actually_store) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (auto host_addr = sim-&amp;gt;addr_to_mem(paddr)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; memcpy(host_addr, bytes, len);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; if (tracer.interested_in_range(paddr, paddr + PGSIZE, STORE))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tracer.trace(paddr, len, STORE);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; else if (xlate_flags == 0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; refill_tlb(addr, paddr, host_addr, STORE);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; } else if (!mmio_store(paddr, len, bytes)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; throw trap_store_access_fault((proc) ? proc-&amp;gt;state.v : false, addr, 0, 0);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="382" width="830" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bxHCCU7nSVhIsAb9yHwO-68" edge="1" parent="1" source="bxHCCU7nSVhIsAb9yHwO-60" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="bxHCCU7nSVhIsAb9yHwO-65" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="2369" />
+              <mxPoint x="20" y="2570" />
+              <mxPoint x="-740" y="2570" />
+              <mxPoint x="-740" y="2640" />
+            </Array>
+            <mxPoint x="690" y="2210" as="sourcePoint" />
+            <mxPoint x="110" y="2392" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
