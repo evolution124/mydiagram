@@ -10,19 +10,19 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp;INSTR" vertex="1">
           <mxGeometry height="1920" width="1760" x="2880" y="-2310" as="geometry" />
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; UF" vertex="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; UF" vertex="1">
           <mxGeometry height="2340" width="10530" x="-8810" y="6650" as="geometry" />
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; LD/ST" vertex="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; LD/ST" vertex="1">
           <mxGeometry height="1800" width="4160" x="1450" y="3840" as="geometry" />
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;verticalAlign=top;align=left;" value="&lt;font style=&quot;font-size: 96px;&quot;&gt;&amp;nbsp; UM&lt;/font&gt;" vertex="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;verticalAlign=top;align=left;" value="&lt;font style=&quot;font-size: 96px;&quot;&gt;&amp;nbsp; UM&lt;/font&gt;" vertex="1">
           <mxGeometry height="1820" width="3240" x="1960" y="6660" as="geometry" />
         </mxCell>
-        <mxCell id="S3GisznnV3Pd4G23I4Tm-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 96px;&quot;&gt;&amp;nbsp;UI&lt;/font&gt;" vertex="1">
+        <mxCell id="S3GisznnV3Pd4G23I4Tm-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 96px;&quot;&gt;&amp;nbsp;UI&lt;/font&gt;" vertex="1">
           <mxGeometry height="2660" width="10050" x="-8810" y="3800" as="geometry" />
         </mxCell>
-        <mxCell id="WjL_fl-T6VKGcTkqsZ7i-4" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;font-size: 256px;&quot;&gt;&lt;font style=&quot;&quot;&gt;ISS&lt;/font&gt;&lt;font style=&quot;&quot;&gt;/&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 256px;&quot;&gt;SPIKE&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="WjL_fl-T6VKGcTkqsZ7i-4" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;font-size: 256px;&quot;&gt;&lt;font style=&quot;&quot;&gt;ISS&lt;/font&gt;&lt;font style=&quot;&quot;&gt;/&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 256px;&quot;&gt;SPIKE&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="5990" width="11440" x="-8820" y="-2320" as="geometry" />
         </mxCell>
         <mxCell id="6VzgF3Xti3hTbohx9b8D-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ADD" vertex="1">
@@ -1628,7 +1628,7 @@
             <mxPoint x="-4150" y="7250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; MI" vertex="1">
+        <mxCell id="WJ8V3OJagTPllp11VjbI-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; MI" vertex="1">
           <mxGeometry height="3160" width="6910" x="-8820" y="9330" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-44" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fdiv.S" vertex="1">
@@ -2372,7 +2372,7 @@
         <mxCell id="GKsqfyGT8LV0WWKbInGk-91" parent="GKsqfyGT8LV0WWKbInGk-78" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="485" y="1270" as="geometry" />
         </mxCell>
-        <mxCell id="GKsqfyGT8LV0WWKbInGk-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; SI" vertex="1">
+        <mxCell id="GKsqfyGT8LV0WWKbInGk-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; SI" vertex="1">
           <mxGeometry height="3160" width="1900" x="-1720" y="9330" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="wfi.S" vertex="1">
@@ -2496,7 +2496,7 @@
             <mxPoint x="-60" y="1840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GMLDa_lN6YWyF1NG3d0-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="3160" width="3005" x="445" y="9330" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-42" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/custom/env/encoding.h" vertex="1">
