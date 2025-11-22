@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
   <diagram name="Page-1" id="UAkJfZrW2_qocU07lb8A">
-    <mxGraphModel dx="16257" dy="7333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="30070" dy="15400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,16 +11,16 @@
           <mxGeometry height="1920" width="1760" x="3260" y="-2300" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; UF" vertex="1">
-          <mxGeometry height="2340" width="10530" x="-8830" y="9590" as="geometry" />
+          <mxGeometry height="2340" width="10530" x="-8810" y="8950" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; LD/ST" vertex="1">
-          <mxGeometry height="2040" width="4160" x="-8840" y="7320" as="geometry" />
+          <mxGeometry height="1800" width="4160" x="-8820" y="7020" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;verticalAlign=top;align=left;" value="&lt;font style=&quot;font-size: 96px;&quot;&gt;&amp;nbsp; UM&lt;/font&gt;" vertex="1">
-          <mxGeometry height="2040" width="3240" x="-4520" y="7310" as="geometry" />
+          <mxGeometry height="1820" width="3240" x="-4500" y="7010" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 96px;&quot;&gt;&amp;nbsp;UI&lt;/font&gt;" vertex="1">
-          <mxGeometry height="2660" width="12870" x="-8830" y="4450" as="geometry" />
+          <mxGeometry height="2660" width="12870" x="-8810" y="4150" as="geometry" />
         </mxCell>
         <mxCell id="WjL_fl-T6VKGcTkqsZ7i-4" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;font-size: 256px;&quot;&gt;&lt;font style=&quot;&quot;&gt;ISS&lt;/font&gt;&lt;font style=&quot;&quot;&gt;/&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 256px;&quot;&gt;SPIKE&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="6330" width="11440" x="-8820" y="-2320" as="geometry" />
@@ -531,7 +531,7 @@
           <mxGeometry height="30" width="670" y="100" as="geometry" />
         </mxCell>
         <mxCell id="WjL_fl-T6VKGcTkqsZ7i-128" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="add.S" vertex="1">
-          <mxGeometry height="1210" width="550" x="-7870" y="5050" as="geometry" />
+          <mxGeometry height="1210" width="550" x="-7850" y="4750" as="geometry" />
         </mxCell>
         <mxCell id="WjL_fl-T6VKGcTkqsZ7i-129" parent="WjL_fl-T6VKGcTkqsZ7i-128" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/add.S" vertex="1">
           <mxGeometry height="26" width="550" y="26" as="geometry" />
@@ -573,7 +573,7 @@
           <mxGeometry height="30" width="550" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-3" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/custom/Zcmp/riscv_test.h" vertex="1">
-          <mxGeometry height="1300" width="500" x="-8670" y="5010" as="geometry" />
+          <mxGeometry height="1300" width="500" x="-8650" y="4710" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-4" parent="S3GisznnV3Pd4G23I4Tm-3" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;#define RVTEST_RV64U&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\&lt;/div&gt;&lt;div&gt;&amp;nbsp; .macro init;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .endm&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="500" y="26" as="geometry" />
@@ -592,48 +592,48 @@
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-8" edge="1" parent="1" source="WjL_fl-T6VKGcTkqsZ7i-130" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="S3GisznnV3Pd4G23I4Tm-4" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7990" y="5450" as="sourcePoint" />
-            <mxPoint x="-7910" y="5450" as="targetPoint" />
+            <mxPoint x="-7970" y="5150" as="sourcePoint" />
+            <mxPoint x="-7890" y="5150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-9" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="S3GisznnV3Pd4G23I4Tm-5" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7730" y="5490" as="sourcePoint" />
-            <mxPoint x="-7950" y="5492" as="targetPoint" />
+            <mxPoint x="-7710" y="5190" as="sourcePoint" />
+            <mxPoint x="-7930" y="5192" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-13" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-15" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="S3GisznnV3Pd4G23I4Tm-6" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7630" y="5670" as="sourcePoint" />
-            <mxPoint x="-8020" y="5860" as="targetPoint" />
+            <mxPoint x="-7610" y="5370" as="sourcePoint" />
+            <mxPoint x="-8000" y="5560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-16" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-17" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="S3GisznnV3Pd4G23I4Tm-12" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7640" y="6200" as="sourcePoint" />
-            <mxPoint x="-7950" y="6330" as="targetPoint" />
+            <mxPoint x="-7620" y="5900" as="sourcePoint" />
+            <mxPoint x="-7930" y="6030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-21" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-19" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="S3GisznnV3Pd4G23I4Tm-20" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7460" y="6200" as="sourcePoint" />
-            <mxPoint x="-7850" y="6430" as="targetPoint" />
+            <mxPoint x="-7440" y="5900" as="sourcePoint" />
+            <mxPoint x="-7830" y="6130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="190" width="540" x="-6960" y="4910" as="geometry" />
+          <mxGeometry height="190" width="540" x="-6940" y="4610" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-23" parent="S3GisznnV3Pd4G23I4Tm-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;&lt;div&gt;#-----------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;# Tests for an instruction with register-register operands&lt;/div&gt;&lt;div&gt;#-----------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#define &lt;b&gt;TEST_RR_OP&lt;/b&gt;( testnum, inst, result, val1, val2 ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x14, result, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x14, x1, x2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="164" width="540" y="26" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-28" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-23" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7180" y="5470" as="sourcePoint" />
-            <mxPoint x="-7100" y="5470" as="targetPoint" />
+            <mxPoint x="-7160" y="5170" as="sourcePoint" />
+            <mxPoint x="-7080" y="5170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="164" width="440" x="-6340" y="4580" as="geometry" />
+          <mxGeometry height="164" width="440" x="-6320" y="4280" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-32" parent="S3GisznnV3Pd4G23I4Tm-29" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="#define &lt;b&gt;MASK_XLEN&lt;/b&gt;(x) ((x) &amp;amp; ((1 &amp;lt;&amp;lt; (__riscv_xlen - 1) &amp;lt;&amp;lt; 1) - 1))" vertex="1">
           <mxGeometry height="34" width="440" y="26" as="geometry" />
@@ -642,7 +642,7 @@
           <mxGeometry height="104" width="440" y="60" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="366" width="540" x="-6960" y="5162" as="geometry" />
+          <mxGeometry height="366" width="540" x="-6940" y="4862" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-34" parent="S3GisznnV3Pd4G23I4Tm-33" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); background-color: rgb(213, 232, 212);&quot;&gt;//测试数据旁路和 RAW 数据冒险&amp;nbsp;&amp;nbsp;x = x + y;&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#define TEST_RR_SRC1_EQ_DEST( testnum, inst, result, val1, val2 ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x1, result, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x1, x1, x2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="114" width="540" y="26" as="geometry" />
@@ -655,12 +655,12 @@
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-35" edge="1" parent="1" source="WjL_fl-T6VKGcTkqsZ7i-133" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-34" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7240" y="5380" as="sourcePoint" />
-            <mxPoint x="-7120" y="5398" as="targetPoint" />
+            <mxPoint x="-7220" y="5080" as="sourcePoint" />
+            <mxPoint x="-7100" y="5098" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-38" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="960" width="540" x="-6960" y="5580" as="geometry" />
+          <mxGeometry height="960" width="540" x="-6940" y="5280" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-39" parent="S3GisznnV3Pd4G23I4Tm-38" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=none;fontColor=#333333;" value="&lt;div&gt;#define TEST_RR_DEST_BYPASS( testnum, nop_cycles, inst, result, val1, val2 ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x6, result, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/div&gt;&lt;div&gt;1:&amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x14, x1, x2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; TEST_INSERT_NOPS_ ## nop_cycles \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; addi&amp;nbsp; x6, x14, 0; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; bne x4, x5, 1b \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;" vertex="1">
           <mxGeometry height="194" width="540" y="26" as="geometry" />
@@ -685,12 +685,12 @@
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-42" edge="1" parent="1" source="WjL_fl-T6VKGcTkqsZ7i-134" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-39" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7220" y="5547" as="sourcePoint" />
-            <mxPoint x="-7090" y="5430" as="targetPoint" />
+            <mxPoint x="-7200" y="5247" as="sourcePoint" />
+            <mxPoint x="-7070" y="5130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="420" width="560" x="-6270" y="6610" as="geometry" />
+          <mxGeometry height="420" width="560" x="-6250" y="6310" as="geometry" />
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-51" parent="S3GisznnV3Pd4G23I4Tm-47" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_PASSFAIL&lt;/b&gt; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bne x0, &lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(213, 232, 212));&quot;&gt;TESTNUM&lt;/font&gt;&lt;/b&gt;, pass; \&lt;/div&gt;&lt;div&gt;fail: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(213, 232, 212));&quot;&gt;RVTEST_FAIL&lt;/font&gt;&lt;/b&gt;; \&lt;/div&gt;&lt;div&gt;pass: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(213, 232, 212));&quot;&gt;RVTEST_PASS &lt;/font&gt;&lt;/b&gt;\&lt;/div&gt;" vertex="1">
           <mxGeometry height="114" width="560" y="26" as="geometry" />
@@ -707,32 +707,32 @@
         <mxCell id="S3GisznnV3Pd4G23I4Tm-49" edge="1" parent="1" source="WjL_fl-T6VKGcTkqsZ7i-135" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="S3GisznnV3Pd4G23I4Tm-47" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
             <Array as="points">
-              <mxPoint x="-7050" y="6610" />
+              <mxPoint x="-7030" y="6310" />
             </Array>
-            <mxPoint x="-7300" y="5970" as="sourcePoint" />
-            <mxPoint x="-7600" y="5940" as="targetPoint" />
+            <mxPoint x="-7280" y="5670" as="sourcePoint" />
+            <mxPoint x="-7580" y="5640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-54" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-22" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-29" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-7230" y="5127" as="sourcePoint" />
-            <mxPoint x="-7060" y="4860" as="targetPoint" />
+            <mxPoint x="-7210" y="4827" as="sourcePoint" />
+            <mxPoint x="-7040" y="4560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-55" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-33" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-29" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-6570" y="4938" as="sourcePoint" />
-            <mxPoint x="-6450" y="4640" as="targetPoint" />
+            <mxPoint x="-6550" y="4638" as="sourcePoint" />
+            <mxPoint x="-6430" y="4340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S3GisznnV3Pd4G23I4Tm-56" edge="1" parent="1" source="S3GisznnV3Pd4G23I4Tm-38" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-29" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-6350" y="5088" as="sourcePoint" />
-            <mxPoint x="-5590" y="4950" as="targetPoint" />
+            <mxPoint x="-6330" y="4788" as="sourcePoint" />
+            <mxPoint x="-5570" y="4650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="addiw.S" vertex="1">
-          <mxGeometry height="1206" width="550" x="-4930" y="5074" as="geometry" />
+          <mxGeometry height="1206" width="550" x="-4910" y="4774" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-2" parent="rdgtThakUh-qqqa6WXWg-1" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/addiw.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -774,31 +774,31 @@
           <mxGeometry height="30" width="550" y="1176" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="130" width="550" x="-5750" y="5219" as="geometry" />
+          <mxGeometry height="130" width="550" x="-5730" y="4919" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-16" parent="rdgtThakUh-qqqa6WXWg-15" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#define &lt;b&gt;TEST_IMM_OP&lt;/b&gt;( testnum, inst, result, val1, imm ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x14, result, \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x14, x1, &lt;b&gt;SEXT_IMM&lt;/b&gt;(imm); \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; )&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="104" width="550" y="26" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-19" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-6" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-15" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-5110" y="5219" as="sourcePoint" />
-            <mxPoint x="-5060" y="5169" as="targetPoint" />
+            <mxPoint x="-5090" y="4919" as="sourcePoint" />
+            <mxPoint x="-5040" y="4869" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-20" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="130" width="550" x="-5750" y="5439" as="geometry" />
+          <mxGeometry height="130" width="550" x="-5730" y="5139" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-21" parent="rdgtThakUh-qqqa6WXWg-20" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#define &lt;b&gt;TEST_IMM_SRC1_EQ_DEST&lt;/b&gt;( testnum, inst, result, val1, imm ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; TEST_CASE( testnum, x1, result, \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x1, x1, &lt;b&gt;SEXT_IMM&lt;/b&gt;(imm); \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; )&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="104" width="550" y="26" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-22" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-7" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-20" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-4640" y="5417" as="sourcePoint" />
-            <mxPoint x="-4890" y="5389" as="targetPoint" />
+            <mxPoint x="-4620" y="5117" as="sourcePoint" />
+            <mxPoint x="-4870" y="5089" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-23" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="546" width="550" x="-5750" y="5659" as="geometry" />
+          <mxGeometry height="546" width="550" x="-5730" y="5359" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-24" parent="rdgtThakUh-qqqa6WXWg-23" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#define &lt;b&gt;TEST_IMM_DEST_BYPASS&lt;/b&gt;( testnum, nop_cycles, inst, result, val1, imm ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x6, result, \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1:&amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, &lt;b&gt;MASK_XLEN&lt;/b&gt;(val1); \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x14, x1, &lt;b&gt;SEXT_IMM&lt;/b&gt;(imm); \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_INSERT_NOPS_ &lt;/b&gt;## nop_cycles \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; addi&amp;nbsp; x6, x14, 0; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; bne x4, x5, 1b \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; )&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="184" width="550" y="26" as="geometry" />
@@ -814,30 +814,30 @@
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-27" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-8" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-23" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-4660" y="5559" as="sourcePoint" />
-            <mxPoint x="-4910" y="5581" as="targetPoint" />
+            <mxPoint x="-4640" y="5259" as="sourcePoint" />
+            <mxPoint x="-4890" y="5281" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-29" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-15" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-29" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-6010" y="6080" as="sourcePoint" />
-            <mxPoint x="-5720" y="5070" as="targetPoint" />
+            <mxPoint x="-5990" y="5780" as="sourcePoint" />
+            <mxPoint x="-5700" y="4770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-30" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-29" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-5640" y="5919" as="sourcePoint" />
-            <mxPoint x="-5810" y="5280" as="targetPoint" />
+            <mxPoint x="-5620" y="5619" as="sourcePoint" />
+            <mxPoint x="-5790" y="4980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-31" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-23" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-29" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="-5710" y="5849" as="sourcePoint" />
-            <mxPoint x="-5880" y="4990" as="targetPoint" />
+            <mxPoint x="-5690" y="5549" as="sourcePoint" />
+            <mxPoint x="-5860" y="4690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="auipc.S" vertex="1">
-          <mxGeometry height="590" width="550" x="-4140" y="5074" as="geometry" />
+          <mxGeometry height="590" width="550" x="-4120" y="4774" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-34" parent="rdgtThakUh-qqqa6WXWg-33" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/auipc.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -873,7 +873,7 @@
           <mxGeometry height="30" width="550" y="560" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-59" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="beq.S" vertex="1">
-          <mxGeometry height="1160" width="550" x="-2790" y="5084" as="geometry" />
+          <mxGeometry height="1160" width="550" x="-2770" y="4784" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-60" parent="rdgtThakUh-qqqa6WXWg-59" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -915,7 +915,7 @@
           <mxGeometry height="30" width="550" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-73" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="390" width="500" x="-3390" y="5170" as="geometry" />
+          <mxGeometry height="390" width="500" x="-3370" y="4870" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-74" parent="rdgtThakUh-qqqa6WXWg-73" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;//第一次跳到3f, 测试前向跳转, 第二次跳到1b, 测试后向跳转&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#define &lt;b&gt;TEST_BR2_OP_TAKEN&lt;/b&gt;( testnum, inst, val1, val2 ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;test_ ## testnum: \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; &lt;b&gt;TESTNUM&lt;/b&gt;, testnum; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x1, val1; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, val2; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; inst x1, x2, 2f; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; bne x0, &lt;b&gt;TESTNUM&lt;/b&gt;, fail; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1:&amp;nbsp; bne x0, &lt;b&gt;TESTNUM&lt;/b&gt;, 3f; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;2:&amp;nbsp; inst x1, x2, 1b; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; bne x0, &lt;b&gt;TESTNUM&lt;/b&gt;, fail; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;3:&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="184" width="500" y="26" as="geometry" />
@@ -926,25 +926,25 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-75" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-38" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-29" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-4200" y="5340" />
-              <mxPoint x="-4320" y="4580" />
+              <mxPoint x="-4180" y="5040" />
+              <mxPoint x="-4300" y="4280" />
             </Array>
-            <mxPoint x="-4640" y="5246" as="sourcePoint" />
-            <mxPoint x="-4670" y="4900" as="targetPoint" />
+            <mxPoint x="-4620" y="4946" as="sourcePoint" />
+            <mxPoint x="-4650" y="4600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-76" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-64" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-73" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-2820" y="5342" />
-              <mxPoint x="-2850" y="5170" />
+              <mxPoint x="-2800" y="5042" />
+              <mxPoint x="-2830" y="4870" />
             </Array>
-            <mxPoint x="-3980" y="5836" as="sourcePoint" />
-            <mxPoint x="-4230" y="5780" as="targetPoint" />
+            <mxPoint x="-3960" y="5536" as="sourcePoint" />
+            <mxPoint x="-4210" y="5480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-78" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="210" width="500" x="-3390" y="5619" as="geometry" />
+          <mxGeometry height="210" width="500" x="-3370" y="5319" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-79" parent="rdgtThakUh-qqqa6WXWg-78" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#define &lt;b&gt;TEST_BR2_SRC12_BYPASS&lt;/b&gt;( testnum, src1_nops, src2_nops, inst, val1, val2 ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;test_ ## testnum: \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; &lt;b&gt;TESTNUM&lt;/b&gt;, testnum; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1:&amp;nbsp; li&amp;nbsp; x1, val1; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_INSERT_NOPS_ &lt;/b&gt;## src1_nops \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, val2; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_INSERT_NOPS_ &lt;/b&gt;## src2_nops \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; inst x1, x2, fail; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; bne x4, x5, 1b \&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="184" width="500" y="26" as="geometry" />
@@ -952,25 +952,25 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-81" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-65" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-78" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-2810" y="5579" />
-              <mxPoint x="-2840" y="5620" />
+              <mxPoint x="-2790" y="5279" />
+              <mxPoint x="-2820" y="5320" />
             </Array>
-            <mxPoint x="-2710" y="5672" as="sourcePoint" />
-            <mxPoint x="-2890" y="5460" as="targetPoint" />
+            <mxPoint x="-2690" y="5372" as="sourcePoint" />
+            <mxPoint x="-2870" y="5160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-82" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-66" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="S3GisznnV3Pd4G23I4Tm-29" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-3430" y="5874" />
-              <mxPoint x="-3610" y="4580" />
+              <mxPoint x="-3410" y="5574" />
+              <mxPoint x="-3590" y="4280" />
             </Array>
-            <mxPoint x="-1000" y="5842" as="sourcePoint" />
-            <mxPoint x="-2870" y="5080" as="targetPoint" />
+            <mxPoint x="-980" y="5542" as="sourcePoint" />
+            <mxPoint x="-2850" y="4780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-83" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fence_i.S" vertex="1">
-          <mxGeometry height="920" width="550" x="-1940" y="5084" as="geometry" />
+          <mxGeometry height="920" width="550" x="-1920" y="4784" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-84" parent="rdgtThakUh-qqqa6WXWg-83" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1009,7 +1009,7 @@
           <mxGeometry height="30" width="550" y="890" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-97" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="jalr.S" vertex="1">
-          <mxGeometry height="1210" width="550" x="-620" y="5070" as="geometry" />
+          <mxGeometry height="1210" width="550" x="-600" y="4770" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-98" parent="rdgtThakUh-qqqa6WXWg-97" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1054,7 +1054,7 @@
           <mxGeometry height="30" width="550" y="1180" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-116" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="210" width="500" x="-1240" y="5350" as="geometry" />
+          <mxGeometry height="210" width="500" x="-1220" y="5050" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-117" parent="rdgtThakUh-qqqa6WXWg-116" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#define &lt;b&gt;TEST_BR2_SRC12_BYPASS&lt;/b&gt;( testnum, src1_nops, src2_nops, inst, val1, val2 ) \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;test_ ## testnum: \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; &lt;b&gt;TESTNUM&lt;/b&gt;, testnum; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1:&amp;nbsp; li&amp;nbsp; x1, val1; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_INSERT_NOPS_ &lt;/b&gt;## src1_nops \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, val2; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_INSERT_NOPS_ &lt;/b&gt;## src2_nops \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; inst x1, x2, fail; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; bne x4, x5, 1b \&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="184" width="500" y="26" as="geometry" />
@@ -1062,15 +1062,15 @@
         <mxCell id="rdgtThakUh-qqqa6WXWg-118" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-115" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=-0.001;exitY=0.472;exitDx=0;exitDy=0;exitPerimeter=0;" target="rdgtThakUh-qqqa6WXWg-116" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="-650" y="5732" />
-              <mxPoint x="-710" y="5350" />
+              <mxPoint x="-630" y="5432" />
+              <mxPoint x="-690" y="5050" />
             </Array>
-            <mxPoint x="-620" y="5730" as="sourcePoint" />
-            <mxPoint x="-900" y="5673" as="targetPoint" />
+            <mxPoint x="-600" y="5430" as="sourcePoint" />
+            <mxPoint x="-880" y="5373" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-119" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="jalr.S" vertex="1">
-          <mxGeometry height="840" width="550" x="220" y="5070" as="geometry" />
+          <mxGeometry height="840" width="550" x="240" y="4770" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-120" parent="rdgtThakUh-qqqa6WXWg-119" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/beq.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1109,7 +1109,7 @@
           <mxGeometry height="30" width="550" y="810" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-135" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="ld.S" vertex="1">
-          <mxGeometry height="1310" width="550" x="-8630" y="7610" as="geometry" />
+          <mxGeometry height="1310" width="550" x="-8610" y="7310" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-136" parent="rdgtThakUh-qqqa6WXWg-135" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/ld.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1151,31 +1151,31 @@
           <mxGeometry height="30" width="550" y="1280" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-149" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="120" width="480" x="-8000" y="7766" as="geometry" />
+          <mxGeometry height="120" width="480" x="-7980" y="7466" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-150" parent="rdgtThakUh-qqqa6WXWg-149" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_LD_OP&lt;/b&gt;( testnum, inst, result, offset, base ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;( testnum, x14, result, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; la&amp;nbsp; x1, base; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inst x14, offset(x1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;" vertex="1">
           <mxGeometry height="94" width="480" y="26" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-154" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-148" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-149" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-7950" y="7860" as="sourcePoint" />
-            <mxPoint x="-7900" y="7810" as="targetPoint" />
+            <mxPoint x="-7930" y="7560" as="sourcePoint" />
+            <mxPoint x="-7880" y="7510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-155" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="230" width="475" x="-7995" y="8090" as="geometry" />
+          <mxGeometry height="230" width="475" x="-7975" y="7790" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-156" parent="rdgtThakUh-qqqa6WXWg-155" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_LD_DEST_BYPASS&lt;/b&gt;( testnum, nop_cycles, inst, result, offset, base ) \&lt;/div&gt;&lt;div&gt;test_ ## testnum: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; &lt;b&gt;TESTNUM&lt;/b&gt;, testnum; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/div&gt;&lt;div&gt;1:&amp;nbsp; la&amp;nbsp; x1, base; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; inst x14, offset(x1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;TEST_INSERT_NOPS_ &lt;/b&gt;## nop_cycles \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; addi&amp;nbsp; x6, x14, 0; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x7, result; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bne x6, x7, fail; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bne x4, x5, 1b; \&lt;/div&gt;" vertex="1">
           <mxGeometry height="204" width="475" y="26" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-157" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-140" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-155" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-7810" y="8138" as="sourcePoint" />
-            <mxPoint x="-7590" y="8020" as="targetPoint" />
+            <mxPoint x="-7790" y="7838" as="sourcePoint" />
+            <mxPoint x="-7570" y="7720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-158" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="lui.S" vertex="1">
-          <mxGeometry height="510" width="550" x="-7220" y="7600" as="geometry" />
+          <mxGeometry height="510" width="550" x="-7200" y="7300" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-159" parent="rdgtThakUh-qqqa6WXWg-158" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/lui.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1211,7 +1211,7 @@
           <mxGeometry height="30" width="550" y="480" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-172" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="sd.S" vertex="1">
-          <mxGeometry height="1280" width="550" x="-5910" y="7600" as="geometry" />
+          <mxGeometry height="1280" width="550" x="-5890" y="7300" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-173" parent="rdgtThakUh-qqqa6WXWg-172" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ui/sd.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1283,27 +1283,27 @@
           <mxGeometry height="30" width="670" y="80" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-197" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="150" width="475" x="-6455" y="7960" as="geometry" />
+          <mxGeometry height="150" width="475" x="-6435" y="7660" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-198" parent="rdgtThakUh-qqqa6WXWg-197" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_ST_OP&lt;/b&gt;( testnum, load_inst, store_inst, result, offset, base ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; TEST_CASE( testnum, x14, result, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; la&amp;nbsp; x1, base; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; li&amp;nbsp; x2, result; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; store_inst x2, offset(x1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; load_inst x14, offset(x1); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;" vertex="1">
           <mxGeometry height="124" width="475" y="26" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-199" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-177" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-197" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-6080" y="8000" as="sourcePoint" />
-            <mxPoint x="-6030" y="7950" as="targetPoint" />
+            <mxPoint x="-6060" y="7700" as="sourcePoint" />
+            <mxPoint x="-6010" y="7650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-200" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="280" width="630" x="-6610" y="8330" as="geometry" />
+          <mxGeometry height="280" width="630" x="-6590" y="8030" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-201" parent="rdgtThakUh-qqqa6WXWg-200" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define TEST_ST_SRC12_BYPASS( testnum, src1_nops, src2_nops, load_inst, store_inst, result, offset, base ) \&lt;/div&gt;&lt;div&gt;test_ ## testnum: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; TESTNUM, testnum; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x4, 0; \&lt;/div&gt;&lt;div&gt;1:&amp;nbsp; li&amp;nbsp; x1, result; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; TEST_INSERT_NOPS_ ## src1_nops \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; la&amp;nbsp; x2, base; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; TEST_INSERT_NOPS_ ## src2_nops \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; store_inst x1, offset(x2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; load_inst x14, offset(x2); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x7, result; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bne x14, x7, fail; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; addi&amp;nbsp; x4, x4, 1; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; li&amp;nbsp; x5, 2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bne x4, x5, 1b \&lt;/div&gt;" vertex="1">
           <mxGeometry height="254" width="630" y="26" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-202" edge="1" parent="1" source="rdgtThakUh-qqqa6WXWg-184" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="rdgtThakUh-qqqa6WXWg-200" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-5855" y="8172" as="sourcePoint" />
-            <mxPoint x="-5990" y="8220" as="targetPoint" />
+            <mxPoint x="-5835" y="7872" as="sourcePoint" />
+            <mxPoint x="-5970" y="7920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-203" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ld.h" vertex="1">
@@ -1325,7 +1325,7 @@
           <mxGeometry height="48" width="670" y="52" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-214" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="mul.S" vertex="1">
-          <mxGeometry height="1270" width="550" x="-3990" y="7620" as="geometry" />
+          <mxGeometry height="1270" width="550" x="-3970" y="7320" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-215" parent="rdgtThakUh-qqqa6WXWg-214" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64um/mul.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1367,7 +1367,7 @@
           <mxGeometry height="30" width="550" y="1240" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-229" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="div.S" vertex="1">
-          <mxGeometry height="600" width="550" x="-3010" y="7620" as="geometry" />
+          <mxGeometry height="600" width="550" x="-2990" y="7320" as="geometry" />
         </mxCell>
         <mxCell id="rdgtThakUh-qqqa6WXWg-230" parent="rdgtThakUh-qqqa6WXWg-229" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64um/div.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1404,12 +1404,12 @@
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-15" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-179" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="XummjmifrPc2iu1EeuCr-16" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-8090" y="10174.999999999998" as="sourcePoint" />
-            <mxPoint x="-8205.000000000002" y="10045" as="targetPoint" />
+            <mxPoint x="-8070" y="9534.999999999998" as="sourcePoint" />
+            <mxPoint x="-8185.000000000002" y="9405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-16" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="464" width="440" x="-8630" y="10080" as="geometry" />
+          <mxGeometry height="464" width="440" x="-8610" y="9440" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-19" parent="XummjmifrPc2iu1EeuCr-16" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="#define qNaNf 0f:7fc00000" vertex="1">
           <mxGeometry height="34" width="440" y="26" as="geometry" />
@@ -1421,7 +1421,7 @@
           <mxGeometry height="340" width="440" y="124" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-20" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fclass.S" vertex="1">
-          <mxGeometry height="580" width="550" x="-6900" y="9820" as="geometry" />
+          <mxGeometry height="580" width="550" x="-6880" y="9180" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-21" parent="XummjmifrPc2iu1EeuCr-20" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fclass.S" vertex="1">
           <mxGeometry height="22" width="550" y="26" as="geometry" />
@@ -1457,19 +1457,19 @@
           <mxGeometry height="30" width="550" y="550" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-32" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="196" width="440" x="-7420" y="10000" as="geometry" />
+          <mxGeometry height="196" width="440" x="-7400" y="9360" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-35" parent="XummjmifrPc2iu1EeuCr-32" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_FCLASS_D32&lt;/b&gt;(testnum, correct, input) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;(testnum, a0, correct, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; la a0, test_ ## testnum ## _data ;\&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fld fa0, 0(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fclass.d a0, fa0) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .pushsection .data; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .align 3; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; test_ ## testnum ## _data: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .dword input; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .popsection&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="440" y="26" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-37" edge="1" parent="1" source="XummjmifrPc2iu1EeuCr-25" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-8040" y="10205" as="sourcePoint" />
-            <mxPoint x="-6980" y="10092" as="targetPoint" />
+            <mxPoint x="-8020" y="9565" as="sourcePoint" />
+            <mxPoint x="-6960" y="9452" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-38" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fclass.S" vertex="1">
-          <mxGeometry height="560" width="440" x="-5540" y="9830" as="geometry" />
+          <mxGeometry height="560" width="440" x="-5520" y="9190" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-39" parent="XummjmifrPc2iu1EeuCr-38" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fclass.S" vertex="1">
           <mxGeometry height="22" width="440" y="26" as="geometry" />
@@ -1505,7 +1505,7 @@
           <mxGeometry height="30" width="440" y="530" as="geometry" />
         </mxCell>
         <mxCell id="XummjmifrPc2iu1EeuCr-50" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="360" width="490" x="-6120" y="10015" as="geometry" />
+          <mxGeometry height="360" width="490" x="-6100" y="9375" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-19" parent="XummjmifrPc2iu1EeuCr-50" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;类别&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;符号位 (S)&amp;nbsp; &amp;nbsp; 指数 (Exp)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;尾数 (Frac)&amp;nbsp; &amp;nbsp; &amp;nbsp; 含义&lt;/div&gt;&lt;div&gt;负无穷大&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 全1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;负无穷&lt;/div&gt;&lt;div&gt;负规约数&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 非全0且非全1&amp;nbsp; &amp;nbsp; 任意&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 正常的负数&lt;/div&gt;&lt;div&gt;负非规约数&amp;nbsp; &amp;nbsp;1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 非全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 非常接近0的负数&lt;/div&gt;&lt;div&gt;负零&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 负零&lt;/div&gt;&lt;div&gt;正零&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 正零&lt;/div&gt;&lt;div&gt;正非规约数&amp;nbsp; &amp;nbsp;0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 非全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 非常接近0的正数&lt;/div&gt;&lt;div&gt;正规约数&amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;非全0且非全1&amp;nbsp; &amp;nbsp; 任意&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 正常的正数&lt;/div&gt;&lt;div&gt;正无穷大&amp;nbsp; &amp;nbsp; &amp;nbsp; 0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;全1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 正无穷&lt;/div&gt;&lt;div&gt;NaN&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;全1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;非全0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 非数字&lt;/div&gt;" vertex="1">
           <mxGeometry height="164" width="490" y="26" as="geometry" />
@@ -1515,12 +1515,12 @@
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-1" edge="1" parent="1" source="XummjmifrPc2iu1EeuCr-43" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="XummjmifrPc2iu1EeuCr-50" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-5800" y="10310" as="sourcePoint" />
-            <mxPoint x="-5750" y="10260" as="targetPoint" />
+            <mxPoint x="-5780" y="9670" as="sourcePoint" />
+            <mxPoint x="-5730" y="9620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fcmp.S" vertex="1">
-          <mxGeometry height="750" width="440" x="-4450" y="9820" as="geometry" />
+          <mxGeometry height="750" width="440" x="-4430" y="9180" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-3" parent="WJ8V3OJagTPllp11VjbI-2" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fcmp.S" vertex="1">
           <mxGeometry height="22" width="440" y="26" as="geometry" />
@@ -1556,7 +1556,7 @@
           <mxGeometry height="30" width="440" y="720" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="850" width="460" x="-4980" y="10150" as="geometry" />
+          <mxGeometry height="850" width="460" x="-4960" y="9510" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-42" parent="WJ8V3OJagTPllp11VjbI-14" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_FP_OP_D_INTERNAL&lt;/b&gt;( testnum, flags, result, val1, val2, val3, code... ) \&lt;/div&gt;&lt;div&gt;test_ ## testnum: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; li&amp;nbsp; &lt;b&gt;TESTNUM&lt;/b&gt;, testnum; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; la&amp;nbsp; a0, test_ ## testnum ## _data ;\&lt;/div&gt;&lt;div&gt;&amp;nbsp; fld f0, 0(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; fld f1, 8(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; fld f2, 16(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; ld&amp;nbsp; a3, 24(a0); \&lt;/div&gt;&lt;div&gt;&amp;nbsp; code; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; fsflags a1, x0; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; li a2, flags; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; bne a0, a3, fail; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; bne a1, a2, fail; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .pushsection .data; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .align 3; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; test_ ## testnum ## _data: \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .double val1; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .double val2; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .double val3; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .result; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; .popsection&lt;/div&gt;" vertex="1">
           <mxGeometry height="334" width="460" y="26" as="geometry" />
@@ -1572,12 +1572,12 @@
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-16" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-7" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="WJ8V3OJagTPllp11VjbI-14" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-5340" y="10176" as="sourcePoint" />
-            <mxPoint x="-5410" y="10110" as="targetPoint" />
+            <mxPoint x="-5320" y="9536" as="sourcePoint" />
+            <mxPoint x="-5390" y="9470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-20" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fcmp.S" vertex="1">
-          <mxGeometry height="1610" width="660" x="-3130" y="9820" as="geometry" />
+          <mxGeometry height="1610" width="660" x="-3110" y="9180" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-21" parent="WJ8V3OJagTPllp11VjbI-20" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fcmp.S" vertex="1">
           <mxGeometry height="22" width="660" y="26" as="geometry" />
@@ -1616,7 +1616,7 @@
           <mxGeometry height="30" width="660" y="1580" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="90" width="460" x="-3720" y="10490" as="geometry" />
+          <mxGeometry height="90" width="460" x="-3700" y="9850" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-34" parent="WJ8V3OJagTPllp11VjbI-33" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_FP_INT_OP_D&lt;/b&gt;( testnum, inst, flags, result, val1, rm ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; TEST_FP_OP_D_INTERNAL( testnum, flags, dword result, val1, 0.0, 0.0, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inst a0, f0, rm)&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="460" y="26" as="geometry" />
@@ -1624,15 +1624,15 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-36" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-25" style="endArrow=classic;html=1;rounded=0;exitX=0.005;exitY=0.411;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="WJ8V3OJagTPllp11VjbI-33" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="-4100" y="10253" as="sourcePoint" />
-            <mxPoint x="-4170" y="10190" as="targetPoint" />
+            <mxPoint x="-4080" y="9613" as="sourcePoint" />
+            <mxPoint x="-4150" y="9550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ8V3OJagTPllp11VjbI-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; MI" vertex="1">
-          <mxGeometry height="3160" width="6910" x="-8840" y="12270" as="geometry" />
+        <mxCell id="WJ8V3OJagTPllp11VjbI-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; MI" vertex="1">
+          <mxGeometry height="3160" width="6910" x="-8820" y="11630" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-44" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fdiv.S" vertex="1">
-          <mxGeometry height="610" width="530" x="-1660" y="9820" as="geometry" />
+          <mxGeometry height="610" width="530" x="-1640" y="9180" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-45" parent="WJ8V3OJagTPllp11VjbI-44" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fdiv.S" vertex="1">
           <mxGeometry height="22" width="530" y="26" as="geometry" />
@@ -1668,7 +1668,7 @@
           <mxGeometry height="30" width="530" y="580" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-56" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="218" width="470" x="-2210" y="10053" as="geometry" />
+          <mxGeometry height="218" width="470" x="-2190" y="9413" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-57" parent="WJ8V3OJagTPllp11VjbI-56" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_FP_OP1_D&lt;/b&gt;( testnum, inst, flags, result, val1 ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; TEST_FP_OP_D_INTERNAL( testnum, flags, double result, val1, 0.0, 0.0, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inst f3, f0; fmv.x.d a0, f3)&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="470" y="26" as="geometry" />
@@ -1682,19 +1682,19 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-58" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-49" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="WJ8V3OJagTPllp11VjbI-56" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="-2200" y="10535" as="sourcePoint" />
-            <mxPoint x="-2340" y="10490" as="targetPoint" />
+            <mxPoint x="-2180" y="9895" as="sourcePoint" />
+            <mxPoint x="-2320" y="9850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-64" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-63" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="WJ8V3OJagTPllp11VjbI-33" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="-3037" y="10460" as="sourcePoint" />
-            <mxPoint x="-3180" y="10827" as="targetPoint" />
+            <mxPoint x="-3017" y="9820" as="sourcePoint" />
+            <mxPoint x="-3160" y="10187" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-65" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fdiv.S" vertex="1">
-          <mxGeometry height="640" width="510" x="-300" y="9820" as="geometry" />
+          <mxGeometry height="640" width="510" x="-280" y="9180" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-66" parent="WJ8V3OJagTPllp11VjbI-65" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fdiv.S" vertex="1">
           <mxGeometry height="22" width="510" y="26" as="geometry" />
@@ -1730,7 +1730,7 @@
           <mxGeometry height="30" width="510" y="610" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-77" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/macros/scalar/test_macros.h" vertex="1">
-          <mxGeometry height="90" width="470" x="-900" y="10015" as="geometry" />
+          <mxGeometry height="90" width="470" x="-880" y="9375" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-78" parent="WJ8V3OJagTPllp11VjbI-77" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;div&gt;#define &lt;b&gt;TEST_FP_OP3_D&lt;/b&gt;( testnum, inst, flags, result, val1, val2, val3 ) \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;TEST_FP_OP_D_INTERNAL&lt;/b&gt;( testnum, flags, double result, val1, val2, val3, \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inst f3, f0, f1, f2; fmv.x.d a0, f3)&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="470" y="26" as="geometry" />
@@ -1738,12 +1738,12 @@
         <mxCell id="WJ8V3OJagTPllp11VjbI-81" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-70" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="WJ8V3OJagTPllp11VjbI-77" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points" />
-            <mxPoint x="-310" y="10098" as="sourcePoint" />
-            <mxPoint x="-390" y="10053" as="targetPoint" />
+            <mxPoint x="-290" y="9458" as="sourcePoint" />
+            <mxPoint x="-370" y="9413" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-82" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fmin.S" vertex="1">
-          <mxGeometry height="870" width="600" x="700" y="9820" as="geometry" />
+          <mxGeometry height="870" width="600" x="720" y="9180" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-83" parent="WJ8V3OJagTPllp11VjbI-82" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/fmin.S" vertex="1">
           <mxGeometry height="22" width="600" y="26" as="geometry" />
@@ -1785,7 +1785,7 @@
           <mxGeometry height="30" width="600" y="840" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-96" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="ldst.S" vertex="1">
-          <mxGeometry height="600" width="520" x="-8110" y="10910" as="geometry" />
+          <mxGeometry height="600" width="520" x="-8090" y="10270" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-97" parent="WJ8V3OJagTPllp11VjbI-96" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/ldst.S" vertex="1">
           <mxGeometry height="22" width="520" y="26" as="geometry" />
@@ -1821,7 +1821,7 @@
           <mxGeometry height="30" width="520" y="570" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-110" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="move.S" vertex="1">
-          <mxGeometry height="1100" width="520" x="-6890" y="10750" as="geometry" />
+          <mxGeometry height="1100" width="520" x="-6870" y="10110" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-111" parent="WJ8V3OJagTPllp11VjbI-110" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/move.S" vertex="1">
           <mxGeometry height="22" width="520" y="26" as="geometry" />
@@ -1863,7 +1863,7 @@
           <mxGeometry height="30" width="520" y="1070" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-122" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/move.S" vertex="1">
-          <mxGeometry height="730" width="410" x="-7370" y="10920" as="geometry" />
+          <mxGeometry height="730" width="410" x="-7350" y="10280" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-123" parent="WJ8V3OJagTPllp11VjbI-122" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font&gt;#define &lt;b&gt;TEST_FSGNJD&lt;/b&gt;(n, insn, new_sign, rs1_sign, rs2_sign) \&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font&gt;&amp;nbsp; &lt;b&gt;TEST_CASE&lt;/b&gt;(n, a0, 0x123456789abcdef0 | (-(new_sign) &amp;lt;&amp;lt; 63), \&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; li a1, ((rs1_sign) &amp;lt;&amp;lt; 63) | 0x123456789abcdef0; \&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; li a2, -(rs2_sign); \&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; fmv.d.x f1, a1; \&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; fmv.d.x f2, a2; \&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; insn f0, f1, f2; \&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font&gt;&amp;nbsp; &amp;nbsp; fmv.x.d a0, f0)&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="134" width="410" y="26" as="geometry" />
@@ -1876,24 +1876,24 @@
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-128" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-115" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WJ8V3OJagTPllp11VjbI-123" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-6940" y="11270" as="sourcePoint" />
-            <mxPoint x="-6890" y="11220" as="targetPoint" />
+            <mxPoint x="-6920" y="10630" as="sourcePoint" />
+            <mxPoint x="-6870" y="10580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-129" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-126" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WJ8V3OJagTPllp11VjbI-124" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-6840" y="11055" as="sourcePoint" />
-            <mxPoint x="-6910" y="11050" as="targetPoint" />
+            <mxPoint x="-6820" y="10415" as="sourcePoint" />
+            <mxPoint x="-6890" y="10410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-130" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-127" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WJ8V3OJagTPllp11VjbI-125" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-6830" y="11335" as="sourcePoint" />
-            <mxPoint x="-6900" y="11300" as="targetPoint" />
+            <mxPoint x="-6810" y="10695" as="sourcePoint" />
+            <mxPoint x="-6880" y="10660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-131" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="recoding.S" vertex="1">
-          <mxGeometry height="1020" width="480" x="-6280" y="10750" as="geometry" />
+          <mxGeometry height="1020" width="480" x="-6260" y="10110" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-132" parent="WJ8V3OJagTPllp11VjbI-131" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/recoding.S" vertex="1">
           <mxGeometry height="22" width="480" y="26" as="geometry" />
@@ -1938,7 +1938,7 @@
           <mxGeometry height="30" width="480" y="990" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-146" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="structural.S" vertex="1">
-          <mxGeometry height="830" width="570" x="-5710" y="10750" as="geometry" />
+          <mxGeometry height="830" width="570" x="-5690" y="10110" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-147" parent="WJ8V3OJagTPllp11VjbI-146" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/structural.S" vertex="1">
           <mxGeometry height="22" width="570" y="26" as="geometry" />
@@ -1974,7 +1974,7 @@
           <mxGeometry height="30" width="570" y="800" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-161" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="access.S" vertex="1">
-          <mxGeometry height="1010" width="485" x="-8620" y="12550" as="geometry" />
+          <mxGeometry height="1010" width="485" x="-8600" y="11910" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-162" parent="WJ8V3OJagTPllp11VjbI-161" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64mi/access.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2013,7 +2013,7 @@
           <mxGeometry height="30" width="485" y="980" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-174" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="fadd.S" vertex="1">
-          <mxGeometry height="690" width="485" x="-8080" y="9890" as="geometry" />
+          <mxGeometry height="690" width="485" x="-8060" y="9250" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-175" parent="WJ8V3OJagTPllp11VjbI-174" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64uf/fadd.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2049,7 +2049,7 @@
           <mxGeometry height="30" width="485" y="660" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-187" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="access.S" vertex="1">
-          <mxGeometry height="2350" width="710" x="-7070" y="12330" as="geometry" />
+          <mxGeometry height="2350" width="710" x="-7050" y="11690" as="geometry" />
         </mxCell>
         <mxCell id="WJ8V3OJagTPllp11VjbI-188" parent="WJ8V3OJagTPllp11VjbI-187" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64mi/access.S" vertex="1">
           <mxGeometry height="22" width="710" y="26" as="geometry" />
@@ -2112,7 +2112,7 @@
           <mxGeometry height="30" width="710" y="2320" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="illegal.S" vertex="1">
-          <mxGeometry height="2790" width="485" x="-6055" y="12330" as="geometry" />
+          <mxGeometry height="2790" width="485" x="-6035" y="11690" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-2" parent="GKsqfyGT8LV0WWKbInGk-1" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64mi/illegal.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2163,7 +2163,7 @@
           <mxGeometry height="30" width="485" y="2760" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="ma_addr.S" vertex="1">
-          <mxGeometry height="1830" width="485" x="-5320" y="12330" as="geometry" />
+          <mxGeometry height="1830" width="485" x="-5300" y="11690" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-19" parent="GKsqfyGT8LV0WWKbInGk-18" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64mi/ma_addr.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2217,7 +2217,7 @@
           <mxGeometry height="30" width="485" y="1800" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-36" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="ma_addr.S" vertex="1">
-          <mxGeometry height="3040" width="485" x="-4440" y="12330" as="geometry" />
+          <mxGeometry height="3040" width="485" x="-4420" y="11690" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-37" parent="GKsqfyGT8LV0WWKbInGk-36" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64mi/ma_addr.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2274,7 +2274,7 @@
           <mxGeometry height="30" width="485" y="3010" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-55" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64ud/move.S" vertex="1">
-          <mxGeometry height="170" width="410" x="-7700" y="12500" as="geometry" />
+          <mxGeometry height="170" width="410" x="-7680" y="11860" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-60" parent="GKsqfyGT8LV0WWKbInGk-55" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define &lt;b&gt;RVTEST_RV64M&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp; .macro init;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp; &lt;b&gt;RVTEST_ENABLE_MACHINE&lt;/b&gt;;&amp;nbsp; &amp;nbsp; \&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp; .endm&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="74" width="410" y="26" as="geometry" />
@@ -2284,12 +2284,12 @@
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-59" edge="1" parent="1" source="WJ8V3OJagTPllp11VjbI-191" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="GKsqfyGT8LV0WWKbInGk-55" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-7140" y="12580" as="sourcePoint" />
-            <mxPoint x="-7090" y="12530" as="targetPoint" />
+            <mxPoint x="-7120" y="11940" as="sourcePoint" />
+            <mxPoint x="-7070" y="11890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-61" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="sbreak.S" vertex="1">
-          <mxGeometry height="790" width="485" x="-3630" y="12330" as="geometry" />
+          <mxGeometry height="790" width="485" x="-3610" y="11690" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-62" parent="GKsqfyGT8LV0WWKbInGk-61" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64mi/sbreak.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2331,7 +2331,7 @@
           <mxGeometry height="30" width="485" y="760" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-78" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="scall.S" vertex="1">
-          <mxGeometry height="1300" width="485" x="-2810" y="12330" as="geometry" />
+          <mxGeometry height="1300" width="485" x="-2790" y="11690" as="geometry" />
         </mxCell>
         <mxCell id="GKsqfyGT8LV0WWKbInGk-79" parent="GKsqfyGT8LV0WWKbInGk-78" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64mi/scall.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2372,11 +2372,11 @@
         <mxCell id="GKsqfyGT8LV0WWKbInGk-91" parent="GKsqfyGT8LV0WWKbInGk-78" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;RVTEST_DATA_END&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="485" y="1270" as="geometry" />
         </mxCell>
-        <mxCell id="GKsqfyGT8LV0WWKbInGk-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; SI" vertex="1">
-          <mxGeometry height="3160" width="1900" x="-1740" y="12270" as="geometry" />
+        <mxCell id="GKsqfyGT8LV0WWKbInGk-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;verticalAlign=top;fontSize=96;" value="&amp;nbsp; SI" vertex="1">
+          <mxGeometry height="3160" width="1900" x="-1720" y="11630" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="wfi.S" vertex="1">
-          <mxGeometry height="470" width="485" x="-1660" y="12440" as="geometry" />
+          <mxGeometry height="470" width="485" x="-1640" y="11800" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-2" parent="4GMLDa_lN6YWyF1NG3d0-1" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64si/wfi.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2415,7 +2415,7 @@
           <mxGeometry height="30" width="485" y="440" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-16" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="dirty.S" vertex="1">
-          <mxGeometry height="1940" width="485" x="-430" y="12440" as="geometry" />
+          <mxGeometry height="1940" width="485" x="-410" y="11800" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-17" parent="4GMLDa_lN6YWyF1NG3d0-16" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64si/dirty.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
@@ -2496,11 +2496,11 @@
             <mxPoint x="-60" y="1840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GMLDa_lN6YWyF1NG3d0-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
-          <mxGeometry height="3160" width="3005" x="425" y="12270" as="geometry" />
+        <mxCell id="4GMLDa_lN6YWyF1NG3d0-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="3160" width="3005" x="445" y="11630" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-42" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/custom/env/encoding.h" vertex="1">
-          <mxGeometry height="290" width="410" x="-950" y="12520" as="geometry" />
+          <mxGeometry height="290" width="410" x="-930" y="11880" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-43" parent="4GMLDa_lN6YWyF1NG3d0-42" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_MODE 0x80000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_ASID 0x7FC00000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP32_PPN&amp;nbsp; 0x003FFFFF&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_MODE 0xF000000000000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_ASID 0x0FFFF00000000000&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51);&quot;&gt;#define SATP64_PPN&amp;nbsp; 0x00000FFFFFFFFFFF&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="410" y="40" as="geometry" />
@@ -2513,12 +2513,12 @@
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-45" edge="1" parent="1" source="4GMLDa_lN6YWyF1NG3d0-16" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="4GMLDa_lN6YWyF1NG3d0-42" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-260" y="12250" as="sourcePoint" />
-            <mxPoint x="-210" y="12200" as="targetPoint" />
+            <mxPoint x="-240" y="11610" as="sourcePoint" />
+            <mxPoint x="-190" y="11560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-52" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="dirty.S" vertex="1">
-          <mxGeometry height="670" width="485" x="630" y="12430" as="geometry" />
+          <mxGeometry height="670" width="485" x="650" y="11790" as="geometry" />
         </mxCell>
         <mxCell id="4GMLDa_lN6YWyF1NG3d0-53" parent="4GMLDa_lN6YWyF1NG3d0-52" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/home/ICer/proj/cva6/verif/tests/riscv-tests/isa/rv64si/dirty.S" vertex="1">
           <mxGeometry height="22" width="485" y="26" as="geometry" />
