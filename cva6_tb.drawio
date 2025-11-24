@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="2830" dy="6385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-3273" dy="2777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3629,7 +3629,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-967" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="uvma_rvfi_instr_if&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;/home/ICer/proj/cva6/verif/core-v-verif/lib/uvm_agents/uvma_rvfi/uvma_rvfi_instr_if.sv&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="628" width="550" x="25682.5" y="6010" as="geometry" />
+          <mxGeometry height="628" width="550" x="13620" y="11340" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-968" parent="YD8wXlY8oEXokaMSZj_n-967" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clk,&lt;/div&gt;&lt;div&gt;input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; reset_n,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;input&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rvfi_valid,&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="550" y="40" as="geometry" />
@@ -3684,6 +3684,21 @@
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-987" parent="1" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;REG Model&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="4320" width="4840" x="22610" y="7090" as="geometry" />
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-988" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="cva6_csr_reg_block&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;/home/ICer/proj/cva6/verif/env/uvme/reg/cva6_csr_reg_block.sv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="518" width="680" x="22790" y="7400" as="geometry" />
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-989" parent="YD8wXlY8oEXokaMSZj_n-988" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;class cva6_csr_reg_block extends uvm_reg_block;&lt;/div&gt;&lt;div&gt;&amp;nbsp; `uvm_object_utils(cva6_csr_reg_block)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="680" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-990" parent="YD8wXlY8oEXokaMSZj_n-988" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; rand reg_mstatus&amp;nbsp; mstatus;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; rand reg_misa&amp;nbsp; misa;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; rand reg_mie&amp;nbsp; mie;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; rand reg_mtvec&amp;nbsp; mtvec;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; rand reg_mstatush&amp;nbsp; mstatush;&amp;nbsp;&lt;br&gt;&amp;nbsp; ...&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="680" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-991" parent="YD8wXlY8oEXokaMSZj_n-988" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; virtual function build();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; mstatus = reg_mstatus::type_id::create(&quot;mstatus&quot;, null, get_full_name());&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; mstatus.configure(this, null, &quot;mstatus&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; mstatus.build();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; misa = reg_misa::type_id::create(&quot;misa&quot;, null, get_full_name());&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; misa.configure(this, null, &quot;misa&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; misa.build();&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; default_map = create_map(.name(&quot;default_map&quot;), .base_addr(0), .n_bytes(4) , .endian(UVM_LITTLE_ENDIAN));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; default_map.add_reg(mstatus, &#39;h300, &quot;RW&quot;);&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; default_map.add_reg(misa, &#39;h301, &quot;RW&quot;);&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; default_map.add_reg(mie, &#39;h304, &quot;RW&quot;);&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; ...&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; //default_map.set_check_on_read(1);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; this.set_coverage(UVM_CVR_ALL);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; this.lock_model();&lt;/div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp; reset();&lt;/span&gt;&amp;nbsp;&lt;br&gt;endfunction&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="320" width="680" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-994" parent="YD8wXlY8oEXokaMSZj_n-988" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="680" y="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
