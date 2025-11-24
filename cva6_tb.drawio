@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-3201" dy="2820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-2480" dy="3246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3129,6 +3129,17 @@
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-846" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvm_analysis_port#(uvma_rvfi_instr_seq_item_c#(ILEN,XLEN)) &lt;b&gt;rvfi_core_ap&lt;/b&gt;;" vertex="1">
           <mxGeometry height="30" width="500" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-947" edge="1" parent="YD8wXlY8oEXokaMSZj_n-845" source="YD8wXlY8oEXokaMSZj_n-946" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" target="YD8wXlY8oEXokaMSZj_n-846" value="Connect">
+          <mxGeometry relative="1" width="80" x="0.15" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="521.0799999999981" y="55" />
+              <mxPoint x="521.0799999999981" y="86" />
+            </Array>
+            <mxPoint x="331.0799999999981" y="1068" as="sourcePoint" />
+            <mxPoint x="1016.0799999999981" y="196" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-847" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-66" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" target="YD8wXlY8oEXokaMSZj_n-839" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
