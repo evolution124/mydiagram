@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-3273" dy="2777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-1103" dy="4060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3051,7 +3051,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-824" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;cva6_rvfi_probes&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;/home/ICer/proj/cva6/core/cva6_rvfi_probes.sv&lt;/span&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="1910" width="790" x="18480" y="8220" as="geometry" />
+          <mxGeometry height="1910" width="790" x="18480" y="8228" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-825" parent="YD8wXlY8oEXokaMSZj_n-824" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="790" y="40" as="geometry" />
@@ -3625,6 +3625,13 @@
             </Array>
             <mxPoint x="25058.920000000002" y="3980" as="sourcePoint" />
             <mxPoint x="24558.920000000002" y="4010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-966" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-733" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="YD8wXlY8oEXokaMSZj_n-824" value="dispatch">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points" />
+            <mxPoint x="17860" y="10439" as="sourcePoint" />
+            <mxPoint x="19667" y="9300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
