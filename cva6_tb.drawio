@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-3019" dy="2928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-3201" dy="2820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3122,10 +3122,13 @@
           <mxGeometry height="100" width="690" y="2740" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-845" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;uvma_rvfi_agent.sv&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/verif/core-v-verif/lib/uvm_agents/uvma_rvfi/uvma_rvfi_agent.sv&lt;/span&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="524" width="500" x="23518.920000000002" y="3590" as="geometry" />
+          <mxGeometry height="130" width="500" x="23528.920000000002" y="3694" as="geometry" />
         </mxCell>
-        <mxCell id="YD8wXlY8oEXokaMSZj_n-846" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvma_rvfi_instr_mon_c#(ILEN,XLEN)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;instr_monitor;" vertex="1">
-          <mxGeometry height="484" width="500" y="40" as="geometry" />
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-946" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvma_rvfi_instr_mon_c#(ILEN,XLEN)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;instr_monitor;" vertex="1">
+          <mxGeometry height="40" width="500" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-846" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvm_analysis_port#(uvma_rvfi_instr_seq_item_c#(ILEN,XLEN)) rvfi_core_ap;" vertex="1">
+          <mxGeometry height="50" width="500" y="80" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-847" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-66" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" target="YD8wXlY8oEXokaMSZj_n-839" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
