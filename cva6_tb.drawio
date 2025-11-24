@@ -3122,13 +3122,13 @@
           <mxGeometry height="100" width="690" y="2740" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-845" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;uvma_rvfi_agent.sv&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/home/ICer/proj/cva6/verif/core-v-verif/lib/uvm_agents/uvma_rvfi/uvma_rvfi_agent.sv&lt;/span&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="130" width="500" x="23528.920000000002" y="3694" as="geometry" />
+          <mxGeometry height="100" width="500" x="23528.920000000002" y="3694" as="geometry" />
         </mxCell>
-        <mxCell id="YD8wXlY8oEXokaMSZj_n-946" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvma_rvfi_instr_mon_c#(ILEN,XLEN)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;instr_monitor;" vertex="1">
-          <mxGeometry height="40" width="500" y="40" as="geometry" />
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-946" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvma_rvfi_instr_mon_c#(ILEN,XLEN)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;instr_monitor&lt;/b&gt;;" vertex="1">
+          <mxGeometry height="30" width="500" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="YD8wXlY8oEXokaMSZj_n-846" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvm_analysis_port#(uvma_rvfi_instr_seq_item_c#(ILEN,XLEN)) rvfi_core_ap;" vertex="1">
-          <mxGeometry height="50" width="500" y="80" as="geometry" />
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-846" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvm_analysis_port#(uvma_rvfi_instr_seq_item_c#(ILEN,XLEN)) &lt;b&gt;rvfi_core_ap&lt;/b&gt;;" vertex="1">
+          <mxGeometry height="30" width="500" y="70" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-847" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-66" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" target="YD8wXlY8oEXokaMSZj_n-839" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
