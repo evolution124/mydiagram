@@ -165,7 +165,7 @@
           <mxGeometry height="8" width="640" y="420" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-49" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="monitor&lt;br&gt;&lt;b style=&quot;text-align: left;&quot;&gt;/home/ICer/proj/cva6/verif/core-v-verif/lib/uvm_agents/uvma_rvfi/uvma_rvfi_instr_mon.sv&lt;/b&gt;" vertex="1">
-          <mxGeometry height="1378" width="690" x="24690.000000000004" y="3182" as="geometry" />
+          <mxGeometry height="1378" width="690" x="24860.000000000004" y="3182" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-50" parent="YD8wXlY8oEXokaMSZj_n-49" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;task uvma_rvfi_instr_mon_c::monitor_rvfi_instr();&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; while(1) begin&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; @(cntxt.instr_vif[0].mon_cb)&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; for(int i = 0; i &amp;lt; cfg.nret; i++)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; begin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (monitor_condition) begin&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="690" y="40" as="geometry" />
@@ -197,7 +197,7 @@
         <mxCell id="YD8wXlY8oEXokaMSZj_n-59" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-57" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="YD8wXlY8oEXokaMSZj_n-40" value="AP Write">
           <mxGeometry relative="1" width="80" as="geometry">
             <Array as="points">
-              <mxPoint x="25470" y="4510" />
+              <mxPoint x="25630" y="4510" />
               <mxPoint x="25470" y="4820" />
               <mxPoint x="24410" y="4820" />
               <mxPoint x="24410" y="5245" />
@@ -3131,14 +3131,16 @@
         <mxCell id="YD8wXlY8oEXokaMSZj_n-846" parent="YD8wXlY8oEXokaMSZj_n-845" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="uvm_analysis_port#(uvma_rvfi_instr_seq_item_c#(ILEN,XLEN)) &lt;b&gt;rvfi_core_ap&lt;/b&gt;;" vertex="1">
           <mxGeometry height="30" width="500" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="YD8wXlY8oEXokaMSZj_n-947" edge="1" parent="YD8wXlY8oEXokaMSZj_n-845" source="YD8wXlY8oEXokaMSZj_n-946" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;fillColor=#1ba1e2;strokeColor=#006EAF;" target="YD8wXlY8oEXokaMSZj_n-846" value="Connect">
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-947" edge="1" parent="YD8wXlY8oEXokaMSZj_n-845" source="YD8wXlY8oEXokaMSZj_n-946" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#1ba1e2;strokeColor=#006EAF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="YD8wXlY8oEXokaMSZj_n-846" value="Connect">
           <mxGeometry relative="1" width="80" x="0.15" y="10" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="531.0799999999981" y="55" />
-              <mxPoint x="531.0799999999981" y="85" />
+              <mxPoint x="541.0799999999981" y="55" />
+              <mxPoint x="541.0799999999981" y="120" />
+              <mxPoint x="-58.92000000000189" y="120" />
+              <mxPoint x="-58.92000000000189" y="85" />
             </Array>
-            <mxPoint x="656.08" y="55" as="sourcePoint" />
+            <mxPoint x="521.0799999999981" y="100" as="sourcePoint" />
             <mxPoint x="656.08" y="85" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -3621,6 +3623,17 @@
         <mxCell id="YD8wXlY8oEXokaMSZj_n-959" connectable="0" parent="YD8wXlY8oEXokaMSZj_n-958" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
           <mxGeometry relative="1" x="0.4104" y="27" as="geometry">
             <mxPoint x="-2" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YD8wXlY8oEXokaMSZj_n-961" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-846" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fillColor=#1ba1e2;strokeColor=#006EAF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="YD8wXlY8oEXokaMSZj_n-57" value="Connect">
+          <mxGeometry relative="1" width="80" x="0.15" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="24670" y="3875" />
+              <mxPoint x="24720" y="4510" />
+            </Array>
+            <mxPoint x="25058.920000000002" y="3980" as="sourcePoint" />
+            <mxPoint x="24558.920000000002" y="4010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
