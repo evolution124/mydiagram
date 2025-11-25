@@ -3839,7 +3839,7 @@
           <mxGeometry height="28" width="540" y="550" as="geometry" />
         </mxCell>
         <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-246" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;issue_stage&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;.sv&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;/home/ICer/proj/cva6/core/issue_stage.sv&lt;/span&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="230" width="540" x="9170" y="13960" as="geometry" />
+          <mxGeometry height="240" width="540" x="9170" y="13960" as="geometry" />
         </mxCell>
         <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-247" parent="uH6Xu7t1aq6OV9Z4MXgF-246" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="540" y="40" as="geometry" />
@@ -3854,7 +3854,7 @@
           <mxGeometry height="32" width="540" y="112" as="geometry" />
         </mxCell>
         <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-252" parent="uH6Xu7t1aq6OV9Z4MXgF-246" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;if (wt_valid_i[i] &amp;amp;&amp;amp; mem_q[trans_id_i[i]].issued) begin&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;mem_n[trans_id_i[i]].sbe.result = &lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;wbdata_i[i];&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;end&lt;/div&gt;" vertex="1">
-          <mxGeometry height="86" width="540" y="144" as="geometry" />
+          <mxGeometry height="96" width="540" y="144" as="geometry" />
         </mxCell>
         <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-259" edge="1" parent="1" source="uH6Xu7t1aq6OV9Z4MXgF-240" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=6;fillColor=#e1d5e7;strokeColor=#9673a6;" target="uH6Xu7t1aq6OV9Z4MXgF-248" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
