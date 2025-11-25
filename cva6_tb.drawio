@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-1921" dy="3476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="5177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3911,7 +3911,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-264" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="&lt;span style=&quot;text-align: left;&quot;&gt;CSR_REGFILE&lt;br&gt;/home/ICer/proj/cva6/core/csr_regfile.sv&lt;/span&gt;" vertex="1">
-          <mxGeometry height="230" width="870" x="7480" y="12730" as="geometry" />
+          <mxGeometry height="230" width="870" x="7560" y="13240" as="geometry" />
         </mxCell>
         <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-265" parent="uH6Xu7t1aq6OV9Z4MXgF-264" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="870" y="40" as="geometry" />
@@ -3991,7 +3991,7 @@
               <mxPoint x="12230" y="14390" />
               <mxPoint x="12230" y="14900" />
               <mxPoint x="7420" y="14880" />
-              <mxPoint x="7420" y="12915" />
+              <mxPoint x="7420" y="13425" />
             </Array>
             <mxPoint x="13690" y="14536" as="sourcePoint" />
             <mxPoint x="7560" y="14500" as="targetPoint" />
@@ -4026,8 +4026,8 @@
             <Array as="points">
               <mxPoint x="12480" y="14068" />
               <mxPoint x="12480" y="15100" />
-              <mxPoint x="7210" y="15070" />
-              <mxPoint x="7220" y="12855" />
+              <mxPoint x="7230" y="15080" />
+              <mxPoint x="7220" y="13360" />
             </Array>
             <mxPoint x="13860" y="14714" as="sourcePoint" />
             <mxPoint x="7410" y="12850" as="targetPoint" />
@@ -4087,7 +4087,7 @@
               <mxPoint x="12480" y="14068" />
               <mxPoint x="12480" y="15100" />
               <mxPoint x="7550" y="15080" />
-              <mxPoint x="7550" y="13910" />
+              <mxPoint x="7560" y="13906" />
             </Array>
             <mxPoint x="12170" y="15157" as="sourcePoint" />
             <mxPoint x="7640" y="13840" as="targetPoint" />
@@ -4099,7 +4099,7 @@
               <mxPoint x="12350" y="14336" />
               <mxPoint x="12350" y="15000" />
               <mxPoint x="7350" y="15010" />
-              <mxPoint x="7380" y="12885" />
+              <mxPoint x="7360" y="13395" />
             </Array>
             <mxPoint x="12280" y="14290" as="sourcePoint" />
             <mxPoint x="8100" y="13450" as="targetPoint" />
@@ -4147,7 +4147,7 @@
         <mxCell id="JlCq62pueJppGSykHPL4-1" parent="uH6Xu7t1aq6OV9Z4MXgF-410" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;input logic [CVA6Cfg.NrIssuePorts-1:0] fetch_entry_valid_i,&lt;/div&gt;" vertex="1">
           <mxGeometry height="32" width="440" y="34" as="geometry" />
         </mxCell>
-        <mxCell id="JlCq62pueJppGSykHPL4-7" parent="uH6Xu7t1aq6OV9Z4MXgF-410" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;input logic [CVA6Cfg.NrIssuePorts-1:0] fetch_entry_valid_i,&lt;/div&gt;" vertex="1">
+        <mxCell id="JlCq62pueJppGSykHPL4-7" parent="uH6Xu7t1aq6OV9Z4MXgF-410" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;input fetch_entry_t [CVA6Cfg.NrIssuePorts-1:0] fetch_entry_i&lt;/div&gt;" vertex="1">
           <mxGeometry height="32" width="440" y="66" as="geometry" />
         </mxCell>
         <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-413" parent="uH6Xu7t1aq6OV9Z4MXgF-410" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;output logic [CVA6Cfg.NrIssuePorts-1:0] issue_entry_valid_o,&lt;/div&gt;" vertex="1">
