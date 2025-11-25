@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="1183" dy="5177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-2439" dy="3192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4127,7 +4127,7 @@
             <Array as="points">
               <mxPoint x="9830" y="14450" />
               <mxPoint x="11220" y="14460" />
-              <mxPoint x="11340" y="14010" />
+              <mxPoint x="11340" y="14004" />
             </Array>
             <mxPoint x="9840" y="14350" as="sourcePoint" />
             <mxPoint x="9790" y="14320" as="targetPoint" />
@@ -4153,10 +4153,10 @@
         <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-413" parent="uH6Xu7t1aq6OV9Z4MXgF-410" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;output logic [CVA6Cfg.NrIssuePorts-1:0] issue_entry_valid_o,&lt;/div&gt;" vertex="1">
           <mxGeometry height="32" width="440" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-421" edge="1" parent="1" source="uH6Xu7t1aq6OV9Z4MXgF-410" style="endArrow=classic;html=1;rounded=0;strokeWidth=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="uH6Xu7t1aq6OV9Z4MXgF-420" value="">
+        <mxCell id="uH6Xu7t1aq6OV9Z4MXgF-421" edge="1" parent="1" source="uH6Xu7t1aq6OV9Z4MXgF-413" style="endArrow=classic;html=1;rounded=0;strokeWidth=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="uH6Xu7t1aq6OV9Z4MXgF-420" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="8820" y="13914" />
+              <mxPoint x="8810" y="13954" />
               <mxPoint x="8870" y="14024" />
             </Array>
             <mxPoint x="10400" y="14280" as="sourcePoint" />
