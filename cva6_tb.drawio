@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="Iqzep2Eil3ykFxYwn48A">
-    <mxGraphModel dx="-3146" dy="2782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-2759" dy="3081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2843,19 +2843,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-798" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;cva6&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;/home/ICer/proj/cva6/core/cva6.sv&lt;/span&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="500" width="540" x="15285" y="10406" as="geometry" />
+          <mxGeometry height="368" width="540" x="15290" y="10406" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-799" parent="YD8wXlY8oEXokaMSZj_n-798" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="540" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="YD8wXlY8oEXokaMSZj_n-800" parent="YD8wXlY8oEXokaMSZj_n-798" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="132" width="540" y="48" as="geometry" />
-        </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-801" parent="YD8wXlY8oEXokaMSZj_n-798" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// --------------&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// IF &amp;lt;-&amp;gt; ID&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;// --------------&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(0, 204, 0);&quot;&gt;fetch_entry_t [CVA6Cfg.NrIssuePorts-1:0] fetch_entry_if_id;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;//RVFI INSTR&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(0, 204, 0);&quot;&gt;logic [CVA6Cfg.NrIssuePorts-1:0][31:0] rvfi_fetch_instr;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;for (genvar i = 0; i &amp;lt; CVA6Cfg.NrIssuePorts; i++) begin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;assign rvfi_fetch_instr[i] = fetch_entry_if_id[i].instruction;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;end&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="540" y="180" as="geometry" />
+          <mxGeometry height="170" width="540" y="48" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-802" parent="YD8wXlY8oEXokaMSZj_n-798" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;logic [CVA6Cfg.NrWbPorts-1:0][CVA6Cfg.XLEN-1:0] &lt;span style=&quot;background-color: rgb(0, 204, 0);&quot;&gt;wbdata_ex_id&lt;/span&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign wbdata_ex_id[FLU_WB]&amp;nbsp; &amp;nbsp;= flu_result_ex_id;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign wbdata_ex_id[STORE_WB]&amp;nbsp; &amp;nbsp;= store_result_ex_id;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign wbdata_ex_id[LOAD_WB]&amp;nbsp; &amp;nbsp;= load_result_ex_id;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;assign wbdata_ex_id[FPU_WB]&amp;nbsp; &amp;nbsp;= fpu_result_ex_id;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="150" width="540" y="350" as="geometry" />
+          <mxGeometry height="150" width="540" y="218" as="geometry" />
         </mxCell>
         <mxCell id="YD8wXlY8oEXokaMSZj_n-803" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-795" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="YD8wXlY8oEXokaMSZj_n-798" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
@@ -2871,7 +2868,7 @@
             <Array as="points">
               <mxPoint x="7120" y="3809" />
               <mxPoint x="10610" y="6960" />
-              <mxPoint x="15120" y="10671" />
+              <mxPoint x="15150" y="10539" />
             </Array>
             <mxPoint x="6160" y="3880" as="sourcePoint" />
             <mxPoint x="12420" y="8746" as="targetPoint" />
@@ -2880,7 +2877,7 @@
         <mxCell id="YD8wXlY8oEXokaMSZj_n-805" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-801" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;fillColor=#0050ef;strokeColor=#001DBC;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YD8wXlY8oEXokaMSZj_n-742" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="15940" y="10671" />
+              <mxPoint x="15920" y="10539" />
               <mxPoint x="16940" y="8743" />
             </Array>
             <mxPoint x="15720" y="9640" as="sourcePoint" />
@@ -2982,7 +2979,7 @@
         <mxCell id="YD8wXlY8oEXokaMSZj_n-816" edge="1" parent="1" source="YD8wXlY8oEXokaMSZj_n-802" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YD8wXlY8oEXokaMSZj_n-757" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="15980" y="10831" />
+              <mxPoint x="15970" y="10700" />
               <mxPoint x="17290" y="9200" />
             </Array>
             <mxPoint x="16070" y="11541" as="sourcePoint" />
