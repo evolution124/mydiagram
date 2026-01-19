@@ -1,17 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.2.9">
   <diagram name="Page-1" id="ZyiYLpGNe981XcR9g1XM">
-    <mxGraphModel dx="13767" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="12304" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;&quot;&gt;UMD launchKernel&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="2640" width="2510" x="210" y="380" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 72px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;font style=&quot;font-size: 64px;&quot;&gt;queue scheduler&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="2640" width="1610" x="2940" y="380" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;&quot;&gt;UMD launchKernel&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="2640" width="2510" x="2530" y="400" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-3" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;drv_api.cpp&lt;/span&gt;" vertex="1">
-          <mxGeometry height="606" width="630" x="460" y="780" as="geometry" />
+          <mxGeometry height="606" width="630" x="2780" y="800" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-4" parent="4z17Cn_j7c4BS6MCMvL9-3" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;b&gt;drvLaunchKernelEx_common(config, f, kernelParams, extra, ptsz):&lt;br&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; kernelParams: 就是user传入的args,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; extra: ???&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; ptsz: 是否是perThread Stream&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="74" width="630" y="26" as="geometry" />
@@ -23,7 +20,7 @@
           <mxGeometry height="26" width="630" y="580" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-7" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;stream.cpp&lt;/span&gt;" vertex="1">
-          <mxGeometry height="220" width="490" x="1220" y="1080" as="geometry" />
+          <mxGeometry height="220" width="490" x="3540" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-8" parent="4z17Cn_j7c4BS6MCMvL9-7" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;b&gt;getCurrentStream(CUcontext ctx, CUStream stream, bool perThread):&lt;br&gt;&lt;/b&gt;&amp;nbsp; &amp;nbsp; stream 用户传入的stream&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="44" width="490" y="26" as="geometry" />
@@ -32,7 +29,7 @@
           <mxGeometry height="150" width="490" y="70" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;drv_api.cpp&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="490" x="1220" y="790" as="geometry" />
+          <mxGeometry height="140" width="490" x="3540" y="810" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-11" parent="4z17Cn_j7c4BS6MCMvL9-10" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;b&gt;getCurrentContext():&lt;/b&gt;&amp;nbsp;获取当前的context&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="24" width="490" y="26" as="geometry" />
@@ -41,7 +38,7 @@
           <mxGeometry height="90" width="490" y="50" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="hal.cpp" vertex="1">
-          <mxGeometry height="176" width="390" x="580" y="1460" as="geometry" />
+          <mxGeometry height="176" width="390" x="2900" y="1480" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-14" parent="4z17Cn_j7c4BS6MCMvL9-13" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;b&gt;launchCommand(halQueue_PTR queue, halCommand_t * cmd)&lt;/b&gt;" vertex="1">
           <mxGeometry height="26" width="390" y="26" as="geometry" />
@@ -57,12 +54,12 @@
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-18" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-6" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.501;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-13" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="480" y="1430" as="sourcePoint" />
-            <mxPoint x="560" y="1430" as="targetPoint" />
+            <mxPoint x="2800" y="1450" as="sourcePoint" />
+            <mxPoint x="2880" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-19" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="hal.cpp" vertex="1">
-          <mxGeometry height="320" width="550" x="498" y="1740" as="geometry" />
+          <mxGeometry height="320" width="550" x="2818" y="1760" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-20" parent="4z17Cn_j7c4BS6MCMvL9-19" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;b&gt;executeKernel(halQueue_PTR queue, halCommand* halCmd)&lt;/b&gt;" vertex="1">
           <mxGeometry height="26" width="550" y="26" as="geometry" />
@@ -75,12 +72,12 @@
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-23" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-17" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.51;entryY=0.005;entryDx=0;entryDy=0;exitX=0.508;exitY=1.035;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-19" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="786" y="1397" as="sourcePoint" />
-            <mxPoint x="785" y="1470" as="targetPoint" />
+            <mxPoint x="3106" y="1417" as="sourcePoint" />
+            <mxPoint x="3105" y="1490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-24" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="chip.cpp" vertex="1">
-          <mxGeometry height="300" width="460" x="1220" y="1500" as="geometry" />
+          <mxGeometry height="300" width="460" x="3540" y="1520" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-25" parent="4z17Cn_j7c4BS6MCMvL9-24" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;b&gt;createCommandBuffer(processor, size)&lt;/b&gt;" vertex="1">
           <mxGeometry height="26" width="460" y="26" as="geometry" />
@@ -93,24 +90,24 @@
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-28" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-22" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.005;entryY=0.053;entryDx=0;entryDy=0;exitX=1.006;exitY=0.166;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-24" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="788" y="1667" as="sourcePoint" />
-            <mxPoint x="791" y="1741" as="targetPoint" />
+            <mxPoint x="3108" y="1687" as="sourcePoint" />
+            <mxPoint x="3111" y="1761" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-29" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.003;entryY=0.111;entryDx=0;entryDy=0;exitX=1.002;exitY=0.298;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-10" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="1100" y="1166" as="sourcePoint" />
-            <mxPoint x="1217" y="950" as="targetPoint" />
+            <mxPoint x="3420" y="1186" as="sourcePoint" />
+            <mxPoint x="3537" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-30" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.001;entryY=0.083;entryDx=0;entryDy=0;exitX=0.997;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-7" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="1101" y="1033" as="sourcePoint" />
-            <mxPoint x="1261" y="856" as="targetPoint" />
+            <mxPoint x="3421" y="1053" as="sourcePoint" />
+            <mxPoint x="3581" y="876" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-31" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="chip.cpp" vertex="1">
-          <mxGeometry height="560" width="530" x="1220" y="1830" as="geometry" />
+          <mxGeometry height="560" width="530" x="3540" y="1850" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-32" parent="4z17Cn_j7c4BS6MCMvL9-31" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;b&gt;clfInvokeVIRKernel(cmdBuffer_PTR cmdBuffer, KernelInst_PTR kernelInst,...)&lt;br&gt;通过将要运行的kernel, 配置cmd buffer&lt;/b&gt;" vertex="1">
           <mxGeometry height="44" width="530" y="26" as="geometry" />
@@ -123,12 +120,12 @@
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-35" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-22" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-34" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="1061" y="1858" as="sourcePoint" />
-            <mxPoint x="1258" y="1626" as="targetPoint" />
+            <mxPoint x="3381" y="1878" as="sourcePoint" />
+            <mxPoint x="3578" y="1646" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-36" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="hal.cpp" vertex="1">
-          <mxGeometry height="190" width="530" x="1220" y="2491" as="geometry" />
+          <mxGeometry height="190" width="530" x="3540" y="2511" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-37" parent="4z17Cn_j7c4BS6MCMvL9-36" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;b&gt;addCmdToQueue(halQueue_PTR queue, cmdBuffer_PTR cmdBuffer)&lt;/b&gt;" vertex="1">
           <mxGeometry height="26" width="530" y="26" as="geometry" />
@@ -141,12 +138,12 @@
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-40" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-22" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.997;exitY=0.824;exitDx=0;exitDy=0;exitPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-36" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="955" y="2310" as="sourcePoint" />
-            <mxPoint x="1117" y="2533" as="targetPoint" />
+            <mxPoint x="3275" y="2330" as="sourcePoint" />
+            <mxPoint x="3437" y="2553" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-41" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="chip.cpp" vertex="1">
-          <mxGeometry height="450" width="690" x="1890" y="2510" as="geometry" />
+          <mxGeometry height="450" width="690" x="4210" y="2530" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-42" parent="4z17Cn_j7c4BS6MCMvL9-41" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;b&gt;clfSendFenceWithEngine(cmdBuffer_PTR cmdBuffer, uint64_t data, devAddress_t dstAddress, int32_t engine)&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;// data 就是expectedVal,&amp;nbsp; &lt;br&gt;// dstAddress是GPU看到的halFence_PTR地址&lt;br&gt;// engine ??&lt;/span&gt;" vertex="1">
           <mxGeometry height="74" width="690" y="26" as="geometry" />
@@ -159,111 +156,8 @@
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-45" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-37" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.003;entryY=0.038;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-41" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="3210" y="2565" as="sourcePoint" />
-            <mxPoint x="3369" y="3000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-46" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="queue_sched.cpp" vertex="1">
-          <mxGeometry height="236" width="340" x="3680" y="770" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-47" parent="4z17Cn_j7c4BS6MCMvL9-46" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;b&gt;simple_round_robin(void* p)&lt;/b&gt;" vertex="1">
-          <mxGeometry height="26" width="340" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-48" parent="4z17Cn_j7c4BS6MCMvL9-46" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="340" y="52" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-49" parent="4z17Cn_j7c4BS6MCMvL9-46" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;while(1)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; cmd = &lt;b&gt;os_queue_head&lt;/b&gt;(q-&amp;gt;commandQueue)&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;commitCmdBuffer&lt;/b&gt;(cmd, &amp;amp;commitInfo)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;releaseCommandBuffer&lt;/b&gt;(cmd)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;os_queue_pop_head&lt;/b&gt;(q-&amp;gt;commandQueue)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
-          <mxGeometry height="150" width="340" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-50" parent="4z17Cn_j7c4BS6MCMvL9-46" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;" vertex="1">
-          <mxGeometry height="26" width="340" y="210" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-51" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="hal.cpp" vertex="1">
-          <mxGeometry height="924" width="690" x="3500" y="1086" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-52" parent="4z17Cn_j7c4BS6MCMvL9-51" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;b&gt;commitCmdBuffer(cmdBuffer_PTR cmd, commitInfo_PTR info)&lt;/b&gt;" vertex="1">
-          <mxGeometry height="24" width="690" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-53" parent="4z17Cn_j7c4BS6MCMvL9-51" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="690" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-54" parent="4z17Cn_j7c4BS6MCMvL9-51" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" value="gcsHAL_INTERFACE iface = { &lt;font color=&quot;#ff3333&quot;&gt;gcvHAL_COMMIT&lt;/font&gt;}&amp;nbsp;&lt;div&gt;gcsHAL_SUBCOMMIT subCommit[gcvCORE_COUNT+1] = {{0}}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;offset = processor-&amp;gt;commandBufferOffset&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;//256&lt;/span&gt;&lt;/div&gt;&lt;div&gt;cmdTailSize = CMD_reservedTailSize&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//128&amp;nbsp; 8 * CORE_MAX_COUNT&lt;/div&gt;&lt;div&gt;cmdCount = getCommandCount(cmd);&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//162 host 已经准备的cmd&lt;/div&gt;&lt;div&gt;cmdSize&amp;nbsp; &amp;nbsp;= cmdCount*4 + CMD_reservedTailSize + CMD_reservedHeadSize //808&lt;br&gt;cmdSize = ALIGN_NP2(cmdSize, 64)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//832&lt;br&gt;cmdTailSize = cmdSize - cmdCount*4 - CMD_reservedHeadSize&amp;nbsp; &amp;nbsp;//152&lt;br&gt;cmdCount = cmdSize/4&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//208&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//之后还会align cmdSize到64再重新计算cmdTailSize&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;//计算当前cmdCount, 再设置 cmdIdx&lt;/span&gt;&lt;/div&gt;&lt;div&gt;commitIdx = processor-&amp;gt;commitCmdIdx&lt;/div&gt;&lt;div&gt;cmdIdx = commitIdx + totalCount&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;processor-&amp;gt;commitCmdIdx = cmdIdx&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//准备拷贝cmdBuffer_PTR中的cmd到 subCommit中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;readIdx = processor-&amp;gt;devReadCmdIdx&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;subCommit[i].commandBuffer.startOffset = offset;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//256&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;logical = getCPUAddr(processor-&amp;gt;commandBufferPool, processor) + offset; // cpu_logical&amp;nbsp; 55AD 21F6 3A00&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;dst = logical + CMD_reservedHeadSize;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// dst&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;55AD 21F6 3A20&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//拷贝host准备的cmd数据到 commandBufferPool当中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;memcpy(dst, cmd-&amp;gt;cmdBase, getCommandCount(cmd)*4)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;offset+= cmdSize&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;iface.u.Commit.shared = !bDuplicate;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="422" width="690" y="58" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-55" parent="4z17Cn_j7c4BS6MCMvL9-51" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" value="for ( int i = 0; i &amp;lt; coreCount; i++) {" vertex="1">
-          <mxGeometry height="26" width="690" y="480" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-56" parent="4z17Cn_j7c4BS6MCMvL9-51" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px; background-color: rgb(255, 153, 153);&quot;&gt;&amp;nbsp; //此处 修改为 subCommit[i].context = 0;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; subCommit[i].context = processor-&amp;gt;context[i]&amp;nbsp; //此处的context[i] 就是context db 的id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.delta =0,&amp;nbsp; .queue = 0,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.address = getDeviceAddr(processor-&amp;gt;commandBufferPool. processor)&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;//FF7F E000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.logical&amp;nbsp; &amp;nbsp; = getCPUAddr(processor-&amp;gt;commandBufferPool, processor)&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;//55AD 21F6 3900&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = cmdSize&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;//832&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.reservedHead = CMD_reservedHeadSize&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;//32&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.reservedTail = cmdTailSize&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;//152&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.videoMemNode = processor-&amp;gt;commandBufferPool-&amp;gt;handle&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.entryPipe = gcvPIPE_3D , exitPipe = gcvPIPE_3D&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.exitIndex =&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;bDuplicate&amp;nbsp;&lt;/span&gt;? 0 : 1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.priority = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.commandBuffer.&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;channelId&amp;nbsp;&lt;/span&gt;= 1,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.next = subCommit + i + 1&lt;/div&gt;" vertex="1">
-          <mxGeometry height="234" width="690" y="506" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-57" parent="4z17Cn_j7c4BS6MCMvL9-51" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" value="}" vertex="1">
-          <mxGeometry height="26" width="690" y="740" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-58" parent="4z17Cn_j7c4BS6MCMvL9-51" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;iface.u.Commit.subCommit = subCommit[0]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;iface.u.Commit.broCoreMask =&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 229, 153);&quot;&gt;broCoreMask&lt;/span&gt;&lt;br&gt;iface.cmmitMutex = false&lt;/div&gt;" vertex="1">
-          <mxGeometry height="64" width="690" y="766" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-59" parent="4z17Cn_j7c4BS6MCMvL9-51" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;dashed=1;" value="&lt;div&gt;&lt;b&gt;KmdIoCtl(processor-&amp;gt;kmdHandle, IOCTL_GCHAL_INTERFACE, &amp;amp;iface, sizeof(iface) .....)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;//iface.u.Commit.contextSwitched) 可以查询是否有context切换&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="68" width="690" y="830" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-60" parent="4z17Cn_j7c4BS6MCMvL9-51" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;" vertex="1">
-          <mxGeometry height="26" width="690" y="898" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-61" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-50" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.49;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-51" value="dispatch">
-          <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="3890" y="693" as="sourcePoint" />
-            <mxPoint x="4010" y="476" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-62" parent="1" style="html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;" value="createCommandBufferPool(processor_PTR processor)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;processor-&amp;gt;commandBufferOffset = 256&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="370" x="3080" y="1135" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-63" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-62" style="endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-54" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="3350" y="1215" as="sourcePoint" />
-            <mxPoint x="3400" y="1165" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-64" parent="1" style="html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;" value="&lt;div&gt;&lt;b&gt;iniDriver()-&amp;gt;createProcessor()--&amp;gt;attachToKMD&lt;/b&gt;&lt;/div&gt;&lt;div&gt;--&amp;gt; iface = {gcvHAL_ATTACH}&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; for (int i=0; i&amp;lt;processor-&amp;gt;coreCount; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;KmdIoCtrl(...)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(204, 255, 255);&quot;&gt;processor-&amp;gt;context[i] = iface.u.Attach.context (一个数字ID)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;...&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;processor-&amp;gt;contextBytes = iface.u.Attach.bytes&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;processor-&amp;gt;contextLogical[2*i + 0] = iface.u.Attach.logicals[0]&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;processor-&amp;gt;contextLogical[2*i + 0] = iface.u.Attach.logicals[1]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="370" x="3080" y="1350" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-65" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-64" style="endArrow=classic;html=1;rounded=0;entryX=-0.001;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-56" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="3450" y="1160" as="sourcePoint" />
-            <mxPoint x="3507" y="1212" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ResvHead&lt;br&gt;32" vertex="1">
-          <mxGeometry height="80" width="100" x="3550" y="2190" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="StartOffset&lt;br&gt;256" vertex="1">
-          <mxGeometry height="80" width="110" x="3440" y="2190" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" value="832" vertex="1">
-          <mxGeometry height="80" width="410" x="3650" y="2190" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="User Commands&lt;br&gt;648 (162*4)" vertex="1">
-          <mxGeometry height="40" width="260" x="3650" y="2230" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ResvTail&lt;br&gt;128-&amp;gt;152" vertex="1">
-          <mxGeometry height="40" width="130" x="3910" y="2230" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Command Buffer&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Next&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="4060" y="2190" as="geometry" />
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-72" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-60" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.512;exitY=1.072;exitDx=0;exitDy=0;exitPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-68" value="USER Command Buffer 的创建">
-          <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="3857" y="1017" as="sourcePoint" />
-            <mxPoint x="3855" y="1096" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-73" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-44" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=8;dashed=1;" target="4z17Cn_j7c4BS6MCMvL9-49" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="2810" y="2789" />
-              <mxPoint x="2820" y="905" />
-            </Array>
-            <mxPoint x="2820" y="2180" as="sourcePoint" />
-            <mxPoint x="2870" y="2130" as="targetPoint" />
+            <mxPoint x="5530" y="2585" as="sourcePoint" />
+            <mxPoint x="5689" y="3020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-74" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;drv_api.cpp&lt;/span&gt;" vertex="1">
