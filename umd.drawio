@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
   <diagram name="Page-1" id="ZyiYLpGNe981XcR9g1XM">
-    <mxGraphModel dx="2066" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3423" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,7 +267,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-74" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;drv_api.cpp&lt;/span&gt;" vertex="1">
-          <mxGeometry height="656" width="630" x="290" y="3160" as="geometry" />
+          <mxGeometry height="656" width="630" x="-320" y="4070" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-75" parent="4z17Cn_j7c4BS6MCMvL9-74" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;b&gt;drvLaunchKernelEx_common(const CUlaunchConfig* config, &lt;br&gt;CUfunction f, &lt;br&gt;void** kernelParams, &lt;br&gt;void** extra, bool ptsz, bool packagedParam, bool cooperative):&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; kernelParams: 就是user传入的args,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; extra: ???&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; ptsz: 是否是perThread Stream&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="124" width="630" y="26" as="geometry" />
@@ -279,7 +279,7 @@
           <mxGeometry height="26" width="630" y="630" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-82" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="typedef struct _cuLinkOption&amp;nbsp;drvLinkOption_t&amp;nbsp;" vertex="1">
-          <mxGeometry height="866" width="520" x="-800" y="2370" as="geometry" />
+          <mxGeometry height="866" width="520" x="-1410" y="3280" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-83" parent="4z17Cn_j7c4BS6MCMvL9-82" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="unsigned int&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; maxRegisters;" vertex="1">
           <mxGeometry height="26" width="520" y="26" as="geometry" />
@@ -381,7 +381,7 @@
           <mxGeometry height="8" width="520" y="858" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-86" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="typedef struct CUmod_st&amp;nbsp; &amp;nbsp;&amp;nbsp;drvModule_t" vertex="1">
-          <mxGeometry height="294" width="520" x="-790" y="3390" as="geometry" />
+          <mxGeometry height="294" width="520" x="-1410" y="4210" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-87" parent="4z17Cn_j7c4BS6MCMvL9-86" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="baseObj_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;base;" vertex="1">
           <mxGeometry height="26" width="520" y="26" as="geometry" />
@@ -417,7 +417,7 @@
           <mxGeometry height="8" width="520" y="286" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-90" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;typedef struct CUfunc_st&amp;nbsp;drvFunction_t;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="528" width="520" x="-790" y="3790" as="geometry" />
+          <mxGeometry height="528" width="520" x="-1400" y="4700" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-91" parent="4z17Cn_j7c4BS6MCMvL9-90" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;baseObj_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;base;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="26" width="520" y="26" as="geometry" />
@@ -463,6 +463,41 @@
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-92" parent="4z17Cn_j7c4BS6MCMvL9-90" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="520" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-147" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-115" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" target="4z17Cn_j7c4BS6MCMvL9-82" value="dispatch">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1440" y="4483" />
+              <mxPoint x="-1440" y="3300" />
+            </Array>
+            <mxPoint x="-1500" y="4370" as="sourcePoint" />
+            <mxPoint x="-1420" y="4370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-148" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="typedef enum CUjit_cacheMode_enum&amp;nbsp; &amp;nbsp;CUjit_cacheMode" vertex="1">
+          <mxGeometry height="112" width="520" x="-800" y="3280" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-149" parent="4z17Cn_j7c4BS6MCMvL9-148" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="CU_JIT_CACHE_OPTION_NONE = 0, /**&amp;lt; Compile with no -dlcm flag specified */" vertex="1">
+          <mxGeometry height="26" width="520" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-150" parent="4z17Cn_j7c4BS6MCMvL9-148" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="CU_JIT_CACHE_OPTION_CG,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;/**&amp;lt; Compile with L1 cache disabled */" vertex="1">
+          <mxGeometry height="26" width="520" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-151" parent="4z17Cn_j7c4BS6MCMvL9-148" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="CU_JIT_CACHE_OPTION_CA&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /**&amp;lt; Compile with L1 cache enabled */" vertex="1">
+          <mxGeometry height="26" width="520" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-159" parent="4z17Cn_j7c4BS6MCMvL9-148" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="520" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-160" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-130" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-148" value="dispatch">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="-860" y="3683" />
+              <mxPoint x="-840" y="3310" />
+            </Array>
+            <mxPoint x="-770" y="3620" as="sourcePoint" />
+            <mxPoint x="-690" y="3620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
