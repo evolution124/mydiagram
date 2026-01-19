@@ -1034,7 +1034,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-343" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;/* Executable shader profile definition. Each BE compiling or glProgramBinary will generate one&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;profile like this. */&lt;/div&gt;&lt;/div&gt;&lt;div&gt;typedef struct SHADER_EXECUTABLE_PROFILE&lt;br&gt;SHADER_EXECUTABLE_PROFILE;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="1138" width="690" x="-4650" y="3556" as="geometry" />
+          <mxGeometry height="1198" width="690" x="-4650" y="3556" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-344" parent="4z17Cn_j7c4BS6MCMvL9-343" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Profile version */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;profileVersion;" vertex="1">
           <mxGeometry height="40" width="690" y="80" as="geometry" />
@@ -1099,8 +1099,11 @@
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-367" parent="4z17Cn_j7c4BS6MCMvL9-343" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* VIV:TODO: LTC-folding gcSL insts and constants here.&lt;br&gt;1. Do we need convert constants used by LTC-folding gcSL insts to # based?? If so, UpdateUniform can&lt;br&gt;&amp;nbsp; &amp;nbsp;save constant values in # while set data to HW locations, and then use them when do LTC calculation.&lt;br&gt;&amp;nbsp; &amp;nbsp;But if static patch constant is not used in machine code, but for LTC, then we may need a new mode&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;in SHADER_PATCH_CONSTANT_MODE to handle it, such as SHADER_PATCH_CONSTANT_MODE_LTC_ONLY.&lt;br&gt;2. Can we make LTC calculation only based on dirty #?? Or&lt;br&gt;3. Can we directly translate LTC-folding gcSL insts to CPU code?? */" vertex="1">
           <mxGeometry height="130" width="690" y="1000" as="geometry" />
         </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-368" parent="4z17Cn_j7c4BS6MCMvL9-343" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Current SEI that this profile uses. This is the one used to program HW registers. Currently disable it&lt;br&gt;&amp;nbsp; &amp;nbsp;due to we&#39;re using program-level recompiling */&lt;br&gt;/*SHADER_EXECUTABLE_INSTANCE*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;pCurInstance;*/" vertex="1">
+          <mxGeometry height="60" width="690" y="1130" as="geometry" />
+        </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-349" parent="4z17Cn_j7c4BS6MCMvL9-343" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="690" y="1130" as="geometry" />
+          <mxGeometry height="8" width="690" y="1190" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-350" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-322" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-343" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
