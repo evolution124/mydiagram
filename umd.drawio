@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
   <diagram name="Page-1" id="ZyiYLpGNe981XcR9g1XM">
-    <mxGraphModel dx="5466" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5727" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -940,6 +940,30 @@
             <mxPoint x="-2345" y="4729" as="sourcePoint" />
             <mxPoint x="-2580" y="3840" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-312" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;/* A state buffer that hold all shaders programming for GPU kickoff.&lt;/div&gt;&lt;div&gt;** If change the struct, need update gcdVIR_HW_PIPELINE_SHADER_STATE_VERSION tog&lt;br&gt;typedef struct _VSC_HW_PIPELINE_SHADERS_STATES&lt;br&gt;VSC_HW_PIPELINE_SHADERS_STATES, *PVSC_HW_PIPELINE_SHADERS_STATES;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="298" width="605" x="-3337.5" y="4000" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-313" parent="4z17Cn_j7c4BS6MCMvL9-312" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;stateBufferSize;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="605" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-316" parent="4z17Cn_j7c4BS6MCMvL9-312" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;void*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;pStateBuffer;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="605" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-318" parent="4z17Cn_j7c4BS6MCMvL9-312" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;/* It is DEPRECATED if driver directly uses EPs (PEP/KEP/SEP) as all&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;the info stored in hints can be retrieved by SEP */&lt;br&gt;struct _gcsHINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;hints;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="605" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-317" parent="4z17Cn_j7c4BS6MCMvL9-312" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;gcsPROGRAM_VidMemPatchOffset&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; patchOffsetsInDW;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="605" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-319" parent="4z17Cn_j7c4BS6MCMvL9-312" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;stateDeltaSize;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="605" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-315" parent="4z17Cn_j7c4BS6MCMvL9-312" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;gctUINT32*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pStateDelta;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="605" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-314" parent="4z17Cn_j7c4BS6MCMvL9-312" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="605" y="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
