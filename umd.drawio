@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
   <diagram name="Page-1" id="ZyiYLpGNe981XcR9g1XM">
-    <mxGraphModel dx="10727" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="11393" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1519,6 +1519,30 @@
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-479" parent="4z17Cn_j7c4BS6MCMvL9-466" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* First valid channel based on validHWChannelMask */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; firstValidHwChannel;" vertex="1">
           <mxGeometry height="40" width="890" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-481" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="typedef enum SHADER_HW_MEM_ACCESS_MODE&amp;nbsp;SHADER_HW_MEM_ACCESS_MODE&amp;nbsp;" vertex="1">
+          <mxGeometry height="118" width="640" x="-10000" y="4220" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-482" parent="4z17Cn_j7c4BS6MCMvL9-481" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; SHADER_HW_MEM_ACCESS_MODE_PLACE_HOLDER&amp;nbsp; &amp;nbsp;= 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; SHADER_HW_MEM_ACCESS_MODE_DIRECT_MEM_ADDR= 1,&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; SHADER_HW_MEM_ACCESS_MODE_DIRECT_SAMPLER = 2,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; SHADER_HW_MEM_ACCESS_MODE_SRV&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 3,&lt;br&gt;&amp;nbsp; &amp;nbsp; SHADER_HW_MEM_ACCESS_MODE_UAV&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 4,&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="640" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-483" parent="4z17Cn_j7c4BS6MCMvL9-481" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="640" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-484" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-473" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-481" value="dispatch">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="-9230" y="4835" />
+              <mxPoint x="-9280" y="4220" />
+            </Array>
+            <mxPoint x="-8070" y="4453" as="sourcePoint" />
+            <mxPoint x="-8210" y="4140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-485" connectable="0" parent="4z17Cn_j7c4BS6MCMvL9-484" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.0961" y="6" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
