@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
   <diagram name="Page-1" id="ZyiYLpGNe981XcR9g1XM">
-    <mxGraphModel dx="6085" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7662" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1034,7 +1034,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-343" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;/* Executable shader profile definition. Each BE compiling or glProgramBinary will generate one&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;profile like this. */&lt;/div&gt;&lt;/div&gt;&lt;div&gt;typedef struct SHADER_EXECUTABLE_PROFILE&lt;br&gt;SHADER_EXECUTABLE_PROFILE;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="1198" width="690" x="-4650" y="3556" as="geometry" />
+          <mxGeometry height="1198" width="690" x="-6100" y="3556" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-344" parent="4z17Cn_j7c4BS6MCMvL9-343" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Profile version */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;profileVersion;" vertex="1">
           <mxGeometry height="40" width="690" y="80" as="geometry" />
@@ -1069,7 +1069,7 @@
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-356" parent="4z17Cn_j7c4BS6MCMvL9-343" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Temp register count the machine code uses */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;gprCount;" vertex="1">
           <mxGeometry height="40" width="690" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-358" parent="4z17Cn_j7c4BS6MCMvL9-343" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Special executable hints that this SEP holds. When shader is executed inside of HW, it will&lt;br&gt;&amp;nbsp; &amp;nbsp;rely on this special execute hints */&lt;br&gt;SHADER_EXECUTABLE_HINTS&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;exeHints;" vertex="1">
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-358" parent="4z17Cn_j7c4BS6MCMvL9-343" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Special executable hints that this SEP holds. When shader is executed inside of HW, it will&lt;br&gt;&amp;nbsp; &amp;nbsp;rely on this special execute hints */&lt;br&gt;&lt;b&gt;SHADER_EXECUTABLE_HINTS&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;exeHints;" vertex="1">
           <mxGeometry height="60" width="690" y="510" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-360" parent="4z17Cn_j7c4BS6MCMvL9-343" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;printfStringLen;" vertex="1">
@@ -1116,6 +1116,83 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-351" connectable="0" parent="4z17Cn_j7c4BS6MCMvL9-350" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.0961" y="6" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-369" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="typedef struct KERNEL_FUNCTION_HINTS&amp;nbsp;KERNEL_FUNCTION_HINTS;" vertex="1">
+          <mxGeometry height="278" width="520" x="-4220" y="3790" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-370" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctBOOL&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;hasPrintf;" vertex="1">
+          <mxGeometry height="26" width="520" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-371" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;imageCount;" vertex="1">
+          <mxGeometry height="26" width="520" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-374" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;samplerCount;" vertex="1">
+          <mxGeometry height="26" width="520" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-372" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* req work group size/ work group size hint/ scalar hint/ vec_type_hint */&lt;br&gt;&lt;b&gt;KERNEL_FUNCTIN_PROPERTY&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;property[gcvPROPERTY_COUNT];&amp;nbsp; //(5)" vertex="1">
+          <mxGeometry height="36" width="520" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-375" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;privateMemorySize;" vertex="1">
+          <mxGeometry height="26" width="520" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-376" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;localMemorySize;" vertex="1">
+          <mxGeometry height="26" width="520" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-377" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;constantMemorySize;" vertex="1">
+          <mxGeometry height="26" width="520" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-378" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctCHAR *&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;constantMemBuffer;" vertex="1">
+          <mxGeometry height="26" width="520" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-379" parent="4z17Cn_j7c4BS6MCMvL9-369" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;spillSizePerCluster;" vertex="1">
+          <mxGeometry height="26" width="520" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-373" parent="4z17Cn_j7c4BS6MCMvL9-369" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="520" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-380" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-324" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-369" value="dispatch">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3410" y="4040" />
+              <mxPoint x="-3480" y="4000" />
+            </Array>
+            <mxPoint x="-2627" y="4454" as="sourcePoint" />
+            <mxPoint x="-3480" y="4040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-381" connectable="0" parent="4z17Cn_j7c4BS6MCMvL9-380" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.0961" y="6" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-383" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="typedef struct KERNEL_FUNCTIN_PROPERTY&amp;nbsp;KERNEL_FUNCTIN_PROPERTY;" vertex="1">
+          <mxGeometry height="112" width="520" x="-4900" y="3870" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-384" parent="4z17Cn_j7c4BS6MCMvL9-383" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;type;" vertex="1">
+          <mxGeometry height="26" width="520" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-385" parent="4z17Cn_j7c4BS6MCMvL9-383" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;size;" vertex="1">
+          <mxGeometry height="26" width="520" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-386" parent="4z17Cn_j7c4BS6MCMvL9-383" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;value[3];" vertex="1">
+          <mxGeometry height="26" width="520" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-387" parent="4z17Cn_j7c4BS6MCMvL9-383" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="520" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-388" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-372" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-383" value="dispatch">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4280" y="3912" />
+            </Array>
+            <mxPoint x="-3227" y="4300" as="sourcePoint" />
+            <mxPoint x="-3590" y="4050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-389" connectable="0" parent="4z17Cn_j7c4BS6MCMvL9-388" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
           <mxGeometry relative="1" x="-0.0961" y="6" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
