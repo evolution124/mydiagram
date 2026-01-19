@@ -1400,23 +1400,29 @@
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-448" parent="4z17Cn_j7c4BS6MCMvL9-443" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="510" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-449" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="typedef struct SHADER_CONSTANT_ARRAY_MAPPING&amp;nbsp;SHADER_CONSTANT_ARRAY_MAPPING;" vertex="1">
-          <mxGeometry height="308" width="620" x="-8160" y="4138" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-449" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="struct _SHADER_CONSTANT_SUB_ARRAY_MAPPING&amp;nbsp;" vertex="1">
+          <mxGeometry height="378" width="620" x="-8170" y="4138" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-450" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* It is the same as index of pConstantArrayMapping which owns it */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;constantArrayIndex;" vertex="1">
-          <mxGeometry height="44" width="620" y="26" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-450" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Start and size of sub array. &#39;startIdx&#39; is the index within &#39;arrayRange&#39; of parent */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;startIdx;&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;subArrayRange;" vertex="1">
+          <mxGeometry height="54" width="620" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-451" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;SHADER_CONSTANT_USAGE&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;constantUsage;" vertex="1">
-          <mxGeometry height="30" width="620" y="70" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-451" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Only used by DX, for DX10+, it is the 2nd dimension of cb/icb, otherwise, it is 1st dimension */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;firstMSCSharpRegNo;" vertex="1">
+          <mxGeometry height="40" width="620" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-452" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Array size, including all sub-arrays it holds */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;arrayRange;" vertex="1">
-          <mxGeometry height="44" width="620" y="100" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-452" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;SHS_CONST_SUB_ARRAY_MAPPING_FLAG&amp;nbsp;&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; flags;" vertex="1">
+          <mxGeometry height="30" width="620" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-453" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* For 2 purposes, we need split constant buffer into several subs&lt;br&gt;&amp;nbsp; &amp;nbsp;1. Not all constant registers are used in constant buffer or a big uniform for OGL, so each&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; used part can be put into a sub&lt;br&gt;&amp;nbsp; &amp;nbsp;2. OGL may have many uniforms, each may be put into different sub if they can be put together&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; So there is a possibility that several sub constant arrays share same startIdx and subArrayRange&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; with different validChannelMask, also there is a possibility that several sub constant arrays&amp;nbsp;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;share same HW reg/mem with different validHWChannelMask */&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;SHADER_CONSTANT_SUB_ARRAY_MAPPING&lt;/b&gt;*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pSubConstantArrays;&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;countOfSubConstantArray;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="156" width="620" y="144" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-453" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;/*&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ** Only valid when this CONSTANT is in DUBO, so we can get the corresponding member entry from:&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; **&amp;nbsp; pSEP-&amp;gt;defaultUboMapping.pDefaultUboMemberEntries[duboMemberEntryIndex]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;duboMemberEntryIndex;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="620" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-459" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* Which channels are valid for this 4-tuples constant sub array. Note that mapping from validChannelMask&lt;br&gt;&amp;nbsp; &amp;nbsp;to validHWChannelMask is not channel-based, so hole is supported. For example, 0011(xy) may be mapped&lt;br&gt;&amp;nbsp; &amp;nbsp;to 0011(xy), 0110(yz) or 1100(zw), but 0101(xz) can only be mapped to 0111(xyz) or 1110(yzw) */&lt;br&gt;gctUINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;validChannelMask;" vertex="1">
+          <mxGeometry height="70" width="620" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-460" parent="4z17Cn_j7c4BS6MCMvL9-449" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* HW constant location for first element of this array.&lt;br&gt;&amp;nbsp; &amp;nbsp;Note that all elements in each sub-array must have same channel mask designated by validChannelMask&lt;br&gt;&amp;nbsp; &amp;nbsp;and validHWChannelMask respectively */&lt;br&gt;&lt;b&gt;SHADER_CONSTANT_HW_LOCATION_MAPPING&amp;nbsp;&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;hwFirstConstantLocation;" vertex="1">
+          <mxGeometry height="70" width="620" y="300" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-454" parent="4z17Cn_j7c4BS6MCMvL9-449" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="620" y="300" as="geometry" />
+          <mxGeometry height="8" width="620" y="370" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-455" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-434" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-443" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
@@ -1429,6 +1435,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-456" connectable="0" parent="4z17Cn_j7c4BS6MCMvL9-455" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.0961" y="6" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-457" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-436" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="4z17Cn_j7c4BS6MCMvL9-449" value="dispatch">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="-7470" y="4240" />
+              <mxPoint x="-7510" y="4138" />
+            </Array>
+            <mxPoint x="-7490" y="4395" as="sourcePoint" />
+            <mxPoint x="-7580" y="3990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-458" connectable="0" parent="4z17Cn_j7c4BS6MCMvL9-457" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
           <mxGeometry relative="1" x="-0.0961" y="6" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
