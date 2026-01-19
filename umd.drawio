@@ -537,7 +537,7 @@
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-169" parent="4z17Cn_j7c4BS6MCMvL9-162" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="SHADER_HANDLE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;virHandle;" vertex="1">
           <mxGeometry height="26" width="430" y="182" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-170" parent="4z17Cn_j7c4BS6MCMvL9-162" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="KERNEL_EXECUTABLE_PROFILE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;kep;" vertex="1">
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-170" parent="4z17Cn_j7c4BS6MCMvL9-162" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;KERNEL_EXECUTABLE_PROFILE&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;kep;" vertex="1">
           <mxGeometry height="26" width="430" y="208" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-171" parent="4z17Cn_j7c4BS6MCMvL9-162" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;VSC_HW_PIPELINE_SHADERS_STATES&lt;/b&gt;&amp;nbsp; hwStates;" vertex="1">
@@ -976,34 +976,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-321" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=80;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;/* Executable kernel profile definition. It is generated only when clCreateKernel calling.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;Each client kernel only has one profile like this. */&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;typedef struct KERNEL_EXECUTABLE_PROFILE&amp;nbsp;&lt;br&gt;&lt;/span&gt;KERNEL_EXECUTABLE_PROFILE&lt;/div&gt;" vertex="1">
-          <mxGeometry height="298" width="605" x="-3337.5" y="3850" as="geometry" />
+          <mxGeometry height="268" width="605" x="-3337.5" y="3870" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-322" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;stateBufferSize;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="605" y="80" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-322" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;/* The shaders that this kernel contains. */&lt;br&gt;SHADER_EXECUTABLE_PROFILE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;sep;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="605" y="80" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-323" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;void*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;pStateBuffer;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="605" y="110" as="geometry" />
+          <mxGeometry height="30" width="605" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-324" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;/* It is DEPRECATED if driver directly uses EPs (PEP/KEP/SEP) as all&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;the info stored in hints can be retrieved by SEP */&lt;br&gt;struct _gcsHINT&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;hints;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="605" y="140" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-324" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* hint and other attribte of this kernel */&lt;br&gt;KERNEL_FUNCTION_HINTS&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;kernelHints;" vertex="1">
+          <mxGeometry height="40" width="605" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-325" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;gcsPROGRAM_VidMemPatchOffset&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; patchOffsetsInDW;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="605" y="200" as="geometry" />
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-325" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="/* origin kernel arg table, include info that driver need */&lt;br&gt;PROG_CL_ARG_TABLE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;argTable;" vertex="1">
+          <mxGeometry height="40" width="605" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-326" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;gctUINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;stateDeltaSize;&lt;/div&gt;" vertex="1">
+        <mxCell id="4z17Cn_j7c4BS6MCMvL9-326" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;PROG_CL_RESOURCE_TABLE&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; resourceTable;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="605" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="4z17Cn_j7c4BS6MCMvL9-327" parent="4z17Cn_j7c4BS6MCMvL9-321" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;gctUINT32*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pStateDelta;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="605" y="260" as="geometry" />
-        </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-328" parent="4z17Cn_j7c4BS6MCMvL9-321" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="605" y="290" as="geometry" />
+          <mxGeometry height="8" width="605" y="260" as="geometry" />
         </mxCell>
         <mxCell id="4z17Cn_j7c4BS6MCMvL9-337" edge="1" parent="1" source="4z17Cn_j7c4BS6MCMvL9-170" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="4z17Cn_j7c4BS6MCMvL9-321" value="dispatch">
           <mxGeometry relative="1" width="80" as="geometry">
             <Array as="points">
               <mxPoint x="-2550" y="4117" />
-              <mxPoint x="-2660" y="3850" />
+              <mxPoint x="-2660" y="3870" />
             </Array>
             <mxPoint x="-2237" y="4160" as="sourcePoint" />
             <mxPoint x="-2490" y="4218" as="targetPoint" />
