@@ -2317,7 +2317,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jX-Xqimyd0ti2ieFUORZ-101" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="hal.cpp" vertex="1">
-          <mxGeometry height="486" width="1060" x="6770" y="2520" as="geometry" />
+          <mxGeometry height="540" width="1060" x="6770" y="2520" as="geometry" />
         </mxCell>
         <mxCell id="jX-Xqimyd0ti2ieFUORZ-102" parent="jX-Xqimyd0ti2ieFUORZ-101" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;b&gt;void clfEndVIRUniform( chipVIRUniform_PTR virUniform)&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="26" width="1060" y="26" as="geometry" />
@@ -2337,8 +2337,8 @@
         <mxCell id="jX-Xqimyd0ti2ieFUORZ-107" parent="jX-Xqimyd0ti2ieFUORZ-101" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&amp;nbsp; &amp;nbsp; }" vertex="1">
           <mxGeometry height="30" width="1060" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="jX-Xqimyd0ti2ieFUORZ-108" parent="jX-Xqimyd0ti2ieFUORZ-101" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="}" vertex="1">
-          <mxGeometry height="26" width="1060" y="460" as="geometry" />
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-108" parent="jX-Xqimyd0ti2ieFUORZ-101" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;commandBufferSwitchToAllDie&lt;/b&gt;(virUniform-&amp;gt;cmdBuffer);&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;os_free&lt;/b&gt;(virUniform);&lt;/div&gt;}" vertex="1">
+          <mxGeometry height="80" width="1060" y="460" as="geometry" />
         </mxCell>
         <mxCell id="jX-Xqimyd0ti2ieFUORZ-109" edge="1" parent="1" source="oTxlyXaz3nnu8u59qW-F-76" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="jX-Xqimyd0ti2ieFUORZ-101" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
