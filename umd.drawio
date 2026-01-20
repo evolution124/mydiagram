@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.2">
   <diagram name="Page-1" id="ZyiYLpGNe981XcR9g1XM">
-    <mxGraphModel dx="12865" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="12520" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2281,6 +2281,39 @@
             </Array>
             <mxPoint x="1510" y="2760" as="sourcePoint" />
             <mxPoint x="4410" y="1664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-92" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="hal.cpp" vertex="1">
+          <mxGeometry height="456" width="680" x="6770" y="1672" as="geometry" />
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-93" parent="jX-Xqimyd0ti2ieFUORZ-92" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;int initInternalMemory(executeKernelInfo_t* execInfo, chipVIRUniform_PTR virUniform)&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="680" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-94" parent="jX-Xqimyd0ti2ieFUORZ-92" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="680" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-95" parent="jX-Xqimyd0ti2ieFUORZ-92" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;const processor_PTR processor = execInfo-&amp;gt;halQueue-&amp;gt;processor;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;internalMemoryInfo_PTR&amp;nbsp; internalMemory = execInfo-&amp;gt;internalMemory;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="680" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-96" parent="jX-Xqimyd0ti2ieFUORZ-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;if (!internalMemory)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="680" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-97" parent="jX-Xqimyd0ti2ieFUORZ-92" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;if (internalMemory-&amp;gt;threadIdMem-&amp;gt;node &amp;amp;&amp;amp; internalMemory-&amp;gt;threadIdMem-&amp;gt;size &amp;gt; 0)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;{&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; size_t threadIdSize = getMaxActiveClusterCountOfCore(processor, execInfo-&amp;gt;cmKernel) * sizeof(int32_t);&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; threadIdSize&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = ALIGN_NP2(threadIdSize, 8);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; int count&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= (threadIdSize + 7) &amp;gt;&amp;gt; 3;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; size_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;offset&amp;nbsp; &amp;nbsp; &amp;nbsp; = execInfo-&amp;gt;internalMemory-&amp;gt;threadIdMem-&amp;gt;offset;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; devAddress_t base&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = &lt;b&gt;getDeviceAddr&lt;/b&gt;(execInfo-&amp;gt;internalMemory-&amp;gt;threadIdMem-&amp;gt;node, processor) + offset;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; size_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;sizePerCore = threadIdSize;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; int&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 0;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="680" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-98" parent="jX-Xqimyd0ti2ieFUORZ-92" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; for (int d = 0; d &amp;lt; processor-&amp;gt;dieCount; d++)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int coreCount = getCoreCount(processor, execInfo-&amp;gt;cmKernel, d);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (int c = 0; c &amp;lt; coreCount; c++) {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; devAddress_t addr = base + sizePerCore * id++;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;clfAsyncMemset&lt;/b&gt;(virUniform, d, c, coreCount, addr, 0, count);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="680" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-99" parent="jX-Xqimyd0ti2ieFUORZ-92" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="}" vertex="1">
+          <mxGeometry height="26" width="680" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="jX-Xqimyd0ti2ieFUORZ-100" edge="1" parent="1" source="oTxlyXaz3nnu8u59qW-F-78" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="jX-Xqimyd0ti2ieFUORZ-92" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="5440" y="3821" />
+            </Array>
+            <mxPoint x="1100" y="4460" as="sourcePoint" />
+            <mxPoint x="10330" y="1790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
