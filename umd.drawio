@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.3">
   <diagram name="Page-1" id="ZyiYLpGNe981XcR9g1XM">
-    <mxGraphModel dx="12193" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="12520" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1731,7 +1731,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oTxlyXaz3nnu8u59qW-F-34" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;module.cpp&lt;/span&gt;" vertex="1">
-          <mxGeometry height="1412" width="860" x="50" y="1160" as="geometry" />
+          <mxGeometry height="1412" width="860" x="230" y="290" as="geometry" />
         </mxCell>
         <mxCell id="oTxlyXaz3nnu8u59qW-F-35" parent="oTxlyXaz3nnu8u59qW-F-34" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;CUresult launchKernelProcessKernelArgs(CUfunction f, kernelArgData_t* argData, void **kernelParams, bool packagedParam)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="44" width="860" y="26" as="geometry" />
@@ -1782,14 +1782,14 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="-200" y="2860" />
-              <mxPoint x="-20" y="1160" />
+              <mxPoint x="110" y="290" />
             </Array>
             <mxPoint x="185" y="2820" as="sourcePoint" />
             <mxPoint x="-170" y="2943" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oTxlyXaz3nnu8u59qW-F-54" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;module.cpp&lt;/span&gt;" vertex="1">
-          <mxGeometry height="746" width="710" x="1140" y="1720" as="geometry" />
+          <mxGeometry height="746" width="710" x="1320" y="850" as="geometry" />
         </mxCell>
         <mxCell id="oTxlyXaz3nnu8u59qW-F-55" parent="oTxlyXaz3nnu8u59qW-F-54" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;CUresult launchKernelPrepareExecInfo(executeKernelInfo_t* info, CUfunction f, const CUlaunchConfig* config, &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; kernelArgData_t* argData, bool cmKernel)&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="44" width="710" y="26" as="geometry" />
@@ -1825,7 +1825,7 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="980" y="2850" />
-              <mxPoint x="1030" y="1720" />
+              <mxPoint x="1260" y="870" />
             </Array>
             <mxPoint x="-70" y="4195" as="sourcePoint" />
             <mxPoint x="570" y="2810" as="targetPoint" />
@@ -2503,7 +2503,7 @@
           <mxGeometry height="240" width="1030" y="1710" as="geometry" />
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="compiler.h&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="588" width="540" x="1005" y="630" as="geometry" />
+          <mxGeometry height="588" width="540" x="1185" y="-240" as="geometry" />
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-2" parent="PzHncsWSG-ETyFAtsQFy-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;typedef enum&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; KernelArg_Normal,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; KernelArg_PrivateBuffer,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; KernelArg_Buffer,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; KernelArg_Image,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; KernelArg_Sampler,&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; KernelArg_Local&lt;/div&gt;&lt;div&gt;} KernelArgType_t;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="144" width="540" y="26" as="geometry" />
@@ -2521,7 +2521,7 @@
           <mxGeometry height="8" width="540" y="580" as="geometry" />
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;hal.h&lt;/div&gt;" vertex="1">
-          <mxGeometry height="378" width="540" x="2030" y="1420" as="geometry" />
+          <mxGeometry height="378" width="540" x="2210" y="550" as="geometry" />
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-10" parent="PzHncsWSG-ETyFAtsQFy-9" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;typedef struct _executeKernelInfo&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; halQueue_PTR&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; halQueue;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint32_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; workDim;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint32_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; global[3];&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint32_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; local[3];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint32_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gridDim[3];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint32_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; offset[3];&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint32_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; conWorkGroupCountPerCluster;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint32_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; conThreadCountPerCluster;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint32_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; dynamicSharedMemorySize;&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; kernelInst_PTR&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inst;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //compiler.h&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; kernelInfo_t*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;kInfo;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;//compiler.h&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; kernelArgData_t*&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; args;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;//compiler.h&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; internalMemoryInfo_PTR&amp;nbsp; internalMemory;&lt;br&gt;&amp;nbsp; &amp;nbsp; bool&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; cmKernel;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; devAddress_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; localStorageBaseGa;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; uint64_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; localStorageSize;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; devAddress_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; privateMemBaseGa;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;uint64_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; privateMemSize;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;} executeKernelInfo_t;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="344" width="540" y="26" as="geometry" />
@@ -2531,18 +2531,18 @@
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-15" edge="1" parent="1" source="oTxlyXaz3nnu8u59qW-F-34" style="endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.012;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="PzHncsWSG-ETyFAtsQFy-6" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="70" y="1040" as="sourcePoint" />
-            <mxPoint x="120" y="990" as="targetPoint" />
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="300" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-17" edge="1" parent="1" source="oTxlyXaz3nnu8u59qW-F-55" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="PzHncsWSG-ETyFAtsQFy-9" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1510" y="1907" as="sourcePoint" />
-            <mxPoint x="1608" y="1360" as="targetPoint" />
+            <mxPoint x="1690" y="1037" as="sourcePoint" />
+            <mxPoint x="1788" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;module.cpp&lt;/span&gt;" vertex="1">
-          <mxGeometry height="390" width="710" x="2060" y="1880" as="geometry" />
+          <mxGeometry height="390" width="710" x="2240" y="1010" as="geometry" />
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-19" parent="PzHncsWSG-ETyFAtsQFy-18" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;b&gt;int prepareExecInfo(executeKernelInfo_t* execInfo)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="34" width="710" y="26" as="geometry" />
@@ -2558,12 +2558,12 @@
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-29" edge="1" parent="1" source="oTxlyXaz3nnu8u59qW-F-61" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="PzHncsWSG-ETyFAtsQFy-18" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1940" y="2061" as="sourcePoint" />
-            <mxPoint x="2122" y="1720" as="targetPoint" />
+            <mxPoint x="2120" y="1191" as="sourcePoint" />
+            <mxPoint x="2302" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-30" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;compiler.cpp&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="710" x="2060" y="2348" as="geometry" />
+          <mxGeometry height="160" width="710" x="2240" y="1478" as="geometry" />
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-31" parent="PzHncsWSG-ETyFAtsQFy-30" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;bool kernelVIRNeedRecompile(executeKernelInfo_PTR info, size_t* keyData, size_t* keySize, size_t* recompileKey)&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="34" width="710" y="26" as="geometry" />
@@ -2573,8 +2573,26 @@
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-35" edge="1" parent="1" source="oTxlyXaz3nnu8u59qW-F-63" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="PzHncsWSG-ETyFAtsQFy-30" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2060" y="2265" as="sourcePoint" />
-            <mxPoint x="2270" y="2000" as="targetPoint" />
+            <mxPoint x="2240" y="1395" as="sourcePoint" />
+            <mxPoint x="2450" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-36" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;compiler.cpp&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="410" width="710" x="3145" y="1224" as="geometry" />
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-37" parent="PzHncsWSG-ETyFAtsQFy-36" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;static bool needRecompileThreadBlockSize(executeKernelInfo_PTR info, size_t* recompileKey, size_t* keySize)&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="710" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-38" parent="PzHncsWSG-ETyFAtsQFy-36" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;kernelInst_PTR&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;kernel = info-&amp;gt;inst;&lt;/div&gt;&lt;div&gt;size_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;maxWorkGroupSize = kernel-&amp;gt;maxWorkGroupSize;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;size_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;workGroupSize = kernel-&amp;gt;totalOriginalThreadBlockSize;&lt;/div&gt;&lt;div&gt;&lt;div&gt;bool&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;useSharedMem = kernel-&amp;gt;hwStates.hints.localMemSizeInByte[gcvPROGRAM_STAGE_COMPUTE] &amp;gt; 0&amp;nbsp; &amp;nbsp;||&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; kernel-&amp;gt;kep.kernelHints.localMemorySize &amp;gt; 0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;||&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; info-&amp;gt;dynamicSharedMemorySize &amp;gt; 0;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;bool&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;hasBarrier = kernel-&amp;gt;hwStates.hints.threadGroupSync;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;bool&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;localAtomic = kernel-&amp;gt;kep.sep.exeHints.derivedHints.globalStates.bUseGlobalForLocalAtom;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="710" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-40" parent="PzHncsWSG-ETyFAtsQFy-36" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;if ((!localAtomic || HAS_DBG_OPTION(DBG_OPTION_ENABLE_RECOMPILE)) &amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; hasBarrier &amp;amp;&amp;amp; useSharedMem &amp;amp;&amp;amp; workGroupSize &amp;gt; maxWorkGroupSize)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; recompileKey[(*keySize)++] = __LINE__;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; recompileKey[(*keySize)++] = workGroupSize;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; recompileKey[(*keySize)++] = kernel-&amp;gt;totalOriginalThreadBlockCount;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; recompileKey[(*keySize)++] = workGroupSize;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; recompileKey[(*keySize)++] = kernel-&amp;gt;originalThreadBlockDim[0];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; recompileKey[(*keySize)++] = kernel-&amp;gt;originalThreadBlockDim[1];&lt;br&gt;&amp;nbsp; &amp;nbsp; recompileKey[(*keySize)++] = kernel-&amp;gt;originalThreadBlockDim[2];&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; kernel-&amp;gt;recompileType.doThreadBlockSizeRecompile = true;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;return kernel-&amp;gt;recompileType.doThreadBlockSizeRecompile;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="710" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-39" edge="1" parent="1" source="PzHncsWSG-ETyFAtsQFy-32" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.437;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="PzHncsWSG-ETyFAtsQFy-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2500" y="1480" as="sourcePoint" />
+            <mxPoint x="2710" y="1583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
