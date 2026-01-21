@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.3">
   <diagram name="Page-1" id="ZyiYLpGNe981XcR9g1XM">
-    <mxGraphModel dx="12674" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="12193" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2542,7 +2542,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;module.cpp&lt;/span&gt;" vertex="1">
-          <mxGeometry height="390" width="710" x="2050" y="1962" as="geometry" />
+          <mxGeometry height="390" width="710" x="2060" y="1880" as="geometry" />
         </mxCell>
         <mxCell id="PzHncsWSG-ETyFAtsQFy-19" parent="PzHncsWSG-ETyFAtsQFy-18" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;b&gt;int prepareExecInfo(executeKernelInfo_t* execInfo)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="34" width="710" y="26" as="geometry" />
@@ -2560,6 +2560,21 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1940" y="2061" as="sourcePoint" />
             <mxPoint x="2122" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-30" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;compiler.cpp&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="710" x="2060" y="2348" as="geometry" />
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-31" parent="PzHncsWSG-ETyFAtsQFy-30" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;bool kernelVIRNeedRecompile(executeKernelInfo_PTR info, size_t* keyData, size_t* keySize, size_t* recompileKey)&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="710" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-32" parent="PzHncsWSG-ETyFAtsQFy-30" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; bool doRecompile = false;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; doRecompile |= &lt;b&gt;needRecompileThreadBlockSize&lt;/b&gt;(info, keyData, keySize);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; *recompileKey = &lt;b&gt;clfEvaluateCRC32&lt;/b&gt;(keyData, (*keySize)*4);&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return doRecompile;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="710" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PzHncsWSG-ETyFAtsQFy-35" edge="1" parent="1" source="oTxlyXaz3nnu8u59qW-F-63" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="PzHncsWSG-ETyFAtsQFy-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2060" y="2265" as="sourcePoint" />
+            <mxPoint x="2270" y="2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
