@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.4">
   <diagram name="Page-1" id="tWdcnQ-v4-HHU0wFJ4T7">
-    <mxGraphModel dx="2815" dy="2187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2815" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,16 +44,16 @@
           <mxGeometry height="54" width="430" y="542" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="gckVIDMEM_AllocateLinear" vertex="1">
-          <mxGeometry height="112" width="580" x="1140" y="340" as="geometry" />
+          <mxGeometry height="150" width="580" x="1140" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-2" parent="TlSww3binjyCkEs9aOXB-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="node = &lt;span&gt;_FindNode_OTV&lt;/span&gt;(Memalloc_OTV, Kernel, Memory, Bytes, &amp;amp;alignment);" vertex="1">
-          <mxGeometry height="34" width="580" y="26" as="geometry" />
+        <mxCell id="TlSww3binjyCkEs9aOXB-2" parent="TlSww3binjyCkEs9aOXB-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;/*&amp;nbsp; 根据大小和 interleave 配置, 在ROOT节点中查找合适的 node */&lt;/span&gt;&lt;/div&gt;node = &lt;span&gt;_FindNode_OTV&lt;/span&gt;(Memalloc_OTV, Kernel, Memory, Bytes, &amp;amp;alignment);" vertex="1">
+          <mxGeometry height="44" width="580" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-3" parent="TlSww3binjyCkEs9aOXB-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span&gt;_UpdateNodeForceParam&lt;/span&gt;(Kernel, Memalloc_OTV, node);" vertex="1">
-          <mxGeometry height="26" width="580" y="60" as="geometry" />
+        <mxCell id="TlSww3binjyCkEs9aOXB-3" parent="TlSww3binjyCkEs9aOXB-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;/* 再找到的node 节点中分出所需大小的node */&lt;br&gt;&lt;/span&gt;_Split(Memory-&amp;gt;os, node, alignment)" vertex="1">
+          <mxGeometry height="40" width="580" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-37" parent="TlSww3binjyCkEs9aOXB-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;_UpdateNodeForceParam(Kernel, Memalloc_OTV, node);&lt;/b&gt;" vertex="1">
-          <mxGeometry height="26" width="580" y="86" as="geometry" />
+        <mxCell id="TlSww3binjyCkEs9aOXB-37" parent="TlSww3binjyCkEs9aOXB-1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;/* 根据配置填写分配信息, 比如根据pagesize计算pagecount */&lt;/b&gt;&lt;/div&gt;&lt;b&gt;_UpdateNodeForceParam(Kernel, Memalloc_OTV, node);&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="580" y="110" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-34" edge="1" parent="1" source="TlSww3binjyCkEs9aOXB-2" style="endArrow=classic;html=1;rounded=0;entryX=1.001;entryY=0.031;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="TlSww3binjyCkEs9aOXB-32" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -139,13 +139,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-61" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="_SetupContiguousVidMem" vertex="1">
-          <mxGeometry height="150" width="710" x="1140" y="-40" as="geometry" />
+          <mxGeometry height="210" width="710" x="1140" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-62" parent="TlSww3binjyCkEs9aOXB-61" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;gcsPLATFORM *platform = device-&amp;gt;platform;&lt;/div&gt;&lt;div&gt;gcsINTLV_MEM_PTR intLvMem;&lt;/div&gt;&lt;div&gt;if (platform-&amp;gt;ops-&amp;gt;getInterleaveParam) {&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; platform-&amp;gt;ops-&amp;gt;getInterleaveParam(platform, i, &amp;amp;intLvMem);&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="84" width="710" y="26" as="geometry" />
+        <mxCell id="TlSww3binjyCkEs9aOXB-62" parent="TlSww3binjyCkEs9aOXB-61" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;/* 获取interleave 信息 */&lt;/span&gt;&lt;/div&gt;&lt;div&gt;gcsPLATFORM *platform = device-&amp;gt;platform;&lt;/div&gt;&lt;div&gt;gcsINTLV_MEM_PTR intLvMem;&lt;/div&gt;&lt;div&gt;if (platform-&amp;gt;ops-&amp;gt;getInterleaveParam) {&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; platform-&amp;gt;ops-&amp;gt;getInterleaveParam(platform, i, &amp;amp;intLvMem);&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="710" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-63" parent="TlSww3binjyCkEs9aOXB-61" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;gckVIDMEM_Construct_INTLV_OT_VERIFY(device-&amp;gt;os,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;64, intLvMem, &amp;amp;device-&amp;gt;contiguousVidMems[i]);&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="710" y="110" as="geometry" />
+        <mxCell id="TlSww3binjyCkEs9aOXB-63" parent="TlSww3binjyCkEs9aOXB-61" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(185, 224, 165);&quot;&gt;/*通过interleave 信息创建 ROOT vidmem */&lt;/span&gt;&lt;br&gt;gckVIDMEM_Construct_INTLV_OT_VERIFY(device-&amp;gt;os,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;64, intLvMem, &amp;amp;device-&amp;gt;contiguousVidMems[i]);&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="710" y="160" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-65" edge="1" parent="1" source="TlSww3binjyCkEs9aOXB-63" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="e39_uDAzcKakxyVN15kj-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
