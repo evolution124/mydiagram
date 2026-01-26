@@ -103,7 +103,7 @@
             <mxPoint x="-54" y="46" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="gckVIDMEM_AllocateLinear" vertex="1">
+        <mxCell id="TlSww3binjyCkEs9aOXB-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="gckVIDMEM_LockVirtual" vertex="1">
           <mxGeometry height="112" width="580" x="1140" y="590" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-48" parent="TlSww3binjyCkEs9aOXB-47" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="node = &lt;span&gt;_FindNode_OTV&lt;/span&gt;(Memalloc_OTV, Kernel, Memory, Bytes, &amp;amp;alignment);" vertex="1">
