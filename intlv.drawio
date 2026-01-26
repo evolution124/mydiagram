@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.4">
+  <diagram name="Page-1" id="tWdcnQ-v4-HHU0wFJ4T7">
+    <mxGraphModel dx="2815" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e39_uDAzcKakxyVN15kj-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="gckVIDMEM" vertex="1">
+          <mxGeometry height="458" width="430" x="130" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e39_uDAzcKakxyVN15kj-3" parent="e39_uDAzcKakxyVN15kj-2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="sentinel[0] (gcuVIDMEM_NODE)&lt;br&gt;viewbytes = 0&lt;div&gt;intlvView = NONE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e39_uDAzcKakxyVN15kj-7" parent="e39_uDAzcKakxyVN15kj-2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="sentinel[1] (gcuVIDMEM_NODE)&lt;br&gt;viewbytes = 2DIE bytes&lt;div&gt;intlvView = 2DIE&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e39_uDAzcKakxyVN15kj-8" parent="e39_uDAzcKakxyVN15kj-2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="sentinel[2] (gcuVIDMEM_NODE)&lt;br&gt;viewbytes = DIE0 bytes&lt;div&gt;intlvView = DIE0&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="e39_uDAzcKakxyVN15kj-9" parent="e39_uDAzcKakxyVN15kj-2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="sentinel[3] (gcuVIDMEM_NODE)&lt;br&gt;viewbytes = DIE1 bytes&lt;div&gt;intlvView = DIE1&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="e39_uDAzcKakxyVN15kj-10" parent="e39_uDAzcKakxyVN15kj-2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="sentinel[4] (gcuVIDMEM_NODE)&lt;br&gt;viewbytes = MP0 bytes&lt;div&gt;intlvView = MP0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="e39_uDAzcKakxyVN15kj-11" parent="e39_uDAzcKakxyVN15kj-2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="sentinel[5] (gcuVIDMEM_NODE)&lt;br&gt;viewbytes =&amp;nbsp;MP1 bytes&lt;div&gt;intlvView = MP1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="e39_uDAzcKakxyVN15kj-12" parent="e39_uDAzcKakxyVN15kj-2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="sentinel[6] (gcuVIDMEM_NODE)&lt;br&gt;viewbytes = MP2 bytes&lt;div&gt;intlvView&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;= MP2&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="e39_uDAzcKakxyVN15kj-13" parent="e39_uDAzcKakxyVN15kj-2" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="sentinel[7] (gcuVIDMEM_NODE)&lt;br&gt;viewbytes =&amp;nbsp;MP3 bytes&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;intlvView&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;= MP3&lt;/span&gt;" vertex="1">
+          <mxGeometry height="54" width="430" y="404" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
