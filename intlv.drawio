@@ -107,19 +107,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="gckVIDMEM_LockVirtual" vertex="1">
-          <mxGeometry height="138" width="710" x="1140" y="668" as="geometry" />
+          <mxGeometry height="128" width="710" x="1140" y="668" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-48" parent="TlSww3binjyCkEs9aOXB-47" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="offset = _GetNodeOffset_OTV(Kernel-&amp;gt;device, Node);" vertex="1">
-          <mxGeometry height="34" width="710" y="26" as="geometry" />
+          <mxGeometry height="24" width="710" y="26" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-49" parent="TlSww3binjyCkEs9aOXB-47" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=1" value="_PageTypeSetup_OTV(Node-&amp;gt;VidMem.flags_OTV, Node-&amp;gt;VidMem.gpuPageSize_OTV, &amp;amp;pageType);" vertex="1">
-          <mxGeometry height="26" width="710" y="60" as="geometry" />
+          <mxGeometry height="26" width="710" y="50" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-50" parent="TlSww3binjyCkEs9aOXB-47" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;_UpdateNodeForceParam(Kernel, Memalloc_OTV, node);&lt;/b&gt;" vertex="1">
-          <mxGeometry height="26" width="710" y="86" as="geometry" />
+          <mxGeometry height="26" width="710" y="76" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-57" parent="TlSww3binjyCkEs9aOXB-47" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;b&gt;gckOS_MapPagesEx&lt;/b&gt;" vertex="1">
-          <mxGeometry height="26" width="710" y="112" as="geometry" />
+          <mxGeometry height="26" width="710" y="102" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-53" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="gckOS_MapPagesEx" vertex="1">
           <mxGeometry height="420" width="710" x="1140" y="930" as="geometry" />
