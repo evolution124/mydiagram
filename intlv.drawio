@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.4">
   <diagram name="Page-1" id="tWdcnQ-v4-HHU0wFJ4T7">
-    <mxGraphModel dx="2333" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3402" dy="1313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-35" connectable="0" parent="TlSww3binjyCkEs9aOXB-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="Interleave DIE1" vertex="1">
           <mxGeometry relative="1" x="-0.3429" y="-2" as="geometry">
-            <mxPoint x="-54" y="46" as="offset" />
+            <mxPoint x="-89" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-39" edge="1" parent="1" source="TlSww3binjyCkEs9aOXB-3" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TlSww3binjyCkEs9aOXB-41" value="">
@@ -92,7 +92,7 @@
         <mxCell id="TlSww3binjyCkEs9aOXB-43" parent="TlSww3binjyCkEs9aOXB-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Force Physical Start Address (保留force 的 physical 信息)" vertex="1">
           <mxGeometry height="26" width="350" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-45" edge="1" parent="1" source="TlSww3binjyCkEs9aOXB-37" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.005;entryY=1.111;entryDx=0;entryDy=0;entryPerimeter=0;" target="TlSww3binjyCkEs9aOXB-52" value="">
+        <mxCell id="TlSww3binjyCkEs9aOXB-45" edge="1" parent="1" source="TlSww3binjyCkEs9aOXB-37" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.002;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="TlSww3binjyCkEs9aOXB-42" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1560" y="530" as="sourcePoint" />
             <mxPoint x="1200" y="767" as="targetPoint" />
