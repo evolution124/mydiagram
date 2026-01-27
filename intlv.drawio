@@ -83,10 +83,10 @@
         <mxCell id="TlSww3binjyCkEs9aOXB-52" parent="TlSww3binjyCkEs9aOXB-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="___" vertex="1">
           <mxGeometry height="26" width="270" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-42" parent="TlSww3binjyCkEs9aOXB-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Force MMU Page SIZE" vertex="1">
+        <mxCell id="TlSww3binjyCkEs9aOXB-42" parent="TlSww3binjyCkEs9aOXB-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="MMU Page SIZE (Force 2M/4K 或者默认4K)" vertex="1">
           <mxGeometry height="26" width="270" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="TlSww3binjyCkEs9aOXB-60" parent="TlSww3binjyCkEs9aOXB-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Force PageCount" vertex="1">
+        <mxCell id="TlSww3binjyCkEs9aOXB-60" parent="TlSww3binjyCkEs9aOXB-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="PageCount (根据page size 计算出的pagecount)" vertex="1">
           <mxGeometry height="26" width="270" y="104" as="geometry" />
         </mxCell>
         <mxCell id="TlSww3binjyCkEs9aOXB-43" parent="TlSww3binjyCkEs9aOXB-41" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Force Physical Start Address" vertex="1">
